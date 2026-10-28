@@ -256,7 +256,7 @@ def main():
     result = []
     details = {}
     for c in companies:
-        entry = {k: c.get(k) for k in ("id", "name", "group", "note", "domain", "careers")}
+        entry = {k: c.get(k) for k in ("id", "name", "group", "note", "domain", "careers", "logos")}
         src = c.get("source")
         if not src:
             entry.update(status="manual", jobs=None)

@@ -52,7 +52,7 @@ a { color: inherit; }
 :focus-visible { outline: 2px solid var(--red); outline-offset: 2px; border-radius: 4px; }
 
 .wrap {
-  max-width: 1180px; margin: 0 auto;
+  max-width: 1260px; margin: 0 auto;
   padding-left: max(16px, env(safe-area-inset-left, 0px));
   padding-right: max(16px, env(safe-area-inset-right, 0px));
 }
@@ -87,9 +87,9 @@ a { color: inherit; }
 
 /* Sections */
 main .wrap { padding-block: 4px 56px; }
-.layout { display: grid; grid-template-columns: minmax(0, 1fr) 360px; gap: 28px; align-items: start; }
+.layout { display: grid; grid-template-columns: minmax(0, 1fr) 460px; gap: 28px; align-items: start; }
 #app { display: flex; flex-direction: column; gap: 36px; min-width: 0; }
-@media (max-width: 1080px) {
+@media (max-width: 1100px) {
   .layout { grid-template-columns: minmax(0, 1fr); }
   .picks { order: -1; position: static; max-height: none; }
 }
@@ -103,9 +103,9 @@ main .wrap { padding-block: 4px 56px; }
 .pick { display: grid; grid-template-columns: 26px minmax(0, 1fr); gap: 2px 10px; padding: 11px 0; text-decoration: none; }
 .pick:hover .t { text-decoration: underline; text-underline-offset: 2px; }
 .rank { grid-row: 1 / 4; font: 500 20px var(--mono); color: var(--red); line-height: 1.1; font-variant-numeric: tabular-nums; }
-.pick .top { display: flex; align-items: center; gap: 8px; min-width: 0; }
-.pick .logo { width: 24px; height: 24px; border-radius: 6px; font-size: 10px; }
-.pick .logo img { width: 16px; height: 16px; }
+.pick .ptop { display: flex; align-items: center; gap: 8px; min-width: 0; }
+.pick .logo { width: 28px; height: 28px; border-radius: 7px; font-size: 11px; }
+.pick .gem { margin-top: 0; flex-shrink: 0; }
 .pick .meta { font-size: 12.5px; color: var(--ink-soft); overflow-wrap: anywhere; }
 .pick .meta .co { color: var(--ink); font-weight: 600; }
 .pick .meta i { color: var(--ink); }
@@ -130,7 +130,11 @@ main .wrap { padding-block: 4px 56px; }
 .card.dim { background: transparent; border-style: dashed; }
 .head { display: flex; align-items: center; gap: 12px; min-width: 0; }
 .logo { width: 40px; height: 40px; flex-shrink: 0; border-radius: 10px; background: var(--chip); display: grid; place-items: center; overflow: hidden; font-weight: 800; font-size: 15px; color: var(--ink); }
-.logo img { width: 26px; height: 26px; object-fit: contain; }
+.logo.img { background: #fff; box-shadow: inset 0 0 0 1px rgba(75, 29, 38, .12); }
+.logo.img img { width: 68%; height: 68%; object-fit: contain; display: block; }
+.logo.img.wide img { width: 88%; }
+.logo.img.fill img { width: 100%; height: 100%; }
+.logo.img.fill img { object-fit: cover; }
 .who { flex: 1; min-width: 0; }
 .who h3 { margin: 0; font-size: 17px; font-weight: 800; line-height: 1.15; }
 .who p { margin: 2px 0 0; font-size: 12.5px; color: var(--ink-soft); }
@@ -150,7 +154,6 @@ main .wrap { padding-block: 4px 56px; }
 .where .co { color: var(--ink); font-weight: 600; }
 .jobs a.withlogo { grid-template-columns: 32px 10px minmax(0, 1fr) auto auto; column-gap: 12px; align-items: center; }
 .jobs a.withlogo .logo { width: 32px; height: 32px; border-radius: 8px; font-size: 12px; }
-.jobs a.withlogo .logo img { width: 20px; height: 20px; }
 .jobs a.withlogo .gem { margin-top: 0; }
 .info { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
 .jobs a.withlogo .where { grid-column: auto; }
@@ -258,16 +261,48 @@ main .wrap { padding-block: 4px 56px; }
     return name.split(/[\s-]+/).map(function (w) { return w[0]; }).join('').slice(0, 2).toUpperCase();
   }
 
+  // Logos: try each candidate in companies.json (self-hosted SVGs first, then
+  // verified remote files), then a high-res favicon. Tiny images are rejected so
+  // nothing shows pixelated. The first one that works is reused for every box.
+  var logoCache = {};
+  function logoSources(c) {
+    var list = (c.logos || []).slice();
+    if (c.domain) list.push('https://www.google.com/s2/favicons?sz=128&domain=' + encodeURIComponent(c.domain));
+    return list;
+  }
+  function paintLogo(box, hit) {
+    box.textContent = '';
+    box.className = 'logo img ' + hit.cls;
+    var img = new Image(); img.alt = ''; img.src = hit.src;
+    box.appendChild(img);
+  }
+  function resolveLogo(c, done) {
+    var e = logoCache[c.id];
+    if (e && e.hit !== undefined) return done(e.hit);
+    if (e) return e.wait.push(done);
+    e = logoCache[c.id] = { wait: [done] };
+    var list = logoSources(c), i = 0;
+    function finish(hit) { e.hit = hit; e.wait.forEach(function (f) { f(hit); }); e.wait = []; }
+    (function next() {
+      if (i >= list.length) return finish(null);
+      var src = list[i++], img = new Image();
+      img.onload = function () {
+        var w = img.naturalWidth, h = img.naturalHeight, svg = /\.svg(\?|$)/i.test(src);
+        if (!svg && Math.max(w, h) < 64) return next();
+        var r = w && h ? w / h : 1, cls = '';
+        if (r > 1.6 || r < .6) cls = 'wide';
+        else if (!svg && r > .9 && r < 1.1 && !/s2\/favicons/.test(src)) cls = 'fill';
+        finish({ src: src, cls: cls });
+      };
+      img.onerror = next;
+      img.src = src;
+    })();
+  }
   function logo(c) {
     var box = el('div', 'logo');
     box.setAttribute('aria-hidden', 'true');
     box.textContent = initials(c.name);
-    if (c.domain) {
-      var img = new Image();
-      img.alt = '';
-      img.onload = function () { box.textContent = ''; box.appendChild(img); };
-      img.src = 'https://www.google.com/s2/favicons?sz=64&domain=' + encodeURIComponent(c.domain);
-    }
+    resolveLogo(c, function (hit) { if (hit) paintLogo(box, hit); });
     return box;
   }
 
@@ -466,8 +501,11 @@ main .wrap { padding-block: 4px 56px; }
       var a = el('a', 'pick');
       a.href = j.url; a.target = '_blank'; a.rel = 'noopener';
       a.appendChild(el('span', 'rank', String(i + 1)));
-      var top = el('span', 'top');
+      var top = el('span', 'ptop');
       top.appendChild(logo(c));
+      var gem = el('span', 'gem ' + kind(j));
+      gem.title = kind(j) === 'ux' ? 'UX / UI' : kind(j) === 'gd' ? 'Game design' : 'Otro puesto';
+      top.appendChild(gem);
       top.appendChild(el('span', 't', split.role));
       if (p.fit) top.appendChild(fitBadge(p.fit));
       a.appendChild(top);
