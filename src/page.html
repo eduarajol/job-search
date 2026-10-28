@@ -15,6 +15,8 @@
   --sand: #EBD3A8;
   --line: rgba(75, 29, 38, .14);
   --chip: #F1E4CF;
+  --place: #2D5E8C;
+  --date: #8A4F00;
   --good: #1E7A4C; --good-bg: #DCEFE3;
   --warn: #9A6200; --warn-bg: #F6E7C8;
   --bad: #B3261E; --bad-bg: #F7DCD9;
@@ -25,14 +27,14 @@
   :root:not([data-theme="light"]) {
     --ground: #1C1315; --paper: #281C1F; --ink: #F3E6E1; --ink-soft: #C4AEB0;
     --red: #E8768B; --teal: #5CC2AF; --sand: #5B4631; --line: rgba(243, 230, 225, .14);
-    --chip: #3A2A22; color-scheme: dark;
+    --chip: #3A2A22; color-scheme: dark; --place: #8DBDEB; --date: #E8B35C;
     --good: #6CCB97; --good-bg: #1F3A2B; --warn: #E6B45A; --warn-bg: #3D3020; --bad: #F08A80; --bad-bg: #44231F;
   }
 }
 :root[data-theme="dark"] {
   --ground: #1C1315; --paper: #281C1F; --ink: #F3E6E1; --ink-soft: #C4AEB0;
   --red: #E8768B; --teal: #5CC2AF; --sand: #5B4631; --line: rgba(243, 230, 225, .14);
-  --chip: #3A2A22; color-scheme: dark;
+  --chip: #3A2A22; color-scheme: dark; --place: #8DBDEB; --date: #E8B35C;
   --good: #6CCB97; --good-bg: #1F3A2B; --warn: #E6B45A; --warn-bg: #3D3020; --bad: #F08A80; --bad-bg: #44231F;
 }
 * { box-sizing: border-box; }
@@ -165,7 +167,8 @@ main .wrap { padding-block: 4px 56px; }
 .jobs li.is-applied, .picks li.is-applied { background: linear-gradient(90deg, var(--chip), transparent 70%); box-shadow: inset 3px 0 0 var(--ink); }
 .jobs li.is-applied a { padding-left: 8px; }
 .picks li.is-applied .pick { padding-left: 6px; }
-.date { white-space: nowrap; }
+.date { white-space: nowrap; color: var(--date); font-weight: 500; }
+.place { color: var(--place); font-weight: 500; }
 .rest { margin: 14px 0 0; font-size: 13px; color: var(--ink-soft); line-height: 1.7; }
 .rest a { color: var(--ink); font-weight: 600; text-underline-offset: 3px; }
 .new { font: 500 10.5px var(--mono); letter-spacing: .6px; text-transform: uppercase; padding: 2px 6px; border-radius: 5px; background: var(--teal); color: var(--paper); align-self: center; }
@@ -490,7 +493,6 @@ main .wrap { padding-block: 4px 56px; }
     if (isNew(j)) badge.appendChild(el('span', 'new', 'Nueva'));
     var pt = placeText(j), place = pt.text;
     var when = dateText(j);
-    if (when) place += ' · ';
 
     if (withCompany) {
       var split = splitGame(j.title);
@@ -501,8 +503,9 @@ main .wrap { padding-block: 4px 56px; }
       info.appendChild(el('span', 't', split.role));
       var w = el('span', 'where');
       w.appendChild(el('span', 'co', c.name));
-      w.appendChild(document.createTextNode(' · ' + place));
-      if (when) w.appendChild(el('span', 'date', when));
+      w.appendChild(document.createTextNode(' · '));
+      w.appendChild(el('span', 'place', pt.text));
+      if (when) { w.appendChild(document.createTextNode(' · ')); w.appendChild(el('span', 'date', when)); }
       if (pt.full) w.title = pt.full;
       info.appendChild(w);
       a.appendChild(info);
@@ -512,7 +515,9 @@ main .wrap { padding-block: 4px 56px; }
       a.appendChild(g);
       a.appendChild(el('span', 't', j.title));
       a.appendChild(badge);
-      var wh = el('span', 'where', place);
+      var wh = el('span', 'where');
+      wh.appendChild(el('span', 'place', pt.text));
+      if (when) wh.appendChild(document.createTextNode(' · '));
       if (pt.full) wh.title = pt.full;
       if (when) wh.appendChild(el('span', 'date', when));
       a.appendChild(wh);
@@ -693,7 +698,8 @@ main .wrap { padding-block: 4px 56px; }
       meta.appendChild(el('span', 'co', c.name));
       if (split.game) { meta.appendChild(document.createTextNode(' · ')); meta.appendChild(el('i', null, split.game)); }
       var mp = placeText(j);
-      meta.appendChild(document.createTextNode(' · ' + mp.text));
+      meta.appendChild(document.createTextNode(' · '));
+      meta.appendChild(el('span', 'place', mp.text));
       if (mp.full) meta.title = mp.full;
       var pd = dateText(j);
       if (pd) { meta.appendChild(document.createTextNode(' · ')); meta.appendChild(el('span', 'date', pd)); }
