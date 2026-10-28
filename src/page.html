@@ -105,6 +105,11 @@ main .wrap { padding-block: 4px 56px; display: flex; flex-direction: column; gap
 .t { font-weight: 600; font-size: 14.5px; line-height: 1.3; min-width: 0; overflow-wrap: anywhere; }
 .where { grid-column: 2 / 4; font-size: 12.5px; color: var(--ink-soft); overflow-wrap: anywhere; }
 .where .co { color: var(--ink); font-weight: 600; }
+.where .game { color: var(--ink); font-style: italic; }
+.jobs a.withlogo { grid-template-columns: 32px 14px 1fr auto; column-gap: 10px; }
+.jobs a.withlogo .logo { grid-row: 1 / 3; width: 32px; height: 32px; border-radius: 8px; font-size: 12px; margin-top: 2px; }
+.jobs a.withlogo .logo img { width: 20px; height: 20px; }
+.jobs a.withlogo .where { grid-column: 3 / 5; }
 .new { font: 500 10.5px var(--mono); letter-spacing: .6px; text-transform: uppercase; padding: 2px 6px; border-radius: 5px; background: var(--teal); color: var(--paper); align-self: center; }
 .more { align-self: flex-start; background: none; border: 0; padding: 4px 0; color: var(--ink); font: 600 13px var(--display); text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
 .msg { margin: 0; font-size: 13.5px; color: var(--ink-soft); }
@@ -214,16 +219,41 @@ main .wrap { padding-block: 4px 56px; display: flex; flex-direction: column; gap
     return box;
   }
 
+  // Many studios put the game in the job title: "Content Designer_MONOPOLY GO!",
+  // "Lead Systems Designer - Star Trek Fleet Command". Split it out when present.
+  var NOT_GAME = /\b(market|remote|contract|temporary|maternity|fixed[- ]term|intern(ship)?|new games?|new project|unannounced|studios?|team|hybrid|on-?site|europe|emea|spain|barcelona|mobile|pc|console|f2p|casual|midcore|hyper-?casual|portfolio|live ?ops|automation|tools?|tech|platform|central|core|meta|economy|monetization|level|senior|junior|lead|principal|associate|ii|iii)\b/i;
+  function splitGame(title) {
+    var parts = title.split(/\s+[-–—|]\s+|\s*\|\s*|_/).map(function (p) { return p.trim(); }).filter(Boolean);
+    if (parts.length < 2) return { role: title, game: '' };
+    for (var i = 1; i < parts.length; i++) {
+      var cands = parts[i].split(/\s*,\s*/);
+      for (var k = 0; k < cands.length; k++) {
+        var g = cands[k].replace(/[()]/g, '').trim();
+        if (g.length > 2 && !NOT_GAME.test(g)) {
+          var rest = parts.slice();
+          rest.splice(i, 1);
+          return { role: rest.join(' · '), game: g };
+        }
+      }
+    }
+    return { role: title, game: '' };
+  }
+
   function jobRow(j, c, withCompany) {
     var li = el('li');
     var a = el('a');
     a.href = j.url; a.target = '_blank'; a.rel = 'noopener';
+    var split = withCompany ? splitGame(j.title) : { role: j.title, game: '' };
+    if (withCompany) { a.className = 'withlogo'; a.appendChild(logo(c)); }
     var g = el('span', 'gem ' + kind(j)); g.setAttribute('aria-hidden', 'true');
     a.appendChild(g);
-    a.appendChild(el('span', 't', j.title));
+    a.appendChild(el('span', 't', split.role));
     if (isNew(j)) a.appendChild(el('span', 'new', 'Nueva')); else a.appendChild(el('span'));
     var w = el('span', 'where');
-    if (withCompany) { w.appendChild(el('span', 'co', c.name)); w.appendChild(document.createTextNode(' · ')); }
+    if (withCompany) {
+      w.appendChild(el('span', 'co', c.name)); w.appendChild(document.createTextNode(' · '));
+      if (split.game) { w.appendChild(el('span', 'game', split.game)); w.appendChild(document.createTextNode(' · ')); }
+    }
     w.appendChild(document.createTextNode(j.location || (j.remote ? 'Remoto' : 'Sin ubicación')));
     a.appendChild(w);
     li.appendChild(a);
