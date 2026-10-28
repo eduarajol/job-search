@@ -1,0 +1,255 @@
+{
+ "updated": null,
+ "companies": [
+  {
+   "id": "scopely",
+   "name": "Scopely",
+   "group": "mobile",
+   "note": null,
+   "domain": "scopely.com",
+   "careers": "https://careers.scopely.com/us/en",
+   "status": "pending",
+   "jobs": null
+  },
+  {
+   "id": "king",
+   "name": "King",
+   "group": "mobile",
+   "note": null,
+   "domain": "king.com",
+   "careers": "https://careers.king.com",
+   "status": "manual",
+   "jobs": null
+  },
+  {
+   "id": "socialpoint",
+   "name": "Socialpoint",
+   "group": "mobile",
+   "note": null,
+   "domain": "socialpoint.es",
+   "careers": "https://job-boards.greenhouse.io/spcareers",
+   "status": "pending",
+   "jobs": null
+  },
+  {
+   "id": "gameloft",
+   "name": "Gameloft",
+   "group": "mobile",
+   "note": null,
+   "domain": "gameloft.com",
+   "careers": "https://careers.smartrecruiters.com/Gameloft",
+   "status": "pending",
+   "jobs": null
+  },
+  {
+   "id": "ubisoft",
+   "name": "Ubisoft",
+   "group": "mobile",
+   "note": "Barcelona Mobile y Barcelona",
+   "domain": "ubisoft.com",
+   "careers": "https://www.ubisoft.com/en-us/company/careers/search",
+   "status": "pending",
+   "jobs": null
+  },
+  {
+   "id": "tripledot",
+   "name": "Tripledot Studios",
+   "group": "mobile",
+   "note": null,
+   "domain": "tripledotstudios.com",
+   "careers": "https://job-boards.eu.greenhouse.io/tripledotstudios",
+   "status": "pending",
+   "jobs": null
+  },
+  {
+   "id": "voodoo",
+   "name": "Voodoo",
+   "group": "mobile",
+   "note": null,
+   "domain": "voodoo.io",
+   "careers": "https://jobs.lever.co/voodoo",
+   "status": "pending",
+   "jobs": null
+  },
+  {
+   "id": "zynga",
+   "name": "Zynga",
+   "group": "mobile",
+   "note": null,
+   "domain": "zynga.com",
+   "careers": "https://job-boards.greenhouse.io/zyngacareers",
+   "status": "pending",
+   "jobs": null
+  },
+  {
+   "id": "moonactive",
+   "name": "Moon Active",
+   "group": "mobile",
+   "note": null,
+   "domain": "moonactive.com",
+   "careers": "https://www.moonactive.com/careers",
+   "status": "manual",
+   "jobs": null
+  },
+  {
+   "id": "rovio",
+   "name": "Rovio",
+   "group": "mobile",
+   "note": null,
+   "domain": "rovio.com",
+   "careers": "https://www.rovio.com/open-positions/",
+   "status": "manual",
+   "jobs": null
+  },
+  {
+   "id": "outfit7",
+   "name": "Outfit7",
+   "group": "mobile",
+   "note": null,
+   "domain": "outfit7.com",
+   "careers": "https://job-boards.greenhouse.io/outfit7",
+   "status": "pending",
+   "jobs": null
+  },
+  {
+   "id": "zeptolab",
+   "name": "ZeptoLab",
+   "group": "mobile",
+   "note": null,
+   "domain": "zeptolab.com",
+   "careers": "https://careers.zeptolab.com/join-us/",
+   "status": "pending",
+   "jobs": null
+  },
+  {
+   "id": "larian",
+   "name": "Larian Studios",
+   "group": "pc",
+   "note": null,
+   "domain": "larian.com",
+   "careers": "https://larian.com/careers",
+   "status": "manual",
+   "jobs": null
+  },
+  {
+   "id": "ioi",
+   "name": "IO Interactive",
+   "group": "pc",
+   "note": null,
+   "domain": "ioi.dk",
+   "careers": "https://apply.ioi.dk/jobs",
+   "status": "manual",
+   "jobs": null
+  },
+  {
+   "id": "activision",
+   "name": "Activision",
+   "group": "pc",
+   "note": "Incluye Digital Legends e Infinity Ward",
+   "domain": "activision.com",
+   "careers": "https://careers.activision.com",
+   "status": "manual",
+   "jobs": null
+  },
+  {
+   "id": "blizzard",
+   "name": "Blizzard",
+   "group": "pc",
+   "note": null,
+   "domain": "blizzard.com",
+   "careers": "https://careers.blizzard.com/global/en",
+   "status": "manual",
+   "jobs": null
+  },
+  {
+   "id": "ea",
+   "name": "Electronic Arts",
+   "group": "pc",
+   "note": null,
+   "domain": "ea.com",
+   "careers": "https://jobs.ea.com",
+   "status": "manual",
+   "jobs": null
+  },
+  {
+   "id": "riot",
+   "name": "Riot Games",
+   "group": "pc",
+   "note": null,
+   "domain": "riotgames.com",
+   "careers": "https://www.riotgames.com/en/work-with-us/jobs",
+   "status": "pending",
+   "jobs": null
+  },
+  {
+   "id": "wargaming",
+   "name": "Wargaming",
+   "group": "pc",
+   "note": null,
+   "domain": "wargaming.com",
+   "careers": "https://job-boards.greenhouse.io/wargamingen",
+   "status": "pending",
+   "jobs": null
+  },
+  {
+   "id": "taketwo",
+   "name": "Take-Two",
+   "group": "pc",
+   "note": null,
+   "domain": "take2games.com",
+   "careers": "https://job-boards.greenhouse.io/taketwo",
+   "status": "pending",
+   "jobs": null
+  },
+  {
+   "id": "digitalextremes",
+   "name": "Digital Extremes",
+   "group": "pc",
+   "note": null,
+   "domain": "digitalextremes.com",
+   "careers": "https://www.digitalextremes.com/careers",
+   "status": "pending",
+   "jobs": null
+  },
+  {
+   "id": "bespokepixel",
+   "name": "Bespoke Pixel",
+   "group": "pc",
+   "note": null,
+   "domain": "bespokepixel.com",
+   "careers": "https://bespokepixel.teamtailor.com/jobs",
+   "status": "manual",
+   "jobs": null
+  },
+  {
+   "id": "nomada",
+   "name": "Nomada Studio",
+   "group": "pc",
+   "note": "Estudio independiente, candidatura espontánea",
+   "domain": "nomada.studio",
+   "careers": "https://nomada.studio",
+   "status": "manual",
+   "jobs": null
+  },
+  {
+   "id": "lince",
+   "name": "Lince Works",
+   "group": "pc",
+   "note": "Estudio independiente, candidatura espontánea",
+   "domain": "lince.works",
+   "careers": "https://lince.works",
+   "status": "manual",
+   "jobs": null
+  },
+  {
+   "id": "keywords",
+   "name": "Keywords Studios",
+   "group": "services",
+   "note": null,
+   "domain": "keywordsstudios.com",
+   "careers": "https://www.keywordsstudios.com/en/careers/",
+   "status": "manual",
+   "jobs": null
+  }
+ ]
+}
