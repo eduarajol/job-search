@@ -1,0 +1,16 @@
+{
+ "updated": "2026-10-28T19:05:00+00:00",
+ "basedOn": "details.json",
+ "picks": [
+  {"key": "ubisoft:744000153130529", "fit": "Media", "reason": "UX in-game en Barcelona: HUD, onboarding, tutoriales y flujos para Rainbow Six Siege. Pide 6+ años de UX en juegos."},
+  {"key": "scopely:5342027008", "fit": "Media", "reason": "Diseño de mecánicas y features con specs detalladas y playtests en Stumble Guys. No fija años mínimos."},
+  {"key": "ubisoft:744000158059429", "fit": "Media", "reason": "Features y specs de F2P móvil de principio a fin. Pide 3 años y experiencia balanceando RPGs F2P."},
+  {"key": "scopely:5449845008", "fit": "Media", "reason": "Liderar el UX de Star Trek Fleet Command, un 4X: wireframes, flujos y prototipos. Pide liderazgo previo en UX de juegos."},
+  {"key": "scopely:5412268008", "fit": "Baja", "reason": "Contenido de eventos y features para Monopoly GO! con documentos y pitches. Pide 3+ años en diseño o contenido."},
+  {"key": "outfit7:7823877003", "fit": "Baja", "reason": "Casual móvil con IP propia y valora un perfil con base de UX. Pide 5+ años, juegos lanzados y Unity."},
+  {"key": "scopely:5423473008", "fit": "Baja", "reason": "UX de producto para Monopoly GO! con workshops, research y prototipos. Pide 8+ años de UX en juegos."},
+  {"key": "tripledot:4965778101", "fit": "Baja", "reason": "Generalista de diseño en puzzle casual, en remoto desde Europa. Pide 3+ años y peso en level design."},
+  {"key": "tripledot:4999489101", "fit": "Baja", "reason": "Niveles de puzzle móvil en Barcelona, con progresión y dificultad. Pide 3+ años como level designer."},
+  {"key": "scopely:5442575008", "fit": "Baja", "reason": "Combate para un strategy/MMO cross-platform. Pide 4+ años en F2P y trabajo en Unity o Unreal."}
+ ]
+}

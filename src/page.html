@@ -73,7 +73,34 @@ a { color: inherit; }
 .summary b { color: var(--ink); font-variant-numeric: tabular-nums; }
 
 /* Sections */
-main .wrap { padding-block: 4px 56px; display: flex; flex-direction: column; gap: 36px; }
+main .wrap { padding-block: 4px 56px; }
+.layout { display: grid; grid-template-columns: minmax(0, 1fr) 360px; gap: 28px; align-items: start; }
+#app { display: flex; flex-direction: column; gap: 36px; min-width: 0; }
+@media (max-width: 1080px) {
+  .layout { grid-template-columns: minmax(0, 1fr); }
+  .picks { order: -1; position: static; max-height: none; }
+}
+
+/* Top-10 panel */
+.picks { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 16px); max-height: calc(100vh - 32px); overflow-y: auto; background: var(--paper); border: 1.5px solid var(--ink); border-radius: 14px; box-shadow: 4px 4px 0 var(--ink); padding: 16px 16px 8px; }
+.picks h2 { margin: 0; font-size: 22px; font-weight: 800; letter-spacing: -.4px; }
+.picks .by { margin: 2px 0 10px; font: 400 12px var(--mono); color: var(--ink-soft); }
+.picks ol { list-style: none; margin: 0; padding: 0; }
+.picks li + li { border-top: 1px solid var(--line); }
+.pick { display: grid; grid-template-columns: 26px minmax(0, 1fr); gap: 2px 10px; padding: 11px 0; text-decoration: none; }
+.pick:hover .t { text-decoration: underline; text-underline-offset: 2px; }
+.rank { grid-row: 1 / 4; font: 500 20px var(--mono); color: var(--red); line-height: 1.1; font-variant-numeric: tabular-nums; }
+.pick .top { display: flex; align-items: center; gap: 8px; min-width: 0; }
+.pick .logo { width: 24px; height: 24px; border-radius: 6px; font-size: 10px; }
+.pick .logo img { width: 16px; height: 16px; }
+.pick .meta { font-size: 12.5px; color: var(--ink-soft); overflow-wrap: anywhere; }
+.pick .meta .co { color: var(--ink); font-weight: 600; }
+.pick .meta i { color: var(--ink); }
+.why { font-size: 13px; line-height: 1.4; color: var(--ink); text-wrap: pretty; }
+.fit { flex-shrink: 0; margin-left: auto; font: 500 10.5px var(--mono); letter-spacing: .5px; text-transform: uppercase; padding: 2px 6px; border-radius: 5px; border: 1px solid var(--ink-soft); color: var(--ink-soft); }
+.fit.alta { background: var(--teal); border-color: var(--teal); color: var(--paper); }
+.fit.media { background: var(--chip); border-color: var(--chip); color: var(--ink); }
+
 .section h2 { margin: 0 0 14px; font-size: 22px; font-weight: 800; letter-spacing: -.4px; display: flex; align-items: baseline; gap: 10px; }
 .section h2 small { font: 500 12.5px var(--mono); color: var(--ink-soft); letter-spacing: 0; }
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; align-items: start; }
@@ -157,7 +184,10 @@ main .wrap { padding-block: 4px 56px; display: flex; flex-direction: column; gap
 </div>
 
 <main>
-  <div class="wrap" id="app"></div>
+  <div class="wrap layout">
+    <div id="app"></div>
+    <aside class="picks" id="picks" aria-labelledby="picks-title" hidden></aside>
+  </div>
 </main>
 
 <script>
@@ -378,6 +408,47 @@ main .wrap { padding-block: 4px 56px; display: flex; flex-direction: column; gap
     });
   }
 
+  var picks = null;
+  function renderPicks() {
+    var box = document.getElementById('picks');
+    box.textContent = '';
+    if (!picks || !picks.picks || !data) { box.hidden = true; return; }
+    var index = {};
+    (data.companies || []).forEach(function (c) {
+      (c.jobs || []).forEach(function (j) { index[c.id + ':' + j.id] = { j: j, c: c }; });
+    });
+    var list = picks.picks.filter(function (p) { return index[p.key]; });
+    if (!list.length) { box.hidden = true; return; }
+    box.hidden = false;
+    var h = el('h2', null, 'Top 10 para ti'); h.id = 'picks-title';
+    box.appendChild(h);
+    var when = picks.updated ? new Date(picks.updated).toLocaleString('es-ES', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' }) : '';
+    box.appendChild(el('p', 'by', 'Elegidas por Claude' + (when ? ' · ' + when : '')));
+    var ol = el('ol');
+    list.forEach(function (p, i) {
+      var hit = index[p.key], j = hit.j, c = hit.c;
+      var split = splitGame(j.title);
+      var li = el('li');
+      var a = el('a', 'pick');
+      a.href = j.url; a.target = '_blank'; a.rel = 'noopener';
+      a.appendChild(el('span', 'rank', String(i + 1)));
+      var top = el('span', 'top');
+      top.appendChild(logo(c));
+      top.appendChild(el('span', 't', split.role));
+      if (p.fit) top.appendChild(el('span', 'fit ' + p.fit.toLowerCase(), p.fit));
+      a.appendChild(top);
+      var meta = el('span', 'meta');
+      meta.appendChild(el('span', 'co', c.name));
+      if (split.game) { meta.appendChild(document.createTextNode(' · ')); meta.appendChild(el('i', null, split.game)); }
+      meta.appendChild(document.createTextNode(' · ' + (j.location || 'Remoto')));
+      a.appendChild(meta);
+      if (p.reason) a.appendChild(el('span', 'why', p.reason));
+      li.appendChild(a);
+      ol.appendChild(li);
+    });
+    box.appendChild(ol);
+  }
+
   function stamp() {
     var s = document.getElementById('stamp');
     s.textContent = '';
@@ -410,7 +481,13 @@ main .wrap { padding-block: 4px 56px; display: flex; flex-direction: column; gap
 
   bind();
   load()
-    .then(function (d) { data = d; stamp(); render(); })
+    .then(function (d) {
+      data = d; stamp(); render();
+      return fetch('picks.json?t=' + Date.now(), { cache: 'no-store' })
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (pk) { picks = pk; renderPicks(); })
+        .catch(function () {});
+    })
     .catch(function () {
       document.getElementById('stamp').textContent = '';
       document.getElementById('stamp').appendChild(el('b', null, 'No se han podido cargar las ofertas'));
