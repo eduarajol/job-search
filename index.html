@@ -344,13 +344,13 @@ main .wrap { padding-block: 4px 56px; display: flex; flex-direction: column; gap
     s.textContent = '';
     if (!data || !data.updated) {
       s.appendChild(el('b', null, 'Pendiente de la primera actualización'));
-      s.appendChild(document.createTextNode('Se actualiza cada mañana'));
+      s.appendChild(document.createTextNode('Se actualiza a las 7:30 y a las 19:30'));
       return;
     }
     var d = new Date(data.updated);
     var txt = d.toLocaleString('es-ES', { weekday: 'long', day: 'numeric', month: 'long', hour: '2-digit', minute: '2-digit' });
     s.appendChild(el('b', null, 'Actualizado el ' + txt));
-    s.appendChild(document.createTextNode('Se actualiza cada mañana'));
+    s.appendChild(document.createTextNode('Se actualiza a las 7:30 y a las 19:30'));
   }
 
   function bind() {
