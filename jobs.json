@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T20:15:35+00:00",
+ "updated": "2026-10-28T22:44:12+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -1527,7 +1527,7 @@
     "logos/ubisoft.svg"
    ],
    "status": "ok",
-   "total": 322,
+   "total": 320,
    "jobs": [
     {
      "id": "744000158059429",
@@ -2698,7 +2698,7 @@
     "logos/riot.svg"
    ],
    "status": "ok",
-   "total": 184,
+   "total": 185,
    "jobs": [
     {
      "id": "7102266",
