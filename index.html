@@ -23,6 +23,9 @@
   --sand: #EBD3A8;
   --line: rgba(75, 29, 38, .14);
   --chip: #F1E4CF;
+  --good: #1E7A4C; --good-bg: #DCEFE3;
+  --warn: #9A6200; --warn-bg: #F6E7C8;
+  --bad: #B3261E; --bad-bg: #F7DCD9;
   --display: 'Bricolage Grotesque', system-ui, sans-serif;
   --mono: 'DM Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
 }
@@ -31,12 +34,14 @@
     --ground: #1C1315; --paper: #281C1F; --ink: #F3E6E1; --ink-soft: #C4AEB0;
     --red: #E8768B; --teal: #5CC2AF; --sand: #5B4631; --line: rgba(243, 230, 225, .14);
     --chip: #3A2A22; color-scheme: dark;
+    --good: #6CCB97; --good-bg: #1F3A2B; --warn: #E6B45A; --warn-bg: #3D3020; --bad: #F08A80; --bad-bg: #44231F;
   }
 }
 :root[data-theme="dark"] {
   --ground: #1C1315; --paper: #281C1F; --ink: #F3E6E1; --ink-soft: #C4AEB0;
   --red: #E8768B; --teal: #5CC2AF; --sand: #5B4631; --line: rgba(243, 230, 225, .14);
   --chip: #3A2A22; color-scheme: dark;
+  --good: #6CCB97; --good-bg: #1F3A2B; --warn: #E6B45A; --warn-bg: #3D3020; --bad: #F08A80; --bad-bg: #44231F;
 }
 * { box-sizing: border-box; }
 body {
@@ -105,9 +110,12 @@ main .wrap { padding-block: 4px 56px; }
 .pick .meta .co { color: var(--ink); font-weight: 600; }
 .pick .meta i { color: var(--ink); }
 .why { font-size: 13px; line-height: 1.4; color: var(--ink); text-wrap: pretty; }
-.fit { flex-shrink: 0; margin-left: auto; font: 500 10.5px var(--mono); letter-spacing: .5px; text-transform: uppercase; padding: 2px 6px; border-radius: 5px; border: 1px solid var(--ink-soft); color: var(--ink-soft); }
-.fit.alta { background: var(--teal); border-color: var(--teal); color: var(--paper); }
-.fit.media { background: var(--chip); border-color: var(--chip); color: var(--ink); }
+.fit { flex-shrink: 0; margin-left: auto; display: inline-flex; align-items: center; gap: 5px; font: 500 10.5px var(--mono); letter-spacing: .5px; text-transform: uppercase; color: var(--ink-soft); white-space: nowrap; }
+.fit .ico { width: 18px; height: 18px; border-radius: 4px; display: grid; place-items: center; border: 1px solid currentColor; }
+.fit .ico svg { width: 12px; height: 12px; }
+.fit.up2 .ico, .fit.up1 .ico { color: var(--good); background: var(--good-bg); }
+.fit.mid .ico { color: var(--warn); background: var(--warn-bg); }
+.fit.down1 .ico, .fit.down2 .ico { color: var(--bad); background: var(--bad-bg); }
 
 .section h2 { margin: 0 0 14px; font-size: 22px; font-weight: 800; letter-spacing: -.4px; display: flex; align-items: baseline; gap: 10px; }
 .section h2 small { font: 500 12.5px var(--mono); color: var(--ink-soft); letter-spacing: 0; }
@@ -417,6 +425,24 @@ main .wrap { padding-block: 4px 56px; }
   }
 
   var picks = null;
+  var FIT = {
+    'muy alta': { cls: 'up2', d: 'M3 11l5-5 5 5M3 6l5-5 5 5' },
+    'alta': { cls: 'up1', d: 'M3 10l5-5 5 5' },
+    'media': { cls: 'mid', d: 'M3 6h10M3 10h10' },
+    'baja': { cls: 'down1', d: 'M3 6l5 5 5-5' },
+    'muy baja': { cls: 'down2', d: 'M3 5l5 5 5-5M3 10l5 5 5-5' }
+  };
+  function fitBadge(label) {
+    var f = FIT[label.toLowerCase()] || FIT.media;
+    var wrap = el('span', 'fit ' + f.cls);
+    wrap.setAttribute('aria-label', 'Encaje ' + label.toLowerCase());
+    var ico = el('span', 'ico');
+    ico.innerHTML = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="' + f.d + '"/></svg>';
+    wrap.appendChild(ico);
+    var t = el('span', null, label); t.setAttribute('aria-hidden', 'true');
+    wrap.appendChild(t);
+    return wrap;
+  }
   function renderPicks() {
     var box = document.getElementById('picks');
     box.textContent = '';
@@ -443,7 +469,7 @@ main .wrap { padding-block: 4px 56px; }
       var top = el('span', 'top');
       top.appendChild(logo(c));
       top.appendChild(el('span', 't', split.role));
-      if (p.fit) top.appendChild(el('span', 'fit ' + p.fit.toLowerCase(), p.fit));
+      if (p.fit) top.appendChild(fitBadge(p.fit));
       a.appendChild(top);
       var meta = el('span', 'meta');
       meta.appendChild(el('span', 'co', c.name));
