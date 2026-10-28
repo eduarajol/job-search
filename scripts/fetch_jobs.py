@@ -29,17 +29,13 @@ DESIGN = re.compile(
 )
 NOT_DESIGN = re.compile(
     r"sound|audio|graphic|motion|hardware|fashion|instructional|interior|"
-    r"lighting|vfx|artist|marketing design|brand design|packaging",
+    r"lighting|vfx|artist|programmer|engineer|developer|scientist|analyst|"
+    r"recruit|marketing design|brand design|packaging",
     re.I,
 )
 LOCAL = re.compile(r"barcelona|spain|españa|espana|catalonia|cataluña|catalunya", re.I)
 REMOTE = re.compile(r"remote|remoto|anywhere|work from home|wfh", re.I)
 EUROPE = re.compile(r"europe|emea|eu\b|spain|españa|worldwide|global|anywhere", re.I)
-NON_EU_ONLY = re.compile(
-    r"\b(usa?|united states|canada|north america|latam|apac|india|china|japan|"
-    r"australia|brazil|mexico|israel|uk only)\b",
-    re.I,
-)
 
 
 def get_json(url, data=None):
@@ -196,11 +192,12 @@ def is_local(j):
     loc = j["location"]
     if LOCAL.search(loc):
         return True
-    if j["remote"]:
-        # Remote counts unless it is clearly limited to a non-European region.
-        if NON_EU_ONLY.search(loc) and not EUROPE.search(loc):
-            return False
-        return True
+    if j["remote"] or REMOTE.search(loc):
+        # Remote counts when it is open to Europe or has no region attached.
+        if EUROPE.search(loc):
+            return True
+        rest = re.sub(r"\b(or|and|fully|only|hybrid)\b", " ", REMOTE.sub(" ", loc), flags=re.I)
+        return not re.sub(r"[\s,;:()|/·\-–]+", "", rest)
     return False
 
 
