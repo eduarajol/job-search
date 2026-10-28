@@ -22,6 +22,6 @@ jobs:
             "https://bespokepixel.teamtailor.com/jobs.rss" \
             ; do
             code=$(curl -s -L -o /tmp/out -w "%{http_code}" --max-time 20 "$u" || echo ERR)
-            echo "$code $(wc -c < /tmp/out 2>/dev/null) $u"
-            head -c 200 /tmp/out | tr '\n' ' '; echo; echo
+            snippet=$(head -c 120 /tmp/out | tr -d '\n\r%:,')
+            echo "::notice::$code $(wc -c < /tmp/out 2>/dev/null) $u -- $snippet"
           done
