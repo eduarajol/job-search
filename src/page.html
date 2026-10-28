@@ -68,6 +68,11 @@ a { color: inherit; }
 .toggle .dot { width: 10px; height: 10px; border-radius: 50%; border: 1.5px solid currentColor; }
 .toggle[aria-pressed="true"] { background: var(--ink); color: var(--ground); }
 .toggle[aria-pressed="true"] .dot { background: currentColor; }
+.toggle .gem { margin-top: 0; }
+.toggle[aria-pressed="true"] .gem.gd, .toggle[aria-pressed="true"] .gem.ux { background: var(--ground); }
+.toggle .pin { width: 14px; height: 14px; }
+.chips { display: contents; }
+.chips .sep { width: 1px; height: 24px; background: var(--line); margin: 0 2px; }
 .search {
   flex: 1 1 200px; min-width: 0; min-height: 40px; padding: 0 14px; border-radius: 999px;
   border: 1.5px solid var(--line); background: var(--paper); color: var(--ink); font: 400 14px var(--display);
@@ -94,7 +99,7 @@ main .wrap { padding-block: 4px 56px; }
 .picks li + li { border-top: 1px solid var(--line); }
 .pick { display: grid; grid-template-columns: 26px minmax(0, 1fr); gap: 2px 10px; padding: 11px 0; text-decoration: none; }
 .pick:hover .t { text-decoration: underline; text-underline-offset: 2px; }
-.rank { grid-row: 1 / 4; font: 500 20px var(--mono); color: var(--red); line-height: 1.1; font-variant-numeric: tabular-nums; }
+.rank { grid-row: 1 / span 5; font: 500 20px var(--mono); color: var(--red); line-height: 1.1; font-variant-numeric: tabular-nums; }
 .pick .ptop { display: flex; align-items: center; gap: 8px; min-width: 0; }
 .pick .logo { width: 28px; height: 28px; border-radius: 7px; font-size: 11px; }
 .pick .gem { margin-top: 0; flex-shrink: 0; }
@@ -154,6 +159,15 @@ main .wrap { padding-block: 4px 56px; }
   .jobs a.withlogo { grid-template-columns: 32px 10px minmax(0, 1fr) auto; }
   .jobs a.withlogo .gamecol { grid-column: 3 / 5; grid-row: 2; text-align: left; max-width: none; }
 }
+.badges { display: inline-flex; gap: 6px; align-items: center; justify-content: flex-end; flex-wrap: wrap; align-self: center; }
+.applied { display: inline-flex; align-items: center; gap: 4px; font: 500 10.5px var(--mono); letter-spacing: .6px; text-transform: uppercase; padding: 2px 7px 2px 5px; border-radius: 5px; background: var(--ink); color: var(--ground); white-space: nowrap; }
+.applied svg { width: 11px; height: 11px; }
+.jobs li.is-applied, .picks li.is-applied { background: linear-gradient(90deg, var(--chip), transparent 70%); box-shadow: inset 3px 0 0 var(--ink); }
+.jobs li.is-applied a { padding-left: 8px; }
+.picks li.is-applied .pick { padding-left: 6px; }
+.date { white-space: nowrap; }
+.rest { margin: 14px 0 0; font-size: 13px; color: var(--ink-soft); line-height: 1.7; }
+.rest a { color: var(--ink); font-weight: 600; text-underline-offset: 3px; }
 .new { font: 500 10.5px var(--mono); letter-spacing: .6px; text-transform: uppercase; padding: 2px 6px; border-radius: 5px; background: var(--teal); color: var(--paper); align-self: center; }
 .more { align-self: flex-start; background: none; border: 0; padding: 4px 0; color: var(--ink); font: 600 13px var(--display); text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
 .msg { margin: 0; font-size: 13.5px; color: var(--ink-soft); }
@@ -167,6 +181,7 @@ main .wrap { padding-block: 4px 56px; }
 .empty { padding: 28px; text-align: center; color: var(--ink-soft); }
 
 @media (max-width: 520px) {
+  .chips .sep { display: none; }
   .stamp { text-align: left; }
   .grid { grid-template-columns: 1fr; }
 }
@@ -187,8 +202,13 @@ main .wrap { padding-block: 4px 56px; }
 
 <div class="bar">
   <div class="wrap">
-    <button class="toggle" id="f-role" type="button" aria-pressed="true"><span class="dot" aria-hidden="true"></span>Solo diseño y UX</button>
-    <button class="toggle" id="f-place" type="button" aria-pressed="true"><span class="dot" aria-hidden="true"></span>Solo Barcelona y remoto</button>
+    <span class="chips" role="group" aria-label="Filtros">
+      <button class="toggle" data-f="ux" type="button" aria-pressed="true"><span class="gem ux" aria-hidden="true"></span>UX</button>
+      <button class="toggle" data-f="gd" type="button" aria-pressed="true"><span class="gem gd" aria-hidden="true"></span>Game Design</button>
+      <span class="sep" aria-hidden="true"></span>
+      <button class="toggle" data-f="bcn" type="button" aria-pressed="true"><svg class="pin" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M8 14.5s4.5-4.2 4.5-7.8a4.5 4.5 0 0 0-9 0c0 3.6 4.5 7.8 4.5 7.8z"/><circle cx="8" cy="6.6" r="1.6"/></svg>Barcelona</button>
+      <button class="toggle" data-f="remote" type="button" aria-pressed="true"><svg class="pin" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="8" cy="8" r="6.2"/><path d="M1.8 8h12.4M8 1.8c1.8 2 1.8 10.4 0 12.4M8 1.8c-1.8 2-1.8 10.4 0 12.4"/></svg>Remoto</button>
+    </span>
     <input class="search" id="f-text" type="search" placeholder="Buscar puesto o empresa" aria-label="Buscar puesto o empresa" autocomplete="off">
   </div>
   <div class="wrap summary" id="summary"></div>
@@ -209,16 +229,17 @@ main .wrap { padding-block: 4px 56px; }
     { id: 'services', name: 'Servicios para la industria' }
   ];
   var SHOW = 5;
-  var state = { role: true, place: true, text: '', open: {} };
+  var state = { f: { ux: true, gd: true, bcn: true, remote: true }, text: '', open: {} };
+  var applied = {};
   var data = null;
 
   try {
-    var saved = JSON.parse(localStorage.getItem('job-search-filters') || 'null');
-    if (saved) { state.role = saved.role !== false; state.place = saved.place !== false; }
+    var saved = JSON.parse(localStorage.getItem('job-search-filters-v2') || 'null');
+    if (saved) Object.keys(state.f).forEach(function (k) { if (typeof saved[k] === 'boolean') state.f[k] = saved[k]; });
   } catch (e) {}
 
   function save() {
-    try { localStorage.setItem('job-search-filters', JSON.stringify({ role: state.role, place: state.place })); } catch (e) {}
+    try { localStorage.setItem('job-search-filters-v2', JSON.stringify(state.f)); } catch (e) {}
   }
 
   function el(tag, cls, text) {
@@ -229,6 +250,7 @@ main .wrap { padding-block: 4px 56px; }
   }
 
   function kind(j) {
+    if (/artist|animator/i.test(j.title)) return 'other';
     if (/\bux\b|\bui\b|user (experience|research)|usability/i.test(j.title)) return 'ux';
     return j.design ? 'gd' : 'other';
   }
@@ -238,15 +260,48 @@ main .wrap { padding-block: 4px 56px; }
     return (new Date(data.updated) - new Date(j.firstSeen)) < 1000 * 60 * 60 * 36;
   }
 
+  function isRemote(j) { return !!j.remote || /remot|anywhere|work from home|wfh/i.test(j.location || ''); }
+  function isBcn(j) { return /barcelona/i.test(j.location || ''); }
+
+  // Chips in the same group add up (UX or Game Design). Groups narrow each
+  // other (role and place). A group with nothing selected does not filter.
+  function passes(j, c) {
+    var f = state.f, k = kind(j);
+    if ((f.ux || f.gd) && !((f.ux && k === 'ux') || (f.gd && k === 'gd'))) return false;
+    if ((f.bcn || f.remote) && !((f.bcn && isBcn(j)) || (f.remote && isRemote(j)))) return false;
+    var q = state.text.trim().toLowerCase();
+    if (q && (j.title + ' ' + (j.location || '') + ' ' + c.name).toLowerCase().indexOf(q) === -1) return false;
+    return true;
+  }
   function visible(c) {
     if (!c.jobs) return [];
-    var q = state.text.trim().toLowerCase();
-    return c.jobs.filter(function (j) {
-      if (state.role && !j.design) return false;
-      if (state.place && !j.local) return false;
-      if (q && (j.title + ' ' + j.location + ' ' + c.name).toLowerCase().indexOf(q) === -1) return false;
-      return true;
-    });
+    return c.jobs.filter(function (j) { return passes(j, c); });
+  }
+  function filtering() {
+    var f = state.f;
+    return f.ux || f.gd || f.bcn || f.remote || state.text.trim() !== '';
+  }
+
+  function postedDate(j) {
+    if (!j.posted) return null;
+    var d = new Date(j.posted);
+    return isNaN(d) ? null : d;
+  }
+  function fmtDate(d) {
+    var now = new Date();
+    var opts = { day: 'numeric', month: 'short' };
+    if (d.getFullYear() !== now.getFullYear()) opts.year = 'numeric';
+    return d.toLocaleDateString('es-ES', opts).replace('.', '');
+  }
+  function dateText(j) {
+    var d = postedDate(j);
+    return d ? 'Publicada ' + fmtDate(d) : '';
+  }
+  function appliedBadge() {
+    var b = el('span', 'applied');
+    b.innerHTML = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8.5l3.2 3L13 4.5"/></svg>';
+    b.appendChild(document.createTextNode('Aplicada'));
+    return b;
   }
 
   function initials(name) {
@@ -323,8 +378,13 @@ main .wrap { padding-block: 4px 56px; }
     var a = el('a');
     a.href = j.url; a.target = '_blank'; a.rel = 'noopener';
     var g = el('span', 'gem ' + kind(j)); g.setAttribute('aria-hidden', 'true');
-    var badge = isNew(j) ? el('span', 'new', 'Nueva') : el('span');
+    var badge = el('span', 'badges');
+    var done = applied[c.id + ':' + j.id];
+    if (done) { badge.appendChild(appliedBadge()); li.className = 'is-applied'; }
+    if (isNew(j)) badge.appendChild(el('span', 'new', 'Nueva'));
     var place = j.location || (j.remote ? 'Remoto' : 'Sin ubicación');
+    var when = dateText(j);
+    if (when) place += ' · ';
 
     if (withCompany) {
       var split = splitGame(j.title);
@@ -336,6 +396,7 @@ main .wrap { padding-block: 4px 56px; }
       var w = el('span', 'where');
       w.appendChild(el('span', 'co', c.name));
       w.appendChild(document.createTextNode(' · ' + place));
+      if (when) w.appendChild(el('span', 'date', when));
       info.appendChild(w);
       a.appendChild(info);
       a.appendChild(el('span', 'gamecol', split.game));
@@ -344,7 +405,9 @@ main .wrap { padding-block: 4px 56px; }
       a.appendChild(g);
       a.appendChild(el('span', 't', j.title));
       a.appendChild(badge);
-      a.appendChild(el('span', 'where', place));
+      var wh = el('span', 'where', place);
+      if (when) wh.appendChild(el('span', 'date', when));
+      a.appendChild(wh);
     }
     li.appendChild(a);
     return li;
@@ -437,16 +500,33 @@ main .wrap { padding-block: 4px 56px; }
     }
 
     GROUPS.forEach(function (g) {
-      var list = cs.filter(function (c) { return c.group === g.id; });
-      if (!list.length) return;
-      list.sort(function (a, b) { return weight(b) - weight(a) || a.name.localeCompare(b.name); });
+      var all = cs.filter(function (c) { return c.group === g.id; });
+      if (!all.length) return;
+      all.sort(function (a, b) { return weight(b) - weight(a) || a.name.localeCompare(b.name); });
+      var on = filtering();
+      var q = state.text.trim().toLowerCase();
+      var list = on ? all.filter(function (c) { return visible(c).length || (q && c.name.toLowerCase().indexOf(q) !== -1); }) : all;
+      var rest = all.filter(function (c) { return list.indexOf(c) === -1; });
+      var n = 0; list.forEach(function (c) { n += visible(c).length; });
       var s = el('section', 'section');
       var h2 = el('h2', null, g.name);
-      h2.appendChild(el('small', null, list.length + ' empresas'));
+      h2.appendChild(el('small', null, on ? n + (n === 1 ? ' oferta · ' : ' ofertas · ') + list.length + ' de ' + all.length + ' empresas' : all.length + ' empresas'));
       s.appendChild(h2);
-      var grid = el('div', 'grid');
-      list.forEach(function (c) { grid.appendChild(card(c)); });
-      s.appendChild(grid);
+      if (list.length) {
+        var grid = el('div', 'grid');
+        list.forEach(function (c) { grid.appendChild(card(c)); });
+        s.appendChild(grid);
+      }
+      if (rest.length) {
+        var p = el('p', 'rest', (list.length ? 'Sin ofertas con estos filtros: ' : 'Ninguna empresa tiene ofertas con estos filtros: '));
+        rest.forEach(function (c, i) {
+          if (i) p.appendChild(document.createTextNode(', '));
+          var a = el('a', null, c.name); a.href = c.careers; a.target = '_blank'; a.rel = 'noopener';
+          if (c.status !== 'ok') a.title = 'Revisión manual en su web';
+          p.appendChild(a);
+        });
+        s.appendChild(p);
+      }
       app.appendChild(s);
     });
   }
@@ -505,7 +585,10 @@ main .wrap { padding-block: 4px 56px; }
       meta.appendChild(el('span', 'co', c.name));
       if (split.game) { meta.appendChild(document.createTextNode(' · ')); meta.appendChild(el('i', null, split.game)); }
       meta.appendChild(document.createTextNode(' · ' + (j.location || 'Remoto')));
+      var pd = dateText(j);
+      if (pd) { meta.appendChild(document.createTextNode(' · ')); meta.appendChild(el('span', 'date', pd)); }
       a.appendChild(meta);
+      if (applied[p.key]) { li.className = 'is-applied'; var ab = appliedBadge(); ab.style.justifySelf = 'start'; a.appendChild(ab); }
       if (p.reason) a.appendChild(el('span', 'why', p.reason));
       li.appendChild(a);
       ol.appendChild(li);
@@ -528,13 +611,12 @@ main .wrap { padding-block: 4px 56px; }
   }
 
   function bind() {
-    var role = document.getElementById('f-role');
-    var place = document.getElementById('f-place');
     var text = document.getElementById('f-text');
-    role.setAttribute('aria-pressed', String(state.role));
-    place.setAttribute('aria-pressed', String(state.place));
-    role.onclick = function () { state.role = !state.role; role.setAttribute('aria-pressed', String(state.role)); save(); render(); };
-    place.onclick = function () { state.place = !state.place; place.setAttribute('aria-pressed', String(state.place)); save(); render(); };
+    Array.prototype.forEach.call(document.querySelectorAll('.toggle[data-f]'), function (b) {
+      var k = b.getAttribute('data-f');
+      b.setAttribute('aria-pressed', String(state.f[k]));
+      b.onclick = function () { state.f[k] = !state.f[k]; b.setAttribute('aria-pressed', String(state.f[k])); save(); render(); };
+    });
     text.oninput = function () { state.text = text.value; render(); };
   }
 
@@ -546,7 +628,17 @@ main .wrap { padding-block: 4px 56px; }
   bind();
   load()
     .then(function (d) {
-      data = d; stamp(); render();
+      data = d;
+      return fetch('applied.json?t=' + Date.now(), { cache: 'no-store' })
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (ap) {
+          ((ap && ap.applied) || []).forEach(function (x) { applied[typeof x === 'string' ? x : x.key] = true; });
+        })
+        .catch(function () {});
+    })
+    .then(function () {
+      if (!data) return;
+      stamp(); render();
       return fetch('picks.json?t=' + Date.now(), { cache: 'no-store' })
         .then(function (r) { return r.ok ? r.json() : null; })
         .then(function (pk) { picks = pk; renderPicks(); })

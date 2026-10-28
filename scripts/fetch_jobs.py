@@ -15,6 +15,7 @@ import time
 import urllib.error
 import urllib.request
 from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -52,6 +53,22 @@ def get_json(url, data=None):
         return json.loads(resp.read().decode("utf-8"))
 
 
+def iso_date(value):
+    """Publication date as ISO 8601. Boards send ISO strings, RFC 822 dates
+    (Teamtailor RSS) or epoch milliseconds (Lever)."""
+    if value in (None, ""):
+        return None
+    try:
+        if isinstance(value, (int, float)):
+            return datetime.fromtimestamp(value / 1000, timezone.utc).replace(microsecond=0).isoformat()
+        text = str(value).strip()
+        if re.match(r"^\d{4}-\d{2}-\d{2}", text):
+            return text
+        return parsedate_to_datetime(text).isoformat()
+    except Exception:
+        return None
+
+
 def job(id_, title, location, url, remote=False, posted=None, desc=None):
     return {
         "id": str(id_),
@@ -59,7 +76,7 @@ def job(id_, title, location, url, remote=False, posted=None, desc=None):
         "location": (location or "").strip(),
         "url": url,
         "remote": bool(remote),
-        "posted": posted,
+        "posted": iso_date(posted),
         "_desc": desc,
     }
 
