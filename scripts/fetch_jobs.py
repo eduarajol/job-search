@@ -276,7 +276,8 @@ def read_wordpress(src):
         out.append(job(
             j.get("id"), title, loc, j.get("link"),
             remote=bool(REMOTE.search(loc)), posted=j.get("date"),
-            desc=(j.get("content") or {}).get("rendered", ""),
+            # Page builders (Divi) leave [shortcodes] in the content: drop them.
+            desc=re.sub(r"\[/?[a-z][\w-]*[^\]]*\]", " ", (j.get("content") or {}).get("rendered", "")),
         ))
     return out
 
