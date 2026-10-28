@@ -133,7 +133,11 @@ def read_lever(src):
             datetime.fromtimestamp(created / 1000, timezone.utc).isoformat()
             if isinstance(created, (int, float)) else None
         )
-        out.append(job(j["id"], j.get("text"), loc, j.get("hostedUrl"), remote, posted))
+        lists = "\n".join(
+            (l.get("text") or "") + "\n" + (l.get("content") or "") for l in (j.get("lists") or [])
+        )
+        desc = "\n".join(x for x in [j.get("descriptionPlain") or j.get("description"), lists, j.get("additionalPlain")] if x)
+        out.append(job(j["id"], j.get("text"), loc, j.get("hostedUrl"), remote, posted, desc=desc))
     return out
 
 
@@ -257,6 +261,141 @@ def workday_description(apply_url):
     return (d.get("jobPostingInfo") or {}).get("jobDescription") or ""
 
 
+def read_ashby(src):
+    """Ashby public job board API (Voodoo, Moon Active)."""
+    data = get_json(f"https://api.ashbyhq.com/posting-api/job-board/{src['board']}")
+    out = []
+    for j in data.get("jobs", []):
+        if j.get("isListed") is False:
+            continue
+        locs = [j.get("location") or ""] + [
+            (x.get("location") or "") for x in (j.get("secondaryLocations") or [])
+        ]
+        loc = "; ".join(l for l in locs if l)
+        remote = bool(j.get("isRemote")) or (j.get("workplaceType") or "").lower() == "remote"
+        if remote and not REMOTE.search(loc):
+            loc = (loc + "; Remote") if loc else "Remote"
+        out.append(job(
+            j.get("id"), j.get("title"), loc, j.get("jobUrl") or j.get("applyUrl"),
+            remote=remote, posted=j.get("publishedAt"),
+            desc=j.get("descriptionHtml") or j.get("descriptionPlain"),
+        ))
+    return out
+
+def get_text(url):
+    req = urllib.request.Request(url, headers={
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36",
+        "Accept": "text/html,application/xml,*/*", "Accept-Language": "en-US,en;q=0.9",
+    })
+    with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
+        return resp.read().decode("utf-8", "replace")
+
+
+def strip_tags(fragment):
+    return html.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", fragment or ""))).strip()
+
+
+def page_text(url):
+    """Readable text of an offer page, for descriptions of HTML-only boards."""
+    t = get_text(url)
+    t = re.sub(r"(?is)<(script|style|nav|header|footer|form)[^>]*>.*?</\1>", " ", t)
+    m = re.search(r"(?is)<main[^>]*>(.*?)</main>", t) or re.search(r"(?is)<article[^>]*>(.*?)</article>", t)
+    return (m.group(1) if m else t)
+
+
+def rss_dates(url):
+    """link/guid -> pubDate from an RSS feed."""
+    import xml.etree.ElementTree as ET
+    out = {}
+    try:
+        root = ET.fromstring(get_text(url).encode("utf-8"))
+        for item in root.iter("item"):
+            date = (item.findtext("pubDate") or "").strip()
+            for tag in ("link", "guid"):
+                v = (item.findtext(tag) or "").strip()
+                if v and date:
+                    out[v] = date
+    except Exception as e:
+        print(f"  no feed dates from {url}: {e}", file=sys.stderr)
+    return out
+
+
+def read_avature(src):
+    """Avature portals (EA): the listing is plain HTML in pages of 20,
+    the RSS feed gives the publication dates."""
+    base = src["base"].rstrip("/")
+    out, seen, offset = [], set(), 0
+    while offset < 3000:
+        t = get_text(f"{base}/Home/?jobRecordsPerPage=20&jobOffset={offset}")
+        arts = re.findall(r'(?s)<article class="article article--result.*?</article>', t)
+        new = 0
+        for a in arts:
+            m = re.search(r'href="([^"]+/JobDetail/[^"]+/(\d+))"[^>]*>(.*?)</a>', a, re.S)
+            if not m or m.group(2) in seen:
+                continue
+            seen.add(m.group(2)); new += 1
+            loc = re.search(r'class="list-item-location"[^>]*>(.*?)</span>', a, re.S)
+            out.append(job(m.group(2), strip_tags(m.group(3)), strip_tags(loc.group(1)) if loc else "",
+                           html.unescape(m.group(1))))
+        if not arts or not new:
+            break
+        offset += 20
+        time.sleep(0.3)
+    dates, offset = {}, 0
+    while offset < 3000:
+        page = rss_dates(f"{base}/SearchJobs/feed/?jobRecordsPerPage=20&jobOffset={offset}")
+        fresh = {re.search(r"/(\d+)/?$", k).group(1): v for k, v in page.items() if re.search(r"/(\d+)/?$", k)}
+        if not fresh or all(k in dates for k in fresh):
+            break
+        dates.update(fresh)
+        offset += 20
+        time.sleep(0.3)
+    for j in out:
+        j["posted"] = iso_date(dates.get(j["id"]))
+        j["remote"] = bool(REMOTE.search(j["location"]))
+    return out
+
+
+def read_rovio(src):
+    """Rovio lists offers as HTML cards (department, location, commitment);
+    the RSS feed of the same page gives the dates."""
+    url = src["url"]
+    t = get_text(url)
+    dates = rss_dates(url.rstrip("/") + "/feed/")
+    out = []
+    for card in re.findall(r'(?s)<div class="c-open-po-card">(.*?)</div>', t):
+        m = re.search(r'href="([^"]+)"[^>]*>(.*?)</a>', card, re.S)
+        if not m:
+            continue
+        details = [strip_tags(x) for x in re.findall(r"(?s)<li>(.*?)</li>", card)]
+        loc = details[1] if len(details) > 1 else ""
+        link = m.group(1)
+        out.append(job(link.rstrip("/").split("/")[-1], strip_tags(m.group(2)), loc, link,
+                       remote=bool(REMOTE.search(loc)), posted=dates.get(link)))
+    return out
+
+def read_keywords(src):
+    """Keywords Studios: the careers page streams every offer as JSON from an
+    /ajax/filter_stream/<id>/ address that is written in the page itself."""
+    page = get_text(src["url"])
+    m = re.search(r"data_url\s*:\s*['\"]([^'\"]+)['\"]", page)
+    if not m:
+        raise RuntimeError("data_url not found on the careers page")
+    data = json.loads(get_text(m.group(1).replace("\\/", "/") + "?offset=0&limit=5000"))
+    out = []
+    for j in data:
+        loc = j.get("location_text") or (j.get("location") or "").replace("\n", ", ")
+        posted = None
+        d = re.search(r"originally posted on ([A-Za-z]+) (\d{1,2})(?:st|nd|rd|th)?,? (\d{4})", j.get("text") or "")
+        if d:
+            try:
+                posted = datetime.strptime(f"{d.group(1)} {d.group(2)} {d.group(3)}", "%B %d %Y").date().isoformat()
+            except ValueError:
+                posted = None
+        out.append(job(j.get("id"), html.unescape(j.get("title") or j.get("name") or ""), loc, j.get("url"),
+                       remote=bool(REMOTE.search(loc)), posted=posted))
+    return out
+
 def read_wordpress(src):
     """Studios that post offers as WordPress entries (Angry Mob Games):
     every entry of the given post type and category is an open offer."""
@@ -295,6 +434,8 @@ def describe(src, j):
             return plain("\n".join(parts))
         if src["type"] == "phenom":
             return plain(workday_description(j.get("_workday")) or j.get("_teaser") or "")
+        if src["type"] in ("avature", "rovio", "keywords"):
+            return plain(page_text(j["url"]))
         if src["type"] == "workable":
             d = get_json(f"https://apply.workable.com/api/v2/accounts/{src['account']}/jobs/{j['id']}")
             return plain("\n".join(d.get(k) or "" for k in ("description", "requirements")))
@@ -311,6 +452,10 @@ READERS = {
     "workable": read_workable,
     "phenom": read_phenom,
     "wordpress": read_wordpress,
+    "ashby": read_ashby,
+    "avature": read_avature,
+    "rovio": read_rovio,
+    "keywords": read_keywords,
 }
 
 

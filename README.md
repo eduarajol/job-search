@@ -4,7 +4,7 @@ Página personal para revisar cada día las ofertas de Game Design y UX de los e
 
 ## Cómo funciona
 
-- `companies.json`: lista de empresas, su web de empleo y, cuando existe, el portal público del que se leen sus ofertas (Greenhouse, Lever, SmartRecruiters, Workable, Teamtailor, Phenom o WordPress).
+- `companies.json`: lista de empresas, su web de empleo y, cuando existe, el portal público del que se leen sus ofertas (Greenhouse, Lever, SmartRecruiters, Workable, Teamtailor, Ashby, Phenom, Avature, WordPress o la propia web de la empresa).
 - `scripts/fetch_jobs.py`: consulta esos portales y genera `jobs.json`. Guarda las ofertas de diseño y UX de cualquier lugar, y todas las de Barcelona, España o remoto.
 - `.github/workflows/update-jobs.yml`: ejecuta el script cada día a las 7:30 y a las 19:30 (hora de Barcelona) y guarda el resultado.
 - `details.json`: descripción completa de las ofertas de diseño y UX en Barcelona o remoto.
