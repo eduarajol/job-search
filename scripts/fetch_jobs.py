@@ -210,6 +210,77 @@ def read_teamtailor(src):
     return out
 
 
+def read_phenom(src):
+    """Phenom career sites (King, Blizzard) answer a JSON search at /widgets.
+    Offers are published on Workday; applyUrl minus "/apply" is the offer page."""
+    host, country, lang = src["host"], src.get("country", "us"), src.get("lang", "en_us")
+    out, start, size = [], 0, 100
+    while True:
+        body = {
+            "lang": lang, "deviceType": "desktop", "country": country,
+            "pageName": "search-results", "ddoKey": "refineSearch", "sortBy": "",
+            "subsearch": "", "from": start, "jobs": True, "counts": False,
+            "all_fields": [], "size": size, "clearAll": False, "jdsource": "facets",
+            "isSliderEnable": False, "keywords": "", "global": True,
+            "selected_fields": {}, "locationData": {},
+        }
+        data = get_json(f"https://{host}/widgets", body)
+        rs = data.get("refineSearch") or {}
+        page = (rs.get("data") or {}).get("jobs") or []
+        for j in page:
+            locs = j.get("multi_location") or [j.get("location") or j.get("cityStateCountry") or ""]
+            loc = "; ".join(l for l in locs if l)
+            apply_url = j.get("applyUrl") or ""
+            url = re.sub(r"/apply/?$", "", apply_url) or f"https://{host}/{src.get('path', 'us/en')}/job/{j.get('jobId')}"
+            remote = (j.get("checkRemote") or "").lower() == "remote" or bool(REMOTE.search(loc))
+            out.append(job(
+                j.get("jobId") or j.get("reqId"), j.get("title"), loc, url,
+                remote=remote, posted=j.get("postedDate") or j.get("dateCreated"),
+                desc=None,
+            ))
+            out[-1]["_teaser"] = j.get("descriptionTeaser") or ""
+            out[-1]["_workday"] = apply_url
+        start += len(page)
+        if not page or start >= (rs.get("totalHits") or 0) or start > 3000:
+            break
+        time.sleep(0.3)
+    return out
+
+
+def workday_description(apply_url):
+    """Full text from Workday's public JSON for one offer page."""
+    m = re.match(r"https://([\w.-]+)\.(wd\d+)\.myworkdayjobs\.com/(?:[a-z]{2}-[A-Z]{2}/)?([^/]+)(/job/.+?)(?:/apply)?/?$", apply_url or "")
+    if not m:
+        return ""
+    tenant, wd, site, path = m.groups()
+    d = get_json(f"https://{tenant}.{wd}.myworkdayjobs.com/wday/cxs/{tenant}/{site}{path}")
+    return (d.get("jobPostingInfo") or {}).get("jobDescription") or ""
+
+
+def read_wordpress(src):
+    """Studios that post offers as WordPress entries (Angry Mob Games):
+    every entry of the given post type and category is an open offer."""
+    base = src["site"].rstrip("/")
+    ptype, cat = src.get("type_slug", "posts"), src.get("category")
+    url = f"{base}/wp-json/wp/v2/{ptype}?per_page=100&_fields=id,date,link,title,content"
+    if cat:
+        tax = src.get("taxonomy", "categories")
+        terms = get_json(f"{base}/wp-json/wp/v2/{tax}?slug={cat}")
+        if not terms:
+            raise RuntimeError(f"category '{cat}' not found")
+        url += f"&{tax}={terms[0]['id']}"
+    out = []
+    for j in get_json(url):
+        title = html.unescape(re.sub(r"<[^>]+>", "", (j.get("title") or {}).get("rendered", "")))
+        loc = src.get("location", "")
+        out.append(job(
+            j.get("id"), title, loc, j.get("link"),
+            remote=bool(REMOTE.search(loc)), posted=j.get("date"),
+            desc=(j.get("content") or {}).get("rendered", ""),
+        ))
+    return out
+
+
 def describe(src, j):
     """Full description for one job, fetched only for the shortlisted ones."""
     if j.get("_desc"):
@@ -221,6 +292,8 @@ def describe(src, j):
             parts = [(secs.get(k) or {}).get("text", "") for k in
                      ("jobDescription", "qualifications", "additionalInformation")]
             return plain("\n".join(parts))
+        if src["type"] == "phenom":
+            return plain(workday_description(j.get("_workday")) or j.get("_teaser") or "")
         if src["type"] == "workable":
             d = get_json(f"https://apply.workable.com/api/v2/accounts/{src['account']}/jobs/{j['id']}")
             return plain("\n".join(d.get(k) or "" for k in ("description", "requirements")))
@@ -235,6 +308,8 @@ READERS = {
     "lever": read_lever,
     "smartrecruiters": read_smartrecruiters,
     "workable": read_workable,
+    "phenom": read_phenom,
+    "wordpress": read_wordpress,
 }
 
 
@@ -300,7 +375,8 @@ def main():
                         "url": j["url"], "firstSeen": j["firstSeen"],
                         "description": describe(src, j),
                     }
-                j.pop("_desc", None)
+                for k in ("_desc", "_teaser", "_workday"):
+                    j.pop(k, None)
             jobs.sort(key=lambda j: (not j["design"], not j["local"], j["title"].lower()))
             entry.update(status="ok", total=len(raw), jobs=jobs)
             print(f"ok    {c['name']}: {len(raw)} open, {len(jobs)} kept")
