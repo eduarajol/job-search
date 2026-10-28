@@ -258,7 +258,7 @@ main .wrap { padding-block: 4px 56px; }
   }
 
   function kind(j) {
-    if (/artist|animator/i.test(j.title)) return 'other';
+    if (/artist|animator|programmer|engineer|developer/i.test(j.title)) return 'other';
     if (/\bux\b|\bui\b|user (experience|research)|usability/i.test(j.title)) return 'ux';
     return j.design ? 'gd' : 'other';
   }
@@ -266,6 +266,112 @@ main .wrap { padding-block: 4px 56px; }
   function isNew(j) {
     if (!data || !data.updated || !j.firstSeen) return false;
     return (new Date(data.updated) - new Date(j.firstSeen)) < 1000 * 60 * 60 * 36;
+  }
+
+  // ---------- Locations: one readable format for every board ----------
+  // "ES - Barcelona, Spain" / "Barcelona, CT, Spain" -> "Barcelona".
+  // Several places -> "Barcelona, Londres o Estocolmo" (Barcelona first).
+  var COUNTRY = {
+    'spain': 'España', 'españa': 'España', 'united kingdom': 'Reino Unido', 'uk': 'Reino Unido', 'gb': 'Reino Unido',
+    'england': 'Reino Unido', 'sweden': 'Suecia', 'germany': 'Alemania', 'ireland': 'Irlanda', 'finland': 'Finlandia',
+    'turkey': 'Turquía', 'türkiye': 'Turquía', 'france': 'Francia', 'canada': 'Canadá', 'usa': 'EE. UU.', 'us': 'EE. UU.',
+    'united states': 'EE. UU.', 'united states of america': 'EE. UU.', 'india': 'India', 'china': 'China',
+    'vietnam': 'Vietnam', 'japan': 'Japón', 'australia': 'Australia', 'romania': 'Rumanía', 'bulgaria': 'Bulgaria',
+    'slovenia': 'Eslovenia', 'cyprus': 'Chipre', 'denmark': 'Dinamarca', 'portugal': 'Portugal', 'ukraine': 'Ucrania',
+    'poland': 'Polonia', 'lithuania': 'Lituania', 'serbia': 'Serbia', 'belarus': 'Bielorrusia', 'georgia': 'Georgia',
+    'indonesia': 'Indonesia', 'netherlands': 'Países Bajos', 'italy': 'Italia', 'malta': 'Malta', 'singapore': 'Singapur',
+    'europe': 'Europa', 'emea': 'Europa', 'eu': 'Europa', 'worldwide': 'Mundial', 'global': 'Mundial', 'anywhere': 'Mundial'
+  };
+  // City -> [Spanish name, default country, well known (no country shown)]
+  var CITY = {
+    'barcelona': ['Barcelona', 'España', 1], 'madrid': ['Madrid', 'España', 1], 'seville': ['Sevilla', 'España', 1],
+    'sevilla': ['Sevilla', 'España', 1], 'london': ['Londres', 'Reino Unido', 1], 'stockholm': ['Estocolmo', 'Suecia', 1],
+    'malmö': ['Malmö', 'Suecia', 0], 'berlin': ['Berlín', 'Alemania', 1], 'dublin': ['Dublín', 'Irlanda', 1],
+    'helsinki': ['Helsinki', 'Finlandia', 1], 'istanbul': ['Estambul', 'Turquía', 1], 'copenhagen': ['Copenhague', 'Dinamarca', 1],
+    'paris': ['París', 'Francia', 1], 'tokyo': ['Tokio', 'Japón', 1], 'warsaw': ['Varsovia', 'Polonia', 1],
+    'kyiv': ['Kiev', 'Ucrania', 1], 'bucharest': ['Bucarest', 'Rumanía', 1], 'belgrade': ['Belgrado', 'Serbia', 1],
+    'tblisi': ['Tiflis', 'Georgia', 0], 'tbilisi': ['Tiflis', 'Georgia', 0], 'minsk': ['Minsk', 'Bielorrusia', 1],
+    'vilnius': ['Vilna', 'Lituania', 0], 'sofia': ['Sofía', 'Bulgaria', 1], 'ljubljana': ['Liubliana', 'Eslovenia', 0],
+    'limassol': ['Limassol', 'Chipre', 0], 'nicosia': ['Nicosia', 'Chipre', 0], 'brighton': ['Brighton', 'Reino Unido', 0],
+    'annecy': ['Annecy', 'Francia', 0], 'bordeaux': ['Burdeos', 'Francia', 0], 'montpellier': ['Montpellier', 'Francia', 0],
+    'montreal': ['Montreal', 'Canadá', 1], 'toronto': ['Toronto', 'Canadá', 1], 'los angeles': ['Los Ángeles', 'EE. UU.', 1],
+    'chicago': ['Chicago', 'EE. UU.', 1], 'austin': ['Austin', 'EE. UU.', 0], 'dallas': ['Dallas', 'EE. UU.', 0],
+    'irvine': ['Irvine', 'EE. UU.', 0], 'albany': ['Albany', 'EE. UU.', 0], 'carlsbad': ['Carlsbad', 'EE. UU.', 0],
+    'bay area': ['San Francisco', 'EE. UU.', 1], 'san francisco': ['San Francisco', 'EE. UU.', 1],
+    'shanghai': ['Shanghái', 'China', 1], 'guangzhou': ['Cantón', 'China', 0], 'chengdu': ['Chengdu', 'China', 0],
+    'hanoi': ['Hanói', 'Vietnam', 1], 'ho chi minh city': ['Ciudad Ho Chi Minh', 'Vietnam', 1],
+    'bengaluru': ['Bangalore', 'India', 0], 'jakarta': ['Yakarta', 'Indonesia', 1], 'sydney': ['Sídney', 'Australia', 1],
+    'brisbane': ['Brisbane', 'Australia', 0]
+  };
+  var REGION_COUNTRY = { 'ontario': 'Canadá', 'on': 'Canadá', 'qc': 'Canadá', 'quebec': 'Canadá' };
+  var REGION = /^(ct|catalonia|cataluña|catalunya|[a-z]{2}|idf|île-de-france|qld|sichuan|ha noi|ho chi minh|california|new york|texas|occitanie|nouvelle-aquitaine|auvergne-rhône-alpes|københavn|kobenhavn|bespoke pixel|hybrid|on-?site|office)$|county|province|region|city$|state$/i;
+
+  function places(raw, remoteFlag) {
+    // ";" separates places; inside one, "," separates city, region and country.
+    var tokens = [];
+    (raw || '').split(/\s*[;|]\s*|\s+·\s+/).forEach(function (g) {
+      tokens = tokens.concat(g.split(/\s*,\s*|\s+or\s+|\s+o\s+/i));
+      tokens.push('\u0000');
+    });
+    var items = [], pending = [], remote = null;
+    function flush(country) {
+      pending.forEach(function (it) { if (country) it.country = country; });
+      pending = [];
+    }
+    tokens.forEach(function (t) {
+      if (t === '\u0000') { flush(null); return; }
+      t = t.replace(/^[A-Z]{2}\s+-\s+/, '').trim();
+      if (!t) return;
+      var low = t.toLowerCase();
+      var rm = low.match(/^(?:fully\s+)?(?:remote|remoto)(?:\s*[-(]?\s*(.+?)\)?)?$/);
+      if (rm) { remote = remote || { region: rm[1] ? (COUNTRY[rm[1]] || t.replace(/^remote\s*/i, '')) : '' }; return; }
+      if (COUNTRY[low]) {
+        if (pending.length) flush(COUNTRY[low]);
+        else if (!items.some(function (i) { return i.country === COUNTRY[low]; })) items.push({ name: COUNTRY[low], country: COUNTRY[low], countryOnly: true });
+        return;
+      }
+      if (REGION_COUNTRY[low]) { flush(REGION_COUNTRY[low]); return; }
+      var city = CITY[low];
+      var last = items[items.length - 1];
+      if (city) {
+        if (last && last.key === low && pending.length) return;
+        var it = { key: low, name: city[0], country: city[1], known: city[2] };
+        items.push(it); pending.push(it); return;
+      }
+      if (REGION.test(t)) return;
+      if (last && last.key === low) return;
+      var u = { key: low, name: t, country: '', known: 0 };
+      items.push(u); pending.push(u);
+    });
+    flush(null);
+    var out = [], seen = {};
+    items.forEach(function (it) {
+      var label = it.name;
+      if (!it.countryOnly && it.country) {
+        if (it.key === 'london' && it.country !== 'Reino Unido') label = 'London (' + it.country + ')';
+        else if (!it.known || (CITY[it.key] && CITY[it.key][1] !== it.country)) label = it.name + ' (' + it.country + ')';
+      }
+      if (seen[label]) return;
+      seen[label] = 1;
+      out.push({ label: label, bcn: it.key === 'barcelona' });
+    });
+    if (!remote && remoteFlag) remote = { region: '' };
+    if (remote) out.push({ label: 'Remoto' + (remote.region ? ' (' + remote.region + ')' : ''), remote: true });
+    // Barcelona first, then remote, then the rest in the board's order.
+    out.sort(function (a, b) { return (b.bcn ? 2 : b.remote ? 1 : 0) - (a.bcn ? 2 : a.remote ? 1 : 0); });
+    return out.map(function (o) { return o.label; });
+  }
+  function joinPlaces(list) {
+    var l = list.map(function (s, i) { return i ? s.replace(/^Remoto/, 'remoto') : s; });
+    if (l.length <= 1) return l[0] || '';
+    return l.slice(0, -1).join(', ') + ' o ' + l[l.length - 1];
+  }
+  function placeText(j) {
+    var list = places(j.location, j.remote);
+    if (!list.length) return { text: j.remote ? 'Remoto' : 'Sin ubicación', full: '' };
+    var full = joinPlaces(list);
+    if (list.length > 3) return { text: list[0] + ' y ' + (list.length - 1) + ' más', full: full };
+    return { text: full, full: '' };
   }
 
   function isRemote(j) { return !!j.remote || /remot|anywhere|work from home|wfh/i.test(j.location || ''); }
@@ -278,7 +384,7 @@ main .wrap { padding-block: 4px 56px; }
     if ((f.ux || f.gd) && !((f.ux && k === 'ux') || (f.gd && k === 'gd'))) return false;
     if ((f.bcn || f.remote) && !((f.bcn && isBcn(j)) || (f.remote && isRemote(j)))) return false;
     var q = state.text.trim().toLowerCase();
-    if (q && (j.title + ' ' + (j.location || '') + ' ' + c.name).toLowerCase().indexOf(q) === -1) return false;
+    if (q && (j.title + ' ' + (j.location || '') + ' ' + placeText(j).text + ' ' + placeText(j).full + ' ' + c.name).toLowerCase().indexOf(q) === -1) return false;
     return true;
   }
   function visible(c) {
@@ -390,7 +496,7 @@ main .wrap { padding-block: 4px 56px; }
     var done = applied[c.id + ':' + j.id];
     if (done) { badge.appendChild(appliedBadge()); li.className = 'is-applied'; }
     if (isNew(j)) badge.appendChild(el('span', 'new', 'Nueva'));
-    var place = j.location || (j.remote ? 'Remoto' : 'Sin ubicación');
+    var pt = placeText(j), place = pt.text;
     var when = dateText(j);
     if (when) place += ' · ';
 
@@ -405,6 +511,7 @@ main .wrap { padding-block: 4px 56px; }
       w.appendChild(el('span', 'co', c.name));
       w.appendChild(document.createTextNode(' · ' + place));
       if (when) w.appendChild(el('span', 'date', when));
+      if (pt.full) w.title = pt.full;
       info.appendChild(w);
       a.appendChild(info);
       a.appendChild(el('span', 'gamecol', split.game));
@@ -414,6 +521,7 @@ main .wrap { padding-block: 4px 56px; }
       a.appendChild(el('span', 't', j.title));
       a.appendChild(badge);
       var wh = el('span', 'where', place);
+      if (pt.full) wh.title = pt.full;
       if (when) wh.appendChild(el('span', 'date', when));
       a.appendChild(wh);
     }
@@ -592,7 +700,9 @@ main .wrap { padding-block: 4px 56px; }
       var meta = el('span', 'meta');
       meta.appendChild(el('span', 'co', c.name));
       if (split.game) { meta.appendChild(document.createTextNode(' · ')); meta.appendChild(el('i', null, split.game)); }
-      meta.appendChild(document.createTextNode(' · ' + (j.location || 'Remoto')));
+      var mp = placeText(j);
+      meta.appendChild(document.createTextNode(' · ' + mp.text));
+      if (mp.full) meta.title = mp.full;
       var pd = dateText(j);
       if (pd) { meta.appendChild(document.createTextNode(' · ')); meta.appendChild(el('span', 'date', pd)); }
       a.appendChild(meta);
