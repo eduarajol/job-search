@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T17:44:43+00:00",
+ "updated": "2026-10-28T17:49:21+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -144,17 +144,6 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5449846008",
-     "title": "Lead UX Designer - Star Trek Fleet Command",
-     "location": "GB - London, United Kingdom",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5449846008?gh_jid=5449846008",
-     "remote": false,
-     "posted": "2026-10-12T04:46:53-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5448555008",
      "title": "Lead UX Designer - Star Trek Fleet Command",
      "location": "IE - Ireland",
@@ -166,12 +155,12 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5413049008",
-     "title": "Principal Systems Designer",
-     "location": "CA - Canada",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5413049008?gh_jid=5413049008",
+     "id": "5449846008",
+     "title": "Lead UX Designer - Star Trek Fleet Command",
+     "location": "GB - London, United Kingdom",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5449846008?gh_jid=5449846008",
      "remote": false,
-     "posted": "2026-09-01T15:24:02-04:00",
+     "posted": "2026-10-12T04:46:53-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -183,6 +172,17 @@
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5406914008?gh_jid=5406914008",
      "remote": false,
      "posted": "2026-08-28T14:39:25-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5413049008",
+     "title": "Principal Systems Designer",
+     "location": "CA - Canada",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5413049008?gh_jid=5413049008",
+     "remote": false,
+     "posted": "2026-09-01T15:24:02-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -243,23 +243,23 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "4626426008",
-     "title": "Analytics Engineer",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/4626426008?gh_jid=4626426008",
-     "remote": false,
-     "posted": "2025-04-10T11:59:49-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5222025008",
      "title": "Analytics Engineer",
      "location": "ES - Barcelona, Spain",
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5222025008?gh_jid=5222025008",
      "remote": false,
      "posted": "2026-05-19T11:02:29-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "4626426008",
+     "title": "Analytics Engineer",
+     "location": "ES - Barcelona, Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/4626426008?gh_jid=4626426008",
+     "remote": false,
+     "posted": "2025-04-10T11:59:49-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -782,23 +782,23 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5420171008",
-     "title": "Senior Security IAM Engineer",
-     "location": "ES - Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5420171008?gh_jid=5420171008",
-     "remote": false,
-     "posted": "2026-09-21T14:00:34-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5434025008",
      "title": "Senior Security IAM Engineer",
      "location": "ES - Barcelona, Spain",
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5434025008?gh_jid=5434025008",
      "remote": false,
      "posted": "2026-10-07T23:09:04-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5420171008",
+     "title": "Senior Security IAM Engineer",
+     "location": "ES - Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5420171008?gh_jid=5420171008",
+     "remote": false,
+     "posted": "2026-09-21T14:00:34-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -958,23 +958,23 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5430085008",
-     "title": "Technical Release Manager - Unannounced Project",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5430085008?gh_jid=5430085008",
-     "remote": false,
-     "posted": "2026-09-21T10:58:48-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5427196008",
      "title": "Technical Release Manager - Unannounced Project",
      "location": "ES - Barcelona, Spain",
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5427196008?gh_jid=5427196008",
      "remote": false,
      "posted": "2026-09-21T10:51:58-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5430085008",
+     "title": "Technical Release Manager - Unannounced Project",
+     "location": "ES - Barcelona, Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5430085008?gh_jid=5430085008",
+     "remote": false,
+     "posted": "2026-09-21T10:58:48-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -998,7 +998,7 @@
    "group": "mobile",
    "note": null,
    "domain": "king.com",
-   "careers": "https://careers.king.com",
+   "careers": "https://careers.king.com/us/en",
    "status": "manual",
    "jobs": null
   },
@@ -1793,9 +1793,285 @@
    "note": null,
    "domain": "tripledotstudios.com",
    "careers": "https://job-boards.eu.greenhouse.io/tripledotstudios",
-   "status": "error",
-   "error": "tripledotstudios: <urlopen error [Errno -2] Name or service not known>",
-   "jobs": null
+   "status": "ok",
+   "total": 95,
+   "jobs": [
+    {
+     "id": "4965778101",
+     "title": "Game Designer - Lion Studios - Turkish Market",
+     "location": "Remote Europe",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4965778101",
+     "remote": true,
+     "posted": "2026-09-01T11:45:28-04:00",
+     "design": true,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4984042101",
+     "title": "Game Designer - Lion Studios - Turkish Market",
+     "location": "Remote Turkey",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4984042101",
+     "remote": true,
+     "posted": "2026-09-23T11:17:30-04:00",
+     "design": true,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4999489101",
+     "title": "Senior Level Designer",
+     "location": "Barcelona",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4999489101",
+     "remote": false,
+     "posted": "2026-10-07T05:27:14-04:00",
+     "design": true,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4963495101",
+     "title": "Game Designer (Hybrid Casual)",
+     "location": "Warsaw",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4963495101",
+     "remote": false,
+     "posted": "2026-08-28T10:53:45-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4945678101",
+     "title": "Game Designer (Hybrid Casual)",
+     "location": "Limassol",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4945678101",
+     "remote": false,
+     "posted": "2026-08-05T11:53:43-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4944288101",
+     "title": "Game Designer (Hybrid Casual)",
+     "location": "Tblisi",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4944288101",
+     "remote": false,
+     "posted": "2026-08-05T11:52:20-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4944287101",
+     "title": "Game Designer (Hybrid Casual)",
+     "location": "Minsk",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4944287101",
+     "remote": false,
+     "posted": "2026-08-05T11:52:03-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4955732101",
+     "title": "Game Designer - Lion Studios (f/m/d) - Turkish Market",
+     "location": "Berlin",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4955732101",
+     "remote": false,
+     "posted": "2026-08-19T04:47:26-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "5015075101",
+     "title": "Game Level Designer",
+     "location": "Dallas",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5015075101",
+     "remote": false,
+     "posted": "2026-10-23T10:41:46-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4986126101",
+     "title": "Lead Level Designer",
+     "location": "Jakarta",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4986126101",
+     "remote": false,
+     "posted": "2026-09-27T23:27:46-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4999486101",
+     "title": "Senior Level Designer",
+     "location": "Minsk",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4999486101",
+     "remote": false,
+     "posted": "2026-10-07T05:27:11-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4999078101",
+     "title": "Senior Level Designer",
+     "location": "Warsaw",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4999078101",
+     "remote": false,
+     "posted": "2026-10-07T05:27:09-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4980920101",
+     "title": "UX Designer",
+     "location": "Jakarta",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4980920101",
+     "remote": false,
+     "posted": "2026-09-21T03:36:24-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4988635101",
+     "title": "Data Analyst",
+     "location": "Remote Europe",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988635101",
+     "remote": true,
+     "posted": "2026-09-28T09:54:30-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4988598101",
+     "title": "Data Analyst",
+     "location": "Barcelona",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988598101",
+     "remote": false,
+     "posted": "2026-09-28T09:42:08-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4988636101",
+     "title": "Fraud Analyst",
+     "location": "Remote Europe",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988636101",
+     "remote": true,
+     "posted": "2026-09-28T09:54:28-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4988610101",
+     "title": "Fraud Analyst",
+     "location": "Barcelona",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988610101",
+     "remote": false,
+     "posted": "2026-09-28T09:45:46-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4971839101",
+     "title": "Game Producer (Hybrid Casual)",
+     "location": "Barcelona",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4971839101",
+     "remote": false,
+     "posted": "2026-09-09T06:59:04-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4965757101",
+     "title": "Product Manager - Lion Studios",
+     "location": "Remote Europe",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4965757101",
+     "remote": true,
+     "posted": "2026-09-01T11:44:49-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4962295101",
+     "title": "Senior Ad Monetisation Analyst",
+     "location": "Barcelona",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4962295101",
+     "remote": false,
+     "posted": "2026-08-27T10:44:54-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4960068101",
+     "title": "Senior Ad Monetisation Analyst",
+     "location": "Remote Europe",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4960068101",
+     "remote": true,
+     "posted": "2026-08-25T06:37:03-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4983098101",
+     "title": "Senior Machine Learning Engineer",
+     "location": "Barcelona",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4983098101",
+     "remote": false,
+     "posted": "2026-09-23T12:14:48-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4941941101",
+     "title": "Senior Product Manager",
+     "location": "Barcelona",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4941941101",
+     "remote": false,
+     "posted": "2026-07-31T03:30:19-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4984043101",
+     "title": "Studio Manager Turkey Market - Lion Studios",
+     "location": "Remote Turkey",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4984043101",
+     "remote": true,
+     "posted": "2026-09-23T11:18:22-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4982866101",
+     "title": "Studio Manager Turkey Market - Lion Studios",
+     "location": "Remote Europe",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4982866101",
+     "remote": true,
+     "posted": "2026-09-23T08:19:26-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    }
+   ]
   },
   {
    "id": "voodoo",
@@ -1803,9 +2079,8 @@
    "group": "mobile",
    "note": null,
    "domain": "voodoo.io",
-   "careers": "https://jobs.lever.co/voodoo",
-   "status": "error",
-   "error": "HTTP Error 404: Not Found",
+   "careers": "https://voodoo.io/careers",
+   "status": "manual",
    "jobs": null
   },
   {
@@ -2145,8 +2420,65 @@
    "note": null,
    "domain": "ioi.dk",
    "careers": "https://apply.ioi.dk/jobs",
-   "status": "manual",
-   "jobs": null
+   "status": "ok",
+   "total": 7,
+   "jobs": [
+    {
+     "id": "8be96f99-ca4f-4d9c-87fd-88d61013e99a",
+     "title": "Core Engine Programmer",
+     "location": "Brighton, United Kingdom, Barcelona, Spain",
+     "url": "https://apply.ioi.dk/jobs/8486438-core-engine-programmer",
+     "remote": false,
+     "posted": "Thu, 01 Oct 2026 15:07:10 +0200",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "cf7bbc1f-c767-4e58-b72a-5acf147f1f3d",
+     "title": "Finance Director",
+     "location": "Brighton, United Kingdom, Barcelona, Spain, Copenhagen, København, Denmark, Malmö, Sweden",
+     "url": "https://apply.ioi.dk/jobs/8273373-finance-director",
+     "remote": false,
+     "posted": "Wed, 26 Aug 2026 14:33:52 +0200",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "3e0a313e-a158-4000-ab1c-7bec33f6f7bf",
+     "title": "Graphics Programmer",
+     "location": "Brighton, United Kingdom, Barcelona, Spain",
+     "url": "https://apply.ioi.dk/jobs/8486365-graphics-programmer",
+     "remote": false,
+     "posted": "Thu, 01 Oct 2026 14:57:20 +0200",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "ac8812fa-842c-43e0-8990-9daccfba9f56",
+     "title": "Graphics Programmer",
+     "location": "Brighton, United Kingdom, Barcelona, Spain",
+     "url": "https://apply.ioi.dk/jobs/8484803-graphics-programmer",
+     "remote": false,
+     "posted": "Thu, 01 Oct 2026 12:03:25 +0200",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "8c1aec8e-0bc9-4fa9-8ab5-f028d429ec87",
+     "title": "Release Manager",
+     "location": "Brighton, United Kingdom, Barcelona, Spain",
+     "url": "https://apply.ioi.dk/jobs/8512298-release-manager",
+     "remote": false,
+     "posted": "Wed, 07 Oct 2026 15:00:46 +0200",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    }
+   ]
   },
   {
    "id": "activision",
@@ -2388,23 +2720,23 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "8200605",
-     "title": "Game Design Director (World of Warships, PC)",
-     "location": "Berlin",
-     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8200605",
-     "remote": false,
-     "posted": "2026-09-15T04:11:10-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "8200609",
      "title": "Game Design Director (World of Warships, PC)",
      "location": "Nicosia",
      "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8200609",
      "remote": false,
      "posted": "2026-09-15T03:52:01-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "8200605",
+     "title": "Game Design Director (World of Warships, PC)",
+     "location": "Berlin",
+     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8200605",
+     "remote": false,
+     "posted": "2026-09-15T04:11:10-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -2443,6 +2775,17 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
+     "id": "8305734",
+     "title": "Senior UI Designer (World of Tanks Console)",
+     "location": "Vilnius",
+     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8305734",
+     "remote": false,
+     "posted": "2026-10-28T03:28:19-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
      "id": "8305724",
      "title": "Senior UI Designer (World of Tanks Console)",
      "location": "Belgrade",
@@ -2460,17 +2803,6 @@
      "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8305729",
      "remote": false,
      "posted": "2026-10-21T08:48:46-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "8305734",
-     "title": "Senior UI Designer (World of Tanks Console)",
-     "location": "Vilnius",
-     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8305734",
-     "remote": false,
-     "posted": "2026-10-28T03:28:19-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -2607,8 +2939,43 @@
    "note": null,
    "domain": "bespokepixel.com",
    "careers": "https://bespokepixel.teamtailor.com/jobs",
-   "status": "manual",
-   "jobs": null
+   "status": "ok",
+   "total": 3,
+   "jobs": [
+    {
+     "id": "d15919dc-12c4-40b4-bb6f-2ca0b2fd2eb7",
+     "title": "LEVEL DESIGNER",
+     "location": "Bespoke Pixel, Barcelona, Spain",
+     "url": "https://bespokepixel.teamtailor.com/jobs/8503368-level-designer",
+     "remote": false,
+     "posted": "Tue, 06 Oct 2026 10:06:34 +0200",
+     "design": true,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "78c96008-b264-4b86-ab85-7ed3e4d127eb",
+     "title": "SENIOR GAMEPLAY PROGRAMMER",
+     "location": "Bespoke Pixel, Barcelona, Spain",
+     "url": "https://bespokepixel.teamtailor.com/jobs/8370521-senior-gameplay-programmer",
+     "remote": false,
+     "posted": "Mon, 14 Sep 2026 08:50:43 +0200",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "b779a903-d6f9-49b2-b48a-59f559910c87",
+     "title": "TECHNICAL ANIMATOR",
+     "location": "Bespoke Pixel, Barcelona, Spain",
+     "url": "https://bespokepixel.teamtailor.com/jobs/8504394-technical-animator",
+     "remote": false,
+     "posted": "Tue, 06 Oct 2026 11:31:41 +0200",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    }
+   ]
   },
   {
    "id": "nomada",
@@ -2617,16 +2984,6 @@
    "note": "Estudio independiente, candidatura espontánea",
    "domain": "nomada.studio",
    "careers": "https://nomada.studio",
-   "status": "manual",
-   "jobs": null
-  },
-  {
-   "id": "lince",
-   "name": "Lince Works",
-   "group": "pc",
-   "note": "Estudio independiente, candidatura espontánea",
-   "domain": "lince.works",
-   "careers": "https://lince.works",
    "status": "manual",
    "jobs": null
   },
