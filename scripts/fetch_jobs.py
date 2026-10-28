@@ -7,6 +7,7 @@ Barcelona/Spain/remote, and writes jobs.json for index.html.
 Uses only the Python standard library, so the GitHub Action needs no installs.
 """
 
+import html
 import json
 import re
 import sys
@@ -19,6 +20,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 COMPANIES = ROOT / "companies.json"
 OUTPUT = ROOT / "jobs.json"
+DETAILS = ROOT / "details.json"
+DESC_LIMIT = 7000
 
 UA = "Mozilla/5.0 (job-search personal dashboard)"
 TIMEOUT = 30
@@ -49,7 +52,7 @@ def get_json(url, data=None):
         return json.loads(resp.read().decode("utf-8"))
 
 
-def job(id_, title, location, url, remote=False, posted=None):
+def job(id_, title, location, url, remote=False, posted=None, desc=None):
     return {
         "id": str(id_),
         "title": (title or "").strip(),
@@ -57,7 +60,22 @@ def job(id_, title, location, url, remote=False, posted=None):
         "url": url,
         "remote": bool(remote),
         "posted": posted,
+        "_desc": desc,
     }
+
+
+def plain(text):
+    """Turn job-board HTML into readable plain text."""
+    if not text:
+        return ""
+    t = html.unescape(text)
+    t = re.sub(r"(?i)<\s*(br|/p|/li|/h\d|/div)\s*/?>", "\n", t)
+    t = re.sub(r"(?i)<\s*li[^>]*>", "\n- ", t)
+    t = re.sub(r"<[^>]+>", " ", t)
+    t = html.unescape(t)
+    t = re.sub(r"[ \t\xa0]+", " ", t)
+    t = re.sub(r"\n\s*\n+", "\n", t)
+    return t.strip()[:DESC_LIMIT]
 
 
 # ---------- one reader per job board system ----------
@@ -68,7 +86,7 @@ def read_greenhouse(src):
     out, errors = [], []
     for board in boards:
         try:
-            data = get_json(f"https://{host}/v1/boards/{board}/jobs")
+            data = get_json(f"https://{host}/v1/boards/{board}/jobs?content=true")
         except Exception as e:  # try the next board name
             errors.append(f"{board}: {e}")
             continue
@@ -78,6 +96,7 @@ def read_greenhouse(src):
                 j["id"], j.get("title"), loc, j.get("absolute_url"),
                 remote=bool(REMOTE.search(loc)),
                 posted=j.get("first_published") or j.get("updated_at"),
+                desc=j.get("content"),
             ))
     if not out and errors:
         raise RuntimeError("; ".join(errors))
@@ -169,8 +188,28 @@ def read_teamtailor(src):
         out.append(job(
             text("guid") or text("link"), text("title"), loc, text("link"),
             remote=remote, posted=text("pubDate") or None,
+            desc=text("description"),
         ))
     return out
+
+
+def describe(src, j):
+    """Full description for one job, fetched only for the shortlisted ones."""
+    if j.get("_desc"):
+        return plain(j["_desc"])
+    try:
+        if src["type"] == "smartrecruiters":
+            d = get_json(f"https://api.smartrecruiters.com/v1/companies/{src['company']}/postings/{j['id']}")
+            secs = (d.get("jobAd") or {}).get("sections") or {}
+            parts = [(secs.get(k) or {}).get("text", "") for k in
+                     ("jobDescription", "qualifications", "additionalInformation")]
+            return plain("\n".join(parts))
+        if src["type"] == "workable":
+            d = get_json(f"https://apply.workable.com/api/v2/accounts/{src['account']}/jobs/{j['id']}")
+            return plain("\n".join(d.get(k) or "" for k in ("description", "requirements")))
+    except Exception as e:
+        print(f"  no description for {j['title']}: {e}", file=sys.stderr)
+    return ""
 
 
 READERS = {
@@ -215,6 +254,7 @@ def main():
 
     now = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
     result = []
+    details = {}
     for c in companies:
         entry = {k: c.get(k) for k in ("id", "name", "group", "note", "domain", "careers")}
         src = c.get("source")
@@ -236,6 +276,14 @@ def main():
                     continue
                 j["firstSeen"] = previous.get((c["id"], j["id"])) or now
                 jobs.append(j)
+            for j in jobs:
+                if j["design"] and j["local"]:
+                    details[f"{c['id']}:{j['id']}"] = {
+                        "company": c["name"], "title": j["title"], "location": j["location"],
+                        "url": j["url"], "firstSeen": j["firstSeen"],
+                        "description": describe(src, j),
+                    }
+                j.pop("_desc", None)
             jobs.sort(key=lambda j: (not j["design"], not j["local"], j["title"].lower()))
             entry.update(status="ok", total=len(raw), jobs=jobs)
             print(f"ok    {c['name']}: {len(raw)} open, {len(jobs)} kept")
@@ -245,6 +293,10 @@ def main():
         result.append(entry)
         time.sleep(0.5)
 
+    DETAILS.write_text(
+        json.dumps({"updated": now, "jobs": details}, ensure_ascii=False, indent=1),
+        encoding="utf-8",
+    )
     OUTPUT.write_text(
         json.dumps({"updated": now, "companies": result}, ensure_ascii=False, indent=1),
         encoding="utf-8",
