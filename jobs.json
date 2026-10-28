@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T17:49:21+00:00",
+ "updated": "2026-10-28T17:50:37+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -1256,34 +1256,12 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "744000154043604",
-     "title": "2D Artist",
-     "location": "Lviv, Lviv Oblast, Ukraine",
-     "url": "https://jobs.smartrecruiters.com/Gameloft/744000154043604",
-     "remote": true,
-     "posted": "2026-10-07T08:51:57.135Z",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "744000154644209",
      "title": "B2B Creative Manager",
      "location": "Barcelona, CT, Spain",
      "url": "https://jobs.smartrecruiters.com/Gameloft/744000154644209",
      "remote": false,
      "posted": "2026-10-09T10:38:55.748Z",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "744000157104239",
-     "title": "Customer Care Agent (English and French)",
-     "location": "Lviv, Lviv Oblast, Ukraine",
-     "url": "https://jobs.smartrecruiters.com/Gameloft/744000157104239",
-     "remote": true,
-     "posted": "2026-10-22T11:20:06.499Z",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -1375,17 +1353,6 @@
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "744000155452071",
-     "title": "Senior Game Developer (C++)",
-     "location": "Lviv, Lviv Oblast, Ukraine",
-     "url": "https://jobs.smartrecruiters.com/Gameloft/744000155452071",
-     "remote": true,
-     "posted": "2026-10-14T09:11:08.696Z",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
     }
    ]
   },
@@ -1417,17 +1384,6 @@
      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000153130529",
      "remote": false,
      "posted": "2026-10-02T08:56:31.205Z",
-     "design": true,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "744000152933699",
-     "title": "UI Programmer",
-     "location": "Barcelona, CT, Spain",
-     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000152933699",
-     "remote": false,
-     "posted": "2026-10-01T12:54:41.463Z",
      "design": true,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -1697,34 +1653,12 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "744000143317439",
-     "title": "Technical Lead - UI Programmer (Far Cry)",
-     "location": "Montreal, QC, Canada",
-     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000143317439",
-     "remote": false,
-     "posted": "2026-08-13T13:30:35.051Z",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "744000158059069",
      "title": "Technical Level Designer",
      "location": "Sofia, Sofia City Province, Bulgaria",
      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000158059069",
      "remote": false,
      "posted": "2026-10-27T14:10:54.205Z",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "744000145316739",
-     "title": "UI Programmer - (March of Giants)",
-     "location": "Montreal, QC, Canada",
-     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000145316739",
-     "remote": false,
-     "posted": "2026-08-24T15:46:35.723Z",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -1783,6 +1717,17 @@
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "744000152933699",
+     "title": "UI Programmer",
+     "location": "Barcelona, CT, Spain",
+     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000152933699",
+     "remote": false,
+     "posted": "2026-10-01T12:54:41.463Z",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
     }
    ]
   },
@@ -1803,17 +1748,6 @@
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4965778101",
      "remote": true,
      "posted": "2026-09-01T11:45:28-04:00",
-     "design": true,
-     "local": true,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
-     "id": "4984042101",
-     "title": "Game Designer - Lion Studios - Turkish Market",
-     "location": "Remote Turkey",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4984042101",
-     "remote": true,
-     "posted": "2026-09-23T11:17:30-04:00",
      "design": true,
      "local": true,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -1880,6 +1814,17 @@
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4955732101",
      "remote": false,
      "posted": "2026-08-19T04:47:26-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4984042101",
+     "title": "Game Designer - Lion Studios - Turkish Market",
+     "location": "Remote Turkey",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4984042101",
+     "remote": true,
+     "posted": "2026-09-23T11:17:30-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -2045,17 +1990,6 @@
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4941941101",
      "remote": false,
      "posted": "2026-07-31T03:30:19-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
-     "id": "4984043101",
-     "title": "Studio Manager Turkey Market - Lion Studios",
-     "location": "Remote Turkey",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4984043101",
-     "remote": true,
-     "posted": "2026-09-23T11:18:22-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -2356,52 +2290,7 @@
    "careers": "https://careers.zeptolab.com/join-us/",
    "status": "ok",
    "total": 4,
-   "jobs": [
-    {
-     "id": "82F3707C95",
-     "title": "Generalist Artist",
-     "location": "Serbia",
-     "url": "https://apply.workable.com/j/82F3707C95",
-     "remote": true,
-     "posted": "2026-08-13",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "4BB602E1A6",
-     "title": "Open application",
-     "location": "Georgia",
-     "url": "https://apply.workable.com/j/4BB602E1A6",
-     "remote": true,
-     "posted": "2023-03-30",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "6A70648CAB",
-     "title": "Project Manager",
-     "location": "Armenia",
-     "url": "https://apply.workable.com/j/6A70648CAB",
-     "remote": true,
-     "posted": "2026-10-06",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "5D9FB28DE6",
-     "title": "Technical Director",
-     "location": "Georgia",
-     "url": "https://apply.workable.com/j/5D9FB28DE6",
-     "remote": true,
-     "posted": "2026-10-07",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    }
-   ]
+   "jobs": []
   },
   {
    "id": "larian",
@@ -2560,17 +2449,6 @@
      "url": "https://www.riotgames.com/en/work-with-us/job/8231348?gh_jid=8231348",
      "remote": false,
      "posted": "2026-09-29T12:52:29-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "8221963",
-     "title": "Principal Software Engineer - League of Legends , UI Tooling",
-     "location": "Los Angeles, USA",
-     "url": "https://www.riotgames.com/en/work-with-us/job/8221963?gh_jid=8221963",
-     "remote": false,
-     "posted": "2026-09-21T20:00:16-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -2883,7 +2761,7 @@
      "remote": true,
      "posted": "2026-09-21T15:05:02-04:00",
      "design": true,
-     "local": true,
+     "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
@@ -2894,40 +2772,7 @@
      "remote": true,
      "posted": "2026-10-02T13:18:57-04:00",
      "design": true,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "5190928007",
-     "title": "Associate Influencer Marketing Manager",
-     "location": "London, Ontario or Remote",
-     "url": "https://job-boards.greenhouse.io/digitalextremes/jobs/5190928007",
-     "remote": true,
-     "posted": "2026-07-30T09:56:16-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "5270215007",
-     "title": "Senior Data Ops and Services Programmer",
-     "location": "London, Ontario or Remote",
-     "url": "https://job-boards.greenhouse.io/digitalextremes/jobs/5270215007",
-     "remote": true,
-     "posted": "2026-10-20T15:31:56-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "5210646007",
-     "title": "Senior VFX Artist",
-     "location": "London, Ontario or Remote",
-     "url": "https://job-boards.greenhouse.io/digitalextremes/jobs/5210646007",
-     "remote": true,
-     "posted": "2026-08-17T14:22:16-04:00",
-     "design": false,
-     "local": true,
+     "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
     }
    ]
