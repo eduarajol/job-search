@@ -147,7 +147,38 @@ def read_workable(src):
     return out
 
 
+def read_teamtailor(src):
+    """Teamtailor career sites publish an RSS feed at /jobs.rss."""
+    import xml.etree.ElementTree as ET
+    req = urllib.request.Request(f"https://{src['host']}/jobs.rss", headers={"User-Agent": UA})
+    with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
+        root = ET.fromstring(resp.read())
+    out = []
+    for item in root.iter("item"):
+        def text(tag):
+            el = item.find(tag)
+            return (el.text or "").strip() if el is not None and el.text else ""
+        # Locations live in Teamtailor's own namespace: gather every city/country found.
+        places = []
+        for el in item.iter():
+            name = el.tag.split("}")[-1].lower()
+            if name in ("city", "country", "name") and el.text and el.text.strip() not in places:
+                if el is not item.find("title"):
+                    places.append(el.text.strip())
+        remote_hint = " ".join(
+            (el.text or "") for el in item.iter() if "remote" in el.tag.lower()
+        )
+        loc = ", ".join(places)
+        remote = bool(REMOTE.search(loc + " " + remote_hint)) and "none" not in remote_hint.lower()
+        out.append(job(
+            text("guid") or text("link"), text("title"), loc, text("link"),
+            remote=remote, posted=text("pubDate") or None,
+        ))
+    return out
+
+
 READERS = {
+    "teamtailor": read_teamtailor,
     "greenhouse": read_greenhouse,
     "lever": read_lever,
     "smartrecruiters": read_smartrecruiters,

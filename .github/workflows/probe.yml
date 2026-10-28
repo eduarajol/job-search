@@ -10,22 +10,13 @@ jobs:
       - name: Try candidate endpoints
         run: |
           for u in \
-            "https://voodoo.io/careers" \
-            "https://careers.king.com" \
-            "https://www.moonactive.com/careers" \
-            "https://careers.activision.com" \
-            "https://careers.blizzard.com/global/en" \
-            "https://jobs.ea.com" \
-            "https://www.keywordsstudios.com/en/careers/" \
-            "https://nomada.studio" \
-            "https://lince.works" \
-            "https://larian.com/careers" \
             "https://www.rovio.com/open-positions/" \
             "https://careers.scopely.com/us/en" \
             "https://careers.zeptolab.com/join-us/" \
             "https://www.digitalextremes.com/careers" \
             "https://www.ubisoft.com/en-us/company/careers/search" \
             "https://careers.smartrecruiters.com/Gameloft" \
+            "https://www.riotgames.com/en/work-with-us/jobs" \
             ; do
             code=$(curl -s -L -o /tmp/out -w "%{http_code} %{url_effective}" -A "Mozilla/5.0" --max-time 20 "$u" || echo ERR)
             snippet=$(tr -d '\n\r' < /tmp/out | grep -o -i '<title[^>]*>[^<]*' | head -1 | tr -d '%:,')

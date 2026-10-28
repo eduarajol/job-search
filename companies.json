@@ -1,11 +1,11 @@
 [
   {"id": "scopely", "name": "Scopely", "group": "mobile", "domain": "scopely.com", "careers": "https://careers.scopely.com/us/en", "source": {"type": "greenhouse", "board": "scopely"}},
-  {"id": "king", "name": "King", "group": "mobile", "domain": "king.com", "careers": "https://careers.king.com", "source": null},
+  {"id": "king", "name": "King", "group": "mobile", "domain": "king.com", "careers": "https://careers.king.com/us/en", "source": null},
   {"id": "socialpoint", "name": "Socialpoint", "group": "mobile", "domain": "socialpoint.es", "careers": "https://job-boards.greenhouse.io/spcareers", "source": {"type": "greenhouse", "board": ["spcareers", "socialpoint"]}},
   {"id": "gameloft", "name": "Gameloft", "group": "mobile", "domain": "gameloft.com", "careers": "https://careers.smartrecruiters.com/Gameloft", "source": {"type": "smartrecruiters", "company": "Gameloft"}},
   {"id": "ubisoft", "name": "Ubisoft", "group": "mobile", "note": "Barcelona Mobile y Barcelona", "domain": "ubisoft.com", "careers": "https://www.ubisoft.com/en-us/company/careers/search", "source": {"type": "smartrecruiters", "company": "Ubisoft2"}},
-  {"id": "tripledot", "name": "Tripledot Studios", "group": "mobile", "domain": "tripledotstudios.com", "careers": "https://job-boards.eu.greenhouse.io/tripledotstudios", "source": {"type": "greenhouse", "board": "tripledotstudios", "region": "eu"}},
-  {"id": "voodoo", "name": "Voodoo", "group": "mobile", "domain": "voodoo.io", "careers": "https://jobs.lever.co/voodoo", "source": {"type": "lever", "company": "voodoo"}},
+  {"id": "tripledot", "name": "Tripledot Studios", "group": "mobile", "domain": "tripledotstudios.com", "careers": "https://job-boards.eu.greenhouse.io/tripledotstudios", "source": {"type": "greenhouse", "board": "tripledotstudios"}},
+  {"id": "voodoo", "name": "Voodoo", "group": "mobile", "domain": "voodoo.io", "careers": "https://voodoo.io/careers", "source": null},
   {"id": "zynga", "name": "Zynga", "group": "mobile", "domain": "zynga.com", "careers": "https://job-boards.greenhouse.io/zyngacareers", "source": {"type": "greenhouse", "board": "zyngacareers"}},
   {"id": "moonactive", "name": "Moon Active", "group": "mobile", "domain": "moonactive.com", "careers": "https://www.moonactive.com/careers", "source": null},
   {"id": "rovio", "name": "Rovio", "group": "mobile", "domain": "rovio.com", "careers": "https://www.rovio.com/open-positions/", "source": null},
@@ -13,7 +13,7 @@
   {"id": "zeptolab", "name": "ZeptoLab", "group": "mobile", "domain": "zeptolab.com", "careers": "https://careers.zeptolab.com/join-us/", "source": {"type": "workable", "account": "zeptolab"}},
 
   {"id": "larian", "name": "Larian Studios", "group": "pc", "domain": "larian.com", "careers": "https://larian.com/careers", "source": null},
-  {"id": "ioi", "name": "IO Interactive", "group": "pc", "domain": "ioi.dk", "careers": "https://apply.ioi.dk/jobs", "source": null},
+  {"id": "ioi", "name": "IO Interactive", "group": "pc", "domain": "ioi.dk", "careers": "https://apply.ioi.dk/jobs", "source": {"type": "teamtailor", "host": "apply.ioi.dk"}},
   {"id": "activision", "name": "Activision", "group": "pc", "note": "Incluye Digital Legends e Infinity Ward", "domain": "activision.com", "careers": "https://careers.activision.com", "source": null},
   {"id": "blizzard", "name": "Blizzard", "group": "pc", "domain": "blizzard.com", "careers": "https://careers.blizzard.com/global/en", "source": null},
   {"id": "ea", "name": "Electronic Arts", "group": "pc", "domain": "ea.com", "careers": "https://jobs.ea.com", "source": null},
@@ -21,9 +21,8 @@
   {"id": "wargaming", "name": "Wargaming", "group": "pc", "domain": "wargaming.com", "careers": "https://job-boards.greenhouse.io/wargamingen", "source": {"type": "greenhouse", "board": "wargamingen"}},
   {"id": "taketwo", "name": "Take-Two", "group": "pc", "domain": "take2games.com", "careers": "https://job-boards.greenhouse.io/taketwo", "source": {"type": "greenhouse", "board": "taketwo"}},
   {"id": "digitalextremes", "name": "Digital Extremes", "group": "pc", "domain": "digitalextremes.com", "careers": "https://www.digitalextremes.com/careers", "source": {"type": "greenhouse", "board": "digitalextremes"}},
-  {"id": "bespokepixel", "name": "Bespoke Pixel", "group": "pc", "domain": "bespokepixel.com", "careers": "https://bespokepixel.teamtailor.com/jobs", "source": null},
+  {"id": "bespokepixel", "name": "Bespoke Pixel", "group": "pc", "domain": "bespokepixel.com", "careers": "https://bespokepixel.teamtailor.com/jobs", "source": {"type": "teamtailor", "host": "bespokepixel.teamtailor.com"}},
   {"id": "nomada", "name": "Nomada Studio", "group": "pc", "note": "Estudio independiente, candidatura espontánea", "domain": "nomada.studio", "careers": "https://nomada.studio", "source": null},
-  {"id": "lince", "name": "Lince Works", "group": "pc", "note": "Estudio independiente, candidatura espontánea", "domain": "lince.works", "careers": "https://lince.works", "source": null},
 
   {"id": "keywords", "name": "Keywords Studios", "group": "services", "domain": "keywordsstudios.com", "careers": "https://www.keywordsstudios.com/en/careers/", "source": null}
 ]
