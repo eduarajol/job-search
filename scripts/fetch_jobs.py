@@ -343,7 +343,7 @@ def read_avature(src):
         time.sleep(0.3)
     dates, offset = {}, 0
     while offset < 3000:
-        page = rss_dates(f"{base}/SearchJobs/feed/?jobRecordsPerPage=20&jobOffset={offset}")
+        page = rss_dates(f"{base}/Home/feed/?jobRecordsPerPage=20&jobOffset={offset}")
         fresh = {re.search(r"/(\d+)/?$", k).group(1): v for k, v in page.items() if re.search(r"/(\d+)/?$", k)}
         if not fresh or all(k in dates for k in fresh):
             break
@@ -444,6 +444,18 @@ def describe(src, j):
     return ""
 
 
+# Boards whose list has no date: read it from the offer page (JSON-LD datePosted).
+DATE_FROM_PAGE = {"keywords"}
+
+
+def date_from_page(url):
+    try:
+        m = re.search(r'"datePosted"\s*:\s*"([^"]+)"', get_text(url))
+        return iso_date(m.group(1)) if m else None
+    except Exception as e:
+        print(f"  no date for {url}: {e}", file=sys.stderr)
+        return None
+
 READERS = {
     "teamtailor": read_teamtailor,
     "greenhouse": read_greenhouse,
@@ -513,6 +525,8 @@ def main():
                 if not (j["design"] or j["local"]):
                     continue
                 j["firstSeen"] = previous.get((c["id"], j["id"])) or now
+                if not j.get("posted") and src["type"] in DATE_FROM_PAGE:
+                    j["posted"] = date_from_page(j["url"])
                 jobs.append(j)
             for j in jobs:
                 if j["design"] and j["local"]:
