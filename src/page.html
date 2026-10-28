@@ -52,27 +52,6 @@ a { color: inherit; }
 .brand p { margin: 8px 0 0; color: var(--ink-soft); font-size: 16px; }
 .stamp { font-family: var(--mono); font-size: 12.5px; color: var(--ink-soft); text-align: right; }
 .stamp b { display: block; font-family: var(--display); font-size: 15px; color: var(--ink); font-weight: 600; }
-.side { display: flex; flex-direction: column; align-items: flex-end; gap: 10px; max-width: 340px; }
-.refresh {
-  display: inline-flex; align-items: center; gap: 8px; min-height: 40px; padding: 0 16px;
-  border-radius: 999px; background: var(--ink); color: var(--ground); border: 0;
-  font: 600 14px var(--display); text-decoration: none; cursor: pointer;
-}
-.refresh svg { width: 16px; height: 16px; }
-.refresh:hover { background: var(--red); }
-.refresh.busy svg { animation: spin 1.2s linear infinite; }
-@keyframes spin { to { transform: rotate(360deg); } }
-@media (prefers-reduced-motion: reduce) { .refresh.busy svg { animation: none; } }
-.hint { margin: 0; font-size: 13px; color: var(--ink); text-align: right; text-wrap: pretty; }
-.refresh:disabled { cursor: default; opacity: .85; }
-.keybox { width: 100%; background: var(--paper); border: 1.5px solid var(--ink); border-radius: 12px; padding: 12px 14px; display: flex; flex-direction: column; gap: 8px; text-align: left; }
-.keybox p { margin: 0; font-size: 13px; color: var(--ink-soft); text-wrap: pretty; }
-.keybox label { font-size: 13px; font-weight: 600; }
-.keybox .row { display: flex; gap: 8px; }
-.keybox input { flex: 1; min-width: 0; min-height: 38px; padding: 0 10px; border-radius: 8px; border: 1.5px solid var(--line); background: var(--ground); color: var(--ink); font: 400 13px var(--mono); }
-.keybox button { min-height: 38px; padding: 0 14px; border-radius: 8px; border: 0; background: var(--ink); color: var(--ground); font: 600 13px var(--display); cursor: pointer; }
-.keybox .err { color: var(--red); font-weight: 600; }
-.linkish { background: none; border: 0; padding: 0; color: var(--ink-soft); font: 400 12px var(--display); text-decoration: underline; text-underline-offset: 2px; cursor: pointer; }
 
 /* Filters */
 .bar .wrap { padding-block: 16px; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
@@ -139,8 +118,7 @@ main .wrap { padding-block: 4px 56px; display: flex; flex-direction: column; gap
 .empty { padding: 28px; text-align: center; color: var(--ink-soft); }
 
 @media (max-width: 520px) {
-  .stamp, .hint { text-align: left; }
-  .side { align-items: flex-start; }
+  .stamp { text-align: left; }
   .grid { grid-template-columns: 1fr; }
 }
 @media (prefers-reduced-motion: no-preference) {
@@ -154,24 +132,7 @@ main .wrap { padding-block: 4px 56px; display: flex; flex-direction: column; gap
       <h1>Job <span>Search</span></h1>
       <p>Game Design y UX en estudios de videojuegos</p>
     </div>
-    <div class="side">
-      <div class="stamp" id="stamp"><b>Cargando ofertas…</b></div>
-      <button class="refresh" id="refresh" type="button">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 11a8 8 0 1 0-2.3 5.7"/><path d="M20 4v7h-7"/></svg>
-        <span id="refresh-label">Actualizar ofertas</span>
-      </button>
-      <p class="hint" id="hint" role="status" hidden></p>
-      <form class="keybox" id="keybox" hidden>
-        <label for="gh-key">Clave de GitHub</label>
-        <p>Solo hace falta una vez. Se guarda en este navegador y solo permite lanzar la actualización de esta página.</p>
-        <p class="err" id="key-err" hidden></p>
-        <div class="row">
-          <input id="gh-key" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_…" required>
-          <button type="submit">Guardar</button>
-        </div>
-      </form>
-      <button class="linkish" id="forget" type="button" hidden>Olvidar la clave en este navegador</button>
-    </div>
+    <div class="stamp" id="stamp"><b>Cargando ofertas…</b></div>
   </div>
 </header>
 
@@ -400,87 +361,7 @@ main .wrap { padding-block: 4px 56px; display: flex; flex-direction: column; gap
       .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); });
   }
 
-  var REPO = 'eduarajol/job-search';
-  var WORKFLOW = 'update-jobs.yml';
-  var KEY = 'job-search-gh-key';
-  var polling = null;
-  var $ = function (id) { return document.getElementById(id); };
-
-  function getKey() { try { return localStorage.getItem(KEY) || ''; } catch (e) { return ''; } }
-  function setKey(v) { try { if (v) localStorage.setItem(KEY, v); else localStorage.removeItem(KEY); } catch (e) {} $('forget').hidden = !v; }
-
-  function setBusy(busy, label) {
-    $('refresh').disabled = busy;
-    $('refresh').classList.toggle('busy', busy);
-    $('refresh-label').textContent = label || 'Actualizar ofertas';
-  }
-  function say(msg) { $('hint').textContent = msg || ''; $('hint').hidden = !msg; }
-
-  function askKey(error) {
-    $('keybox').hidden = false;
-    $('key-err').textContent = error || '';
-    $('key-err').hidden = !error;
-    $('gh-key').focus();
-  }
-
-  function waitForUpdate() {
-    var before = data && data.updated;
-    var started = Date.now();
-    setBusy(true, 'Actualizando…');
-    say('Buscando ofertas nuevas en las webs de los estudios. Tarda unos 2 minutos.');
-    clearInterval(polling);
-    polling = setInterval(function () {
-      load().then(function (d) {
-        if (d.updated && d.updated !== before) {
-          clearInterval(polling);
-          data = d; stamp(); render();
-          setBusy(false); say('Ofertas actualizadas.');
-        } else if (Date.now() - started > 1000 * 60 * 8) {
-          clearInterval(polling);
-          setBusy(false); say('La actualización está tardando más de lo normal. Vuelve a cargar la página en unos minutos.');
-        }
-      }).catch(function () {});
-    }, 15000);
-  }
-
-  function runUpdate() {
-    var key = getKey();
-    if (!key) { askKey(); return; }
-    setBusy(true, 'Lanzando…');
-    say('');
-    fetch('https://api.github.com/repos/' + REPO + '/actions/workflows/' + WORKFLOW + '/dispatches', {
-      method: 'POST',
-      headers: { 'Authorization': 'Bearer ' + key, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json' },
-      body: JSON.stringify({ ref: 'main' })
-    }).then(function (r) {
-      if (r.status === 204) { waitForUpdate(); return; }
-      setBusy(false);
-      if (r.status === 401) { setKey(''); askKey('La clave no es válida o ha caducado. Pega una nueva.'); }
-      else if (r.status === 403 || r.status === 404) { askKey('La clave no tiene permiso para lanzar la actualización. Revisa que tenga acceso a job-search con permiso de Actions.'); }
-      else say('GitHub no ha aceptado la petición (' + r.status + '). Inténtalo de nuevo en un momento.');
-    }).catch(function () {
-      setBusy(false);
-      say('No se ha podido conectar con GitHub. Comprueba la conexión e inténtalo de nuevo.');
-    });
-  }
-
-  function bindUpdate() {
-    $('forget').hidden = !getKey();
-    $('refresh').addEventListener('click', runUpdate);
-    $('forget').addEventListener('click', function () { setKey(''); say('Clave olvidada en este navegador.'); });
-    $('keybox').addEventListener('submit', function (e) {
-      e.preventDefault();
-      var v = $('gh-key').value.trim();
-      if (!v) return;
-      setKey(v);
-      $('gh-key').value = '';
-      $('keybox').hidden = true;
-      runUpdate();
-    });
-  }
-
   bind();
-  bindUpdate();
   load()
     .then(function (d) { data = d; stamp(); render(); })
     .catch(function () {
