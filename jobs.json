@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T22:44:12+00:00",
+ "updated": "2026-10-28T22:59:48+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -2177,12 +2177,212 @@
    "group": "mobile",
    "note": null,
    "domain": "voodoo.io",
-   "careers": "https://voodoo.io/careers",
+   "careers": "https://voodoo.io/careers#jobs",
    "logos": [
     "https://upload.wikimedia.org/wikipedia/commons/a/ab/Voodoo_Logo.svg"
    ],
-   "status": "manual",
-   "jobs": null
+   "status": "ok",
+   "total": 100,
+   "jobs": [
+    {
+     "id": "d633533c-ac08-440e-a6b6-33351b3ad005",
+     "title": "Game Designer (Multiplayer Gameplay Modes) - Paper.io 2",
+     "location": "Paris; Madrid; Warsaw; Tallinn; Karkiv; Malta; Helsinki; Stockholm; Istanbul; Lisboa; Berlin; Tbilisi; Milan; Krakow; Bucharest; London; Barcelona; Remote",
+     "url": "https://jobs.ashbyhq.com/voodoo/d633533c-ac08-440e-a6b6-33351b3ad005",
+     "remote": true,
+     "posted": "2026-10-22T12:35:12.889+00:00",
+     "design": true,
+     "local": true,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "20056ea1-d6ab-4fb5-a9ef-2bc0edabd407",
+     "title": "Game Designer - Midcore Games",
+     "location": "Warsaw; Remote",
+     "url": "https://jobs.ashbyhq.com/voodoo/20056ea1-d6ab-4fb5-a9ef-2bc0edabd407",
+     "remote": true,
+     "posted": "2026-10-23T14:48:41.329+00:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "bf3ee384-5793-4724-b232-c498dfd49331",
+     "title": "Game Designer - Midcore Games - China",
+     "location": "Beijing",
+     "url": "https://jobs.ashbyhq.com/voodoo/bf3ee384-5793-4724-b232-c498dfd49331",
+     "remote": false,
+     "posted": "2026-10-09T10:52:40.373+00:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "8451efa4-1869-4bd9-bb22-245f232705ed",
+     "title": "Level Designer - Puzzle Games - China",
+     "location": "Beijing",
+     "url": "https://jobs.ashbyhq.com/voodoo/8451efa4-1869-4bd9-bb22-245f232705ed",
+     "remote": false,
+     "posted": "2026-07-20T16:01:10.866+00:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "cbec4434-f547-44d9-9a6f-c81a84524cc1",
+     "title": "Senior Level Designer - Hole.io",
+     "location": "Paris; Madrid; Paris; Warsaw; Helsinki; Stockholm; Berlin; Amsterdam; Eindhoven; Bucharest; London; Remote",
+     "url": "https://jobs.ashbyhq.com/voodoo/cbec4434-f547-44d9-9a6f-c81a84524cc1",
+     "remote": true,
+     "posted": "2026-08-04T12:34:47.087+00:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "008fb2f6-0dbe-457c-acaa-9989c9ae5f9f",
+     "title": "Freelance Concept Artist - Paper.io 2",
+     "location": "Barcelona; Paris; Amsterdam; Remote",
+     "url": "https://jobs.ashbyhq.com/voodoo/008fb2f6-0dbe-457c-acaa-9989c9ae5f9f",
+     "remote": true,
+     "posted": "2026-09-10T13:58:06.319+00:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "b5bfc390-c999-4569-929d-51ed257ee259",
+     "title": "Game Artist - Paper.io 2",
+     "location": "Barcelona; Paris; Amsterdam; Remote",
+     "url": "https://jobs.ashbyhq.com/voodoo/b5bfc390-c999-4569-929d-51ed257ee259",
+     "remote": true,
+     "posted": "2026-07-30T13:59:23.300+00:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "de2f9e66-cf05-47e1-9d2f-1368475068a0",
+     "title": "Game Lead - Crazy Kick",
+     "location": "Istanbul; Warsaw; Helsinki; Stockholm; Lisboa; Berlin; London; Barcelona",
+     "url": "https://jobs.ashbyhq.com/voodoo/de2f9e66-cf05-47e1-9d2f-1368475068a0",
+     "remote": false,
+     "posted": "2026-09-28T10:12:36.980+00:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216b6cc7-66e5-4dc9-bbd9-3e46a966acc2",
+     "title": "Game Lead - Flappy Dunk",
+     "location": "Istanbul; Warsaw; Helsinki; Stockholm; Lisboa; Berlin; London; Barcelona",
+     "url": "https://jobs.ashbyhq.com/voodoo/216b6cc7-66e5-4dc9-bbd9-3e46a966acc2",
+     "remote": false,
+     "posted": "2026-06-09T10:50:51.012+00:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "1c428341-5d1f-4903-aacd-1ce05b04dc17",
+     "title": "Gameplay & UI Developer - Paper.io2",
+     "location": "Barcelona; Madrid; Warsaw; Tallinn; Karkiv; Malta; Helsinki; Stockholm; Istanbul; Lisboa; Berlin; Tbilisi; Amsterdam; Milan; Krakow; Bucharest; London; Kiev; Remote",
+     "url": "https://jobs.ashbyhq.com/voodoo/1c428341-5d1f-4903-aacd-1ce05b04dc17",
+     "remote": true,
+     "posted": "2026-10-20T16:17:27.366+00:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "ee013fb9-3719-430a-b07a-78a25b500370",
+     "title": "General Manager - Live Studios (Hybrid-casual Games)",
+     "location": "Istanbul; Warsaw; Helsinki; Stockholm; Lisboa; Berlin; London; Barcelona",
+     "url": "https://jobs.ashbyhq.com/voodoo/ee013fb9-3719-430a-b07a-78a25b500370",
+     "remote": false,
+     "posted": "2026-06-09T10:52:37.765+00:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "9d7b5de1-4b5a-42fd-9473-7628b7f3da78",
+     "title": "Lead Game Developer - Woodturning",
+     "location": "Warsaw; Paris; Istanbul; Barcelona; Remote",
+     "url": "https://jobs.ashbyhq.com/voodoo/9d7b5de1-4b5a-42fd-9473-7628b7f3da78",
+     "remote": true,
+     "posted": "2026-10-12T07:06:18.239+00:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "120ea1df-94b1-4620-80c5-276a25846d42",
+     "title": "Product Lead - Portfolio Midcore Games",
+     "location": "Barcelona; Madrid; Warsaw; Tallinn; Helsinki; Stockholm; Berlin; Tbilisi; Amsterdam; Krakow; London; Kiev; Remote",
+     "url": "https://jobs.ashbyhq.com/voodoo/120ea1df-94b1-4620-80c5-276a25846d42",
+     "remote": true,
+     "posted": "2026-06-19T06:12:47.181+00:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "e51a4c50-ee4a-4505-b438-6211681bbf7d",
+     "title": "Senior Backend Engineer (Golang) - Castle Busters",
+     "location": "Paris; Warsaw; Lisboa; Berlin; Amsterdam; Milan; Krakow; Barcelona; Remote",
+     "url": "https://jobs.ashbyhq.com/voodoo/e51a4c50-ee4a-4505-b438-6211681bbf7d",
+     "remote": true,
+     "posted": "2026-10-23T16:34:42.616+00:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "8f86c74e-7d06-447d-bd1b-ad268e46bb3e",
+     "title": "Senior Game Developer (Game Feel, UI, Animations, VFX) - Paper.io2",
+     "location": "Barcelona; Madrid; Warsaw; Tallinn; Karkiv; Malta; Helsinki; Stockholm; Istanbul; Lisboa; Berlin; Tbilisi; Amsterdam; Milan; Krakow; Bucharest; London; Kiev; Remote",
+     "url": "https://jobs.ashbyhq.com/voodoo/8f86c74e-7d06-447d-bd1b-ad268e46bb3e",
+     "remote": true,
+     "posted": "2026-10-20T16:17:20.965+00:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "c0f28476-2ff1-4206-b344-530c9f36a73a",
+     "title": "Senior Product Manager - Paper.io 2",
+     "location": "Paris; Madrid; Warsaw; Lviv; Tallinn; Karkiv; Malta; Helsinki; Stockholm; Istanbul; Lisboa; Berlin; Tbilisi; Amsterdam; Milan; Krakow; Bucharest; London; Kiev; Barcelona; Remote",
+     "url": "https://jobs.ashbyhq.com/voodoo/c0f28476-2ff1-4206-b344-530c9f36a73a",
+     "remote": true,
+     "posted": "2026-10-20T12:04:36.758+00:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "256c76e9-4d4f-45c7-b4e0-978ff2328330",
+     "title": "Senior QA Tester - Paper.io 2",
+     "location": "Barcelona; Warsaw; Tallinn; Istanbul; Lisboa; Berlin; Tbilisi; Amsterdam; Krakow; London",
+     "url": "https://jobs.ashbyhq.com/voodoo/256c76e9-4d4f-45c7-b4e0-978ff2328330",
+     "remote": false,
+     "posted": "2026-10-05T06:19:01.393+00:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "36027799-383b-49b5-af7c-8653745d2238",
+     "title": "VFX Artist - Paper.io 2",
+     "location": "Barcelona; Paris; Amsterdam; Remote",
+     "url": "https://jobs.ashbyhq.com/voodoo/36027799-383b-49b5-af7c-8653745d2238",
+     "remote": true,
+     "posted": "2026-07-28T09:00:41.829+00:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    }
+   ]
   },
   {
    "id": "zynga",
@@ -2381,12 +2581,80 @@
    "group": "mobile",
    "note": null,
    "domain": "moonactive.com",
-   "careers": "https://www.moonactive.com/careers",
+   "careers": "https://www.moonactive.com/careers/",
    "logos": [
     "https://upload.wikimedia.org/wikipedia/en/0/0a/Moon_Active_logo.png"
    ],
-   "status": "manual",
-   "jobs": null
+   "status": "ok",
+   "total": 34,
+   "jobs": [
+    {
+     "id": "39792f97-064a-4744-a812-da844620b80e",
+     "title": "Level Designer",
+     "location": "London; Remote",
+     "url": "https://jobs.ashbyhq.com/moonactive/39792f97-064a-4744-a812-da844620b80e",
+     "remote": true,
+     "posted": "2026-09-28T08:47:05.026+00:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "e25d97ca-e883-4cc4-a71f-6e1384af75e8",
+     "title": "Level Designer",
+     "location": "London; Remote",
+     "url": "https://jobs.ashbyhq.com/moonactive/e25d97ca-e883-4cc4-a71f-6e1384af75e8",
+     "remote": true,
+     "posted": "2026-10-08T09:26:05.587+00:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "918611b6-1ab5-400e-abe2-970470ea0f5d",
+     "title": "Product UX Team Lead",
+     "location": "Tel Aviv",
+     "url": "https://jobs.ashbyhq.com/moonactive/918611b6-1ab5-400e-abe2-970470ea0f5d",
+     "remote": false,
+     "posted": "2026-08-17T20:08:50.314+00:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "d7865ffe-edc4-4fcf-93ef-fd44ae093ad4",
+     "title": "UI/UX Designer",
+     "location": "Tel Aviv; Remote",
+     "url": "https://jobs.ashbyhq.com/moonactive/d7865ffe-edc4-4fcf-93ef-fd44ae093ad4",
+     "remote": true,
+     "posted": "2026-09-08T14:11:12.811+00:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "3f237e79-89dc-4e77-bebf-e4c3e58f341b",
+     "title": "Generative Content Creator",
+     "location": "Barcelona; Remote",
+     "url": "https://jobs.ashbyhq.com/moonactive/3f237e79-89dc-4e77-bebf-e4c3e58f341b",
+     "remote": true,
+     "posted": "2026-10-22T12:24:21.864+00:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "f177fdbb-a616-4111-8684-f8a556255442",
+     "title": "UI Artist",
+     "location": "Barcelona; Remote",
+     "url": "https://jobs.ashbyhq.com/moonactive/f177fdbb-a616-4111-8684-f8a556255442",
+     "remote": true,
+     "posted": "2026-10-09T08:02:06.682+00:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    }
+   ]
   },
   {
    "id": "rovio",
@@ -2398,8 +2666,32 @@
    "logos": [
     "https://upload.wikimedia.org/wikipedia/en/4/45/Rovio_Entertainment.svg"
    ],
-   "status": "manual",
-   "jobs": null
+   "status": "ok",
+   "total": 2,
+   "jobs": [
+    {
+     "id": "head-of-business-development-d915dfef-61b3-448a-a5ae-43c104c83901",
+     "title": "Head of Business Development",
+     "location": "Helsinki Metropolitan Area or Barcelona or Stockholm",
+     "url": "https://www.rovio.com/open-positions/head-of-business-development-d915dfef-61b3-448a-a5ae-43c104c83901/",
+     "remote": false,
+     "posted": "2026-10-02T08:16:57+00:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "senior-product-marketing-manager-angry-birds-match-337c82c9-3a2c-4282-ba9c-2af7b432cde8",
+     "title": "Senior Product Marketing Manager, Angry Birds Match",
+     "location": "Barcelona",
+     "url": "https://www.rovio.com/open-positions/senior-product-marketing-manager-angry-birds-match-337c82c9-3a2c-4282-ba9c-2af7b432cde8/",
+     "remote": false,
+     "posted": "2026-10-22T11:17:00+00:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    }
+   ]
   },
   {
    "id": "outfit7",
@@ -2485,8 +2777,175 @@
    "logos": [
     "https://upload.wikimedia.org/wikipedia/commons/2/24/LarianStudiosLogo.png"
    ],
-   "status": "manual",
-   "jobs": null
+   "status": "ok",
+   "total": 77,
+   "jobs": [
+    {
+     "id": "ace7bbeb-31ff-44ea-991d-223ef9685284",
+     "title": "Combat Designer | Concepteur de combats",
+     "location": "Quebec",
+     "url": "https://jobs.lever.co/larian/ace7bbeb-31ff-44ea-991d-223ef9685284",
+     "remote": false,
+     "posted": "2026-07-28T13:36:12.406000+00:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "66793055-cc67-4691-8191-56713e457714",
+     "title": "Combat Designer – Open Application | Concepteur de combats - candidature libre",
+     "location": "Any/Tous les studios",
+     "url": "https://jobs.lever.co/larian/66793055-cc67-4691-8191-56713e457714",
+     "remote": false,
+     "posted": "2025-05-15T10:22:11.503000+00:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "2379cc51-2eb7-4e8c-9dcc-052cb7a8c868",
+     "title": "Level Designer",
+     "location": "Guildford",
+     "url": "https://jobs.lever.co/larian/2379cc51-2eb7-4e8c-9dcc-052cb7a8c868",
+     "remote": false,
+     "posted": "2026-05-29T09:55:43.679000+00:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "c94ffeae-dd5e-4a6e-a239-dddbcec58f9c",
+     "title": "Level Designer – Open Application | Concepteur de niveaux - candidature libre",
+     "location": "Any/Tous les studios",
+     "url": "https://jobs.lever.co/larian/c94ffeae-dd5e-4a6e-a239-dddbcec58f9c",
+     "remote": false,
+     "posted": "2025-05-15T10:37:35.534000+00:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "c586648f-02cc-4c7e-b189-d68b71d5fa4a",
+     "title": "RPG Designer",
+     "location": "Dublin",
+     "url": "https://jobs.lever.co/larian/c586648f-02cc-4c7e-b189-d68b71d5fa4a",
+     "remote": false,
+     "posted": "2024-07-29T15:26:43.666000+00:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "1461a85a-b36c-4b96-974d-6e3e7dcd5cf9",
+     "title": "RPG Designer | Concepteur des Jeux de rôle",
+     "location": "Quebec",
+     "url": "https://jobs.lever.co/larian/1461a85a-b36c-4b96-974d-6e3e7dcd5cf9",
+     "remote": false,
+     "posted": "2025-01-03T15:42:50.475000+00:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "81f77b67-e968-4de9-b074-1bdd6e05ba5d",
+     "title": "Senior RPG Designer",
+     "location": "Warsaw",
+     "url": "https://jobs.lever.co/larian/81f77b67-e968-4de9-b074-1bdd6e05ba5d",
+     "remote": false,
+     "posted": "2026-07-06T13:38:53.407000+00:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "fb8fefbf-099e-4161-94ba-e32ce409dda2",
+     "title": "Systems Designer – Open Application | Concepteur de systèmes - candidature libre",
+     "location": "Any/Tous les studios",
+     "url": "https://jobs.lever.co/larian/fb8fefbf-099e-4161-94ba-e32ce409dda2",
+     "remote": false,
+     "posted": "2025-05-15T10:45:32.081000+00:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "fd0719ec-645d-4314-9356-2cf853aa8802",
+     "title": "UI/UX Designer – Open Application | Concepteur d'interface et d'expérience utilisateur - candidature libre",
+     "location": "Any/Tous les studios",
+     "url": "https://jobs.lever.co/larian/fd0719ec-645d-4314-9356-2cf853aa8802",
+     "remote": false,
+     "posted": "2025-05-15T10:55:29.649000+00:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "1f6743f9-4a53-4296-81f1-535842a5a2e4",
+     "title": "Engine Programmer",
+     "location": "Barcelona · Warsaw",
+     "url": "https://jobs.lever.co/larian/1f6743f9-4a53-4296-81f1-535842a5a2e4",
+     "remote": false,
+     "posted": "2026-09-09T14:59:51.798000+00:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "76a2c124-2b6a-4dc3-a586-fe497dba8e7c",
+     "title": "Engine Programming Internship",
+     "location": "Barcelona",
+     "url": "https://jobs.lever.co/larian/76a2c124-2b6a-4dc3-a586-fe497dba8e7c",
+     "remote": false,
+     "posted": "2026-09-04T14:29:35.999000+00:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "d546d9c3-ab0d-4c77-81d8-8b8388c158ff",
+     "title": "Gameplay Programmer Internship",
+     "location": "Barcelona",
+     "url": "https://jobs.lever.co/larian/d546d9c3-ab0d-4c77-81d8-8b8388c158ff",
+     "remote": false,
+     "posted": "2026-01-27T09:55:01.212000+00:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "fd41bd53-fce8-4344-bc9f-ce69af80359d",
+     "title": "Graphics Programmer Internship",
+     "location": "Barcelona",
+     "url": "https://jobs.lever.co/larian/fd41bd53-fce8-4344-bc9f-ce69af80359d",
+     "remote": false,
+     "posted": "2026-09-04T14:29:07.437000+00:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "5a788644-5b94-4604-a25c-0f83991e5d5c",
+     "title": "Junior Graphics Programmer",
+     "location": "Barcelona",
+     "url": "https://jobs.lever.co/larian/5a788644-5b94-4604-a25c-0f83991e5d5c",
+     "remote": false,
+     "posted": "2026-09-21T10:21:51.131000+00:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "1d522fb4-ba7f-45ac-a31f-088ee98b7e91",
+     "title": "Office Assistant Intern",
+     "location": "Barcelona",
+     "url": "https://jobs.lever.co/larian/1d522fb4-ba7f-45ac-a31f-088ee98b7e91",
+     "remote": false,
+     "posted": "2026-07-06T14:54:14.610000+00:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    }
+   ]
   },
   {
    "id": "ioi",
@@ -2564,12 +3023,157 @@
    "group": "pc",
    "note": "Incluye Digital Legends e Infinity Ward",
    "domain": "activision.com",
-   "careers": "https://careers.activision.com",
+   "careers": "https://careers.activision.com/search-results",
    "logos": [
     "logos/activision.svg"
    ],
-   "status": "manual",
-   "jobs": null
+   "status": "ok",
+   "total": 72,
+   "jobs": [
+    {
+     "id": "R028091",
+     "title": "Activision 2027 Summer Internships - Game Design",
+     "location": "Playa Vista, California, United States of America; Carlsbad, California, United States of America",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/External/job/Playa-Vista/Activision-2027-Summer-Internships---Game-Design_R028091",
+     "remote": false,
+     "posted": "2026-09-29T00:00:00.000+0000",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "R027887",
+     "title": "Dialogue Designer - Sledgehammer Games",
+     "location": "Toronto, Ontario, Canada",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/External/job/Toronto---Activision---Sledgehammer-Games/Dialogue-Designer_R027887",
+     "remote": false,
+     "posted": "2026-08-28T00:00:00.000+0000",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "R025769",
+     "title": "Expert Level Designer (Single Player) - Sledgehammer Games",
+     "location": "Toronto, Ontario, Canada",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/External/job/Toronto---Activision---Sledgehammer-Games/Expert-Level-Designer_R025769",
+     "remote": false,
+     "posted": "2026-08-06T00:00:00.000+0000",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "R026827",
+     "title": "Lead - Level Designer",
+     "location": "Warsaw, Poland; Malmö, Sweden",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/External/job/Warsaw/Lead---Level-Designer_R026827",
+     "remote": false,
+     "posted": "2026-06-24T00:00:00.000+0000",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "R026825",
+     "title": "Lead - Quest Designer",
+     "location": "Warsaw, Poland; Malmö, Sweden",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/External/job/Warsaw/Lead---Quest-Designer_R026825",
+     "remote": false,
+     "posted": "2026-06-24T00:00:00.000+0000",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "R026708",
+     "title": "Lead UX Designer",
+     "location": "Santa Monica, California, United States of America",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/External/job/Santa-Monica/Lead-UX-Designer_R026708-2",
+     "remote": false,
+     "posted": "2026-06-23T00:00:00.000+0000",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "R028125",
+     "title": "Senior AI Designer",
+     "location": "Warsaw, Poland",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/External/job/Warsaw/Senior-AI-Designer_R028125",
+     "remote": false,
+     "posted": "2026-09-18T00:00:00.000+0000",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "R028119",
+     "title": "Senior Combat Designer - Raven - Middleton, WI",
+     "location": "Middleton, Wisconsin, United States of America",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/External/job/Middleton/Senior-Combat-Designer---Raven---Middleton--WI_R028119",
+     "remote": false,
+     "posted": "2026-09-10T00:00:00.000+0000",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "R028087",
+     "title": "Senior Level Designer - Raven - Middleton, WI",
+     "location": "Middleton, Wisconsin, United States of America",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/External/job/Middleton/Senior-Level-Designer---Raven---Middleton--WI_R028087",
+     "remote": false,
+     "posted": "2026-09-09T00:00:00.000+0000",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "R028297",
+     "title": "Senior Quest Designer",
+     "location": "Warsaw, Poland; Malmö, Sweden",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/External/job/Warsaw/Senior-Quest-Designer_R028297",
+     "remote": false,
+     "posted": "2026-10-16T00:00:00.000+0000",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "R028095",
+     "title": "Systems Designer - Raven - Middleton, WI",
+     "location": "Middleton, Wisconsin, United States of America",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/External/job/Middleton/Systems-Designer---Raven---Middleton--WI_R028095-1",
+     "remote": false,
+     "posted": "2026-09-09T00:00:00.000+0000",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "R027369",
+     "title": "Lead Animator",
+     "location": "Barcelona, Barcelona, Spain",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/External/job/Barcelona---Digital-Legends---Plaa-Catalunya/Expert-Rigger_R027369-2",
+     "remote": false,
+     "posted": "2026-10-22T00:00:00.000+0000",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "R026554",
+     "title": "Lead VFX Artist",
+     "location": "Barcelona, Barcelona, Spain",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/External/job/Barcelona---Digital-Legends---Plaa-Catalunya/Senior-Lead-VFX-Artist_R026554-1",
+     "remote": false,
+     "posted": "2026-10-14T00:00:00.000+0000",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    }
+   ]
   },
   {
    "id": "blizzard",
@@ -2680,12 +3284,597 @@
    "group": "pc",
    "note": null,
    "domain": "ea.com",
-   "careers": "https://jobs.ea.com",
+   "careers": "https://jobs.ea.com/es_ES/careers",
    "logos": [
     "logos/ea.svg"
    ],
-   "status": "manual",
-   "jobs": null
+   "status": "ok",
+   "total": 355,
+   "jobs": [
+    {
+     "id": "216318",
+     "title": "Assistant Content Designer - EA SPORTS™ NHL",
+     "location": "Vancouver, Canada",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Assistant-Content-Designer-EA-SPORTS-NHL/216318",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216258",
+     "title": "Associate Quality Designer - Frostbite (12 months contract)",
+     "location": "Bucharest, Romania",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Associate-Quality-Designer/216258",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216259",
+     "title": "Associate Quality Designer - Frostbite (12 months contract)",
+     "location": "Bucharest, Romania",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Associate-Quality-Designer/216259",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216096",
+     "title": "Concepteur.trice sénior.e - Expérience utilisateur/Interface utilisateur / Senior UX/UI Designer",
+     "location": "Redwood City, United States of America",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Senior-UX-UI-Designer/216096",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "214955",
+     "title": "Directeur de la conception de jeu / Game Design Director",
+     "location": "Los Angeles - Del Rey, United States of America",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Game-Design-Director/214955",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216555",
+     "title": "directeur.trice de la conception de l’engagement des joueurs / Engagement Design Director",
+     "location": "Montreal, Canada",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Engagement-Design-Director/216555",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216045",
+     "title": "Director, Global Workplace Design",
+     "location": "Vancouver, Canada",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Director-Workplace-Design/216045",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "215869",
+     "title": "EA Sports FC QV - Quality Designer (Companion App)",
+     "location": "Vancouver, Canada",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/EA-Sports-FC-QV-Quality-Designer-Companion-App/215869",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216049",
+     "title": "Experience Design Director - EA Sports Network",
+     "location": "Orlando, United States of America",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Senior-Experience-Designer-Sports-Network/216049",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216265",
+     "title": "Experience Designer - College Football",
+     "location": "Orlando, United States of America",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Experience-Designer-College-Football/216265",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "215802",
+     "title": "Experience Designer - EA SPORTS™ NHL",
+     "location": "Vancouver, Canada",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Experience-Designer-EA-SPORTS-NHL/215802",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216492",
+     "title": "Experience Designer - Madden Core",
+     "location": "Orlando, United States of America",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Experience-Designer-I/216492",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216314",
+     "title": "Experience Designer I - - EA SPORTS FC",
+     "location": "Vancouver, Canada",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Experience-Designer-I-EA-SPORTS-FC/216314",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216370",
+     "title": "Experience Designer II - EA SPORTS FC",
+     "location": "Vancouver, Canada",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Experience-Designer-II-EA-SPORTS-FC/216370",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "215926",
+     "title": "Experience Designer, Handheld Experiences - EA SPORTS™ FC",
+     "location": "Vancouver, Canada",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Experience-Designer-Handheld-Experiences-EA-SPORTS-FC/215926",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216313",
+     "title": "Experience Designer, UI & UX",
+     "location": "Bucharest, Romania",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Experience-Designer-II/216313",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216365",
+     "title": "Game Design Intern",
+     "location": "Manchester, United Kingdom",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Game-Design-Intern/216365",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216076",
+     "title": "Game Designer",
+     "location": "Shanghai, China",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Game-Designer-System/216076",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216474",
+     "title": "Game Designer - EA Sports FC",
+     "location": "Vancouver, Canada",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Game-Designer-EA-Sports-FC/216474",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216061",
+     "title": "Game Designer - Gameplay",
+     "location": "Shanghai, China",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Game-Designer-Gameplay/216061",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "214324",
+     "title": "Game Designer - Live Service - EA Sports",
+     "location": "Birmingham, United Kingdom",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Game-Designer-Live-Service-EA-Sports/214324",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "215680",
+     "title": "Game Designer II",
+     "location": "Hyderabad, India",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Game-Designer-II/215680",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216168",
+     "title": "Gameplay Designer - EA SPORTS™ FC",
+     "location": "Vancouver, Canada",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Gameplay-Designer-EA-SPORTS-FC/216168",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216388",
+     "title": "Lead Designer - UI/UX",
+     "location": "Vancouver, Canada",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Lead-Designer-UI-UX/216388",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "213598",
+     "title": "Lead Features Designer",
+     "location": "Manchester, United Kingdom",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Lead-Features-Designer/213598",
+     "remote": false,
+     "posted": "2026-04-08T00:00:00+00:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "215997",
+     "title": "Level Designer",
+     "location": "Shanghai, China",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Level-Designer/215997",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216455",
+     "title": "Live Service Visual Designer – EA SPORTS™ NHL",
+     "location": "Vancouver, Canada",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Live-Service-Visual-Designer-EA-SPORTS-NHL/216455",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216054",
+     "title": "Messaging Content Designer - American Football Live",
+     "location": "Orlando, United States of America",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Associate-Experience-Designer/216054",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216547",
+     "title": "Principal Game Designer",
+     "location": "Los Angeles - Chatsworth, United States of America",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Principal-Game-Designer/216547",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216420",
+     "title": "Quality Designer II",
+     "location": "Kuala Lumpur, Malaysia",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Quality-Designer-II/216420",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "215870",
+     "title": "Quality Designer II – FC Live-Curation QV",
+     "location": "Vancouver, Canada",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Quality-Designer-II-FC-Live-Curation-QV/215870",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216160",
+     "title": "Senior Art & Design Career Manager — EA SPORTS™ UFC",
+     "location": "Vancouver, Canada",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Senior-Art-Design-Career-Manager-EA-SPORTS-UFC/216160",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216216",
+     "title": "Senior Experience Designer - EA SPORTS™ NHL",
+     "location": "Vancouver, Canada",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Senior-Experience-Designer-EA-SPORTS-NHL/216216",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216280",
+     "title": "Senior Game Designer",
+     "location": "Vancouver, Canada",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Senior-Game-Designer/216280",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216163",
+     "title": "Senior Game Designer - EA SPORTS™ NHL",
+     "location": "Vancouver, Canada",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Senior-Game-Designer-EA-SPORTS-NHL/216163",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216390",
+     "title": "Senior Lead Designer- UI/UX",
+     "location": "Vancouver, Canada",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Senior-Lead-Designer-UI-UX/216390",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216435",
+     "title": "Senior Quality Designer- PC Player Experience & Live Operations",
+     "location": "Shanghai, China",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Sr-QD-SGP-PC-Optimization/216435",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216479",
+     "title": "Sr Encounter Designer (Star Wars Jedi)",
+     "location": "Los Angeles - Chatsworth, United States of America",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Sr-Encounter-Designer-Star-Wars-Jedi/216479",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216546",
+     "title": "Sr. Systems Designer",
+     "location": "Los Angeles - Chatsworth, United States of America",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Sr-Systems-Designer/216546",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216332",
+     "title": "Technical Designer (TFT 12 months)",
+     "location": "Vancouver, Canada",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Technical-Designer-12-mo-TFT/216332",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216500",
+     "title": "Technical Designer - Madden",
+     "location": "Orlando, United States of America",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Technical-Game-Designer-Madden/216500",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216565",
+     "title": "Technical Game Designer (Gameplay Bots)",
+     "location": "Los Angeles - Chatsworth, United States of America",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Technical-Game-Designer-Gameplay-Bots/216565",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216176",
+     "title": "Technical Interface Designer - EA SPORTS FC",
+     "location": "Vancouver, Canada",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Technical-Interface-Designer-EA-SPORTS-FC/216176",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216391",
+     "title": "Technical Interface Designer @ EA Sports FC",
+     "location": "Bucharest, Romania",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Technical-Interface-Designer-EA-Sports-FC/216391",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216322",
+     "title": "Technical Interface Designer II - EA SPORTS FC",
+     "location": "Vancouver, Canada",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Technical-Interface-Designer-II-EA-SPORTS-FC/216322",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216359",
+     "title": "UI Scripter Intern",
+     "location": "Guildford, United Kingdom",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/UI-Scripter-Intern/216359",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216570",
+     "title": "UX Lead",
+     "location": "Los Angeles - Chatsworth, United States of America",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/UX-Lead/216570",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "215826",
+     "title": "Visual Designer - EA SPORTS™ UFC",
+     "location": "Vancouver, Canada",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Visual-Designer-EA-SPORTS-UFC/215826",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216409",
+     "title": "Legal Counsel",
+     "location": "Madrid, Spain",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Legal-Counsel/216409",
+     "remote": false,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216535",
+     "title": "Production Coordinator",
+     "location": "Madrid, Spain",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Production-Coordinator/216535",
+     "remote": false,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "215973",
+     "title": "Senior Software Engineer - Low Level Systems - C++",
+     "location": "Madrid, Spain",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Senior-Software-Engineer-Low-Level-Systems-C/215973",
+     "remote": false,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "212720",
+     "title": "Videogame Tester - Danish",
+     "location": "Madrid, Spain",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Videogame-Tester-Danish/212720",
+     "remote": false,
+     "posted": "2026-02-12T00:00:00+00:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "213703",
+     "title": "Videogame Tester - Hungarian",
+     "location": "Madrid, Spain",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Videogame-Tester-Hungarian/213703",
+     "remote": false,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    }
+   ]
   },
   {
    "id": "riot",
@@ -3175,9 +4364,9 @@
    "id": "nomada",
    "name": "Nomada Studio",
    "group": "pc",
-   "note": "Estudio independiente, candidatura espontánea",
+   "note": "Ahora sin ofertas. Candidatura espontánea",
    "domain": "nomada.studio",
-   "careers": "https://nomada.studio",
+   "careers": "https://nomada.studio/careers/",
    "logos": [
     "https://nomada.studio/wp-content/uploads/2024/04/cropped-favi-270x270.jpg",
     "https://nomada.studio/wp-content/uploads/2018/08/Nomada-Symbol.png"
@@ -3191,13 +4380,312 @@
    "group": "services",
    "note": null,
    "domain": "keywordsstudios.com",
-   "careers": "https://www.keywordsstudios.com/en/careers/",
+   "careers": "https://www.keywordsstudios.com/en/careers/browse-careers/",
    "logos": [
     "https://www.keywordsstudios.com/assets/ms-icon-144x144.png",
     "https://upload.wikimedia.org/wikipedia/commons/8/81/Keywords_Studios_Logo.png"
    ],
-   "status": "manual",
-   "jobs": null
+   "status": "ok",
+   "total": 370,
+   "jobs": [
+    {
+     "id": "36186",
+     "title": "Technical Designer (Remote) - Talent Pipeline",
+     "location": "Spain",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xgJ-technical-designer-remote-talent-pipeline/",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": true,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "31650",
+     "title": "Combat Designer",
+     "location": "Singapore, Singapore, Singapore",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/ADB-combat-designer/",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "37860",
+     "title": "Game Designer (FPS)",
+     "location": "Yerevan, Yerevan, Armenia",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xwJ-game-designer-fps/",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "37861",
+     "title": "Game Designer (FPS)",
+     "location": "Belgrade, City of Belgrade, Serbia",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xwV-game-designer-fps/",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "37815",
+     "title": "Game Designer (FPS)",
+     "location": "Warsaw, Masovian Voivodeship, Poland",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xLE-game-designer-fps/",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "37816",
+     "title": "Game Designer (FPS)",
+     "location": "Bucharest, Bucharest, Romania",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xLP-game-designer-fps/",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "37819",
+     "title": "Game Designer – Japan & Global Game Development",
+     "location": "Tokyo, Tokyo, jp",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xL4-game-designer-japan-global-game-development/",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "31365",
+     "title": "Level Designer",
+     "location": "Singapore, Singapore, Singapore",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/AxZ-level-designer/",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "37694",
+     "title": "Level Designer",
+     "location": "Warsaw, Masovian Voivodeship, Poland",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xmR-level-designer/",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "37695",
+     "title": "Level Designer",
+     "location": "Yerevan, Yerevan, Armenia",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xm4-level-designer/",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "37696",
+     "title": "Level Designer",
+     "location": "Belgrade, City of Belgrade, Serbia",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xoY-level-designer/",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "37697",
+     "title": "Level Designer",
+     "location": "Bucharest, Bucharest, Romania",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xoe-level-designer/",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "35297",
+     "title": "Product Designer (UI/UX)",
+     "location": "Pune, Maharashtra, India",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xFX-product-designer-uiux/",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "38151",
+     "title": "Senior Designer",
+     "location": "Pasig, National Capital Region, 1780, Philippines",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xE7-senior-designer/",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "37715",
+     "title": "Senior Game Designer",
+     "location": "Vancouver, British Columbia, Canada",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xoX-senior-game-designer/",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "32487",
+     "title": "Senior Product Designer",
+     "location": "Pune, Maharashtra, India",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/Ad4-senior-product-designer/",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "32488",
+     "title": "Senior UX Researcher",
+     "location": "Pune, Maharashtra, India",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/AnY-senior-ux-researcher/",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "32354",
+     "title": "Senior/Principal UX Designer",
+     "location": "Vancouver, British Columbia, Canada",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/Agw-seniorprincipal-ux-designer/",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "37656",
+     "title": "Speculative Application - Game & Level Design",
+     "location": "Portsmouth, England, United Kingdom",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xmT-speculative-application-game-level-design/",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "36188",
+     "title": "Technical Designer (Remote) - Talent Pipeline",
+     "location": "Greece",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xgc-technical-designer-remote-talent-pipeline/",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "36187",
+     "title": "Technical Designer (Remote) - Talent Pipeline",
+     "location": "Netherlands",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xgV-technical-designer-remote-talent-pipeline/",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "37817",
+     "title": "Technical Designer – Japan & Global Game Development",
+     "location": "Tokyo, Tokyo, jp",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xLS-technical-designer-japan-global-game-development/",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "37448",
+     "title": "Technical Game Designer (Creator Tools)",
+     "location": "Mexico",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/x6Y-technical-game-designer-creator-tools/",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "37447",
+     "title": "Technical UI/UX Designer",
+     "location": "Mexico",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/x14-technical-uiux-designer/",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "37710",
+     "title": "UX Designer",
+     "location": "Vancouver, British Columbia, Canada",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xoD-ux-designer/",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "24743",
+     "title": "In-house German Game Linguist - Join Us in Barcelona",
+     "location": "Barcelona, Catalonia, Spain",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/Wd2-in-house-german-game-linguist-join-us-in-barcelona/",
+     "remote": false,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "36183",
+     "title": "Senior Gameplay Programmer - Talent Pipeline",
+     "location": "Spain",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xgG-senior-gameplay-programmer-talent-pipeline/",
+     "remote": false,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    }
+   ]
   }
  ]
 }
