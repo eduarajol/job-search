@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T18:31:00+00:00",
+ "updated": "2026-10-28T20:11:37+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -8,6 +8,10 @@
    "note": null,
    "domain": "scopely.com",
    "careers": "https://careers.scopely.com/us/en",
+   "logos": [
+    "https://upload.wikimedia.org/wikipedia/commons/4/4d/Scopely_logo.png",
+    "https://upload.wikimedia.org/wikipedia/commons/8/8c/Scopely_logo.svg"
+   ],
    "status": "ok",
    "total": 181,
    "jobs": [
@@ -990,10 +994,6 @@
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
     }
-   ],
-   "logos": [
-    "https://upload.wikimedia.org/wikipedia/commons/4/4d/Scopely_logo.png",
-    "https://upload.wikimedia.org/wikipedia/commons/8/8c/Scopely_logo.svg"
    ]
   },
   {
@@ -1002,11 +1002,156 @@
    "group": "mobile",
    "note": null,
    "domain": "king.com",
-   "careers": "https://careers.king.com/us/en",
-   "status": "manual",
-   "jobs": null,
+   "careers": "https://careers.king.com/us/en/search-results",
    "logos": [
     "https://upload.wikimedia.org/wikipedia/en/1/1a/King_logo.svg"
+   ],
+   "status": "ok",
+   "total": 20,
+   "jobs": [
+    {
+     "id": "R027772",
+     "title": "Senior Game Designer | Candy Crush Saga",
+     "location": "Barcelona, Spain; London, London, United Kingdom; Stockholm, Stockholm County, Sweden",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/King_External_Careers/job/Barcelona---King---PG/Senior-Game-Designer---Candy-Crush-Saga_R027772",
+     "remote": false,
+     "posted": "2026-09-18T00:00:00.000+0000",
+     "design": true,
+     "local": true,
+     "firstSeen": "2026-10-28T20:11:37+00:00"
+    },
+    {
+     "id": "R027956",
+     "title": "Senior Principal UX Designer (6 month FTC)",
+     "location": "Stockholm, Stockholm County, Sweden; Malmö, Sweden",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/King_External_Careers/job/Stockholm---King---Malmskillnadsgatan/Senior-Principal-UX-Designer---Shared-Technology--FTC-to-Mar-2027-_R027956",
+     "remote": false,
+     "posted": "2026-10-14T00:00:00.000+0000",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T20:11:37+00:00"
+    },
+    {
+     "id": "R028257",
+     "title": "Associate Director, CMO Office",
+     "location": "Barcelona, Spain",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/King_External_Careers/job/Barcelona---King---PG/Associate-Director--CMO-Office_R028257-1",
+     "remote": false,
+     "posted": "2026-10-23T00:00:00.000+0000",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T20:11:37+00:00"
+    },
+    {
+     "id": "R028194",
+     "title": "Data Scientist | Central Analytics",
+     "location": "London, London, United Kingdom; Barcelona, Spain",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/King_External_Careers/job/London---King---Ampersand/Data-Scientist---Central-Analytics_R028194",
+     "remote": false,
+     "posted": "2026-10-19T00:00:00.000+0000",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T20:11:37+00:00"
+    },
+    {
+     "id": "R028147",
+     "title": "Engineering Manager | Shared Tech",
+     "location": "Stockholm, Stockholm County, Sweden; Barcelona, Spain",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/King_External_Careers/job/Stockholm---King---Malmskillnadsgatan/Engineering-Manager---Shared-Tech_R028147",
+     "remote": false,
+     "posted": "2026-10-26T00:00:00.000+0000",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T20:11:37+00:00"
+    },
+    {
+     "id": "R028144",
+     "title": "Game Engine Developer | Shared Tech",
+     "location": "Barcelona, Spain; Stockholm, Stockholm County, Sweden",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/King_External_Careers/job/Barcelona---King---PG/Game-Engine-Developer---Shared-Tech_R028144",
+     "remote": false,
+     "posted": "2026-10-14T00:00:00.000+0000",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T20:11:37+00:00"
+    },
+    {
+     "id": "R028199",
+     "title": "Game Engine Tools Developer | Shared Tech",
+     "location": "Barcelona, Spain; Stockholm, Stockholm County, Sweden",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/King_External_Careers/job/Barcelona---King---PG/Tools-Developer---Shared-Tech_R028199",
+     "remote": false,
+     "posted": "2026-10-14T00:00:00.000+0000",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T20:11:37+00:00"
+    },
+    {
+     "id": "R027381",
+     "title": "Principal AI/ML Engineer",
+     "location": "Stockholm, Stockholm County, Sweden; London, London, United Kingdom; Barcelona, Spain",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/King_External_Careers/job/Stockholm---King---Malmskillnadsgatan/Senior-Principal-AI-ML-Engineer_R027381",
+     "remote": false,
+     "posted": "2026-10-09T00:00:00.000+0000",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T20:11:37+00:00"
+    },
+    {
+     "id": "R028309",
+     "title": "Senior CRM Specialist",
+     "location": "London, London, United Kingdom; Barcelona, Spain",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/King_External_Careers/job/London---King---Ampersand/Senior-CRM-Specialist_R028309",
+     "remote": false,
+     "posted": "2026-10-26T00:00:00.000+0000",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T20:11:37+00:00"
+    },
+    {
+     "id": "R027929",
+     "title": "Senior Producer | Minecraft Blast, New Games",
+     "location": "Barcelona, Spain; London, London, United Kingdom; Malmö, Sweden; Stockholm, Stockholm County, Sweden",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/King_External_Careers/job/Barcelona---King---PG/Senior-Producer---Minecraft-Blast--New-Games_R027929",
+     "remote": false,
+     "posted": "2026-10-19T00:00:00.000+0000",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T20:11:37+00:00"
+    },
+    {
+     "id": "R028163",
+     "title": "Senior Systems Engineer | Shared Tech",
+     "location": "Barcelona, Spain",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/King_External_Careers/job/Barcelona---King---PG/Senior-Systems-Engineer---Shared-Tech_R028163",
+     "remote": false,
+     "posted": "2026-09-24T00:00:00.000+0000",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T20:11:37+00:00"
+    },
+    {
+     "id": "R028170",
+     "title": "Senior UI Artist | New Games",
+     "location": "London, London, United Kingdom; Barcelona, Spain; Stockholm, Stockholm County, Sweden",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/King_External_Careers/job/London---King---Ampersand/Senior-UI-Artist---New-Games_R028170",
+     "remote": false,
+     "posted": "2026-09-22T00:00:00.000+0000",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T20:11:37+00:00"
+    },
+    {
+     "id": "R028169",
+     "title": "UI Artist | New Games",
+     "location": "London, London, United Kingdom; Barcelona, Spain; Stockholm, Stockholm County, Sweden",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/King_External_Careers/job/London---King---Ampersand/UI-Artist---New-Games_R028169",
+     "remote": false,
+     "posted": "2026-09-23T00:00:00.000+0000",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T20:11:37+00:00"
+    }
    ]
   },
   {
@@ -1016,6 +1161,11 @@
    "note": null,
    "domain": "socialpoint.es",
    "careers": "https://job-boards.greenhouse.io/spcareers",
+   "logos": [
+    "https://upload.wikimedia.org/wikipedia/en/2/24/Socialpoint_2019_logo.svg",
+    "https://upload.wikimedia.org/wikipedia/commons/2/24/Socialpoint_2019_logo.svg",
+    "https://upload.wikimedia.org/wikipedia/commons/0/00/Socialpoint_logo.png"
+   ],
    "status": "ok",
    "total": 12,
    "jobs": [
@@ -1151,11 +1301,6 @@
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
     }
-   ],
-   "logos": [
-    "https://upload.wikimedia.org/wikipedia/en/2/24/Socialpoint_2019_logo.svg",
-    "https://upload.wikimedia.org/wikipedia/commons/2/24/Socialpoint_2019_logo.svg",
-    "https://upload.wikimedia.org/wikipedia/commons/0/00/Socialpoint_logo.png"
    ]
   },
   {
@@ -1165,8 +1310,11 @@
    "note": null,
    "domain": "gameloft.com",
    "careers": "https://careers.smartrecruiters.com/Gameloft",
+   "logos": [
+    "logos/gameloft.svg"
+   ],
    "status": "ok",
-   "total": 62,
+   "total": 63,
    "jobs": [
     {
      "id": "744000158269799",
@@ -1366,9 +1514,6 @@
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
     }
-   ],
-   "logos": [
-    "logos/gameloft.svg"
    ]
   },
   {
@@ -1378,8 +1523,11 @@
    "note": "Barcelona Mobile y Barcelona",
    "domain": "ubisoft.com",
    "careers": "https://www.ubisoft.com/en-us/company/careers/search",
+   "logos": [
+    "logos/ubisoft.svg"
+   ],
    "status": "ok",
-   "total": 324,
+   "total": 322,
    "jobs": [
     {
      "id": "744000158059429",
@@ -1744,9 +1892,6 @@
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
     }
-   ],
-   "logos": [
-    "logos/ubisoft.svg"
    ]
   },
   {
@@ -1756,6 +1901,7 @@
    "note": null,
    "domain": "tripledotstudios.com",
    "careers": "https://job-boards.eu.greenhouse.io/tripledotstudios",
+   "logos": [],
    "status": "ok",
    "total": 95,
    "jobs": [
@@ -2023,8 +2169,7 @@
      "local": true,
      "firstSeen": "2026-10-28T17:49:21+00:00"
     }
-   ],
-   "logos": []
+   ]
   },
   {
    "id": "voodoo",
@@ -2033,11 +2178,11 @@
    "note": null,
    "domain": "voodoo.io",
    "careers": "https://voodoo.io/careers",
-   "status": "manual",
-   "jobs": null,
    "logos": [
     "https://upload.wikimedia.org/wikipedia/commons/a/ab/Voodoo_Logo.svg"
-   ]
+   ],
+   "status": "manual",
+   "jobs": null
   },
   {
    "id": "zynga",
@@ -2046,6 +2191,9 @@
    "note": null,
    "domain": "zynga.com",
    "careers": "https://job-boards.greenhouse.io/zyngacareers",
+   "logos": [
+    "https://upload.wikimedia.org/wikipedia/en/7/7b/Zynga.svg"
+   ],
    "status": "ok",
    "total": 43,
    "jobs": [
@@ -2225,9 +2373,6 @@
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
     }
-   ],
-   "logos": [
-    "https://upload.wikimedia.org/wikipedia/en/7/7b/Zynga.svg"
    ]
   },
   {
@@ -2237,11 +2382,11 @@
    "note": null,
    "domain": "moonactive.com",
    "careers": "https://www.moonactive.com/careers",
-   "status": "manual",
-   "jobs": null,
    "logos": [
     "https://upload.wikimedia.org/wikipedia/en/0/0a/Moon_Active_logo.png"
-   ]
+   ],
+   "status": "manual",
+   "jobs": null
   },
   {
    "id": "rovio",
@@ -2250,11 +2395,11 @@
    "note": null,
    "domain": "rovio.com",
    "careers": "https://www.rovio.com/open-positions/",
-   "status": "manual",
-   "jobs": null,
    "logos": [
     "https://upload.wikimedia.org/wikipedia/en/4/45/Rovio_Entertainment.svg"
-   ]
+   ],
+   "status": "manual",
+   "jobs": null
   },
   {
    "id": "outfit7",
@@ -2263,6 +2408,10 @@
    "note": null,
    "domain": "outfit7.com",
    "careers": "https://job-boards.greenhouse.io/outfit7",
+   "logos": [
+    "https://upload.wikimedia.org/wikipedia/commons/d/d1/Outfit7_Logo_2018.svg",
+    "https://upload.wikimedia.org/wikipedia/commons/1/18/Outfit7_Logo_2021.svg"
+   ],
    "status": "ok",
    "total": 9,
    "jobs": [
@@ -2310,10 +2459,6 @@
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
     }
-   ],
-   "logos": [
-    "https://upload.wikimedia.org/wikipedia/commons/d/d1/Outfit7_Logo_2018.svg",
-    "https://upload.wikimedia.org/wikipedia/commons/1/18/Outfit7_Logo_2021.svg"
    ]
   },
   {
@@ -2323,12 +2468,12 @@
    "note": null,
    "domain": "zeptolab.com",
    "careers": "https://careers.zeptolab.com/join-us/",
-   "status": "ok",
-   "total": 4,
-   "jobs": [],
    "logos": [
     "https://upload.wikimedia.org/wikipedia/commons/1/18/ZeptoLab.svg"
-   ]
+   ],
+   "status": "ok",
+   "total": 4,
+   "jobs": []
   },
   {
    "id": "larian",
@@ -2337,11 +2482,11 @@
    "note": null,
    "domain": "larian.com",
    "careers": "https://larian.com/careers",
-   "status": "manual",
-   "jobs": null,
    "logos": [
     "https://upload.wikimedia.org/wikipedia/commons/2/24/LarianStudiosLogo.png"
-   ]
+   ],
+   "status": "manual",
+   "jobs": null
   },
   {
    "id": "ioi",
@@ -2350,6 +2495,9 @@
    "note": null,
    "domain": "ioi.dk",
    "careers": "https://apply.ioi.dk/jobs",
+   "logos": [
+    "https://upload.wikimedia.org/wikipedia/commons/d/de/IO_Interactive_short_logo.svg"
+   ],
    "status": "ok",
    "total": 7,
    "jobs": [
@@ -2408,9 +2556,6 @@
      "local": true,
      "firstSeen": "2026-10-28T17:49:21+00:00"
     }
-   ],
-   "logos": [
-    "https://upload.wikimedia.org/wikipedia/commons/d/de/IO_Interactive_short_logo.svg"
    ]
   },
   {
@@ -2420,11 +2565,11 @@
    "note": "Incluye Digital Legends e Infinity Ward",
    "domain": "activision.com",
    "careers": "https://careers.activision.com",
-   "status": "manual",
-   "jobs": null,
    "logos": [
     "logos/activision.svg"
-   ]
+   ],
+   "status": "manual",
+   "jobs": null
   },
   {
    "id": "blizzard",
@@ -2432,11 +2577,101 @@
    "group": "pc",
    "note": null,
    "domain": "blizzard.com",
-   "careers": "https://careers.blizzard.com/global/en",
-   "status": "manual",
-   "jobs": null,
+   "careers": "https://careers.blizzard.com/global/en/search-results",
    "logos": [
     "logos/blizzard.svg"
+   ],
+   "status": "ok",
+   "total": 50,
+   "jobs": [
+    {
+     "id": "R028135",
+     "title": "Cinematic Designer - STARCRAFT | Irvine, CA",
+     "location": "Irvine, California, United States of America",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/Blizzard_External_Careers/job/Irvine---Blizzard---Blizzard-Way/Cinematics-Designer---StarCraft---Irvine--CA_R028135",
+     "remote": false,
+     "posted": "2026-09-21T00:00:00.000+0000",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T20:11:37+00:00"
+    },
+    {
+     "id": "R027774",
+     "title": "Design Director, Systems - Diablo",
+     "location": "Irvine, California, United States of America; Albany, New York, United States of America",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/Blizzard_External_Careers/job/Irvine---Blizzard---Blizzard-Way/Design-Director--Systems---Diablo_R027774-1",
+     "remote": false,
+     "posted": "2026-08-24T00:00:00.000+0000",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T20:11:37+00:00"
+    },
+    {
+     "id": "R028139",
+     "title": "Mission Designer - STARCRAFT | Irvine, CA",
+     "location": "Irvine, California, United States of America",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/Blizzard_External_Careers/job/Irvine---Blizzard---Blizzard-Way/Mission-Designer---STARCRAFT---Irvine--CA_R028139",
+     "remote": false,
+     "posted": "2026-09-17T00:00:00.000+0000",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T20:11:37+00:00"
+    },
+    {
+     "id": "R028143",
+     "title": "Principal Encounter Designer, STARCRAFT | Irvine, CA",
+     "location": "Irvine, California, United States of America",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/Blizzard_External_Careers/job/Irvine---Blizzard---Blizzard-Way/Principal-Encounter-Designer--STARCRAFT---Irvine--CA_R028143",
+     "remote": false,
+     "posted": "2026-09-18T00:00:00.000+0000",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T20:11:37+00:00"
+    },
+    {
+     "id": "R028230",
+     "title": "Senior Game Designer, Systems & Content (Contract) - World of Warcraft | Irvine, CA",
+     "location": "Irvine, California, United States of America",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/Blizzard_External_Careers/job/Irvine---Blizzard---Blizzard-Way/Senior-Game-Designer--Systems---Content--Contract----World-of-Warcraft---Irvine--CA_R028230",
+     "remote": false,
+     "posted": "2026-10-01T00:00:00.000+0000",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T20:11:37+00:00"
+    },
+    {
+     "id": "R028111",
+     "title": "Senior Mission Designer - STARCRAFT | Irvine, CA, CA",
+     "location": "Irvine, California, United States of America",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/Blizzard_External_Careers/job/Irvine---Blizzard---Blizzard-Way/Senior-Mission-Designer---Unannounced-Game---Irvine--CA_R028111",
+     "remote": false,
+     "posted": "2026-09-17T00:00:00.000+0000",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T20:11:37+00:00"
+    },
+    {
+     "id": "R028242",
+     "title": "Voice Over Designer | STARCRAFT | Irvine, CA",
+     "location": "Irvine, California, United States of America",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/Blizzard_External_Careers/job/Irvine---Blizzard---Blizzard-Way/Voice-Over-Designer---STARCRAFT---Irvine--CA_R028242",
+     "remote": false,
+     "posted": "2026-10-01T00:00:00.000+0000",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T20:11:37+00:00"
+    },
+    {
+     "id": "R028214",
+     "title": "Principal Producer | Overwatch Rush | 3 month FTC",
+     "location": "Barcelona, Spain",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/Blizzard_External_Careers/job/Barcelona---King---PG/Principal-Producer---Overwatch-Rush---3-month-FTC_R028214",
+     "remote": false,
+     "posted": "2026-10-08T00:00:00.000+0000",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T20:11:37+00:00"
+    }
    ]
   },
   {
@@ -2446,11 +2681,11 @@
    "note": null,
    "domain": "ea.com",
    "careers": "https://jobs.ea.com",
-   "status": "manual",
-   "jobs": null,
    "logos": [
     "logos/ea.svg"
-   ]
+   ],
+   "status": "manual",
+   "jobs": null
   },
   {
    "id": "riot",
@@ -2459,6 +2694,9 @@
    "note": null,
    "domain": "riotgames.com",
    "careers": "https://www.riotgames.com/en/work-with-us/jobs",
+   "logos": [
+    "logos/riot.svg"
+   ],
    "status": "ok",
    "total": 184,
    "jobs": [
@@ -2616,9 +2854,6 @@
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
     }
-   ],
-   "logos": [
-    "logos/riot.svg"
    ]
   },
   {
@@ -2628,6 +2863,9 @@
    "note": null,
    "domain": "wargaming.com",
    "careers": "https://job-boards.greenhouse.io/wargamingen",
+   "logos": [
+    "logos/wargaming.svg"
+   ],
    "status": "ok",
    "total": 39,
    "jobs": [
@@ -2774,9 +3012,6 @@
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
     }
-   ],
-   "logos": [
-    "logos/wargaming.svg"
    ]
   },
   {
@@ -2786,6 +3021,9 @@
    "note": null,
    "domain": "take2games.com",
    "careers": "https://job-boards.greenhouse.io/taketwo",
+   "logos": [
+    "logos/taketwo.svg"
+   ],
    "status": "ok",
    "total": 36,
    "jobs": [
@@ -2800,9 +3038,6 @@
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
     }
-   ],
-   "logos": [
-    "logos/taketwo.svg"
    ]
   },
   {
@@ -2812,6 +3047,9 @@
    "note": null,
    "domain": "digitalextremes.com",
    "careers": "https://www.digitalextremes.com/careers",
+   "logos": [
+    "https://www-static.digitalextremes.com/images/footer/DELogo-BlueOnWhite-Footer.png"
+   ],
    "status": "ok",
    "total": 10,
    "jobs": [
@@ -2837,9 +3075,6 @@
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
     }
-   ],
-   "logos": [
-    "https://www-static.digitalextremes.com/images/footer/DELogo-BlueOnWhite-Footer.png"
    ]
   },
   {
@@ -2849,6 +3084,9 @@
    "note": null,
    "domain": "bespokepixel.com",
    "careers": "https://bespokepixel.teamtailor.com/jobs",
+   "logos": [
+    "https://images.teamtailor-cdn.com/images/s3/teamtailor-production/logotype-v3/image_uploads/3bf2e5d3-18fd-41e2-8158-7087637e6ce3/original.jpeg"
+   ],
    "status": "ok",
    "total": 3,
    "jobs": [
@@ -2885,9 +3123,52 @@
      "local": true,
      "firstSeen": "2026-10-28T17:49:21+00:00"
     }
-   ],
-   "logos": [
-    "https://images.teamtailor-cdn.com/images/s3/teamtailor-production/logotype-v3/image_uploads/3bf2e5d3-18fd-41e2-8158-7087637e6ce3/original.jpeg"
+   ]
+  },
+  {
+   "id": "angrymob",
+   "name": "Angry Mob Games",
+   "group": "pc",
+   "note": "Estudio de Barcelona: Trinity Fusion, Nightbrats",
+   "domain": "angrymobgames.com",
+   "careers": "https://www.angrymobgames.com/",
+   "logos": [],
+   "status": "ok",
+   "total": 3,
+   "jobs": [
+    {
+     "id": "325",
+     "title": "Gameplay Designer",
+     "location": "Barcelona, Spain",
+     "url": "https://www.angrymobgames.com/project/gameplay-designer/",
+     "remote": false,
+     "posted": "2026-01-12T15:00:21",
+     "design": true,
+     "local": true,
+     "firstSeen": "2026-10-28T20:11:37+00:00"
+    },
+    {
+     "id": "339",
+     "title": "Social Media Manager",
+     "location": "Barcelona, Spain",
+     "url": "https://www.angrymobgames.com/project/social-media-manager/",
+     "remote": false,
+     "posted": "2026-10-13T08:46:32",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T20:11:37+00:00"
+    },
+    {
+     "id": "260",
+     "title": "Stylized Environment Artist",
+     "location": "Barcelona, Spain",
+     "url": "https://www.angrymobgames.com/project/stylized-environment-artist/",
+     "remote": false,
+     "posted": "2025-12-19T12:58:02",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T20:11:37+00:00"
+    }
    ]
   },
   {
@@ -2897,12 +3178,12 @@
    "note": "Estudio independiente, candidatura espontánea",
    "domain": "nomada.studio",
    "careers": "https://nomada.studio",
-   "status": "manual",
-   "jobs": null,
    "logos": [
     "https://nomada.studio/wp-content/uploads/2024/04/cropped-favi-270x270.jpg",
     "https://nomada.studio/wp-content/uploads/2018/08/Nomada-Symbol.png"
-   ]
+   ],
+   "status": "manual",
+   "jobs": null
   },
   {
    "id": "keywords",
@@ -2911,12 +3192,12 @@
    "note": null,
    "domain": "keywordsstudios.com",
    "careers": "https://www.keywordsstudios.com/en/careers/",
-   "status": "manual",
-   "jobs": null,
    "logos": [
     "https://www.keywordsstudios.com/assets/ms-icon-144x144.png",
     "https://upload.wikimedia.org/wikipedia/commons/8/81/Keywords_Studios_Logo.png"
-   ]
+   ],
+   "status": "manual",
+   "jobs": null
   }
  ]
 }
