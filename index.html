@@ -60,6 +60,18 @@ a { color: inherit; }
 .brand p { margin: 8px 0 0; color: var(--ink-soft); font-size: 16px; }
 .stamp { font-family: var(--mono); font-size: 12.5px; color: var(--ink-soft); text-align: right; }
 .stamp b { display: block; font-family: var(--display); font-size: 15px; color: var(--ink); font-weight: 600; }
+.side { display: flex; flex-direction: column; align-items: flex-end; gap: 10px; max-width: 340px; }
+.refresh {
+  display: inline-flex; align-items: center; gap: 8px; min-height: 40px; padding: 0 16px;
+  border-radius: 999px; background: var(--ink); color: var(--ground); border: 0;
+  font: 600 14px var(--display); text-decoration: none; cursor: pointer;
+}
+.refresh svg { width: 16px; height: 16px; }
+.refresh:hover { background: var(--red); }
+.refresh.busy svg { animation: spin 1.2s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .refresh.busy svg { animation: none; } }
+.hint { margin: 0; font-size: 13px; color: var(--ink); text-align: right; text-wrap: pretty; }
 
 /* Filters */
 .bar .wrap { padding-block: 16px; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
@@ -126,7 +138,8 @@ main .wrap { padding-block: 4px 56px; display: flex; flex-direction: column; gap
 .empty { padding: 28px; text-align: center; color: var(--ink-soft); }
 
 @media (max-width: 520px) {
-  .stamp { text-align: left; }
+  .stamp, .hint { text-align: left; }
+  .side { align-items: flex-start; }
   .grid { grid-template-columns: 1fr; }
 }
 @media (prefers-reduced-motion: no-preference) {
@@ -140,7 +153,14 @@ main .wrap { padding-block: 4px 56px; display: flex; flex-direction: column; gap
       <h1>Job <span>Search</span></h1>
       <p>Game Design y UX en estudios de videojuegos</p>
     </div>
-    <div class="stamp" id="stamp"><b>Cargando ofertas…</b></div>
+    <div class="side">
+      <div class="stamp" id="stamp"><b>Cargando ofertas…</b></div>
+      <a class="refresh" id="refresh" href="https://github.com/eduarajol/job-search/actions/workflows/update-jobs.yml" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 11a8 8 0 1 0-2.3 5.7"/><path d="M20 4v7h-7"/></svg>
+        <span id="refresh-label">Actualizar ofertas</span>
+      </a>
+      <p class="hint" id="hint" hidden>En GitHub, pulsa <b>Run workflow</b> y vuelve aquí. La página se actualizará sola en 2 o 3 minutos.</p>
+    </div>
   </div>
 </header>
 
@@ -364,12 +384,45 @@ main .wrap { padding-block: 4px 56px; display: flex; flex-direction: column; gap
     text.oninput = function () { state.text = text.value; render(); };
   }
 
+  function load() {
+    return fetch('jobs.json?t=' + Date.now(), { cache: 'no-store' })
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); });
+  }
+
+  var polling = null;
+  function finishWaiting(msg) {
+    clearInterval(polling); polling = null;
+    document.getElementById('refresh').classList.remove('busy');
+    document.getElementById('refresh-label').textContent = 'Actualizar ofertas';
+    var hint = document.getElementById('hint');
+    if (msg) { hint.textContent = msg; hint.hidden = false; } else { hint.hidden = true; }
+  }
+
+  function waitForUpdate() {
+    var before = data && data.updated;
+    var started = Date.now();
+    document.getElementById('refresh').classList.add('busy');
+    document.getElementById('refresh-label').textContent = 'Esperando la actualización…';
+    document.getElementById('hint').hidden = false;
+    clearInterval(polling);
+    polling = setInterval(function () {
+      load().then(function (d) {
+        if (d.updated && d.updated !== before) {
+          data = d; stamp(); render();
+          finishWaiting('Ofertas actualizadas.');
+        } else if (Date.now() - started > 1000 * 60 * 12) {
+          finishWaiting('No ha llegado ninguna actualización. Comprueba en GitHub que se ha lanzado.');
+        }
+      }).catch(function () {});
+    }, 20000);
+  }
+
   bind();
-  fetch('jobs.json', { cache: 'no-store' })
-    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+  document.getElementById('refresh').addEventListener('click', waitForUpdate);
+  load()
     .then(function (d) { data = d; stamp(); render(); })
     .catch(function () {
-      document.getElementById('stamp').innerHTML = '';
+      document.getElementById('stamp').textContent = '';
       document.getElementById('stamp').appendChild(el('b', null, 'No se han podido cargar las ofertas'));
       var app = document.getElementById('app');
       app.appendChild(el('p', 'empty', 'No se encuentra el archivo de ofertas. Recarga la página en unos minutos.'));
