@@ -7,6 +7,8 @@ Página personal para revisar cada día las ofertas de Game Design y UX de los e
 - `companies.json`: lista de empresas, su web de empleo y, cuando existe, el portal público del que se leen sus ofertas (Greenhouse, Lever, SmartRecruiters o Workable).
 - `scripts/fetch_jobs.py`: consulta esos portales y genera `jobs.json`. Guarda las ofertas de diseño y UX de cualquier lugar, y todas las de Barcelona, España o remoto.
 - `.github/workflows/update-jobs.yml`: ejecuta el script cada día a las 7:30 y a las 19:30 (hora de Barcelona) y guarda el resultado.
+- `details.json`: descripción completa de las ofertas de diseño y UX en Barcelona o remoto.
+- `picks.json`: el Top-10 de ofertas que mejor encajan, que Claude elige en una tarea programada a las 7:45 y a las 19:45.
 - `index.html`: la página. Lee `jobs.json`. Se genera desde `src/page.html` con `python scripts/build_page.py`.
 
 Las empresas sin portal público aparecen solo con el enlace a su web de empleo.
