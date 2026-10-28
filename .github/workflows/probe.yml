@@ -1,0 +1,27 @@
+name: Probe job boards
+
+on:
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Try candidate endpoints
+        run: |
+          for u in \
+            "https://boards-api.greenhouse.io/v1/boards/tripledotstudios/jobs" \
+            "https://api.eu.greenhouse.io/v1/boards/tripledotstudios/jobs" \
+            "https://job-boards.eu.greenhouse.io/v1/boards/tripledotstudios/jobs" \
+            "https://job-boards.eu.greenhouse.io/tripledotstudios" \
+            "https://api.lever.co/v0/postings/voodoo?mode=json" \
+            "https://api.eu.lever.co/v0/postings/voodoo?mode=json" \
+            "https://jobs.lever.co/voodoo" \
+            "https://jobs.eu.lever.co/voodoo" \
+            "https://apply.ioi.dk/jobs.rss" \
+            "https://bespokepixel.teamtailor.com/jobs.rss" \
+            ; do
+            code=$(curl -s -L -o /tmp/out -w "%{http_code}" --max-time 20 "$u" || echo ERR)
+            echo "$code $(wc -c < /tmp/out 2>/dev/null) $u"
+            head -c 200 /tmp/out | tr '\n' ' '; echo; echo
+          done
