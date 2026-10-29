@@ -106,7 +106,7 @@ main .wrap { padding-block: 4px 56px; }
 }
 
 /* Top-10 panel */
-.picks { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 16px); max-height: calc(100vh - 32px); overflow-y: auto; background: var(--paper); border: 1.5px solid var(--ink); border-radius: 14px; box-shadow: 4px 4px 0 var(--ink); padding: 16px 16px 8px; }
+.picks { position: sticky; top: calc(var(--head-h, 0px) + 16px); max-height: calc(100vh - var(--head-h, 0px) - 32px); overflow-y: auto; background: var(--paper); border: 1.5px solid var(--ink); border-radius: 14px; box-shadow: 4px 4px 0 var(--ink); padding: 16px 16px 8px; }
 .picks h2 { margin: 0; font-size: 22px; font-weight: 800; letter-spacing: -.4px; }
 .picks .by { margin: 2px 0 10px; font: 400 12px var(--mono); color: var(--ink-soft); }
 .picks ol { list-style: none; margin: 0; padding: 0; }
@@ -203,6 +203,19 @@ main .wrap { padding-block: 4px 56px; }
 @media (prefers-reduced-motion: no-preference) {
   .toggle, .count { transition: background .15s, color .15s; }
 }
+
+/* Sticky header: stays on top while scrolling and shrinks once the page moves. */
+header.top { position: sticky; top: 0; z-index: 30; padding-top: env(safe-area-inset-top, 0px); }
+header.top .wrap { transition: padding .2s ease; }
+header.top .brand h1 { transition: font-size .2s ease; }
+header.top.compact .wrap { padding-block: 10px; align-items: center; }
+header.top.compact .brand { display: flex; align-items: center; gap: 8px 20px; flex-wrap: wrap; }
+header.top.compact .brand h1 { font-size: 26px; letter-spacing: -.8px; }
+header.top.compact .brand p { display: none; }
+header.top.compact .tabs { margin-top: 0; }
+header.top.compact .tabs a { min-height: 32px; }
+header.top.compact .stamp { display: none; }
+@media (prefers-reduced-motion: reduce) { header.top .wrap, header.top .brand h1 { transition: none; } }
 </style>
 
 <header class="top">
@@ -796,6 +809,25 @@ main .wrap { padding-block: 4px 56px; }
       var app = document.getElementById('app');
       app.appendChild(el('p', 'empty', 'No se encuentra el archivo de ofertas. Recarga la página en unos minutos.'));
     });
+})();
+</script>
+
+<script>
+// Sticky header: compact after a little scroll; expose its height for other sticky panels.
+(function () {
+  var head = document.querySelector('header.top');
+  if (!head) return;
+  function setH() { document.documentElement.style.setProperty('--head-h', head.offsetHeight + 'px'); }
+  var compact = false;
+  function onScroll() {
+    var y = window.scrollY || 0;
+    var next = compact ? y > 24 : y > 80;
+    if (next !== compact) { compact = next; head.classList.toggle('compact', compact); setH(); }
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', setH);
+  if (window.ResizeObserver) new ResizeObserver(setH).observe(head);
+  setH(); onScroll();
 })();
 </script>
 

@@ -103,6 +103,19 @@ main .wrap { padding-block: 4px 56px; display: flex; flex-direction: column; gap
 @media (max-width: 380px) { .games { grid-template-columns: 1fr; } }
 .empty { padding: 28px; text-align: center; color: var(--ink-soft); }
 @media (max-width: 520px) { .stamp { text-align: left; } }
+
+/* Sticky header: stays on top while scrolling and shrinks once the page moves. */
+header.top { position: sticky; top: 0; z-index: 30; padding-top: env(safe-area-inset-top, 0px); }
+header.top .wrap { transition: padding .2s ease; }
+header.top .brand h1 { transition: font-size .2s ease; }
+header.top.compact .wrap { padding-block: 10px; align-items: center; }
+header.top.compact .brand { display: flex; align-items: center; gap: 8px 20px; flex-wrap: wrap; }
+header.top.compact .brand h1 { font-size: 26px; letter-spacing: -.8px; }
+header.top.compact .brand p { display: none; }
+header.top.compact .tabs { margin-top: 0; }
+header.top.compact .tabs a { min-height: 32px; }
+header.top.compact .stamp { display: none; }
+@media (prefers-reduced-motion: reduce) { header.top .wrap, header.top .brand h1 { transition: none; } }
 </style>
 
 <header class="top">
@@ -295,5 +308,24 @@ main .wrap { padding-block: 4px 56px; display: flex; flex-direction: column; gap
   }).catch(function () {
     document.getElementById('app').appendChild(el('p', 'empty', 'No se han podido cargar los datos. Recarga la página en unos minutos.'));
   });
+})();
+</script>
+
+<script>
+// Sticky header: compact after a little scroll; expose its height for other sticky panels.
+(function () {
+  var head = document.querySelector('header.top');
+  if (!head) return;
+  function setH() { document.documentElement.style.setProperty('--head-h', head.offsetHeight + 'px'); }
+  var compact = false;
+  function onScroll() {
+    var y = window.scrollY || 0;
+    var next = compact ? y > 24 : y > 80;
+    if (next !== compact) { compact = next; head.classList.toggle('compact', compact); setH(); }
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', setH);
+  if (window.ResizeObserver) new ResizeObserver(setH).observe(head);
+  setH(); onScroll();
 })();
 </script>
