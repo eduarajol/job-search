@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T23:04:24+00:00",
+ "updated": "2026-10-29T00:15:52+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -1314,7 +1314,7 @@
     "logos/gameloft.svg"
    ],
    "status": "ok",
-   "total": 63,
+   "total": 62,
    "jobs": [
     {
      "id": "744000158269799",
@@ -1389,17 +1389,6 @@
      "url": "https://jobs.smartrecruiters.com/Gameloft/744000153382859",
      "remote": false,
      "posted": "2026-10-04T21:51:51.922Z",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "744000140392455",
-     "title": "Senior Level Designer",
-     "location": "Brisbane, QLD, Australia",
-     "url": "https://jobs.smartrecruiters.com/Gameloft/744000140392455",
-     "remote": false,
-     "posted": "2026-07-29T07:08:31.959Z",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -2766,6 +2755,188 @@
    "status": "ok",
    "total": 4,
    "jobs": []
+  },
+  {
+   "id": "productmadness",
+   "name": "Product Madness",
+   "group": "mobile",
+   "note": "Parte de Aristocrat",
+   "domain": "productmadness.com",
+   "careers": "https://careers.aristocrat.com/en/",
+   "logos": [],
+   "status": "ok",
+   "total": 40,
+   "jobs": [
+    {
+     "id": "R0019205-1",
+     "title": "UI Animator",
+     "location": "Spain (Barcelona)",
+     "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Spain-Barcelona/UI-Animator_R0019205-1",
+     "remote": false,
+     "posted": "2026-10-15",
+     "design": true,
+     "local": true,
+     "firstSeen": "2026-10-29T00:15:52+00:00"
+    },
+    {
+     "id": "R0022488",
+     "title": "ML Engineer",
+     "location": "Barcelona, Spain",
+     "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/ML-Engineer_R0022488",
+     "remote": false,
+     "posted": "2026-10-07",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T00:15:52+00:00"
+    },
+    {
+     "id": "R0022029-1",
+     "title": "MLOps Engineer",
+     "location": "Barcelona, Spain",
+     "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/ML-Engineer_R0022029-1",
+     "remote": false,
+     "posted": "2026-10-06",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T00:15:52+00:00"
+    },
+    {
+     "id": "R0022377",
+     "title": "Senior Associate Game Ops Manager",
+     "location": "Barcelona, Spain",
+     "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Associate-Game-Ops-Manager_R0022377",
+     "remote": false,
+     "posted": "2026-10-02",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T00:15:52+00:00"
+    },
+    {
+     "id": "R0022646",
+     "title": "Senior Associate Product Manager",
+     "location": "Barcelona, Spain",
+     "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Associate-Product-Manager_R0022646",
+     "remote": false,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T00:15:52+00:00"
+    },
+    {
+     "id": "R0022725",
+     "title": "Senior Data Analyst",
+     "location": "Barcelona, Spain",
+     "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Data-Analyst_R0022725",
+     "remote": false,
+     "posted": "2026-10-06",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T00:15:52+00:00"
+    },
+    {
+     "id": "R0022928",
+     "title": "Senior UI Artist",
+     "location": "Barcelona, Spain",
+     "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-UI-Artist_R0022928",
+     "remote": false,
+     "posted": "2026-10-17",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T00:15:52+00:00"
+    },
+    {
+     "id": "R0022685",
+     "title": "Technical Product Owner",
+     "location": "Barcelona, Spain",
+     "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Technical-Product-Owner_R0022685",
+     "remote": false,
+     "posted": "2026-10-06",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T00:15:52+00:00"
+    }
+   ]
+  },
+  {
+   "id": "bandainamco",
+   "name": "Bandai Namco Mobile",
+   "group": "mobile",
+   "note": null,
+   "domain": "bandainamcomobile.com",
+   "careers": "https://bandainamcomobile.jobs.personio.com",
+   "logos": [],
+   "status": "ok",
+   "total": 1,
+   "jobs": [
+    {
+     "id": "2840478",
+     "title": "Principal Systems Designer",
+     "location": "Barcelona",
+     "url": "https://bandainamcomobile.jobs.personio.com/job/2840478?language=en",
+     "remote": false,
+     "posted": "2026-10-13T12:47:23+00:00",
+     "design": true,
+     "local": true,
+     "firstSeen": "2026-10-29T00:15:52+00:00"
+    }
+   ]
+  },
+  {
+   "id": "tangelo",
+   "name": "Tangelo Games",
+   "group": "mobile",
+   "note": "Acepta candidatura espontánea",
+   "domain": "tangelogames.com",
+   "careers": "https://tangelo-games.jobs.personio.com",
+   "logos": [],
+   "status": "ok",
+   "total": 1,
+   "jobs": [
+    {
+     "id": "2780991",
+     "title": "Join Tangelo Games – Open Application",
+     "location": "Barcelona",
+     "url": "https://tangelo-games.jobs.personio.com/job/2780991?language=en",
+     "remote": false,
+     "posted": "2026-09-03T15:24:16+00:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T00:15:52+00:00"
+    }
+   ]
+  },
+  {
+   "id": "tiltingpoint",
+   "name": "Tilting Point",
+   "group": "mobile",
+   "note": "Solo candidatura general por formulario",
+   "domain": "tiltingpoint.com",
+   "careers": "https://www.tiltingpoint.com/vacancy",
+   "logos": [],
+   "status": "manual",
+   "jobs": null
+  },
+  {
+   "id": "breach",
+   "name": "The Breach Studios",
+   "group": "mobile",
+   "note": "Candidatura espontánea: formulario o jobs@thebreachstudios.com",
+   "domain": "thebreachstudios.com",
+   "careers": "https://thebreachstudios.com",
+   "logos": [],
+   "status": "manual",
+   "jobs": null
+  },
+  {
+   "id": "bluetile",
+   "name": "BlueTile Games",
+   "group": "mobile",
+   "note": "Sin ofertas publicadas. Solo contacto general",
+   "domain": "bluetile.com",
+   "careers": "https://www.bluetile.com/contact.html",
+   "logos": [],
+   "status": "manual",
+   "jobs": null
   },
   {
    "id": "larian",
@@ -4359,6 +4530,162 @@
      "firstSeen": "2026-10-28T20:11:37+00:00"
     }
    ]
+  },
+  {
+   "id": "eve",
+   "name": "Escape Velocity Entertainment",
+   "group": "pc",
+   "note": null,
+   "domain": "eve.games",
+   "careers": "https://eve.games/home/careers/",
+   "logos": [],
+   "status": "ok",
+   "total": 13,
+   "jobs": [
+    {
+     "id": "4438743009",
+     "title": "Principal 3Cs Designer | Fully Remote",
+     "location": "United States, Canada, Spain, United Kingdom, Czech Republic",
+     "url": "https://job-boards.greenhouse.io/escapevelocityentertainmentinc/jobs/4438743009",
+     "remote": false,
+     "posted": "2026-10-08T13:04:28-04:00",
+     "design": true,
+     "local": true,
+     "firstSeen": "2026-10-29T00:15:52+00:00"
+    },
+    {
+     "id": "4408001009",
+     "title": "Principal Combat Designer | Fully Remote",
+     "location": "United States, Canada, Spain, United Kingdom, Czech Republic",
+     "url": "https://job-boards.greenhouse.io/escapevelocityentertainmentinc/jobs/4408001009",
+     "remote": false,
+     "posted": "2026-10-07T05:39:29-04:00",
+     "design": true,
+     "local": true,
+     "firstSeen": "2026-10-29T00:15:52+00:00"
+    },
+    {
+     "id": "4409665009",
+     "title": "Senior Game AI Designer | Fully Remote",
+     "location": "United States, Canada, Spain, United Kingdom, Czech Republic",
+     "url": "https://job-boards.greenhouse.io/escapevelocityentertainmentinc/jobs/4409665009",
+     "remote": false,
+     "posted": "2026-10-07T05:40:04-04:00",
+     "design": true,
+     "local": true,
+     "firstSeen": "2026-10-29T00:15:52+00:00"
+    },
+    {
+     "id": "4409727009",
+     "title": "Senior Gameplay Designer (Characters) | Fully Remote",
+     "location": "United States, Canada, Spain, United Kingdom, Czech Republic",
+     "url": "https://job-boards.greenhouse.io/escapevelocityentertainmentinc/jobs/4409727009",
+     "remote": false,
+     "posted": "2026-10-07T05:40:36-04:00",
+     "design": true,
+     "local": true,
+     "firstSeen": "2026-10-29T00:15:52+00:00"
+    },
+    {
+     "id": "4409771009",
+     "title": "Senior Gameplay Designer | Fully Remote",
+     "location": "United States, Canada, Spain, United Kingdom, Czech Republic",
+     "url": "https://job-boards.greenhouse.io/escapevelocityentertainmentinc/jobs/4409771009",
+     "remote": false,
+     "posted": "2026-10-07T05:41:14-04:00",
+     "design": true,
+     "local": true,
+     "firstSeen": "2026-10-29T00:15:52+00:00"
+    },
+    {
+     "id": "4409805009",
+     "title": "Senior Level Designer | Fully Remote",
+     "location": "United States, Canada, Spain, United Kingdom, Czech Republic",
+     "url": "https://job-boards.greenhouse.io/escapevelocityentertainmentinc/jobs/4409805009",
+     "remote": false,
+     "posted": "2026-10-07T05:44:17-04:00",
+     "design": true,
+     "local": true,
+     "firstSeen": "2026-10-29T00:15:52+00:00"
+    },
+    {
+     "id": "4409600009",
+     "title": "AI Director - Machine Learning | Fully Remote",
+     "location": "United States, Canada, Spain, United Kingdom, Czech Republic",
+     "url": "https://job-boards.greenhouse.io/escapevelocityentertainmentinc/jobs/4409600009",
+     "remote": false,
+     "posted": "2026-10-07T05:35:52-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T00:15:52+00:00"
+    },
+    {
+     "id": "4438551009",
+     "title": "Lead Outsourcing VFX Artist | Fully Remote",
+     "location": "United States, Canada, Spain, United Kingdom, Czech Republic",
+     "url": "https://job-boards.greenhouse.io/escapevelocityentertainmentinc/jobs/4438551009",
+     "remote": false,
+     "posted": "2026-10-08T11:20:53-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T00:15:52+00:00"
+    },
+    {
+     "id": "4463921009",
+     "title": "Lead Producer - Game Operations | Fully Remote",
+     "location": "United States, Canada, Spain, United Kingdom, Czech Republic",
+     "url": "https://job-boards.greenhouse.io/escapevelocityentertainmentinc/jobs/4463921009",
+     "remote": false,
+     "posted": "2026-10-22T12:00:34-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T00:15:52+00:00"
+    },
+    {
+     "id": "4463890009",
+     "title": "Lead Producer | Fully Remote",
+     "location": "United States, Canada, Spain, United Kingdom, Czech Republic",
+     "url": "https://job-boards.greenhouse.io/escapevelocityentertainmentinc/jobs/4463890009",
+     "remote": false,
+     "posted": "2026-10-22T11:49:49-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T00:15:52+00:00"
+    },
+    {
+     "id": "4409527009",
+     "title": "Regular Gameplay Engineer (Mid Level) | Fully Remote",
+     "location": "United States, Canada, Spain, United Kingdom, Czech Republic",
+     "url": "https://job-boards.greenhouse.io/escapevelocityentertainmentinc/jobs/4409527009",
+     "remote": false,
+     "posted": "2026-10-07T05:38:58-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T00:15:52+00:00"
+    },
+    {
+     "id": "4409829009",
+     "title": "UI Engineer | Europe | Fully Remote",
+     "location": "Spain, United Kingdom, Czech Republic",
+     "url": "https://job-boards.greenhouse.io/escapevelocityentertainmentinc/jobs/4409829009",
+     "remote": false,
+     "posted": "2026-10-07T05:46:23-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T00:15:52+00:00"
+    }
+   ]
+  },
+  {
+   "id": "uplay",
+   "name": "UPlay Online",
+   "group": "pc",
+   "note": "Estudio de Barcelona. Candidatura espontánea a jobs@uplayonline.com",
+   "domain": "uplayonline.com",
+   "careers": "https://www.uplayonline.com/index.html%3Fp=1645.html",
+   "logos": [],
+   "status": "manual",
+   "jobs": null
   },
   {
    "id": "nomada",
