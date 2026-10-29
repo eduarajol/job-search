@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T14:16:28+00:00",
+ "updated": "2026-10-29T22:46:28+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -13,7 +13,7 @@
     "https://upload.wikimedia.org/wikipedia/commons/8/8c/Scopely_logo.svg"
    ],
    "status": "ok",
-   "total": 181,
+   "total": 177,
    "jobs": [
     {
      "id": "5442573008",
@@ -104,17 +104,6 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5342027008",
-     "title": "Senior Game Designer - Stumble Guys!",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5342027008?gh_jid=5342027008",
-     "remote": false,
-     "posted": "2026-07-14T05:31:01-04:00",
-     "design": true,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5429316008",
      "title": "Design Director, World Systems",
      "location": "US - United States",
@@ -126,23 +115,23 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5379017008",
-     "title": "Lead Systems Designer - Star Trek Fleet Command",
-     "location": "GB - London, United Kingdom",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5379017008?gh_jid=5379017008",
-     "remote": false,
-     "posted": "2026-08-13T06:52:46-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5388807008",
      "title": "Lead Systems Designer - Star Trek Fleet Command",
      "location": "IE - Dublin, Ireland",
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5388807008?gh_jid=5388807008",
      "remote": false,
      "posted": "2026-08-13T06:54:47-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5379017008",
+     "title": "Lead Systems Designer - Star Trek Fleet Command",
+     "location": "GB - London, United Kingdom",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5379017008?gh_jid=5379017008",
+     "remote": false,
+     "posted": "2026-08-13T06:52:46-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -247,23 +236,23 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5222025008",
-     "title": "Analytics Engineer",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5222025008?gh_jid=5222025008",
-     "remote": false,
-     "posted": "2026-05-19T11:02:29-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "4626426008",
      "title": "Analytics Engineer",
      "location": "ES - Barcelona, Spain",
      "url": "https://job-boards.greenhouse.io/scopely/jobs/4626426008?gh_jid=4626426008",
      "remote": false,
      "posted": "2025-04-10T11:59:49-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5222025008",
+     "title": "Analytics Engineer",
+     "location": "ES - Barcelona, Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5222025008?gh_jid=5222025008",
+     "remote": false,
+     "posted": "2026-05-19T11:02:29-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -456,17 +445,6 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5282364008",
-     "title": "Engineering Manager",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5282364008?gh_jid=5282364008",
-     "remote": false,
-     "posted": "2026-06-26T05:03:06-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5414234008",
      "title": "Engineering Manager, Client (Unity) - Unannounced Project",
      "location": "ES - Barcelona, Spain",
@@ -511,17 +489,6 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5386596008",
-     "title": "Lead Finance Analyst",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5386596008?gh_jid=5386596008",
-     "remote": false,
-     "posted": "2026-08-17T15:15:52-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5395416008",
      "title": "Lead Game Capture Artist",
      "location": "ES - Barcelona, Spain",
@@ -553,6 +520,17 @@
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5444467008",
+     "title": "Marketing Data Scientist",
+     "location": "ES - Barcelona, Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5444467008?gh_jid=5444467008",
+     "remote": false,
+     "posted": "2026-10-29T11:39:07-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T22:46:28+00:00"
     },
     {
      "id": "5394541008",
@@ -594,17 +572,6 @@
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5412494008?gh_jid=5412494008",
      "remote": false,
      "posted": "2026-09-11T11:38:06-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "5422019008",
-     "title": "Senior 3D Artist",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5422019008?gh_jid=5422019008",
-     "remote": false,
-     "posted": "2026-09-23T09:59:50-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -962,23 +929,23 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5427196008",
-     "title": "Technical Release Manager - Unannounced Project",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5427196008?gh_jid=5427196008",
-     "remote": false,
-     "posted": "2026-09-21T10:51:58-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5430085008",
      "title": "Technical Release Manager - Unannounced Project",
      "location": "ES - Barcelona, Spain",
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5430085008?gh_jid=5430085008",
      "remote": false,
      "posted": "2026-09-21T10:58:48-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5427196008",
+     "title": "Technical Release Manager - Unannounced Project",
+     "location": "ES - Barcelona, Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5427196008?gh_jid=5427196008",
+     "remote": false,
+     "posted": "2026-09-21T10:51:58-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -1007,7 +974,7 @@
     "https://upload.wikimedia.org/wikipedia/en/1/1a/King_logo.svg"
    ],
    "status": "ok",
-   "total": 20,
+   "total": 19,
    "jobs": [
     {
      "id": "R027772",
@@ -1049,17 +1016,6 @@
      "url": "https://xboxgaming.wd1.myworkdayjobs.com/King_External_Careers/job/London---King---Ampersand/Data-Scientist---Central-Analytics_R028194",
      "remote": false,
      "posted": "2026-10-19T00:00:00.000+0000",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T20:11:37+00:00"
-    },
-    {
-     "id": "R028147",
-     "title": "Engineering Manager | Shared Tech",
-     "location": "Stockholm, Stockholm County, Sweden; Barcelona, Spain",
-     "url": "https://xboxgaming.wd1.myworkdayjobs.com/King_External_Careers/job/Stockholm---King---Malmskillnadsgatan/Engineering-Manager---Shared-Tech_R028147",
-     "remote": false,
-     "posted": "2026-10-26T00:00:00.000+0000",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T20:11:37+00:00"
@@ -1516,7 +1472,7 @@
     "logos/ubisoft.svg"
    ],
    "status": "ok",
-   "total": 318,
+   "total": 313,
    "jobs": [
     {
      "id": "744000158059429",
@@ -1574,23 +1530,23 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
+     "id": "744000158558959",
+     "title": "Directeur·trice technique associé·e - Design",
+     "location": "Montreal, QC, Canada",
+     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000158558959",
+     "remote": false,
+     "posted": "2026-10-29T15:56:23.632Z",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-29T22:46:28+00:00"
+    },
+    {
      "id": "744000151860649",
      "title": "Directeur·trice technique associé·e - Design",
      "location": "Montreal, QC, Canada",
      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000151860649",
      "remote": false,
      "posted": "2026-09-25T13:48:44.270Z",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "744000145305649",
-     "title": "Directeur·trice technique associé·e - Design",
-     "location": "Montreal, QC, Canada",
-     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000145305649",
-     "remote": false,
-     "posted": "2026-08-24T14:59:30.041Z",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -1607,15 +1563,15 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "744000148518519",
+     "id": "744000158549096",
      "title": "Economy Designer",
      "location": "Montreal, QC, Canada",
-     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000148518519",
+     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000158549096",
      "remote": false,
-     "posted": "2026-09-09T14:07:25.368Z",
+     "posted": "2026-10-29T15:30:19.995Z",
      "design": true,
      "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
+     "firstSeen": "2026-10-29T22:46:28+00:00"
     },
     {
      "id": "744000151339377",
@@ -1651,15 +1607,15 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "744000140061350",
+     "id": "744000158552740",
      "title": "Lead Level Designer (F/H/NB) [AAA Project]",
      "location": "Annecy, Auvergne-Rhône-Alpes, France",
-     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000140061350",
+     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000158552740",
      "remote": false,
-     "posted": "2026-07-27T17:25:47.255Z",
+     "posted": "2026-10-29T15:33:13.372Z",
      "design": true,
      "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
+     "firstSeen": "2026-10-29T22:46:28+00:00"
     },
     {
      "id": "744000146452777",
@@ -1679,17 +1635,6 @@
      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000146459475",
      "remote": false,
      "posted": "2026-08-31T12:32:10.244Z",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "744000148977854",
-     "title": "Lead UX & Tools - H/F/NB",
-     "location": "Paris, IDF, France",
-     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000148977854",
-     "remote": false,
-     "posted": "2026-09-11T10:07:55.611Z",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -1870,7 +1815,7 @@
    "careers": "https://job-boards.eu.greenhouse.io/tripledotstudios",
    "logos": [],
    "status": "ok",
-   "total": 91,
+   "total": 92,
    "jobs": [
     {
      "id": "4965778101",
@@ -1983,23 +1928,23 @@
      "firstSeen": "2026-10-28T17:49:21+00:00"
     },
     {
-     "id": "4999078101",
-     "title": "Senior Level Designer",
-     "location": "Warsaw",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4999078101",
-     "remote": false,
-     "posted": "2026-10-07T05:27:09-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
      "id": "4999486101",
      "title": "Senior Level Designer",
      "location": "Minsk",
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4999486101",
      "remote": false,
      "posted": "2026-10-07T05:27:11-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4999078101",
+     "title": "Senior Level Designer",
+     "location": "Warsaw",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4999078101",
+     "remote": false,
+     "posted": "2026-10-07T05:27:09-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -2016,23 +1961,23 @@
      "firstSeen": "2026-10-28T17:49:21+00:00"
     },
     {
-     "id": "4988635101",
-     "title": "Data Analyst",
-     "location": "Remote Europe",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988635101",
-     "remote": true,
-     "posted": "2026-09-28T09:54:30-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
      "id": "4988598101",
      "title": "Data Analyst",
      "location": "Barcelona",
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988598101",
      "remote": false,
      "posted": "2026-09-28T09:42:08-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4988635101",
+     "title": "Data Analyst",
+     "location": "Remote Europe",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988635101",
+     "remote": true,
+     "posted": "2026-09-28T09:54:30-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -2149,7 +2094,7 @@
     "https://upload.wikimedia.org/wikipedia/commons/a/ab/Voodoo_Logo.svg"
    ],
    "status": "ok",
-   "total": 101,
+   "total": 102,
    "jobs": [
     {
      "id": "d633533c-ac08-440e-a6b6-33351b3ad005",
@@ -2672,7 +2617,7 @@
     "https://upload.wikimedia.org/wikipedia/commons/1/18/Outfit7_Logo_2021.svg"
    ],
    "status": "ok",
-   "total": 9,
+   "total": 10,
    "jobs": [
     {
      "id": "7823877003",
@@ -2784,7 +2729,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Associate-Game-Ops-Manager_R0022377",
      "remote": false,
-     "posted": "2026-10-01",
+     "posted": "2026-10-29",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -3177,7 +3122,7 @@
     "logos/activision.svg"
    ],
    "status": "ok",
-   "total": 73,
+   "total": 72,
    "jobs": [
     {
      "id": "R028091",
@@ -3500,17 +3445,6 @@
      "title": "directeur.trice de la conception de l’engagement des joueurs / Engagement Design Director",
      "location": "Montreal, Canada",
      "url": "https://jobs.ea.com/en_US/careers/JobDetail/Engagement-Design-Director/216555",
-     "remote": false,
-     "posted": null,
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
-     "id": "216045",
-     "title": "Director, Global Workplace Design",
-     "location": "Vancouver, Canada",
-     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Director-Workplace-Design/216045",
      "remote": false,
      "posted": null,
      "design": true,
@@ -4047,7 +3981,7 @@
     "logos/riot.svg"
    ],
    "status": "ok",
-   "total": 184,
+   "total": 182,
    "jobs": [
     {
      "id": "7102266",
@@ -4067,17 +4001,6 @@
      "url": "https://www.riotgames.com/en/work-with-us/job/7921706?gh_jid=7921706",
      "remote": false,
      "posted": "2026-05-18T23:06:31-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "8163225",
-     "title": "Manager, Visual Design Art - TFT",
-     "location": "Los Angeles, USA",
-     "url": "https://www.riotgames.com/en/work-with-us/job/8163225?gh_jid=8163225",
-     "remote": false,
-     "posted": "2026-08-28T19:49:11-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -5105,7 +5028,7 @@
    "careers": "https://www.cdprojektred.com/en/jobs",
    "logos": [],
    "status": "ok",
-   "total": 50,
+   "total": 53,
    "jobs": [
     {
      "id": "744000158050965",
@@ -5263,7 +5186,7 @@
    "careers": "https://insomniac.games/careers/",
    "logos": [],
    "status": "ok",
-   "total": 28,
+   "total": 29,
    "jobs": [
     {
      "id": "6226630004",
@@ -5434,7 +5357,7 @@
    "careers": "https://www.pixar.com/careers",
    "logos": [],
    "status": "ok",
-   "total": 4,
+   "total": 3,
    "jobs": []
   },
   {
