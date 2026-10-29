@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T13:26:32+00:00",
+ "updated": "2026-10-29T14:16:28+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -1516,7 +1516,7 @@
     "logos/ubisoft.svg"
    ],
    "status": "ok",
-   "total": 319,
+   "total": 318,
    "jobs": [
     {
      "id": "744000158059429",
@@ -2149,7 +2149,7 @@
     "https://upload.wikimedia.org/wikipedia/commons/a/ab/Voodoo_Logo.svg"
    ],
    "status": "ok",
-   "total": 100,
+   "total": 101,
    "jobs": [
     {
      "id": "d633533c-ac08-440e-a6b6-33351b3ad005",
@@ -4529,7 +4529,7 @@
    "careers": "https://eve.games/home/careers/",
    "logos": [],
    "status": "ok",
-   "total": 13,
+   "total": 12,
    "jobs": [
     {
      "id": "4438743009",
@@ -4651,17 +4651,6 @@
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
-    },
-    {
-     "id": "4409829009",
-     "title": "UI Engineer | Europe | Fully Remote",
-     "location": "Spain, United Kingdom, Czech Republic",
-     "url": "https://job-boards.greenhouse.io/escapevelocityentertainmentinc/jobs/4409829009",
-     "remote": false,
-     "posted": "2026-10-07T05:46:23-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-29T00:15:52+00:00"
     }
    ]
   },
@@ -4760,17 +4749,6 @@
      "firstSeen": "2026-10-28T22:59:48+00:00"
     },
     {
-     "id": "37815",
-     "title": "Game Designer (FPS)",
-     "location": "Warsaw, Masovian Voivodeship, Poland",
-     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xLE-game-designer-fps/",
-     "remote": false,
-     "posted": "2026-09-30T10:32:13+01:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
      "id": "37816",
      "title": "Game Designer (FPS)",
      "location": "Bucharest, Bucharest, Romania",
@@ -4804,6 +4782,17 @@
      "firstSeen": "2026-10-28T22:59:48+00:00"
     },
     {
+     "id": "37815",
+     "title": "Game Designer (FPS)",
+     "location": "Warsaw, Masovian Voivodeship, Poland",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xLE-game-designer-fps/",
+     "remote": false,
+     "posted": "2026-09-30T10:32:13+01:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
      "id": "37819",
      "title": "Game Designer – Japan & Global Game Development",
      "location": "Tokyo, Tokyo, jp",
@@ -4815,23 +4804,23 @@
      "firstSeen": "2026-10-28T22:59:48+00:00"
     },
     {
-     "id": "37694",
-     "title": "Level Designer",
-     "location": "Warsaw, Masovian Voivodeship, Poland",
-     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xmR-level-designer/",
-     "remote": false,
-     "posted": "2026-09-17T10:32:01+01:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
      "id": "31365",
      "title": "Level Designer",
      "location": "Singapore, Singapore, Singapore",
      "url": "https://www.keywordsstudios.com/en/careers/browse-careers/AxZ-level-designer/",
      "remote": false,
      "posted": "2026-10-05T10:30:12+01:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "37694",
+     "title": "Level Designer",
+     "location": "Warsaw, Masovian Voivodeship, Poland",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xmR-level-designer/",
+     "remote": false,
+     "posted": "2026-09-17T10:32:01+01:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
@@ -5033,6 +5022,772 @@
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T22:59:48+00:00"
+    }
+   ]
+  },
+  {
+   "id": "jamcity",
+   "name": "Jam City",
+   "group": "mobile",
+   "note": null,
+   "domain": "jamcity.com",
+   "careers": "https://www.jamcity.com/careers",
+   "logos": [],
+   "status": "ok",
+   "total": 15,
+   "jobs": [
+    {
+     "id": "7361228f-02ca-43ed-b2b6-5c3ab1c6bd7b",
+     "title": "UI/UX Designer",
+     "location": "San Francisco, CA",
+     "url": "https://jobs.lever.co/jamcity/7361228f-02ca-43ed-b2b6-5c3ab1c6bd7b",
+     "remote": false,
+     "posted": "2026-08-11T20:23:21.228000+00:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    }
+   ]
+  },
+  {
+   "id": "scorewarrior",
+   "name": "Scorewarrior",
+   "group": "mobile",
+   "note": null,
+   "domain": "scorewarrior.com",
+   "careers": "https://scorewarrior.com/careers",
+   "logos": [],
+   "status": "ok",
+   "total": 19,
+   "jobs": [
+    {
+     "id": "56bdf264-6e20-438d-b70f-d3f973fc22d7",
+     "title": "UI / UX Designer (Quality of Life)",
+     "location": "Limassol Cyprus",
+     "url": "https://jobs.ashbyhq.com/scorewarrior/56bdf264-6e20-438d-b70f-d3f973fc22d7",
+     "remote": false,
+     "posted": "2026-08-06T11:08:24.210+00:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "0734e719-111a-418f-8c3e-1f76de3fc7ca",
+     "title": "UI/UX Designer (GamePlay team)",
+     "location": "Limassol Cyprus",
+     "url": "https://jobs.ashbyhq.com/scorewarrior/0734e719-111a-418f-8c3e-1f76de3fc7ca",
+     "remote": false,
+     "posted": "2026-07-01T08:17:16.031+00:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    }
+   ]
+  },
+  {
+   "id": "fortis",
+   "name": "Fortis Games",
+   "group": "mobile",
+   "note": null,
+   "domain": "fortis.gg",
+   "careers": "https://fortis.teamtailor.com/jobs",
+   "logos": [],
+   "status": "ok",
+   "total": 6,
+   "jobs": []
+  },
+  {
+   "id": "cdpr",
+   "name": "CD Projekt Red",
+   "group": "pc",
+   "note": null,
+   "domain": "cdprojektred.com",
+   "careers": "https://www.cdprojektred.com/en/jobs",
+   "logos": [],
+   "status": "ok",
+   "total": 50,
+   "jobs": [
+    {
+     "id": "744000158050965",
+     "title": "Senior Gameplay Designer",
+     "location": "Boston, MA, United States",
+     "url": "https://jobs.smartrecruiters.com/cdprojektred/744000158050965",
+     "remote": true,
+     "posted": "2026-10-27T13:53:59.560Z",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "744000157206907",
+     "title": "Senior Level Designer",
+     "location": "Boston, MA, United States",
+     "url": "https://jobs.smartrecruiters.com/cdprojektred/744000157206907",
+     "remote": false,
+     "posted": "2026-10-22T18:50:38.631Z",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "744000157235120",
+     "title": "Senior Quest Designer",
+     "location": "Boston, MA, United States",
+     "url": "https://jobs.smartrecruiters.com/cdprojektred/744000157235120",
+     "remote": false,
+     "posted": "2026-10-22T21:44:46.076Z",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "744000157187514",
+     "title": "Senior Systems Designer",
+     "location": "Boston, MA, United States",
+     "url": "https://jobs.smartrecruiters.com/cdprojektred/744000157187514",
+     "remote": false,
+     "posted": "2026-10-22T16:42:03.507Z",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "744000158131572",
+     "title": "Senior Technical Designer",
+     "location": "Boston, MA, United States",
+     "url": "https://jobs.smartrecruiters.com/cdprojektred/744000158131572",
+     "remote": true,
+     "posted": "2026-10-27T19:11:53.513Z",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "744000158130875",
+     "title": "Senior Technical Designer",
+     "location": "Remote, , Canada",
+     "url": "https://jobs.smartrecruiters.com/cdprojektred/744000158130875",
+     "remote": true,
+     "posted": "2026-10-27T19:11:40.884Z",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "744000146661129",
+     "title": "UX Director",
+     "location": "Warsaw, Masovian Voivodeship, Poland",
+     "url": "https://jobs.smartrecruiters.com/cdprojektred/744000146661129",
+     "remote": false,
+     "posted": "2026-09-01T09:09:34.429Z",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    }
+   ]
+  },
+  {
+   "id": "playstation",
+   "name": "PlayStation",
+   "group": "pc",
+   "note": "Sony Interactive Entertainment y PlayStation Studios",
+   "domain": "playstation.com",
+   "careers": "https://careers.playstation.com/",
+   "logos": [],
+   "status": "ok",
+   "total": 203,
+   "jobs": [
+    {
+     "id": "6098184004",
+     "title": "Design Director",
+     "location": "Canada, Montreal, QC",
+     "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6098184004",
+     "remote": false,
+     "posted": "2026-06-19T17:12:42-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "6237080004",
+     "title": "Senior 3D Designer",
+     "location": "Malaysia, Petaling Jaya",
+     "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6237080004",
+     "remote": false,
+     "posted": "2026-10-28T00:07:07-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "6102742004",
+     "title": "Senior Brand & Creative Designer",
+     "location": "United Kingdom, London",
+     "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6102742004",
+     "remote": false,
+     "posted": "2026-07-03T09:40:25-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "5983976004",
+     "title": "Senior Technical Designer",
+     "location": "United States, Santa Monica, CA",
+     "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/5983976004",
+     "remote": false,
+     "posted": "2026-04-28T16:43:00-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "6214360004",
+     "title": "Sr Game Designer",
+     "location": "Canada, Montreal, QC",
+     "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6214360004",
+     "remote": false,
+     "posted": "2026-10-01T13:40:44-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    }
+   ]
+  },
+  {
+   "id": "insomniac",
+   "name": "Insomniac Games",
+   "group": "pc",
+   "note": "PlayStation Studios",
+   "domain": "insomniac.games",
+   "careers": "https://insomniac.games/careers/",
+   "logos": [],
+   "status": "ok",
+   "total": 28,
+   "jobs": [
+    {
+     "id": "6226630004",
+     "title": "Game Design Intern-Undergraduate",
+     "location": "United States, Burbank, CA",
+     "url": "https://job-boards.greenhouse.io/insomniac/jobs/6226630004",
+     "remote": false,
+     "posted": "2026-10-19T18:14:03-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "6009620004",
+     "title": "Lead Systems Designer",
+     "location": "United States, Remote",
+     "url": "https://job-boards.greenhouse.io/insomniac/jobs/6009620004",
+     "remote": true,
+     "posted": "2026-09-18T10:52:38-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "6230690004",
+     "title": "Senior Combat Designer (Enemies / Bosses)",
+     "location": "United States, Remote",
+     "url": "https://job-boards.greenhouse.io/insomniac/jobs/6230690004",
+     "remote": true,
+     "posted": "2026-10-26T15:44:28-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "6221946004",
+     "title": "Senior User Experience Researcher",
+     "location": "United States, Remote",
+     "url": "https://job-boards.greenhouse.io/insomniac/jobs/6221946004",
+     "remote": true,
+     "posted": "2026-10-27T17:59:45-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "6192099004",
+     "title": "Staff Hero Designer",
+     "location": "United States, Remote",
+     "url": "https://job-boards.greenhouse.io/insomniac/jobs/6192099004",
+     "remote": true,
+     "posted": "2026-09-28T13:14:41-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "6227520004",
+     "title": "User Research Intern (Tools)- Master's",
+     "location": "United States, Burbank, CA",
+     "url": "https://job-boards.greenhouse.io/insomniac/jobs/6227520004",
+     "remote": false,
+     "posted": "2026-10-19T18:16:00-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    }
+   ]
+  },
+  {
+   "id": "nintendo",
+   "name": "Nintendo",
+   "group": "pc",
+   "note": "Ofertas de Nintendo of America",
+   "domain": "nintendo.com",
+   "careers": "https://careers.nintendo.com/",
+   "logos": [],
+   "status": "ok",
+   "total": 70,
+   "jobs": [
+    {
+     "id": "4426184009",
+     "title": "CONTRACT - Associate Level Game Designer (NST)",
+     "location": "Redmond, WA",
+     "url": "https://careers.nintendo.com/?gh_jid=4426184009",
+     "remote": false,
+     "posted": "2026-09-30T14:55:43-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "4418258009",
+     "title": "Intern - User Experience",
+     "location": "Redmond, WA",
+     "url": "https://careers.nintendo.com/?gh_jid=4418258009",
+     "remote": false,
+     "posted": "2026-10-19T15:13:19-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    }
+   ]
+  },
+  {
+   "id": "crystal",
+   "name": "Crystal Dynamics",
+   "group": "pc",
+   "note": null,
+   "domain": "crystaldynamics.com",
+   "careers": "https://www.crystaldynamics.com/careers/",
+   "logos": [],
+   "status": "ok",
+   "total": 11,
+   "jobs": [
+    {
+     "id": "4747682005",
+     "title": "Game Design Intern [Spring 2027]",
+     "location": "Remote/Flexible - United States",
+     "url": "https://job-boards.greenhouse.io/crystaldynamics/jobs/4747682005",
+     "remote": true,
+     "posted": "2026-10-26T14:46:28-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "4748236005",
+     "title": "Presentation Design Intern [Spring 2027]",
+     "location": "Remote/Flexible - United States",
+     "url": "https://job-boards.greenhouse.io/crystaldynamics/jobs/4748236005",
+     "remote": true,
+     "posted": "2026-10-27T17:14:21-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    }
+   ]
+  },
+  {
+   "id": "saber",
+   "name": "Saber Interactive",
+   "group": "pc",
+   "note": "Sin portal público legible: revisar su web",
+   "domain": "saber.games",
+   "careers": "https://saber.games/",
+   "logos": [],
+   "status": "manual",
+   "jobs": null
+  },
+  {
+   "id": "anchorpoint",
+   "name": "Anchor Point Studios",
+   "group": "pc",
+   "note": "Estudio de Barcelona y Seúl. Ofertas solo en su web",
+   "domain": "anchor-point.com",
+   "careers": "https://www.anchor-point.com/careers",
+   "logos": [],
+   "status": "manual",
+   "jobs": null
+  },
+  {
+   "id": "pixar",
+   "name": "Pixar",
+   "group": "entertainment",
+   "note": "Animación (Disney)",
+   "domain": "pixar.com",
+   "careers": "https://www.pixar.com/careers",
+   "logos": [],
+   "status": "ok",
+   "total": 4,
+   "jobs": []
+  },
+  {
+   "id": "marvelstudios",
+   "name": "Marvel Studios",
+   "group": "entertainment",
+   "note": "Cine y series (Disney). Ofertas en Disney Careers",
+   "domain": "marvel.com",
+   "careers": "https://www.disneycareers.com/en/search-jobs/Marvel%20Studios",
+   "logos": [],
+   "status": "manual",
+   "jobs": null
+  },
+  {
+   "id": "marvelent",
+   "name": "Marvel Entertainment",
+   "group": "entertainment",
+   "note": "Cómics, licencias y juegos (Disney). Ofertas en Disney Careers",
+   "domain": "marvel.com",
+   "careers": "https://www.disneycareers.com/en/search-jobs/Marvel%20Entertainment",
+   "logos": [],
+   "status": "manual",
+   "jobs": null
+  },
+  {
+   "id": "alike",
+   "name": "Alike Studio",
+   "group": "entertainment",
+   "note": "Estudio de animación de Barcelona. Sin web de empleo",
+   "domain": "alikestudio.com",
+   "careers": "https://www.alikestudio.com",
+   "logos": [],
+   "status": "manual",
+   "jobs": null
+  },
+  {
+   "id": "athletic",
+   "name": "Athletic Club",
+   "group": "entertainment",
+   "note": "Fútbol. Ofertas en su web",
+   "domain": "athletic-club.eus",
+   "careers": "https://www.athletic-club.eus/es/club/ofertas-de-empleo/",
+   "logos": [],
+   "status": "manual",
+   "jobs": null
+  },
+  {
+   "id": "pentasia",
+   "name": "Pentasia",
+   "group": "portals",
+   "note": "Agencia de selección de games e iGaming. Ofertas de sus clientes",
+   "domain": "pentasia.com",
+   "careers": "https://www.pentasia.com/cm/candidates/jobs",
+   "logos": [],
+   "status": "ok",
+   "total": 75,
+   "jobs": [
+    {
+     "id": "business-development-manager-gibraltar-europe-42732-29401",
+     "title": "Business Development Manager - Gibraltar",
+     "location": "Remote, Europe",
+     "url": "https://www.pentasia.com/careers/business-development-manager-gibraltar-europe-42732-29401",
+     "remote": true,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "business-development-manager-gibraltar-europe-38977-29225",
+     "title": "Business Development Manager - Gibraltar",
+     "location": "Remote, Europe",
+     "url": "https://www.pentasia.com/careers/business-development-manager-gibraltar-europe-38977-29225",
+     "remote": true,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "compliance-manager-europe-united-kingdom-47272-29432",
+     "title": "Compliance Manager",
+     "location": "Remote, Europe, United Kingdom",
+     "url": "https://www.pentasia.com/careers/compliance-manager-europe-united-kingdom-47272-29432",
+     "remote": true,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "compliance-operations-manager-europe-malta-46254-29429",
+     "title": "Compliance Operations Manager",
+     "location": "Remote, Europe, Malta",
+     "url": "https://www.pentasia.com/careers/compliance-operations-manager-europe-malta-46254-29429",
+     "remote": true,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "cybersecurity-consultant-europe-48224-29452",
+     "title": "Cybersecurity Consultant",
+     "location": "Remote, Europe",
+     "url": "https://www.pentasia.com/careers/cybersecurity-consultant-europe-48224-29452",
+     "remote": true,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "director-sales-igaming-europe-42058-29397",
+     "title": "Director of Sales - iGaming",
+     "location": "Remote, Europe",
+     "url": "https://www.pentasia.com/careers/director-sales-igaming-europe-42058-29397",
+     "remote": true,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "executive-assistant-del-mananging-director-spain-46339-29430",
+     "title": "Executive Assistant del Mananging Director",
+     "location": "Barcelona, Spain",
+     "url": "https://www.pentasia.com/careers/executive-assistant-del-mananging-director-spain-46339-29430",
+     "remote": false,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "growth-marketing-manager-ceuta-europe-45604-29424",
+     "title": "Growth Marketing Manager - Ceuta",
+     "location": "Barcelona, Europe",
+     "url": "https://www.pentasia.com/careers/growth-marketing-manager-ceuta-europe-45604-29424",
+     "remote": false,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "head-fraud-europe-47273-29433",
+     "title": "Head of Fraud",
+     "location": "Remote, Europe",
+     "url": "https://www.pentasia.com/careers/head-fraud-europe-47273-29433",
+     "remote": true,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "marketing-associate-online-crypto-casino-igaming-remote-worldwide-remote-47676-29445",
+     "title": "Marketing Associate - Online Crypto Casino | iGaming - Remote | Worldwide",
+     "location": "Remote, Remote",
+     "url": "https://www.pentasia.com/careers/marketing-associate-online-crypto-casino-igaming-remote-worldwide-remote-47676-29445",
+     "remote": true,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "mid-level-account-manager-europe-47546-29442",
+     "title": "Mid-level Account Manager",
+     "location": "Remote, Europe",
+     "url": "https://www.pentasia.com/careers/mid-level-account-manager-europe-47546-29442",
+     "remote": true,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "people-business-partner-europe-47437-29437",
+     "title": "People Business Partner",
+     "location": "Remote, Europe",
+     "url": "https://www.pentasia.com/careers/people-business-partner-europe-47437-29437",
+     "remote": true,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "performance-marketing-manager-b2b-europe-48230-29460",
+     "title": "Performance Marketing Manager (B2B)",
+     "location": "Remote, Europe",
+     "url": "https://www.pentasia.com/careers/performance-marketing-manager-b2b-europe-48230-29460",
+     "remote": true,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "principal-streaming-technology-quality-lead-remote-47439-29439",
+     "title": "Principal Streaming Technology & Quality Lead",
+     "location": "Remote, Remote",
+     "url": "https://www.pentasia.com/careers/principal-streaming-technology-quality-lead-remote-47439-29439",
+     "remote": true,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "sales-director-europe-47274-29434",
+     "title": "Sales Director",
+     "location": "Remote, Europe",
+     "url": "https://www.pentasia.com/careers/sales-director-europe-47274-29434",
+     "remote": true,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "senior-2d-artist-europe-43023-29406",
+     "title": "Senior 2D Artist",
+     "location": "Remote, Europe",
+     "url": "https://www.pentasia.com/careers/senior-2d-artist-europe-43023-29406",
+     "remote": true,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "senior-integration-manager-europe-39077-29282",
+     "title": "Senior integration manager",
+     "location": "Remote, Europe",
+     "url": "https://www.pentasia.com/careers/senior-integration-manager-europe-39077-29282",
+     "remote": true,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "senior-java-engineer-pam-europe-39324-29346",
+     "title": "Senior Java Engineer - (PAM)",
+     "location": "Remote, Europe",
+     "url": "https://www.pentasia.com/careers/senior-java-engineer-pam-europe-39324-29346",
+     "remote": true,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "senior-product-manager-europe-39315-29340",
+     "title": "Senior Product Manager",
+     "location": "Remote, Europe",
+     "url": "https://www.pentasia.com/careers/senior-product-manager-europe-39315-29340",
+     "remote": true,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "senior-python-engineer-europe-38145-29394",
+     "title": "Senior Python Engineer",
+     "location": "Remote, Europe",
+     "url": "https://www.pentasia.com/careers/senior-python-engineer-europe-38145-29394",
+     "remote": true,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "senior-sales-manager-igaming-sector-europe-39314-29341",
+     "title": "Senior Sales Manager - iGaming Sector",
+     "location": "Remote, Europe",
+     "url": "https://www.pentasia.com/careers/senior-sales-manager-igaming-sector-europe-39314-29341",
+     "remote": true,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "senior-software-engineer-europe-39115-29361",
+     "title": "Senior Software engineer",
+     "location": "Remote, Europe",
+     "url": "https://www.pentasia.com/careers/senior-software-engineer-europe-39115-29361",
+     "remote": true,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "senior-software-engineer-game-engine-europe-40648-29377",
+     "title": "Senior software engineer - Game engine",
+     "location": "Remote, Europe",
+     "url": "https://www.pentasia.com/careers/senior-software-engineer-game-engine-europe-40648-29377",
+     "remote": true,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "senior-technical-compliance-manager-europe-malta-39338-29351",
+     "title": "Senior Technical Compliance Manager",
+     "location": "Remote, Europe, Malta",
+     "url": "https://www.pentasia.com/careers/senior-technical-compliance-manager-europe-malta-39338-29351",
+     "remote": true,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "slots-ui-artist-europe-43126-29408",
+     "title": "Slots UI Artist",
+     "location": "Remote, Europe",
+     "url": "https://www.pentasia.com/careers/slots-ui-artist-europe-43126-29408",
+     "remote": true,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "streamer-manager-remote-39323-29347",
+     "title": "Streamer Manager",
+     "location": "Remote, Remote",
+     "url": "https://www.pentasia.com/careers/streamer-manager-remote-39323-29347",
+     "remote": true,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "technical-product-manager-remote-48206-29458",
+     "title": "Technical Product Manager",
+     "location": "Remote, Remote",
+     "url": "https://www.pentasia.com/careers/technical-product-manager-remote-48206-29458",
+     "remote": true,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-29T14:16:28+00:00"
     }
    ]
   }
