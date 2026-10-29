@@ -5,10 +5,10 @@ on:
     # 7:30 and 19:30 in Barcelona. GitHub schedules run in UTC, so both the
     # summer (UTC+2) and winter (UTC+1) times are listed and the first step
     # skips the pair that does not match the current Barcelona offset.
-    - cron: "30 5 * * *"   # 7:30 summer
-    - cron: "30 17 * * *"  # 19:30 summer
-    - cron: "30 6 * * *"   # 7:30 winter
-    - cron: "30 18 * * *"  # 19:30 winter
+    - cron: "17 5 * * *"   # 7:17 summer
+    - cron: "17 17 * * *"  # 19:17 summer
+    - cron: "17 6 * * *"   # 7:17 winter
+    - cron: "17 18 * * *"  # 19:17 winter
   workflow_dispatch:
 
 permissions:
@@ -27,7 +27,7 @@ jobs:
           if [ -n "$SCHEDULE" ]; then
             offset=$(TZ=Europe/Madrid date +%z)
             case "$offset:$SCHEDULE" in
-              "+0200:30 5 * * *"|"+0200:30 17 * * *"|"+0100:30 6 * * *"|"+0100:30 18 * * *") run=true ;;
+              "+0200:17 5 * * *"|"+0200:17 17 * * *"|"+0100:17 6 * * *"|"+0100:17 18 * * *") run=true ;;
               *) run=false ;;
             esac
           fi

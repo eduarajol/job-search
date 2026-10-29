@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-28T18:46:12Z",
- "basedOn": "2026-10-28T18:31:00+00:00",
+ "updated": "2026-10-29T15:16:02Z",
+ "basedOn": "2026-10-29T14:16:28+00:00",
  "picks": [
   {
    "key": "ubisoft:744000153130529",
@@ -10,7 +10,7 @@
   {
    "key": "scopely:5342027008",
    "fit": "Media",
-   "reason": "Diseño de mecánicas y features con specs detalladas y playtests en Stumble Guys. No fija años mínimos."
+   "reason": "Mecánicas, habilidades y specs para Stumble Guys con playtests y datos. No fija años mínimos y pide base de diseño multijugador."
   },
   {
    "key": "ubisoft:744000158059429",
@@ -28,29 +28,29 @@
    "reason": "Contenido de eventos y features para Monopoly GO! con documentos y pitches. Pide 3+ años en diseño o contenido."
   },
   {
+   "key": "king:R027772",
+   "fit": "Baja",
+   "reason": "Metagame de Candy Crush Saga: progresión, eventos y funciones sociales. Exige experiencia en metagame de F2P en directo."
+  },
+  {
    "key": "outfit7:7823877003",
    "fit": "Baja",
    "reason": "Casual móvil con la IP Talking Tom: mecánicas, progresión y documentación. Pide 5+ años y manejo de Unity."
   },
   {
    "key": "scopely:5423473008",
-   "fit": "Muy baja",
+   "fit": "Baja",
    "reason": "UX de producto para Monopoly GO! con workshops, research y prototipos. Pide 8+ años de UX en juegos."
   },
   {
-   "key": "tripledot:4999489101",
-   "fit": "Muy baja",
-   "reason": "Niveles de puzzle móvil en Barcelona, con progresión y dificultad. Pide 3+ años como level designer y Unity."
-  },
-  {
-   "key": "scopely:5442575008",
-   "fit": "Muy baja",
-   "reason": "Combate para un strategy/MMO cross-platform. Pide 4+ años en F2P y trabajo en Unity o Unreal."
-  },
-  {
-   "key": "tripledot:4965778101",
+   "key": "voodoo:d633533c-ac08-440e-a6b6-33351b3ad005",
    "fit": "Baja",
-   "reason": "Diseño de puzzle casual en remoto desde Europa. Pide 3+ años y turco fluido para trabajar con estudios turcos."
+   "reason": "Modos multijugador para Paper.io 2 desde Barcelona o remoto. Pide 5+ años en F2P móvil y prototipar en Unity."
+  },
+  {
+   "key": "angrymob:325",
+   "fit": "Baja",
+   "reason": "Gameplay en Unity para un cooperativo en Barcelona: prototipos y bucle principal. Pide programar y haber publicado juegos."
   }
  ]
 }
