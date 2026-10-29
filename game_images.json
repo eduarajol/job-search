@@ -588,7 +588,7 @@
   "match": "World of Tanks Blitz"
  },
  "wargaming:World of Warships": {
-  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552990/9684685d206bf6a74fb21cdb49eb4748c61b1c79/header_alt_assets_16.jpg?t=1791478284",
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552990/ff8da69a5590d72671ff9444932ca1def1947dec/header_alt_assets_17.jpg?t=1793268266",
   "src": "steam",
   "url": "https://store.steampowered.com/app/552990/",
   "match": "World of Warships"
@@ -690,7 +690,7 @@
   "match": "Muffin Knight"
  },
  "productmadness:Heart of Vegas": {
-  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fd/c5/45/fdc545e5-b957-f446-eac8-318ad1f64439/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fa/67/86/fa67863f-b79b-8e8a-ee9b-7775713376ac/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
   "src": "appstore",
   "url": "https://apps.apple.com/us/app/heart-of-vegas-casino-slots/id785537179",
   "match": "Heart of Vegas - Casino Slots"
@@ -702,13 +702,13 @@
   "match": "Lightning Link Casino Slots"
  },
  "productmadness:Cashman Casino": {
-  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5b/32/22/5b32225f-2f88-7ce9-2d21-e60202758424/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f0/9b/00/f09b00d1-28d2-5c13-60b3-76a8a02872d4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
   "src": "appstore",
   "url": "https://apps.apple.com/us/app/cashman-casino-slots-games/id1123582513",
   "match": "Cashman Casino Slots Games"
  },
  "productmadness:Mighty Fu Casino": {
-  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/51/32/eb/5132eb3f-c4ca-53d4-9573-86e46d077d13/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/50/66/b5/5066b564-dd7e-d52a-8e68-8296ed0ea95d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
   "src": "appstore",
   "url": "https://apps.apple.com/us/app/mighty-fu-casino-slots-game/id1311478292",
   "match": "Mighty Fu Casino: Slots Game"
@@ -732,7 +732,7 @@
   "match": "Star Trek Timelines"
  },
  "tiltingpoint:SpongeBob: Krusty Cook-Off": {
-  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/02/01/64/02016475-9564-bd6f-1a79-3151fab63688/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/37/42/fb/3742fb73-dd03-e025-b52f-0ef157380dfc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
   "src": "appstore",
   "url": "https://apps.apple.com/us/app/spongebob-krusty-cook-off/id1433784188",
   "match": "SpongeBob: Krusty Cook-Off"
@@ -886,5 +886,179 @@
   "src": "steam",
   "url": "https://store.steampowered.com/app/2217470/",
   "match": "Wilderings: The Lost Spring"
+ },
+ "jamcity:Harry Potter: Hogwarts Mystery": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/af/49/54af49d8-f457-3c6e-e4d5-cfd88f141422/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/harry-potter-hogwarts-mystery/id1333256716",
+  "match": "Harry Potter: Hogwarts Mystery"
+ },
+ "jamcity:Disney Emoji Blitz": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/93/b9/9093b972-ac0a-33ef-2995-240533e02a2e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/disney-emoji-blitz-game/id1017551780",
+  "match": "Disney Emoji Blitz Game"
+ },
+ "jamcity:Cookie Jam": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9a/d2/5f/9ad25f65-857b-3e59-d99b-b6fdd90b6faf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/cookie-jam-match-3-games/id727296976",
+  "match": "Cookie Jam: Match 3 Games"
+ },
+ "jamcity:Genies & Gems": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6b/f5/ef/6bf5ef91-204c-24c2-13b8-ef26c2daa1e3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/genies-gems-puzzle-quests/id1032443533",
+  "match": "Genies & Gems: Puzzle & Quests"
+ },
+ "scorewarrior:Total Battle": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b5/5f/98/b55f98b7-c14a-d3be-c4e9-87dfe3ca3566/crowd_multipliers_v6-0-0-1x_U007emarketing-0-5-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/total-battle-war-strategy/id1274132545",
+  "match": "Total Battle: War Strategy"
+ },
+ "cdpr:Cyberpunk 2077": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/48a93d6445a67520ea49833c93dae8f2e68fc540/header_alt_assets_9.jpg?t=1792682505",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/1091500/",
+  "match": "Cyberpunk 2077"
+ },
+ "cdpr:Cyberpunk 2077: Phantom Liberty": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/bdbeea292270b8cd9dde1f2044a411624db58657/header.jpg?t=1784713876",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/2138330/",
+  "match": "Cyberpunk 2077: Phantom Liberty"
+ },
+ "cdpr:The Witcher 3: Wild Hunt": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/e8afc4252e3fee8ed2525ab2fd7675cca39aa38d/header_alt_assets_1.jpg?t=1790845156",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/292030/",
+  "match": "The Witcher 3: Wild Hunt — Remastered"
+ },
+ "cdpr:The Witcher 2: Assassins of Kings": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20920/header.jpg?t=1761657279",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/20920/",
+  "match": "The Witcher 2: Assassins of Kings Enhanced Edition"
+ },
+ "cdpr:Gwent: The Witcher Card Game": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1284410/header.jpg?t=1749200860",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/1284410/",
+  "match": "GWENT: The Witcher Card Game"
+ },
+ "playstation:God of War Ragnarök": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322010/header.jpg?t=1776465233",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/2322010/",
+  "match": "God of War Ragnarök"
+ },
+ "playstation:The Last of Us Part II": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531310/header.jpg?t=1750959180",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/2531310/",
+  "match": "The Last of Us™ Part II Remastered"
+ },
+ "playstation:Horizon Forbidden West": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2420110/header.jpg?t=1789585745",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/2420110/",
+  "match": "Horizon Forbidden West™ Complete Edition"
+ },
+ "playstation:Marvel's Spider-Man 2": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/header.jpg?t=1763569811",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/2651280/",
+  "match": "Marvel's Spider-Man 2"
+ },
+ "playstation:Helldivers 2": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/850e2f9e5bb15c5706bb9a1edc832f4f782e8be5/header.jpg?t=1792487611",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/553850/",
+  "match": "HELLDIVERS™ 2"
+ },
+ "insomniac:Marvel's Spider-Man 2": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/header.jpg?t=1763569811",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/2651280/",
+  "match": "Marvel's Spider-Man 2"
+ },
+ "insomniac:Ratchet & Clank: Rift Apart": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1895880/header.jpg?t=1787838873",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/1895880/",
+  "match": "Ratchet & Clank: Rift Apart"
+ },
+ "insomniac:Sunset Overdrive": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/847370/header.jpg?t=1667851405",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/847370/",
+  "match": "Sunset Overdrive"
+ },
+ "crystal:Shadow of the Tomb Raider": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/750920/86f9744a410121ff869cc19f63aa9e3dfcf54b8d/header_alt_assets_0.jpg?t=1792675045",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/750920/",
+  "match": "Shadow of the Tomb Raider: Definitive Edition"
+ },
+ "crystal:Rise of the Tomb Raider": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/391220/29279804029df9b7540caef5c086c9f0393e2e2d/header_alt_assets_0.jpg?t=1792675385",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/391220/",
+  "match": "Rise of the Tomb Raider™"
+ },
+ "crystal:Tomb Raider": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2478970/a94ccfdb7582dc5564cdf736b0f239531b66bf1d/header.jpg?t=1788752575",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/2478970/",
+  "match": "Tomb Raider I-III Remastered Starring Lara Croft"
+ },
+ "saber:Warhammer 40,000: Space Marine 2": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/c0da5cad512f85a006abb9181cb3f45107fb0223/header_alt_assets_14.jpg?t=1790874369",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/2183900/",
+  "match": "Warhammer 40,000: Space Marine 2"
+ },
+ "saber:World War Z": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/699130/b35277055fbb7e07c26c5e31e4398684c6461d53/header.jpg?t=1791201515",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/699130/",
+  "match": "World War Z"
+ },
+ "saber:SnowRunner": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1465360/header.jpg?t=1792504894",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/1465360/",
+  "match": "SnowRunner"
+ },
+ "marvelent:Marvel Rivals": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2767030/c61f65c5968af5d85b0393005991ecee0184fcaf/header.jpg?t=1792140776",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/2767030/",
+  "match": "Marvel Rivals"
+ },
+ "marvelent:Marvel Strike Force": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/13/38/da/1338da8b-cc10-ddd8-f583-d7cbebe7f90d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/marvel-strike-force-squad-rpg/id1292952049",
+  "match": "MARVEL Strike Force: Squad RPG"
+ },
+ "marvelent:Marvel Snap": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/95/c4/0c95c4a4-1163-be37-f03a-ed295dbdfe45/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/marvel-snap-hero-card-game/id1592081003",
+  "match": "MARVEL SNAP - Hero Card Game"
+ },
+ "marvelent:Marvel's Spider-Man 2": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/header.jpg?t=1763569811",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/2651280/",
+  "match": "Marvel's Spider-Man 2"
+ },
+ "marvelent:Marvel Tōkon: Fighting Souls": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3787240/943fda32c11b3e3f451458ffa95a4adca1f316a4/header.jpg?t=1788520309",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/3787240/",
+  "match": "MARVEL Tōkon: Fighting Souls"
  }
 }
