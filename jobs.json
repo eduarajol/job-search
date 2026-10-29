@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T00:15:52+00:00",
+ "updated": "2026-10-29T09:39:32+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -1516,7 +1516,7 @@
     "logos/ubisoft.svg"
    ],
    "status": "ok",
-   "total": 320,
+   "total": 317,
    "jobs": [
     {
      "id": "744000158059429",
@@ -1816,17 +1816,6 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "744000155900379",
-     "title": "UX Designer",
-     "location": "Chengdu, Sichuan, China",
-     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000155900379",
-     "remote": false,
-     "posted": "2026-10-16T02:14:50.387Z",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "744000154591320",
      "title": "Junior Technical Artist - Rainbow Six  Siege",
      "location": "Barcelona, CT, Spain",
@@ -1892,7 +1881,7 @@
    "careers": "https://job-boards.eu.greenhouse.io/tripledotstudios",
    "logos": [],
    "status": "ok",
-   "total": 95,
+   "total": 94,
    "jobs": [
     {
      "id": "4965778101",
@@ -1917,23 +1906,23 @@
      "firstSeen": "2026-10-28T17:49:21+00:00"
     },
     {
+     "id": "4944287101",
+     "title": "Game Designer (Hybrid Casual)",
+     "location": "Minsk",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4944287101",
+     "remote": false,
+     "posted": "2026-08-05T11:52:03-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
      "id": "4963495101",
      "title": "Game Designer (Hybrid Casual)",
      "location": "Warsaw",
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4963495101",
      "remote": false,
      "posted": "2026-08-28T10:53:45-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
-     "id": "4945678101",
-     "title": "Game Designer (Hybrid Casual)",
-     "location": "Limassol",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4945678101",
-     "remote": false,
-     "posted": "2026-08-05T11:53:43-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -1950,12 +1939,12 @@
      "firstSeen": "2026-10-28T17:49:21+00:00"
     },
     {
-     "id": "4944287101",
+     "id": "4945678101",
      "title": "Game Designer (Hybrid Casual)",
-     "location": "Minsk",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4944287101",
+     "location": "Limassol",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4945678101",
      "remote": false,
-     "posted": "2026-08-05T11:52:03-04:00",
+     "posted": "2026-08-05T11:53:43-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -2005,23 +1994,23 @@
      "firstSeen": "2026-10-28T17:49:21+00:00"
     },
     {
-     "id": "4999486101",
-     "title": "Senior Level Designer",
-     "location": "Minsk",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4999486101",
-     "remote": false,
-     "posted": "2026-10-07T05:27:11-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
      "id": "4999078101",
      "title": "Senior Level Designer",
      "location": "Warsaw",
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4999078101",
      "remote": false,
      "posted": "2026-10-07T05:27:09-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4999486101",
+     "title": "Senior Level Designer",
+     "location": "Minsk",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4999486101",
+     "remote": false,
+     "posted": "2026-10-07T05:27:11-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -2038,23 +2027,23 @@
      "firstSeen": "2026-10-28T17:49:21+00:00"
     },
     {
-     "id": "4988635101",
-     "title": "Data Analyst",
-     "location": "Remote Europe",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988635101",
-     "remote": true,
-     "posted": "2026-09-28T09:54:30-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
      "id": "4988598101",
      "title": "Data Analyst",
      "location": "Barcelona",
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988598101",
      "remote": false,
      "posted": "2026-09-28T09:42:08-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4988635101",
+     "title": "Data Analyst",
+     "location": "Remote Europe",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988635101",
+     "remote": true,
+     "posted": "2026-09-28T09:54:30-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -2104,23 +2093,23 @@
      "firstSeen": "2026-10-28T17:49:21+00:00"
     },
     {
-     "id": "4962295101",
-     "title": "Senior Ad Monetisation Analyst",
-     "location": "Barcelona",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4962295101",
-     "remote": false,
-     "posted": "2026-08-27T10:44:54-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
      "id": "4960068101",
      "title": "Senior Ad Monetisation Analyst",
      "location": "Remote Europe",
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4960068101",
      "remote": true,
      "posted": "2026-08-25T06:37:03-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4962295101",
+     "title": "Senior Ad Monetisation Analyst",
+     "location": "Barcelona",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4962295101",
+     "remote": false,
+     "posted": "2026-08-27T10:44:54-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -2384,7 +2373,7 @@
     "https://upload.wikimedia.org/wikipedia/en/7/7b/Zynga.svg"
    ],
    "status": "ok",
-   "total": 43,
+   "total": 45,
    "jobs": [
     {
      "id": "5724174004",
@@ -2753,7 +2742,7 @@
     "https://upload.wikimedia.org/wikipedia/commons/1/18/ZeptoLab.svg"
    ],
    "status": "ok",
-   "total": 4,
+   "total": 3,
    "jobs": []
   },
   {
@@ -2773,7 +2762,7 @@
      "location": "Spain (Barcelona)",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Spain-Barcelona/UI-Animator_R0019205-1",
      "remote": false,
-     "posted": "2026-10-15",
+     "posted": "2026-10-14",
      "design": true,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -2784,7 +2773,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/ML-Engineer_R0022488",
      "remote": false,
-     "posted": "2026-10-07",
+     "posted": "2026-10-06",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -2795,7 +2784,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/ML-Engineer_R0022029-1",
      "remote": false,
-     "posted": "2026-10-06",
+     "posted": "2026-10-05",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -2806,7 +2795,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Associate-Game-Ops-Manager_R0022377",
      "remote": false,
-     "posted": "2026-10-02",
+     "posted": "2026-10-01",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -2828,7 +2817,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Data-Analyst_R0022725",
      "remote": false,
-     "posted": "2026-10-06",
+     "posted": "2026-10-05",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -2839,7 +2828,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-UI-Artist_R0022928",
      "remote": false,
-     "posted": "2026-10-17",
+     "posted": "2026-10-16",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -2850,7 +2839,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Technical-Product-Owner_R0022685",
      "remote": false,
-     "posted": "2026-10-06",
+     "posted": "2026-10-05",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -3460,7 +3449,7 @@
     "logos/ea.svg"
    ],
    "status": "ok",
-   "total": 355,
+   "total": 356,
    "jobs": [
     {
      "id": "216318",
@@ -3703,6 +3692,17 @@
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216542",
+     "title": "Game Designer, EA SPORTS FC™ Mobile",
+     "location": "Seoul, Korea, Republic of",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Game-Designer-FC-Mobile/216542",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-29T09:39:32+00:00"
     },
     {
      "id": "216168",
@@ -4058,7 +4058,7 @@
     "logos/riot.svg"
    ],
    "status": "ok",
-   "total": 185,
+   "total": 184,
    "jobs": [
     {
      "id": "7102266",
@@ -4688,6 +4688,39 @@
    "jobs": null
   },
   {
+   "id": "infinitethread",
+   "name": "Infinite Thread Games",
+   "group": "pc",
+   "note": "Indie de Barcelona (Hidalgo). Sin web de empleo: info@infinite-thread.com o LinkedIn",
+   "domain": "infinite-thread.com",
+   "careers": "https://www.linkedin.com/company/infinite-thread-games/jobs/",
+   "logos": [],
+   "status": "manual",
+   "jobs": null
+  },
+  {
+   "id": "loom",
+   "name": "Loom Studios",
+   "group": "pc",
+   "note": "Indie de Barcelona (Myth of Valderit). Sin web de empleo: contacto por LinkedIn",
+   "domain": "loomstudios.es",
+   "careers": "https://www.linkedin.com/company/108273554/jobs/",
+   "logos": [],
+   "status": "manual",
+   "jobs": null
+  },
+  {
+   "id": "herobeat",
+   "name": "Herobeat Studios",
+   "group": "pc",
+   "note": "Indie de Barcelona (Endling). Sin web de empleo: contact@herobeatstudios.com o LinkedIn",
+   "domain": "herobeatstudios.com",
+   "careers": "https://www.linkedin.com/company/herobeat-studios/jobs/",
+   "logos": [],
+   "status": "manual",
+   "jobs": null
+  },
+  {
    "id": "nomada",
    "name": "Nomada Studio",
    "group": "pc",
@@ -5013,39 +5046,6 @@
      "firstSeen": "2026-10-28T22:59:48+00:00"
     }
    ]
-  },
-  {
-   "id": "infinitethread",
-   "name": "Infinite Thread Games",
-   "group": "pc",
-   "note": "Indie de Barcelona (Hidalgo). Sin web de empleo: info@infinite-thread.com o LinkedIn",
-   "domain": "infinite-thread.com",
-   "careers": "https://www.linkedin.com/company/infinite-thread-games/jobs/",
-   "logos": [],
-   "status": "manual",
-   "jobs": null
-  },
-  {
-   "id": "loom",
-   "name": "Loom Studios",
-   "group": "pc",
-   "note": "Indie de Barcelona (Myth of Valderit). Sin web de empleo: contacto por LinkedIn",
-   "domain": "loomstudios.es",
-   "careers": "https://www.linkedin.com/company/108273554/jobs/",
-   "logos": [],
-   "status": "manual",
-   "jobs": null
-  },
-  {
-   "id": "herobeat",
-   "name": "Herobeat Studios",
-   "group": "pc",
-   "note": "Indie de Barcelona (Endling). Sin web de empleo: contact@herobeatstudios.com o LinkedIn",
-   "domain": "herobeatstudios.com",
-   "careers": "https://www.linkedin.com/company/herobeat-studios/jobs/",
-   "logos": [],
-   "status": "manual",
-   "jobs": null
   }
  ]
 }
