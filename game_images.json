@@ -377,12 +377,6 @@
   "url": "https://apps.apple.com/us/app/cut-the-rope-remastered/id6790417429",
   "match": "Cut the Rope Remastered"
  },
- "larian:Divinity": {
-  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/435150/3f6ee788cb01bd65097c52399d536eb424b4876f/header.jpg?t=1765811123",
-  "src": "steam",
-  "url": "https://store.steampowered.com/app/435150/",
-  "match": "Divinity: Original Sin 2 - Definitive Edition"
- },
  "larian:Baldur's Gate 3": {
   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/48a2fcbda8565bb45025e98fd8ebde8a7203f6a0/header.jpg?t=1777363040",
   "src": "steam",
@@ -390,12 +384,6 @@
   "match": "Baldur's Gate 3"
  },
  "larian:Divinity: Original Sin 2": {
-  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/435150/3f6ee788cb01bd65097c52399d536eb424b4876f/header.jpg?t=1765811123",
-  "src": "steam",
-  "url": "https://store.steampowered.com/app/435150/",
-  "match": "Divinity: Original Sin 2 - Definitive Edition"
- },
- "larian:Divinity: Original Sin": {
   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/435150/3f6ee788cb01bd65097c52399d536eb424b4876f/header.jpg?t=1765811123",
   "src": "steam",
   "url": "https://store.steampowered.com/app/435150/",
@@ -412,18 +400,6 @@
   "src": "steam",
   "url": "https://store.steampowered.com/app/1659040/",
   "match": "HITMAN World of Assassination"
- },
- "ioi:Hitman 3": {
-  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1829591/header.jpg?t=1772189229",
-  "src": "steam",
-  "url": "https://store.steampowered.com/app/1829591/",
-  "match": "HITMAN 3 - Deluxe Pack"
- },
- "ioi:Hitman 2": {
-  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6850/header.jpg?t=1732293077",
-  "src": "steam",
-  "url": "https://store.steampowered.com/app/6850/",
-  "match": "Hitman 2: Silent Assassin"
  },
  "ioi:Hitman: Blood Money": {
   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6860/header.jpg?t=1732283123",
@@ -485,12 +461,6 @@
   "url": "https://store.steampowered.com/app/3354750/",
   "match": "skate."
  },
- "riot:League of Legends": {
-  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1276800/header.jpg?t=1707178625",
-  "src": "steam",
-  "url": "https://store.steampowered.com/app/1276800/",
-  "match": "CONVERGENCE: A League of Legends Story™"
- },
  "riot:Teamfight Tactics": {
   "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d7/94/c2/d794c2d4-80ec-9a85-9381-d6e72694cbb3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
   "src": "appstore",
@@ -520,12 +490,6 @@
   "src": "steam",
   "url": "https://store.steampowered.com/app/552990/",
   "match": "World of Warships"
- },
- "taketwo:Grand Theft Auto VI": {
-  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1546990/header.jpg?t=1781138647",
-  "src": "steam",
-  "url": "https://store.steampowered.com/app/1546990/",
-  "match": "Grand Theft Auto: Vice City – The Definitive Edition"
  },
  "taketwo:Grand Theft Auto V": {
   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg?t=1781187782",
@@ -562,12 +526,6 @@
   "src": "steam",
   "url": "https://store.steampowered.com/app/1941540/",
   "match": "Mafia: The Old Country"
- },
- "taketwo:BioShock": {
-  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8870/header.jpg?t=1728673518",
-  "src": "steam",
-  "url": "https://store.steampowered.com/app/8870/",
-  "match": "BioShock Infinite"
  },
  "digitalextremes:Warframe": {
   "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/1a3e7c2a05ce4e5cad5ac4c7e858cf5b0934704e/header.jpg?t=1792613117",

@@ -36,19 +36,48 @@ ALIASES = {
 
 
 def norm(s):
+    s = re.sub(r"[™®©]", "", s)
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
     return re.sub(r"[^a-z0-9]+", " ", s).strip()
 
 
-def get_json(url):
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return json.loads(r.read().decode("utf-8"))
+def get_json(url, tries=4):
+    """Both stores throttle (the App Store allows ~20 searches a minute):
+    wait and retry on errors or empty answers."""
+    for i in range(tries):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
+            with urllib.request.urlopen(req, timeout=30) as r:
+                data = json.loads(r.read().decode("utf-8"))
+            if data is not None:
+                return data
+        except Exception as e:
+            if i == tries - 1:
+                raise
+        time.sleep(6 * (i + 1))
+    return {}
+
+
+# Matches that look right by title but are another game (or a DLC): never use them.
+SKIP = {
+    "larian:Divinity", "riot:League of Legends", "taketwo:Grand Theft Auto VI", "taketwo:BioShock",
+    "ioi:Hitman 2", "ioi:Hitman 3", "ioi:Hitman (2016)",
+}
+EXTRA_WORDS = re.compile(r"^(?:[a-z]+ ?)*(game|games|puzzle|casino|slots|classic|adventure|rpg|edition|definitive edition|enhanced|remastered|online|now)?$")
 
 
 def title_ok(game, found):
+    """Same title, or the same title followed by a subtitle ("Dragon City: Battle
+    Adventure!"). A following number means a different game ("Divinity 2")."""
     g, f = norm(game), norm(found)
-    return bool(g) and (f == g or f.startswith(g + " ") or f.startswith(g) and len(f) - len(g) < 4 or g in f and len(g) > 8)
+    if not g or not (f == g or f.startswith(g + " ")):
+        return False
+    rest = f[len(g):].strip()
+    if not rest:
+        return True
+    if re.match(r"^\d", rest) or rest.split()[0] in ("ii", "iii", "iv", "2", "3"):
+        return False
+    return bool(re.search(r"[:\-–—™®]", found)) or len(rest.split()) <= 3
 
 
 def dev_ok(cid, *names):
@@ -68,7 +97,7 @@ def app_store(cid, game):
             if title_ok(game, r.get("trackName", "")) and dev_ok(cid, r.get("artistName"), r.get("sellerName")):
                 return {"img": r.get("artworkUrl512") or r.get("artworkUrl100"), "src": "appstore",
                         "url": r.get("trackViewUrl", "").split("?")[0], "match": r.get("trackName")}
-        time.sleep(0.4)
+        time.sleep(3.2)
     return None
 
 
@@ -104,14 +133,14 @@ def main():
     for cid, info in games.items():
         for g in info.get("games", []):
             key = f"{cid}:{g['n']}"
-            if "sin anunciar" in g["n"]:
+            if "sin anunciar" in g["n"] or key in SKIP:
                 continue
             first, second = (steam, app_store) if groups.get(cid) == "pc" else (app_store, steam)
             hit = first(cid, g["n"]) or second(cid, g["n"]) or old.get(key)
             if hit:
                 out[key] = hit
             print(("ok   " if hit else "miss ") + key + (f"  ->  {hit['src']}: {hit['match']}" if hit else ""))
-            time.sleep(0.3)
+            time.sleep(1.5)
     out_path.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
