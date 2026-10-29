@@ -1,0 +1,800 @@
+{
+ "scopely:Monopoly Go!": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/55/df/6f/55df6ff5-a7bd-1efd-15f5-90fccee23489/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/monopoly-go/id1621328561",
+  "match": "MONOPOLY GO!"
+ },
+ "scopely:Stumble Guys": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/43/bf/f3/43bff3e4-2680-e0d4-371f-91023f1c1a42/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/stumble-guys/id1541153375",
+  "match": "Stumble Guys"
+ },
+ "scopely:Star Trek Fleet Command": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/a3/b3/b6a3b3b5-887d-cf40-a0e6-913a887fb35d/AppIcon-0-0-1x_U007emarketing-0-8-0-512MB-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/star-trek-fleet-command/id1427744264",
+  "match": "Star Trek Fleet Command"
+ },
+ "scopely:Marvel Strike Force": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/13/38/da/1338da8b-cc10-ddd8-f583-d7cbebe7f90d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/marvel-strike-force-squad-rpg/id1292952049",
+  "match": "MARVEL Strike Force: Squad RPG"
+ },
+ "scopely:Pokémon GO": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/39/68/93/396893e0-651d-d627-9377-fd9e7c90e99a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/pok%C3%A9mon-go/id1094591345",
+  "match": "Pokémon GO"
+ },
+ "scopely:Monster Hunter Now": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ec/a2/a4/eca2a402-b5d6-4338-9305-21a90e296a87/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/monster-hunter-now/id6445906110",
+  "match": "Monster Hunter Now"
+ },
+ "scopely:Scrabble GO": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c4/4d/14/c44d142c-1a90-eab5-519b-53bab3302371/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/scrabble-go-fun-with-words/id1215933788",
+  "match": "Scrabble® GO – Fun with Words!"
+ },
+ "scopely:Yahtzee with Buddies": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ce/b4/11/ceb4110e-a557-a86d-0788-d5882f06e28c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/yahtzee-with-buddies-dice/id1206967173",
+  "match": "Yahtzee® with Buddies Dice"
+ },
+ "king:Candy Crush Saga": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/46/09/85/4609855b-e862-83c5-210b-d49a62882c66/AppIconV1-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/candy-crush-saga/id553834731",
+  "match": "Candy Crush Saga"
+ },
+ "king:Candy Crush Soda Saga": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f3/0f/a9/f30fa964-4672-89a8-8864-ec63029a6c81/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/candy-crush-soda-saga/id850417475",
+  "match": "Candy Crush Soda Saga"
+ },
+ "king:Candy Crush Solitaire": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/29/07/71/29077117-fa3a-df32-e36d-0fe4f2f6cbca/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/candy-crush-solitaire/id6474685626",
+  "match": "Candy Crush Solitaire"
+ },
+ "king:Farm Heroes Saga": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bd/e1/b4/bde1b459-3cf0-53b0-097d-9017851acf07/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/farm-heroes-saga/id608206510",
+  "match": "Farm Heroes Saga"
+ },
+ "king:Pet Rescue Saga": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2b/11/f6/2b11f681-9a00-1934-ea9b-58748e60344d/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/pet-rescue-saga/id572821456",
+  "match": "Pet Rescue Saga"
+ },
+ "king:Bubble Witch 3 Saga": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/57/12/fa/5712fa23-a352-602e-6c9e-272814f4d803/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/bubble-witch-3-saga/id1095254858",
+  "match": "Bubble Witch 3 Saga"
+ },
+ "socialpoint:Dragon City": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/42/93/80/429380c6-bf9e-d958-d9b4-80f2a772cdbc/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/dragon-city-battle-adventure/id561941526",
+  "match": "Dragon City: Battle Adventure!"
+ },
+ "socialpoint:Monster Legends": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/aa/7c/70/aa7c7075-8980-ad20-3559-7826276e8a78/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/monster-legends-battle-game/id653508448",
+  "match": "Monster Legends - Battle Game"
+ },
+ "socialpoint:Word Life": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b5/1d/34/b51d3437-57f4-bf70-75db-879e4cf9efe9/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/word-life-crossword-puzzle/id1418492982",
+  "match": "Word Life - Crossword puzzle"
+ },
+ "gameloft:Disney Dreamlight Valley": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/36/18/76/361876cc-21b9-7074-6b36-27439c2167cb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/disney-dreamlight-valley/id6456945575",
+  "match": "Disney Dreamlight Valley"
+ },
+ "gameloft:Disney Speedstorm": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b5/72/39/b5723948-281a-c412-ac14-2a8ebc85cfc4/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/disney-speedstorm/id6449708682",
+  "match": "Disney Speedstorm"
+ },
+ "gameloft:Asphalt Legends": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b0/5d/4c/b05d4cdb-f259-f7cf-6be3-77c4d0d5a9fb/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/asphalt-legends-racing-game/id805603214",
+  "match": "Asphalt Legends - Racing Game"
+ },
+ "gameloft:Dragon Mania Legends": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c3/a8/9c/c3a89cf0-cded-9d0d-666b-f41ba78f98bc/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/dragon-mania-legends/id882507985",
+  "match": "Dragon Mania Legends"
+ },
+ "gameloft:Modern Combat 5": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f9/af/d9/f9afd9bf-ae71-ce35-4d97-8af8f7b44f54/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/modern-combat-5/id656176278",
+  "match": "Modern Combat 5"
+ },
+ "gameloft:Dungeon Hunter 5": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/19/4a/2a/194a2aed-f9c9-5a65-6889-171c1bc842cb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/dungeon-hunter-5/id885823239",
+  "match": "Dungeon Hunter 5"
+ },
+ "gameloft:March of Empires": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c1/26/36/c1263672-6ef2-fd61-863b-7aecd00a4bb7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/march-of-empires-war-games/id976688720",
+  "match": "March of Empires: War Games"
+ },
+ "gameloft:Gangstar Vegas": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6e/ef/84/6eef8428-a70c-73d1-944e-b8b626ef4ca4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/gangstar-vegas-mafia-action/id571393580",
+  "match": "Gangstar Vegas - Mafia action"
+ },
+ "ubisoft:Rainbow Six Siege": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/555b5051d332c5f6b86f88ba5dfd80404dc91aaa/header_alt_assets_27.jpg?t=1792001976",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/359550/",
+  "match": "Tom Clancy's Rainbow Six Siege"
+ },
+ "ubisoft:Assassin's Creed Shadows": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3362570/f1906ce7d2fb7f9f70df8debb06ac53efbe43083/header.jpg?t=1764869126",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/3362570/",
+  "match": "Assassin's Creed Shadows - Premium Starter Pack"
+ },
+ "ubisoft:Far Cry 6": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2369390/64af0c6b70ef233bbdff1e5ffe0e397481efb3c9/header.jpg?t=1790173132",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/2369390/",
+  "match": "Far Cry® 6"
+ },
+ "ubisoft:The Division 2": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2221490/cbba91ad5e65bce519fca6297c61f14e7e8af6ea/header_alt_assets_12.jpg?t=1791884938",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/2221490/",
+  "match": "Tom Clancy’s The Division® 2"
+ },
+ "ubisoft:Anno 117: Pax Romana": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3274580/88dbcce1c7630e2d4334fa25e835968e57e0ebfe/header.jpg?t=1792072501",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/3274580/",
+  "match": "Anno 117: Pax Romana"
+ },
+ "ubisoft:Prince of Persia: The Lost Crown": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2751000/header.jpg?t=1777993930",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/2751000/",
+  "match": "Prince of Persia The Lost Crown"
+ },
+ "ubisoft:Just Dance": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/82/b8/80/82b880b1-28ec-3485-c84f-b73250a3df77/IDD2024-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/es/app/just-dance-now/id833517462",
+  "match": "Just Dance Now"
+ },
+ "ubisoft:Invincible: Guarding the Globe": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/de/f8/fb/def8fbd1-e218-61f7-d3de-74e8e2795146/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/invincible-guarding-the-globe/id6449294809",
+  "match": "Invincible: Guarding the Globe"
+ },
+ "ubisoft:Hungry Dragon": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cc/03/74/cc03744e-4d21-9f89-e858-e21527d49e82/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/es/app/hungry-dragon-hungry-shark/id1163163344",
+  "match": "Hungry Dragon: Hungry Shark"
+ },
+ "tripledot:Solitaire": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/51/b6/7851b635-9d1b-2e49-373a-cef66a250a6f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/solitaire-com-classic-cards/id1191435163",
+  "match": "Solitaire.com: Classic Cards"
+ },
+ "tripledot:Woodoku": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4c/aa/b1/4caab122-b393-bc6b-344e-fad347f93b02/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/woodoku-wood-block-puzzles/id1496354836",
+  "match": "Woodoku - Wood Block Puzzles"
+ },
+ "tripledot:Triple Tile": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/21/e5/0a/21e50aa7-97fe-0ae2-ff96-ed41d8b4fda4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/triple-tile-match-puzzle-game/id1572661625",
+  "match": "Triple Tile: Match Puzzle Game"
+ },
+ "tripledot:Get Color": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/7c/80/b47c80d7-2358-20c6-adf3-2c3dbbe9b559/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/water-sort-puzzle-get-color/id1569776448",
+  "match": "Water Sort Puzzle: Get Color"
+ },
+ "tripledot:Block Away": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/e0/74/cfe0745b-b37d-fcc0-13ee-57f14eea1598/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/block-away-tap-out-puzzle/id6503060634",
+  "match": "Block Away - Tap Out Puzzle"
+ },
+ "tripledot:Car Out!": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d8/29/39/d82939d1-ecad-3ea6-99ca-7b92facd1ebf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/car-out-parking-spot-games/id6468953632",
+  "match": "Car Out! Parking Spot Games"
+ },
+ "tripledot:Happy Glass": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cf/c8/62/cfc8620a-789f-c925-ea18-4b0850d29564/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/es/app/happy-glass/id1425793208",
+  "match": "Happy Glass"
+ },
+ "voodoo:Paper.io 2": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/2f/36/c12f368f-131c-3424-6038-b23d4645af19/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/paper-io-2/id1423046460",
+  "match": "Paper.io 2"
+ },
+ "voodoo:Helix Jump": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c8/21/9f/c8219f06-a80e-3264-9312-bf96a5f66fb9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/helix-jump/id1345968745",
+  "match": "Helix Jump"
+ },
+ "voodoo:Hole.io": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1d/47/8e/1d478e70-cbb5-a324-0822-2772b6122c49/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/hole-io-original-hole-game/id1389111413",
+  "match": "Hole.io - Original Hole Game"
+ },
+ "voodoo:Aquapark.io": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8a/80/79/8a807920-69b6-61be-79a8-9a88a9564c97/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/es/app/aquapark-io/id1453989822",
+  "match": "Aquapark.io"
+ },
+ "voodoo:Crowd City": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b3/34/0c/b3340c3b-de73-2348-68c9-9114f2b9f58d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/crowd-city/id1444062497",
+  "match": "Crowd City"
+ },
+ "voodoo:Mob Control": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/22/d2/97/22d29729-428b-5f5a-8504-353bae9dfe30/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/mob-control/id1562817072",
+  "match": "Mob Control"
+ },
+ "zynga:Zynga Poker": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2f/78/e7/2f78e7c1-7218-d6e8-6047-3d92f31b87d8/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/es/app/zynga-poker-texas-holdem/id354902315",
+  "match": "Zynga Poker ™ - Texas Hold'em"
+ },
+ "zynga:Toon Blast": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3a/dd/6e/3add6ec7-b780-9aff-c964-4cca062fe752/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/toon-blast/id1176027022",
+  "match": "Toon Blast"
+ },
+ "moonactive:Coin Master": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/46/bc/8f46bc02-d261-131f-e805-786ad869e0d6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/coin-master/id406889139",
+  "match": "Coin Master"
+ },
+ "moonactive:Travel Town": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f5/41/81/f54181ca-89b9-6e07-2818-247ae7306c5e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/travel-town-merge-adventure/id1521236603",
+  "match": "Travel Town - Merge Adventure"
+ },
+ "rovio:Angry Birds 2": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/a2/ef/c7a2efaf-a501-51dc-3fab-1b7a95fe81d5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/angry-birds-2/id880047117",
+  "match": "Angry Birds 2"
+ },
+ "rovio:Angry Birds Friends": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/93/55/7e/93557e05-7276-8974-6e7d-99352631ae1e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/es/app/angry-birds-friends/id555936735",
+  "match": "Angry Birds Friends"
+ },
+ "rovio:Angry Birds Dream Blast": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/aa/07/2c/aa072c19-0868-3658-2198-5cc2928e26d1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/es/app/angry-birds-dream-blast/id1432579280",
+  "match": "Angry Birds Dream Blast"
+ },
+ "rovio:Angry Birds Journey": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f3/fa/95/f3fa95f9-8288-39fa-8a0f-44202d370e26/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/angry-birds-journey/id1498198098",
+  "match": "Angry Birds Journey"
+ },
+ "rovio:Angry Birds Match": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c0/17/00/c0170028-b161-7ec7-6214-4e176a247c0e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/angry-birds-match/id6753683553",
+  "match": "Angry Birds Match"
+ },
+ "rovio:Bad Piggies": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/86/f2/d0/86f2d00b-a564-747c-b5ad-934d9c417e0c/AppIcon-0-0-1x_U007emarketing-0-7-0-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/bad-piggies/id533451786",
+  "match": "Bad Piggies"
+ },
+ "outfit7:My Talking Tom 2": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/92/c3/a292c3b4-bcb4-6427-fb9a-3acb8984c423/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/my-talking-tom-2/id1337578317",
+  "match": "My Talking Tom 2"
+ },
+ "outfit7:My Talking Tom Friends": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0f/10/44/0f1044df-6b5e-64ce-2170-716798d80445/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/my-talking-tom-friends/id1473424857",
+  "match": "My Talking Tom Friends"
+ },
+ "outfit7:Talking Tom Gold Run": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c0/4b/2c/c04b2c4e-0c3b-5ed8-de99-72b51ba63f74/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/talking-tom-gold-run/id1089336971",
+  "match": "Talking Tom Gold Run"
+ },
+ "outfit7:Talking Tom Hero Dash": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a0/c4/56/a0c456d8-925c-d87f-9f68-f69e3fc28933/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/talking-tom-hero-dash/id1434807653",
+  "match": "Talking Tom Hero Dash"
+ },
+ "zeptolab:Cut the Rope": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2d/3d/1e/2d3d1edb-dc6f-43bc-3193-a15177f97f4e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/cut-the-rope-physics-puzzle/id1024506959",
+  "match": "Cut the Rope: Physics Puzzle"
+ },
+ "zeptolab:Cut the Rope Remastered": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4d/5a/e3/4d5ae3ce-0643-e75f-e80b-aad3136e633c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/cut-the-rope-remastered/id6790417429",
+  "match": "Cut the Rope Remastered"
+ },
+ "larian:Divinity": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/435150/3f6ee788cb01bd65097c52399d536eb424b4876f/header.jpg?t=1765811123",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/435150/",
+  "match": "Divinity: Original Sin 2 - Definitive Edition"
+ },
+ "larian:Baldur's Gate 3": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/48a2fcbda8565bb45025e98fd8ebde8a7203f6a0/header.jpg?t=1777363040",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/1086940/",
+  "match": "Baldur's Gate 3"
+ },
+ "larian:Divinity: Original Sin 2": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/435150/3f6ee788cb01bd65097c52399d536eb424b4876f/header.jpg?t=1765811123",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/435150/",
+  "match": "Divinity: Original Sin 2 - Definitive Edition"
+ },
+ "larian:Divinity: Original Sin": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/435150/3f6ee788cb01bd65097c52399d536eb424b4876f/header.jpg?t=1765811123",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/435150/",
+  "match": "Divinity: Original Sin 2 - Definitive Edition"
+ },
+ "ioi:007 First Light": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/c5b553fd05ba41aefa6daeddac95849a10c93022/header_alt_assets_4.jpg?t=1791886607",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/3768760/",
+  "match": "007 First Light"
+ },
+ "ioi:Hitman: World of Assassination": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/c62446d5c95f583a296d7f1b99045a61e2f81dea/header.jpg?t=1793007252",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/1659040/",
+  "match": "HITMAN World of Assassination"
+ },
+ "ioi:Hitman 3": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1829591/header.jpg?t=1772189229",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/1829591/",
+  "match": "HITMAN 3 - Deluxe Pack"
+ },
+ "ioi:Hitman 2": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6850/header.jpg?t=1732293077",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/6850/",
+  "match": "Hitman 2: Silent Assassin"
+ },
+ "ioi:Hitman: Blood Money": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/6860/header.jpg?t=1732283123",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/6860/",
+  "match": "Hitman: Blood Money"
+ },
+ "activision:Call of Duty: Black Ops 7": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3606480/d7041a15f572f7702d5f4bc97e498cd3e1cc62e2/header.jpg?t=1789747703",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/3606480/",
+  "match": "Call of Duty®: Black Ops 7"
+ },
+ "activision:Call of Duty: Warzone": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962663/de90b98146b7f9153957d4ef686acdce23d87088/header_alt_assets_20.jpg?t=1789748005",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/1962663/",
+  "match": "Call of Duty®: Warzone™"
+ },
+ "activision:Call of Duty: Modern Warfare III": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3595270/7d0f21912a075c33bbb5ea558100e187ceb234ac/header.jpg?t=1778886604",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/3595270/",
+  "match": "Call of Duty®: Modern Warfare® III"
+ },
+ "blizzard:Diablo IV": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/80f21a42e378b93e8fbb68ee43103be8ab84891b/header.jpg?t=1789491624",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/2344520/",
+  "match": "Diablo® IV"
+ },
+ "blizzard:Hearthstone": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c3/ef/57/c3ef5751-c50e-3be1-c5b4-7e8dbc48b133/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/hearthstone/id625257520",
+  "match": "Hearthstone"
+ },
+ "ea:Madden NFL 26": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3230400/979a5bffcde6f49d7e56ca9db6980256d3a96ad6/header.jpg?t=1784225783",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/3230400/",
+  "match": "EA SPORTS™ Madden NFL 26"
+ },
+ "ea:Apex Legends": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/6cf04767652d703b6050da84b82cfb1194258d7d/header.jpg?t=1790164440",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/1172470/",
+  "match": "Apex Legends™"
+ },
+ "ea:Star Wars Jedi: Survivor": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1774580/header.jpg?t=1788257050",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/1774580/",
+  "match": "STAR WARS Jedi: Survivor™"
+ },
+ "ea:skate.": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3354750/79c5a87b61a396cc6e6b69e3a083727f175dea83/header.jpg?t=1788891347",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/3354750/",
+  "match": "skate."
+ },
+ "riot:League of Legends": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1276800/header.jpg?t=1707178625",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/1276800/",
+  "match": "CONVERGENCE: A League of Legends Story™"
+ },
+ "riot:Teamfight Tactics": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d7/94/c2/d794c2d4-80ec-9a85-9381-d6e72694cbb3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/es/app/tft-teamfight-tactics/id1480616748",
+  "match": "TFT: Teamfight Tactics"
+ },
+ "riot:Legends of Runeterra": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/da/eb/40/daeb408e-3fcf-e589-dd88-4ebab29aba6d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/legends-of-runeterra/id1480617557",
+  "match": "Legends of Runeterra"
+ },
+ "wargaming:World of Tanks": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1407200/819fc92f7ddb96ef10792a6d72382c5b814d671a/header.jpg?t=1793012187",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/1407200/",
+  "match": "World of Tanks"
+ },
+ "wargaming:World of Tanks Blitz": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/444200/2086620a57f48438d5d3889410643fead1122bfb/header_alt_assets_21.jpg?t=1792910839",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/444200/",
+  "match": "World of Tanks Blitz"
+ },
+ "wargaming:World of Warships": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552990/9684685d206bf6a74fb21cdb49eb4748c61b1c79/header_alt_assets_16.jpg?t=1791478284",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/552990/",
+  "match": "World of Warships"
+ },
+ "taketwo:Grand Theft Auto VI": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1546990/header.jpg?t=1781138647",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/1546990/",
+  "match": "Grand Theft Auto: Vice City – The Definitive Edition"
+ },
+ "taketwo:Grand Theft Auto V": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg?t=1781187782",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/3240220/",
+  "match": "Grand Theft Auto V Enhanced"
+ },
+ "taketwo:Red Dead Redemption 2": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg?t=1759502961",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/1174180/",
+  "match": "Red Dead Redemption 2"
+ },
+ "taketwo:NBA 2K26": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3472040/f7e126add75c3b09779b44cd349be93d31b0a80b/header.jpg?t=1786115051",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/3472040/",
+  "match": "NBA 2K26"
+ },
+ "taketwo:Borderlands 4": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1285190/986a88d1b0e1420b00183def2a7034508353afa3/header.jpg?t=1789422727",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/1285190/",
+  "match": "Borderlands 4"
+ },
+ "taketwo:Sid Meier's Civilization VII": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1295660/header.jpg?t=1792718077",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/1295660/",
+  "match": "Sid Meier's Civilization VII"
+ },
+ "taketwo:Mafia: The Old Country": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1941540/d06980bb8f41737ca68da8eed40079347db09c84/header.jpg?t=1788898865",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/1941540/",
+  "match": "Mafia: The Old Country"
+ },
+ "taketwo:BioShock": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/8870/header.jpg?t=1728673518",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/8870/",
+  "match": "BioShock Infinite"
+ },
+ "digitalextremes:Warframe": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/1a3e7c2a05ce4e5cad5ac4c7e858cf5b0934704e/header.jpg?t=1792613117",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/230410/",
+  "match": "Warframe"
+ },
+ "digitalextremes:Soulframe": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4095380/3fb8986f870e6c87bb0da141b590b667056c5e59/header.jpg?t=1792421628",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/4095380/",
+  "match": "Soulframe"
+ },
+ "digitalextremes:Dark Sector": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/29900/header.jpg?t=1732992837",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/29900/",
+  "match": "Dark Sector"
+ },
+ "nomada:Neva": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2420660/header.jpg?t=1771587898",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/2420660/",
+  "match": "Neva"
+ },
+ "nomada:GRIS": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/683320/header.jpg?t=1759429603",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/683320/",
+  "match": "GRIS"
+ },
+ "keywords:Age of Empires II: Definitive Edition": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/813780/header.jpg?t=1790623375",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/813780/",
+  "match": "Age of Empires II: Definitive Edition"
+ },
+ "keywords:Age of Mythology: Retold": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1934680/header.jpg?t=1780429786",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/1934680/",
+  "match": "Age of Mythology: Retold"
+ },
+ "angrymob:Trinity Fusion": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1911360/9d6ef7caa37a69d9fe24a1d5a11ff613320231d2/header.jpg?t=1786373937",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/1911360/",
+  "match": "Trinity Fusion"
+ },
+ "angrymob:Brawlout": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/263720/header.jpg?t=1745520214",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/263720/",
+  "match": "Brawlout"
+ },
+ "angrymob:Muffin Knight": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/263700/header.jpg?t=1447359419",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/263700/",
+  "match": "Muffin Knight"
+ },
+ "productmadness:Heart of Vegas": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fd/c5/45/fdc545e5-b957-f446-eac8-318ad1f64439/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/heart-of-vegas-casino-slots/id785537179",
+  "match": "Heart of Vegas - Casino Slots"
+ },
+ "productmadness:Lightning Link Casino": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/98/46/64/984664ba-8d79-aad7-cb8c-32545748995d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/lightning-link-casino-slots/id1243005112",
+  "match": "Lightning Link Casino Slots"
+ },
+ "tangelo:MundiGames Social Casino": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/94/cc/00/94cc0043-5014-65fc-d302-a52947a0f4ee/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/mundigames-social-casino/id1456113016",
+  "match": "MundiGames - Social Casino"
+ },
+ "tangelo:Monster Tales: Match 3 Puzzle": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/c1/6b/f8/c16bf86d-087f-85aa-385e-2bc61d933695/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/monster-tales-match-3-puzzle/id1474950686",
+  "match": "Monster Tales: Match 3 Puzzle"
+ },
+ "tiltingpoint:Star Trek Timelines": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/60/68/f1/6068f198-1b24-19ab-7148-6bdbfa4ad3e2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/star-trek-timelines/id1001250333",
+  "match": "Star Trek Timelines"
+ },
+ "tiltingpoint:SpongeBob: Krusty Cook-Off": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/02/01/64/02016475-9564-bd6f-1a79-3151fab63688/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/spongebob-krusty-cook-off/id1433784188",
+  "match": "SpongeBob: Krusty Cook-Off"
+ },
+ "tiltingpoint:Warhammer: Chaos & Conquest": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d4/3c/67/d43c67cb-4176-aa14-ba42-35bc36242d76/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/es/app/warhammer-chaos-conquest/id1406401152",
+  "match": "Warhammer: Chaos & Conquest"
+ },
+ "tiltingpoint:Narcos: Cartel Wars": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e9/71/e7/e971e739-62e3-db53-ed09-f421f53902a1/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/narcos-cartel-wars-strategy/id1143052259",
+  "match": "Narcos: Cartel Wars & Strategy"
+ },
+ "tiltingpoint:Languinis": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/34/ba/de/34bade77-200a-cd82-ea3f-7392868caaec/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/languinis-word-puzzle-game/id957031988",
+  "match": "Languinis: Word Puzzle Game"
+ },
+ "tiltingpoint:Food Truck Chef": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3653750/bb742187b98b3b1d5f2c1e0367cf7f7422ddde0d/header.jpg?t=1777027341",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/3653750/",
+  "match": "Food Truck Chef - Full Course Edition"
+ },
+ "breach:Westlanders": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3886530/d56a2d5a20b9be26082c5aceea020757eef920bd/header.jpg?t=1792766592",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/3886530/",
+  "match": "Westlanders"
+ },
+ "breach:Project ST": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2055480/header.jpg?t=1754483450",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/2055480/",
+  "match": "Project ST"
+ },
+ "bluetile:Hole Rush": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/78/2f/f8/782ff8c1-7b7e-8878-45f1-6a7d98990c1c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/hole-rush-classic-game/id6749302338",
+  "match": "Hole Rush Classic Game"
+ },
+ "bluetile:Domino Legends": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d9/be/a2/d9bea299-e60f-55c4-3d1f-65a57847796c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/domino-legends-classic-game/id6467129396",
+  "match": "Domino Legends: Classic Game"
+ },
+ "bluetile:Yatzy": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/67/7e/19/677e198a-cdce-071d-9633-2d3dbed742af/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/us/app/yatzy-the-classic-dice-game/id1602149052",
+  "match": "Yatzy - The Classic Dice Game"
+ },
+ "bluetile:Spades Stars": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/27/3d/ef/273def16-03d5-39fe-fc98-6329c3ceccb9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/es/app/spades-stars-juego-de-picas/id6467129657",
+  "match": "Spades Stars - Juego de picas"
+ },
+ "bluetile:Mahjong Voyage": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4b/01/02/4b0102e1-0077-ed37-3401-3e507b7f1951/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/es/app/mahjong-voyage-tiles-cl%C3%A1sico/id6740267226",
+  "match": "Mahjong Voyage: Tiles Clásico"
+ },
+ "bluetile:Block Blitz": {
+  "img": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1d/46/cc/1d46ccec-8532-e988-5dd3-19297d7a0801/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+  "src": "appstore",
+  "url": "https://apps.apple.com/es/app/block-blitz-puzzle-aventura/id6741576655",
+  "match": "Block Blitz: Puzzle Aventura"
+ },
+ "uplay:Youtubers Life 2": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1493760/header.jpg?t=1782212567",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/1493760/",
+  "match": "Youtubers Life 2"
+ },
+ "uplay:Youtubers Life": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/428690/header.jpg?t=1782212506",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/428690/",
+  "match": "Youtubers Life"
+ },
+ "uplay:Esports Life Tycoon": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/897410/header.jpg?t=1736782214",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/897410/",
+  "match": "Esports Life Tycoon"
+ },
+ "uplay:International Basketball Manager 26": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4062930/a24a59bd03aaf63ef64cf4253e8f927dd8f7bdb8/header.jpg?t=1776239750",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/4062930/",
+  "match": "International Basketball Manager 26"
+ },
+ "uplay:Striker Manager 3": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2719830/header.jpg?t=1752154928",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/2719830/",
+  "match": "Striker Manager 3 - Online Football Manager"
+ },
+ "infinitethread:Hidalgo": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3282590/header.jpg?t=1732044934",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/3282590/",
+  "match": "Hidalgo Demo"
+ },
+ "infinitethread:Hitori Kakurenbo Online": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1841150/header.jpg?t=1714297286",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/1841150/",
+  "match": "Hitori Kakurenbo Online"
+ },
+ "loom:Myth of Valderit": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3976610/0bfc66533b031e8db2ba73ed926b40488c7adcff/header.jpg?t=1790621506",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/3976610/",
+  "match": "Myth of Valderit"
+ },
+ "herobeat:Endling: Extinction is Forever": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/898890/5dcf2275d45a3b2ba03c745525bd2587bf73c4e6/header.jpg?t=1791460110",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/898890/",
+  "match": "Endling - Extinction is Forever"
+ },
+ "herobeat:Wilderings: The Lost Spring": {
+  "img": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2217470/da8dfa7ab7f3e231ba9142088e2227b79cc99c1e/header.jpg?t=1792788987",
+  "src": "steam",
+  "url": "https://store.steampowered.com/app/2217470/",
+  "match": "Wilderings: The Lost Spring"
+ }
+}
