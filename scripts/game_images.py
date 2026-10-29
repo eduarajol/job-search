@@ -31,7 +31,11 @@ ALIASES = {
     "angrymob": ["angry mob"], "productmadness": ["product madness", "aristocrat"], "tangelo": ["tangelo", "akamon", "mundi"],
     "tiltingpoint": ["tilting point", "nukebox", "edgeworks", "hunted cow", "plamee", "ftx", "metagame", "big wolf", "vrtron", "an games"],
     "breach": ["breach"], "bluetile": ["bluetile"], "uplay": ["u-play", "uplay", "raiser"],
-    "infinitethread": ["infinite thread"], "loom": ["loom"], "herobeat": ["herobeat", "hook"],
+    "infinitethread": ["infinite thread"],
+    "jamcity": ["jam city"], "scorewarrior": ["scorewarrior"], "cdpr": ["cd projekt"],
+    "playstation": ["sony", "playstation", "naughty dog", "guerrilla", "santa monica", "sucker punch", "insomniac", "polyphony", "team asobi", "arrowhead", "nixxes"],
+    "insomniac": ["insomniac", "playstation", "sony", "nixxes"], "nintendo": ["nintendo"], "crystal": ["crystal dynamics", "square enix", "eidos"],
+    "saber": ["saber", "focus"], "marvelent": ["netease", "scopely", "foxnext", "second dinner", "nuverse", "insomniac", "playstation", "skydance", "arc system"], "loom": ["loom"], "herobeat": ["herobeat", "hook"],
 }
 
 

@@ -885,6 +885,306 @@
      "bcn": true
     }
    ]
+  },
+  "jamcity": {
+   "web": "https://www.jamcity.com",
+   "about": "Estudio de juegos móviles con licencias como Harry Potter y Disney.",
+   "games": [
+    {
+     "n": "Harry Potter: Hogwarts Mystery"
+    },
+    {
+     "n": "Disney Emoji Blitz"
+    },
+    {
+     "n": "Panda Pop"
+    },
+    {
+     "n": "Cookie Jam"
+    },
+    {
+     "n": "Frozen Free Fall"
+    },
+    {
+     "n": "Genies & Gems"
+    },
+    {
+     "n": "Family Guy: Another Freakin' Mobile Game"
+    }
+   ]
+  },
+  "scorewarrior": {
+   "web": "https://scorewarrior.com",
+   "about": "Estudio de juegos de estrategia móvil.",
+   "games": [
+    {
+     "n": "Total Battle"
+    }
+   ]
+  },
+  "fortis": {
+   "web": "https://www.fortis.gg",
+   "about": "Estudio fundado en 2021 por veteranos de EA y otros grandes estudios.",
+   "games": [
+    {
+     "n": "Juego multijugador sin anunciar",
+     "dev": true
+    }
+   ]
+  },
+  "cdpr": {
+   "web": "https://www.cdprojektred.com",
+   "about": "Estudio polaco de RPG.",
+   "games": [
+    {
+     "n": "The Witcher 4",
+     "dev": true
+    },
+    {
+     "n": "Cyberpunk 2077"
+    },
+    {
+     "n": "Cyberpunk 2077: Phantom Liberty"
+    },
+    {
+     "n": "The Witcher 3: Wild Hunt"
+    },
+    {
+     "n": "The Witcher 2: Assassins of Kings"
+    },
+    {
+     "n": "Gwent: The Witcher Card Game"
+    }
+   ]
+  },
+  "playstation": {
+   "web": "https://www.playstation.com",
+   "about": "Sony Interactive Entertainment y sus estudios (Naughty Dog, Santa Monica, Guerrilla, Insomniac, Sucker Punch, Team Asobi…).",
+   "games": [
+    {
+     "n": "Ghost of Yōtei"
+    },
+    {
+     "n": "Astro Bot"
+    },
+    {
+     "n": "God of War Ragnarök"
+    },
+    {
+     "n": "The Last of Us Part II"
+    },
+    {
+     "n": "Horizon Forbidden West"
+    },
+    {
+     "n": "Gran Turismo 7"
+    },
+    {
+     "n": "Marvel's Spider-Man 2"
+    },
+    {
+     "n": "Helldivers 2"
+    }
+   ]
+  },
+  "insomniac": {
+   "web": "https://insomniac.games",
+   "about": "Parte de PlayStation Studios. Autores de los juegos de Spider-Man de Marvel.",
+   "games": [
+    {
+     "n": "Marvel's Wolverine",
+     "dev": true
+    },
+    {
+     "n": "Marvel's Spider-Man 2"
+    },
+    {
+     "n": "Marvel's Spider-Man: Miles Morales"
+    },
+    {
+     "n": "Marvel's Spider-Man"
+    },
+    {
+     "n": "Ratchet & Clank: Rift Apart"
+    },
+    {
+     "n": "Sunset Overdrive"
+    }
+   ]
+  },
+  "nintendo": {
+   "web": "https://www.nintendo.com",
+   "about": "Las ofertas que se leen son de Nintendo of America. Nintendo of Europe recluta aparte.",
+   "games": [
+    {
+     "n": "Mario Kart World"
+    },
+    {
+     "n": "Donkey Kong Bananza"
+    },
+    {
+     "n": "The Legend of Zelda: Tears of the Kingdom"
+    },
+    {
+     "n": "Super Mario Bros. Wonder"
+    },
+    {
+     "n": "Animal Crossing: New Horizons"
+    },
+    {
+     "n": "Super Smash Bros. Ultimate"
+    },
+    {
+     "n": "Splatoon 3"
+    },
+    {
+     "n": "Metroid Prime 4: Beyond"
+    }
+   ]
+  },
+  "crystal": {
+   "web": "https://www.crystaldynamics.com",
+   "about": "Estudio de Tomb Raider, parte de Embracer.",
+   "games": [
+    {
+     "n": "Nuevo Tomb Raider",
+     "dev": true
+    },
+    {
+     "n": "Shadow of the Tomb Raider"
+    },
+    {
+     "n": "Rise of the Tomb Raider"
+    },
+    {
+     "n": "Tomb Raider"
+    },
+    {
+     "n": "Marvel's Avengers"
+    }
+   ]
+  },
+  "saber": {
+   "web": "https://saber.games",
+   "about": "Grupo con estudios en varios países.",
+   "games": [
+    {
+     "n": "Warhammer 40,000: Space Marine 2"
+    },
+    {
+     "n": "World War Z"
+    },
+    {
+     "n": "Evil Dead: The Game"
+    },
+    {
+     "n": "SnowRunner"
+    }
+   ]
+  },
+  "anchorpoint": {
+   "web": "https://www.anchor-point.com",
+   "about": "Estudio con sedes en Barcelona y Seúl.",
+   "games": [
+    {
+     "n": "Proyectos sin anunciar",
+     "dev": true,
+     "bcn": true
+    }
+   ]
+  },
+  "pixar": {
+   "web": "https://www.pixar.com",
+   "about": "Estudio de animación de Disney.",
+   "games": [
+    {
+     "n": "Toy Story 5"
+    },
+    {
+     "n": "Hoppers"
+    },
+    {
+     "n": "Elio"
+    },
+    {
+     "n": "Inside Out 2"
+    },
+    {
+     "n": "Coco"
+    },
+    {
+     "n": "Up"
+    },
+    {
+     "n": "WALL·E"
+    }
+   ]
+  },
+  "marvelstudios": {
+   "web": "https://www.marvel.com/movies",
+   "about": "Cine y series del Universo Cinematográfico Marvel (Disney).",
+   "games": [
+    {
+     "n": "Avengers: Doomsday",
+     "dev": true
+    },
+    {
+     "n": "The Fantastic Four: First Steps"
+    },
+    {
+     "n": "Thunderbolts*"
+    },
+    {
+     "n": "Guardians of the Galaxy Vol. 3"
+    },
+    {
+     "n": "Avengers: Endgame"
+    },
+    {
+     "n": "Loki"
+    }
+   ]
+  },
+  "marvelent": {
+   "web": "https://www.marvel.com",
+   "about": "Cómics y licencias de Marvel. Juegos de Marvel hechos por otros estudios:",
+   "games": [
+    {
+     "n": "Marvel Rivals"
+    },
+    {
+     "n": "Marvel Strike Force"
+    },
+    {
+     "n": "Marvel Snap"
+    },
+    {
+     "n": "Marvel's Spider-Man 2"
+    },
+    {
+     "n": "Marvel 1943: Rise of Hydra",
+     "dev": true
+    },
+    {
+     "n": "Marvel Tōkon: Fighting Souls",
+     "dev": true
+    }
+   ]
+  },
+  "alike": {
+   "web": "https://www.alikestudio.com",
+   "about": "Estudio de animación de Barcelona.",
+   "games": [
+    {
+     "n": "Alike (cortometraje)",
+     "bcn": true
+    }
+   ]
+  },
+  "athletic": {
+   "web": "https://www.athletic-club.eus",
+   "about": "Club de fútbol de Bilbao.",
+   "games": []
   }
  }
 }

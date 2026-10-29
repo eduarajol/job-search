@@ -457,6 +457,33 @@ def workday_posted(text):
         return (today - timedelta(days=int(m.group(1)))).isoformat()
     return None
 
+def read_pentasia(src):
+    """Pentasia (games and iGaming recruitment agency): HTML job cards in pages
+    of 10 at /cm/candidates/jobs?page=N (N starts at 0)."""
+    base = "https://www.pentasia.com"
+    out, seen = [], set()
+    for page in range(0, 40):
+        t = get_text(f"{base}/cm/candidates/jobs?page={page}")
+        cards = re.findall(r'(?s)<div class="JobItem_card[^"]*">(.*?)<span class="JobItem_bg', t)
+        new = 0
+        for c in cards:
+            m = re.search(r'<a href="(/careers/[^"?]+)[^"]*"[^>]*>(.*?)</a>', c, re.S)
+            if not m or m.group(1) in seen:
+                continue
+            seen.add(m.group(1)); new += 1
+            loc = re.search(r'(?s)class="JobItem_location[^"]*">(.*?)</p>', c)
+            mode = re.search(r'(?s)class="JobItem_cardHeader[^"]*">\s*<p>(.*?)</p>', c)
+            loc_text = strip_tags(loc.group(1)) if loc else ""
+            mode_text = strip_tags(mode.group(1)) if mode else ""
+            if mode_text.lower() == "remote" and not REMOTE.search(loc_text):
+                loc_text = (loc_text + "; Remote") if loc_text else "Remote"
+            out.append(job(m.group(1).rstrip("/").split("/")[-1], strip_tags(m.group(2)), loc_text, base + m.group(1),
+                           remote=mode_text.lower() == "remote" or bool(REMOTE.search(loc_text))))
+        if not cards or not new:
+            break
+        time.sleep(0.5)
+    return out
+
 def read_wordpress(src):
     """Studios that post offers as WordPress entries (Angry Mob Games):
     every entry of the given post type and category is an open offer."""
@@ -495,7 +522,7 @@ def describe(src, j):
             return plain("\n".join(parts))
         if src["type"] in ("phenom", "workday"):
             return plain(workday_description(j.get("_workday")) or j.get("_teaser") or "")
-        if src["type"] in ("avature", "rovio", "keywords"):
+        if src["type"] in ("avature", "rovio", "keywords", "pentasia"):
             return plain(page_text(j["url"]))
         if src["type"] == "workable":
             d = get_json(f"https://apply.workable.com/api/v2/accounts/{src['account']}/jobs/{j['id']}")
@@ -531,6 +558,7 @@ READERS = {
     "keywords": read_keywords,
     "personio": read_personio,
     "workday": read_workday,
+    "pentasia": read_pentasia,
 }
 
 
