@@ -5013,6 +5013,39 @@
      "firstSeen": "2026-10-28T22:59:48+00:00"
     }
    ]
+  },
+  {
+   "id": "infinitethread",
+   "name": "Infinite Thread Games",
+   "group": "pc",
+   "note": "Indie de Barcelona (Hidalgo). Sin web de empleo: info@infinite-thread.com o LinkedIn",
+   "domain": "infinite-thread.com",
+   "careers": "https://www.linkedin.com/company/infinite-thread-games/jobs/",
+   "logos": [],
+   "status": "manual",
+   "jobs": null
+  },
+  {
+   "id": "loom",
+   "name": "Loom Studios",
+   "group": "pc",
+   "note": "Indie de Barcelona (Myth of Valderit). Sin web de empleo: contacto por LinkedIn",
+   "domain": "loomstudios.es",
+   "careers": "https://www.linkedin.com/company/108273554/jobs/",
+   "logos": [],
+   "status": "manual",
+   "jobs": null
+  },
+  {
+   "id": "herobeat",
+   "name": "Herobeat Studios",
+   "group": "pc",
+   "note": "Indie de Barcelona (Endling). Sin web de empleo: contact@herobeatstudios.com o LinkedIn",
+   "domain": "herobeatstudios.com",
+   "careers": "https://www.linkedin.com/company/herobeat-studios/jobs/",
+   "logos": [],
+   "status": "manual",
+   "jobs": null
   }
  ]
 }
