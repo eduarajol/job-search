@@ -396,6 +396,67 @@ def read_keywords(src):
                        remote=bool(REMOTE.search(loc)), posted=posted))
     return out
 
+def read_personio(src):
+    """Personio career sites publish every open position as XML."""
+    import xml.etree.ElementTree as ET
+    host = src["host"]
+    root = ET.fromstring(get_text(f"https://{host}/xml?language=en").encode("utf-8"))
+    out = []
+    for pos in root.iter("position"):
+        pid = (pos.findtext("id") or "").strip()
+        offices = [pos.findtext("office") or ""] + [
+            (o.text or "") for o in pos.iter("additionalOffice")
+        ]
+        loc = "; ".join(o.strip() for o in offices if o and o.strip())
+        desc = "\n".join(
+            "<h3>" + (d.findtext("name") or "") + "</h3>" + (d.findtext("value") or "")
+            for d in pos.iter("jobDescription")
+        )
+        out.append(job(pid, (pos.findtext("name") or "").strip(), loc, f"https://{host}/job/{pid}?language=en",
+                       remote=bool(REMOTE.search(loc)), posted=(pos.findtext("createdAt") or "").strip() or None,
+                       desc=desc))
+    return out
+
+
+def read_workday(src):
+    """Workday career sites: public JSON search. Optional search text narrows
+    a group's site to one brand (Aristocrat -> Product Madness)."""
+    tenant, wd, site = src["tenant"], src["wd"], src["site"]
+    base = f"https://{tenant}.{wd}.myworkdayjobs.com"
+    out, offset = [], 0
+    while offset < 2000:
+        body = {"appliedFacets": {}, "limit": 20, "offset": offset, "searchText": src.get("search", "")}
+        data = get_json(f"{base}/wday/cxs/{tenant}/{site}/jobs", body)
+        page = data.get("jobPostings") or []
+        for p in page:
+            path = p.get("externalPath") or ""
+            loc = p.get("locationsText") or ""
+            out.append(job(path.rsplit("_", 1)[-1] or path, p.get("title"), loc, f"{base}/en-US/{site}{path}",
+                           remote=bool(REMOTE.search(loc)), posted=workday_posted(p.get("postedOn"))))
+            out[-1]["_workday"] = f"{base}/en-US/{site}{path}"
+        offset += len(page)
+        if not page or offset >= (data.get("total") or 0):
+            break
+        time.sleep(0.3)
+    return out
+
+
+def workday_posted(text):
+    """Workday only says "Posted Today", "Posted Yesterday" or "Posted 3 Days Ago"."""
+    if not text:
+        return None
+    t = text.lower()
+    from datetime import timedelta
+    today = datetime.now(timezone.utc).date()
+    if "today" in t:
+        return today.isoformat()
+    if "yesterday" in t:
+        return (today - timedelta(days=1)).isoformat()
+    m = re.search(r"(\d+)\+?\s*days?", t)
+    if m and "+" not in t:
+        return (today - timedelta(days=int(m.group(1)))).isoformat()
+    return None
+
 def read_wordpress(src):
     """Studios that post offers as WordPress entries (Angry Mob Games):
     every entry of the given post type and category is an open offer."""
@@ -432,7 +493,7 @@ def describe(src, j):
             parts = [(secs.get(k) or {}).get("text", "") for k in
                      ("jobDescription", "qualifications", "additionalInformation")]
             return plain("\n".join(parts))
-        if src["type"] == "phenom":
+        if src["type"] in ("phenom", "workday"):
             return plain(workday_description(j.get("_workday")) or j.get("_teaser") or "")
         if src["type"] in ("avature", "rovio", "keywords"):
             return plain(page_text(j["url"]))
@@ -468,6 +529,8 @@ READERS = {
     "avature": read_avature,
     "rovio": read_rovio,
     "keywords": read_keywords,
+    "personio": read_personio,
+    "workday": read_workday,
 }
 
 
