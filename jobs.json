@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T09:39:32+00:00",
+ "updated": "2026-10-29T13:26:32+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -1314,7 +1314,7 @@
     "logos/gameloft.svg"
    ],
    "status": "ok",
-   "total": 62,
+   "total": 61,
    "jobs": [
     {
      "id": "744000158269799",
@@ -1438,15 +1438,15 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "744000158056189",
+     "id": "744000158491239",
      "title": "Lead Product Manager",
      "location": "Barcelona, CT, Spain",
-     "url": "https://jobs.smartrecruiters.com/Gameloft/744000158056189",
+     "url": "https://jobs.smartrecruiters.com/Gameloft/744000158491239",
      "remote": false,
-     "posted": "2026-10-27T14:03:29.300Z",
+     "posted": "2026-10-29T11:05:01.520Z",
      "design": false,
      "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
+     "firstSeen": "2026-10-29T13:26:32+00:00"
     },
     {
      "id": "744000158284679",
@@ -1516,7 +1516,7 @@
     "logos/ubisoft.svg"
    ],
    "status": "ok",
-   "total": 317,
+   "total": 319,
    "jobs": [
     {
      "id": "744000158059429",
@@ -1783,17 +1783,6 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "744000155803319",
-     "title": "System Designer - W/M/NB",
-     "location": "Paris, IDF, France",
-     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000155803319",
-     "remote": false,
-     "posted": "2026-10-15T16:12:20.971Z",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "744000158039080",
      "title": "Team Lead Level Designer [Splinter Cell Remake]",
      "location": "Toronto, ON, Canada",
@@ -1881,7 +1870,7 @@
    "careers": "https://job-boards.eu.greenhouse.io/tripledotstudios",
    "logos": [],
    "status": "ok",
-   "total": 94,
+   "total": 91,
    "jobs": [
     {
      "id": "4965778101",
@@ -1917,17 +1906,6 @@
      "firstSeen": "2026-10-28T17:49:21+00:00"
     },
     {
-     "id": "4963495101",
-     "title": "Game Designer (Hybrid Casual)",
-     "location": "Warsaw",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4963495101",
-     "remote": false,
-     "posted": "2026-08-28T10:53:45-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
      "id": "4944288101",
      "title": "Game Designer (Hybrid Casual)",
      "location": "Tblisi",
@@ -1945,6 +1923,17 @@
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4945678101",
      "remote": false,
      "posted": "2026-08-05T11:53:43-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4963495101",
+     "title": "Game Designer (Hybrid Casual)",
+     "location": "Warsaw",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4963495101",
+     "remote": false,
+     "posted": "2026-08-28T10:53:45-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -2027,17 +2016,6 @@
      "firstSeen": "2026-10-28T17:49:21+00:00"
     },
     {
-     "id": "4988598101",
-     "title": "Data Analyst",
-     "location": "Barcelona",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988598101",
-     "remote": false,
-     "posted": "2026-09-28T09:42:08-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
      "id": "4988635101",
      "title": "Data Analyst",
      "location": "Remote Europe",
@@ -2049,12 +2027,12 @@
      "firstSeen": "2026-10-28T17:49:21+00:00"
     },
     {
-     "id": "4988636101",
-     "title": "Fraud Analyst",
-     "location": "Remote Europe",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988636101",
-     "remote": true,
-     "posted": "2026-09-28T09:54:28-04:00",
+     "id": "4988598101",
+     "title": "Data Analyst",
+     "location": "Barcelona",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988598101",
+     "remote": false,
+     "posted": "2026-09-28T09:42:08-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -2066,6 +2044,17 @@
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988610101",
      "remote": false,
      "posted": "2026-09-28T09:45:46-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4988636101",
+     "title": "Fraud Analyst",
+     "location": "Remote Europe",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988636101",
+     "remote": true,
+     "posted": "2026-09-28T09:54:28-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -2373,7 +2362,7 @@
     "https://upload.wikimedia.org/wikipedia/en/7/7b/Zynga.svg"
    ],
    "status": "ok",
-   "total": 45,
+   "total": 46,
    "jobs": [
     {
      "id": "5724174004",
@@ -2645,7 +2634,7 @@
     "https://upload.wikimedia.org/wikipedia/en/4/45/Rovio_Entertainment.svg"
    ],
    "status": "ok",
-   "total": 2,
+   "total": 4,
    "jobs": [
     {
      "id": "head-of-business-development-d915dfef-61b3-448a-a5ae-43c104c83901",
@@ -3188,7 +3177,7 @@
     "logos/activision.svg"
    ],
    "status": "ok",
-   "total": 72,
+   "total": 73,
    "jobs": [
     {
      "id": "R028091",
@@ -4746,7 +4735,7 @@
     "https://upload.wikimedia.org/wikipedia/commons/8/81/Keywords_Studios_Logo.png"
    ],
    "status": "ok",
-   "total": 370,
+   "total": 369,
    "jobs": [
     {
      "id": "36186",
@@ -4766,28 +4755,6 @@
      "url": "https://www.keywordsstudios.com/en/careers/browse-careers/ADB-combat-designer/",
      "remote": false,
      "posted": "2026-10-05T10:30:13+01:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
-     "id": "37860",
-     "title": "Game Designer (FPS)",
-     "location": "Yerevan, Yerevan, Armenia",
-     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xwJ-game-designer-fps/",
-     "remote": false,
-     "posted": "2026-10-02T10:32:15+01:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
-     "id": "37861",
-     "title": "Game Designer (FPS)",
-     "location": "Belgrade, City of Belgrade, Serbia",
-     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xwV-game-designer-fps/",
-     "remote": false,
-     "posted": "2026-10-02T10:32:17+01:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
@@ -4815,6 +4782,28 @@
      "firstSeen": "2026-10-28T22:59:48+00:00"
     },
     {
+     "id": "37860",
+     "title": "Game Designer (FPS)",
+     "location": "Yerevan, Yerevan, Armenia",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xwJ-game-designer-fps/",
+     "remote": false,
+     "posted": "2026-10-02T10:32:15+01:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "37861",
+     "title": "Game Designer (FPS)",
+     "location": "Belgrade, City of Belgrade, Serbia",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xwV-game-designer-fps/",
+     "remote": false,
+     "posted": "2026-10-02T10:32:17+01:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
      "id": "37819",
      "title": "Game Designer – Japan & Global Game Development",
      "location": "Tokyo, Tokyo, jp",
@@ -4826,23 +4815,23 @@
      "firstSeen": "2026-10-28T22:59:48+00:00"
     },
     {
-     "id": "31365",
-     "title": "Level Designer",
-     "location": "Singapore, Singapore, Singapore",
-     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/AxZ-level-designer/",
-     "remote": false,
-     "posted": "2026-10-05T10:30:12+01:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
      "id": "37694",
      "title": "Level Designer",
      "location": "Warsaw, Masovian Voivodeship, Poland",
      "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xmR-level-designer/",
      "remote": false,
      "posted": "2026-09-17T10:32:01+01:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "31365",
+     "title": "Level Designer",
+     "location": "Singapore, Singapore, Singapore",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/AxZ-level-designer/",
+     "remote": false,
+     "posted": "2026-10-05T10:30:12+01:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
@@ -4958,23 +4947,23 @@
      "firstSeen": "2026-10-28T22:59:48+00:00"
     },
     {
-     "id": "36188",
-     "title": "Technical Designer (Remote) - Talent Pipeline",
-     "location": "Greece",
-     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xgc-technical-designer-remote-talent-pipeline/",
-     "remote": false,
-     "posted": "2026-06-06T10:32:11+01:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
      "id": "36187",
      "title": "Technical Designer (Remote) - Talent Pipeline",
      "location": "Netherlands",
      "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xgV-technical-designer-remote-talent-pipeline/",
      "remote": false,
      "posted": "2026-06-06T10:32:08+01:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "36188",
+     "title": "Technical Designer (Remote) - Talent Pipeline",
+     "location": "Greece",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xgc-technical-designer-remote-talent-pipeline/",
+     "remote": false,
+     "posted": "2026-06-06T10:32:11+01:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
