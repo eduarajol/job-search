@@ -10,6 +10,7 @@ Página personal para revisar cada día las ofertas de Game Design y UX de los e
 - `details.json`: descripción completa de las ofertas de diseño y UX en Barcelona o remoto.
 - `picks.json`: el Top-10 de ofertas que mejor encajan, que Claude elige en una tarea programada a las 7:45 y a las 19:45.
 - `applied.json`: ofertas a las que ya he aplicado (`companyId:jobId`). La página las marca con «Aplicada».
+- `games.json` y `games.html`: página «Empresas y juegos», con los juegos de cada empresa y su web. Se genera desde `src/games.html`.
 - `index.html`: la página. Lee `jobs.json`. Se genera desde `src/page.html` con `python scripts/build_page.py`.
 
 - `logos/`: logos SVG guardados en el repositorio. En `companies.json`, el campo `logos` lista las imágenes que la página prueba en orden. Si ninguna carga, usa el favicon en alta resolución y, si tampoco, las iniciales.

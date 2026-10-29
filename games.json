@@ -1,0 +1,890 @@
+{
+ "updated": "2026-10-29",
+ "studios": {
+  "scopely": {
+   "web": "https://scopely.com",
+   "about": "Editora y estudio de juegos móviles. Tiene un hub en Barcelona.",
+   "games": [
+    {
+     "n": "Monopoly Go!"
+    },
+    {
+     "n": "Stumble Guys"
+    },
+    {
+     "n": "Star Trek Fleet Command"
+    },
+    {
+     "n": "Marvel Strike Force"
+    },
+    {
+     "n": "Pokémon GO"
+    },
+    {
+     "n": "Monster Hunter Now"
+    },
+    {
+     "n": "Scrabble GO"
+    },
+    {
+     "n": "Yahtzee with Buddies"
+    },
+    {
+     "n": "The Walking Dead: Road to Survival"
+    },
+    {
+     "n": "Strategy/MMO cross-platform sin anunciar",
+     "dev": true,
+     "bcn": true
+    }
+   ]
+  },
+  "king": {
+   "web": "https://www.king.com",
+   "about": "Parte de Microsoft. Uno de sus grandes estudios está en Barcelona.",
+   "games": [
+    {
+     "n": "Candy Crush Saga"
+    },
+    {
+     "n": "Candy Crush Soda Saga"
+    },
+    {
+     "n": "Candy Crush Solitaire"
+    },
+    {
+     "n": "Farm Heroes Saga"
+    },
+    {
+     "n": "Pet Rescue Saga"
+    },
+    {
+     "n": "Bubble Witch 3 Saga"
+    },
+    {
+     "n": "Minecraft Blast",
+     "dev": true
+    }
+   ]
+  },
+  "socialpoint": {
+   "web": "https://www.socialpoint.es",
+   "about": "Estudio de Barcelona, parte de Take-Two (Zynga).",
+   "games": [
+    {
+     "n": "Dragon City",
+     "bcn": true
+    },
+    {
+     "n": "Monster Legends",
+     "bcn": true
+    },
+    {
+     "n": "Word Life",
+     "bcn": true
+    }
+   ]
+  },
+  "gameloft": {
+   "web": "https://www.gameloft.com",
+   "about": "Parte de Vivendi, con estudio en Barcelona.",
+   "games": [
+    {
+     "n": "Disney Dreamlight Valley"
+    },
+    {
+     "n": "Disney Speedstorm"
+    },
+    {
+     "n": "Asphalt Legends"
+    },
+    {
+     "n": "Dragon Mania Legends"
+    },
+    {
+     "n": "Modern Combat 5"
+    },
+    {
+     "n": "Dungeon Hunter 5"
+    },
+    {
+     "n": "March of Empires"
+    },
+    {
+     "n": "Gangstar Vegas"
+    },
+    {
+     "n": "LEGO Legacy: Heroes Unboxed"
+    }
+   ]
+  },
+  "ubisoft": {
+   "web": "https://www.ubisoft.com",
+   "about": "En Barcelona tiene dos estudios: Ubisoft Barcelona y Ubisoft Barcelona Mobile.",
+   "games": [
+    {
+     "n": "Rainbow Six Siege",
+     "bcn": true
+    },
+    {
+     "n": "Assassin's Creed Shadows"
+    },
+    {
+     "n": "Far Cry 6"
+    },
+    {
+     "n": "The Division 2"
+    },
+    {
+     "n": "The Division 3",
+     "dev": true
+    },
+    {
+     "n": "Splinter Cell Remake",
+     "dev": true
+    },
+    {
+     "n": "Anno 117: Pax Romana"
+    },
+    {
+     "n": "Prince of Persia: The Lost Crown"
+    },
+    {
+     "n": "Just Dance"
+    },
+    {
+     "n": "Invincible: Guarding the Globe",
+     "g": "Ubisoft Barcelona Mobile"
+    },
+    {
+     "n": "Hungry Dragon",
+     "g": "Ubisoft Barcelona Mobile"
+    },
+    {
+     "n": "Might & Magic: Elemental Guardians",
+     "g": "Ubisoft Barcelona Mobile"
+    }
+   ]
+  },
+  "tripledot": {
+   "web": "https://www.tripledotstudios.com",
+   "about": "Juegos casual y de puzzle. Incluye el estudio ZephyrMobile y la editora Lion Studios.",
+   "games": [
+    {
+     "n": "Solitaire"
+    },
+    {
+     "n": "Woodoku"
+    },
+    {
+     "n": "Triple Tile"
+    },
+    {
+     "n": "Get Color",
+     "g": "ZephyrMobile"
+    },
+    {
+     "n": "NutSort",
+     "g": "ZephyrMobile"
+    },
+    {
+     "n": "Hey Color",
+     "g": "ZephyrMobile"
+    },
+    {
+     "n": "Block Away",
+     "g": "ZephyrMobile"
+    },
+    {
+     "n": "Car Out!",
+     "g": "ZephyrMobile"
+    },
+    {
+     "n": "Mr Bullet",
+     "g": "Lion Studios"
+    },
+    {
+     "n": "Happy Glass",
+     "g": "Lion Studios"
+    }
+   ]
+  },
+  "voodoo": {
+   "web": "https://voodoo.io",
+   "about": "Editora francesa de juegos móviles casual e hypercasual.",
+   "games": [
+    {
+     "n": "Paper.io 2"
+    },
+    {
+     "n": "Helix Jump"
+    },
+    {
+     "n": "Hole.io"
+    },
+    {
+     "n": "Aquapark.io"
+    },
+    {
+     "n": "Crowd City"
+    },
+    {
+     "n": "Mob Control"
+    },
+    {
+     "n": "Block Jam 3D"
+    },
+    {
+     "n": "Castle Busters"
+    }
+   ]
+  },
+  "zynga": {
+   "web": "https://www.zynga.com",
+   "about": "Parte de Take-Two.",
+   "games": [
+    {
+     "n": "FarmVille 3"
+    },
+    {
+     "n": "Words With Friends"
+    },
+    {
+     "n": "Zynga Poker"
+    },
+    {
+     "n": "Merge Dragons!"
+    },
+    {
+     "n": "Empires & Puzzles"
+    },
+    {
+     "n": "CSR Racing 2"
+    },
+    {
+     "n": "Toon Blast"
+    },
+    {
+     "n": "Star Wars: Hunters"
+    }
+   ]
+  },
+  "moonactive": {
+   "web": "https://www.moonactive.com",
+   "about": "Estudio israelí de juegos móviles casual.",
+   "games": [
+    {
+     "n": "Coin Master"
+    },
+    {
+     "n": "Travel Town"
+    },
+    {
+     "n": "Piggy Kingdom"
+    },
+    {
+     "n": "Board Kings"
+    }
+   ]
+  },
+  "rovio": {
+   "web": "https://www.rovio.com",
+   "about": "Parte de SEGA. Tiene estudio en Barcelona.",
+   "games": [
+    {
+     "n": "Angry Birds 2"
+    },
+    {
+     "n": "Angry Birds Friends"
+    },
+    {
+     "n": "Angry Birds Dream Blast"
+    },
+    {
+     "n": "Angry Birds Journey"
+    },
+    {
+     "n": "Angry Birds Match"
+    },
+    {
+     "n": "Bad Piggies"
+    }
+   ]
+  },
+  "outfit7": {
+   "web": "https://outfit7.com",
+   "about": "Creadores de la marca Talking Tom & Friends.",
+   "games": [
+    {
+     "n": "My Talking Tom 2"
+    },
+    {
+     "n": "My Talking Angela 2"
+    },
+    {
+     "n": "My Talking Tom Friends"
+    },
+    {
+     "n": "Talking Tom Gold Run"
+    },
+    {
+     "n": "Talking Tom Hero Dash"
+    }
+   ]
+  },
+  "zeptolab": {
+   "web": "https://www.zeptolab.com",
+   "about": "Estudio de juegos móviles con oficina en Barcelona.",
+   "games": [
+    {
+     "n": "Cut the Rope"
+    },
+    {
+     "n": "Cut the Rope Remastered"
+    },
+    {
+     "n": "King of Thieves"
+    },
+    {
+     "n": "C.A.T.S.: Crash Arena Turbo Stars"
+    }
+   ]
+  },
+  "larian": {
+   "web": "https://larian.com",
+   "about": "Estudio de RPG con sede en Gante y estudio en Barcelona.",
+   "games": [
+    {
+     "n": "Divinity",
+     "dev": true
+    },
+    {
+     "n": "Baldur's Gate 3"
+    },
+    {
+     "n": "Divinity: Original Sin 2"
+    },
+    {
+     "n": "Divinity: Original Sin"
+    }
+   ]
+  },
+  "ioi": {
+   "web": "https://ioi.dk",
+   "about": "Estudio danés con estudio en Barcelona.",
+   "games": [
+    {
+     "n": "007 First Light"
+    },
+    {
+     "n": "Hitman: World of Assassination"
+    },
+    {
+     "n": "Hitman 3"
+    },
+    {
+     "n": "Hitman 2"
+    },
+    {
+     "n": "Hitman (2016)"
+    },
+    {
+     "n": "Hitman: Blood Money"
+    }
+   ]
+  },
+  "activision": {
+   "web": "https://www.activision.com",
+   "about": "Parte de Microsoft. Su estudio de Barcelona es el antiguo Digital Legends.",
+   "games": [
+    {
+     "n": "Call of Duty: Black Ops 7"
+    },
+    {
+     "n": "Call of Duty: Warzone"
+    },
+    {
+     "n": "Call of Duty: Modern Warfare III"
+    },
+    {
+     "n": "Call of Duty: Warzone Mobile",
+     "bcn": true
+    },
+    {
+     "n": "Tony Hawk's Pro Skater 3 + 4"
+    },
+    {
+     "n": "Crash Bandicoot 4"
+    },
+    {
+     "n": "Spyro Reignited Trilogy"
+    }
+   ]
+  },
+  "blizzard": {
+   "web": "https://www.blizzard.com",
+   "about": "Parte de Microsoft.",
+   "games": [
+    {
+     "n": "World of Warcraft"
+    },
+    {
+     "n": "Diablo IV"
+    },
+    {
+     "n": "Overwatch 2"
+    },
+    {
+     "n": "Hearthstone"
+    },
+    {
+     "n": "StarCraft II"
+    },
+    {
+     "n": "Warcraft Rumble"
+    },
+    {
+     "n": "Overwatch Rush",
+     "dev": true,
+     "bcn": true
+    }
+   ]
+  },
+  "ea": {
+   "web": "https://www.ea.com",
+   "about": "Grandes franquicias deportivas y de acción.",
+   "games": [
+    {
+     "n": "EA Sports FC 26"
+    },
+    {
+     "n": "Madden NFL 26"
+    },
+    {
+     "n": "NHL 26"
+    },
+    {
+     "n": "Battlefield 6"
+    },
+    {
+     "n": "Apex Legends"
+    },
+    {
+     "n": "The Sims 4"
+    },
+    {
+     "n": "Star Wars Jedi: Survivor"
+    },
+    {
+     "n": "Dragon Age: The Veilguard"
+    },
+    {
+     "n": "skate."
+    }
+   ]
+  },
+  "riot": {
+   "web": "https://www.riotgames.com",
+   "about": "Parte de Tencent.",
+   "games": [
+    {
+     "n": "League of Legends"
+    },
+    {
+     "n": "Valorant"
+    },
+    {
+     "n": "Teamfight Tactics"
+    },
+    {
+     "n": "League of Legends: Wild Rift"
+    },
+    {
+     "n": "Legends of Runeterra"
+    },
+    {
+     "n": "2XKO"
+    }
+   ]
+  },
+  "wargaming": {
+   "web": "https://wargaming.com",
+   "about": "Juegos multijugador de vehículos y estrategia.",
+   "games": [
+    {
+     "n": "World of Tanks"
+    },
+    {
+     "n": "World of Tanks Console"
+    },
+    {
+     "n": "World of Tanks Blitz"
+    },
+    {
+     "n": "World of Warships"
+    },
+    {
+     "n": "Steel Hunters"
+    }
+   ]
+  },
+  "taketwo": {
+   "web": "https://www.take2games.com",
+   "about": "Grupo de Rockstar Games, 2K y Zynga.",
+   "games": [
+    {
+     "n": "Grand Theft Auto VI",
+     "dev": true
+    },
+    {
+     "n": "Grand Theft Auto V"
+    },
+    {
+     "n": "Red Dead Redemption 2"
+    },
+    {
+     "n": "NBA 2K26"
+    },
+    {
+     "n": "Borderlands 4"
+    },
+    {
+     "n": "Sid Meier's Civilization VII"
+    },
+    {
+     "n": "Mafia: The Old Country"
+    },
+    {
+     "n": "BioShock"
+    }
+   ]
+  },
+  "digitalextremes": {
+   "web": "https://www.digitalextremes.com",
+   "about": "Estudio canadiense de juegos como servicio.",
+   "games": [
+    {
+     "n": "Warframe"
+    },
+    {
+     "n": "Soulframe",
+     "dev": true
+    },
+    {
+     "n": "Dark Sector"
+    }
+   ]
+  },
+  "bespokepixel": {
+   "web": "https://bespokepixel.com",
+   "about": "Estudio de Barcelona fundado en 2024 por David Polfeldt, exdirector de Massive Entertainment.",
+   "games": [
+    {
+     "n": "Juego multijugador de mundo abierto sin anunciar",
+     "dev": true,
+     "bcn": true
+    }
+   ]
+  },
+  "nomada": {
+   "web": "https://nomada.studio",
+   "about": "Estudio independiente de Barcelona.",
+   "games": [
+    {
+     "n": "Neva",
+     "bcn": true
+    },
+    {
+     "n": "GRIS",
+     "bcn": true
+    }
+   ]
+  },
+  "keywords": {
+   "web": "https://www.keywordsstudios.com",
+   "about": "Servicios para la industria: arte, QA, localización y codesarrollo para muchos títulos AAA de otras empresas. También tiene estudios propios, como Forgotten Empires.",
+   "games": [
+    {
+     "n": "Age of Empires II: Definitive Edition",
+     "g": "Forgotten Empires"
+    },
+    {
+     "n": "Age of Mythology: Retold",
+     "g": "Forgotten Empires"
+    }
+   ]
+  },
+  "angrymob": {
+   "web": "https://www.angrymobgames.com",
+   "about": "Estudio independiente de Barcelona.",
+   "games": [
+    {
+     "n": "Nightbrats",
+     "dev": true,
+     "bcn": true
+    },
+    {
+     "n": "Trinity Fusion",
+     "bcn": true
+    },
+    {
+     "n": "Brawlout",
+     "bcn": true
+    },
+    {
+     "n": "Toysburg",
+     "bcn": true
+    },
+    {
+     "n": "Aliens vs. Predator: Evolution",
+     "bcn": true
+    },
+    {
+     "n": "Muffin Knight",
+     "bcn": true
+    },
+    {
+     "n": "Guerrilla Bob",
+     "bcn": true
+    }
+   ]
+  },
+  "productmadness": {
+   "web": "https://www.productmadness.com",
+   "about": "Social casino móvil, parte de Aristocrat. Tiene oficina en Barcelona.",
+   "games": [
+    {
+     "n": "Heart of Vegas"
+    },
+    {
+     "n": "Lightning Link Casino"
+    },
+    {
+     "n": "Cashman Casino"
+    },
+    {
+     "n": "Mighty Fu Casino"
+    }
+   ]
+  },
+  "bandainamco": {
+   "web": "https://en.bandainamcoent.eu",
+   "about": "Filial móvil de Bandai Namco en Barcelona, creada en 2019. Desarrolla juegos F2P originales para Occidente y lleva el marketing de juegos que llegan de Japón.",
+   "games": [
+    {
+     "n": "Juegos F2P originales sin anunciar",
+     "dev": true,
+     "bcn": true
+    }
+   ]
+  },
+  "tangelo": {
+   "web": "https://tangelogames.com",
+   "about": "Estudio de Barcelona de juegos sociales y de casino.",
+   "games": [
+    {
+     "n": "MundiGames Social Casino",
+     "bcn": true
+    },
+    {
+     "n": "MundiGames Cash",
+     "bcn": true
+    },
+    {
+     "n": "Mundijuegos Match",
+     "bcn": true
+    },
+    {
+     "n": "Monster Tales: Match 3 Puzzle",
+     "bcn": true
+    },
+    {
+     "n": "Viva Bingo & Slots Casino",
+     "bcn": true
+    },
+    {
+     "n": "Best Casino Slots",
+     "bcn": true
+    }
+   ]
+  },
+  "tiltingpoint": {
+   "web": "https://www.tiltingpoint.com",
+   "about": "Editora de juegos móviles con sede en Nueva York y oficina en Barcelona.",
+   "games": [
+    {
+     "n": "Star Trek Timelines"
+    },
+    {
+     "n": "SpongeBob: Krusty Cook-Off"
+    },
+    {
+     "n": "Warhammer: Chaos & Conquest"
+    },
+    {
+     "n": "TerraGenesis"
+    },
+    {
+     "n": "Zombieland: AFK Survival"
+    },
+    {
+     "n": "Narcos: Cartel Wars"
+    },
+    {
+     "n": "Languinis"
+    },
+    {
+     "n": "Food Truck Chef"
+    }
+   ]
+  },
+  "breach": {
+   "web": "https://thebreachstudios.com",
+   "about": "Estudio de Barcelona con inversión de MY.GAMES.",
+   "games": [
+    {
+     "n": "Westlanders",
+     "bcn": true
+    },
+    {
+     "n": "The Harvest",
+     "bcn": true
+    },
+    {
+     "n": "Project ST",
+     "dev": true,
+     "bcn": true
+    },
+    {
+     "n": "LaLiga Top Cards",
+     "bcn": true
+    }
+   ]
+  },
+  "bluetile": {
+   "web": "https://www.bluetile.com",
+   "about": "Estudio de Barcelona con 15 juegos casual en directo.",
+   "games": [
+    {
+     "n": "Hole Rush",
+     "bcn": true
+    },
+    {
+     "n": "Gems Away",
+     "bcn": true
+    },
+    {
+     "n": "Domino Legends",
+     "bcn": true
+    },
+    {
+     "n": "Yatzy",
+     "bcn": true
+    },
+    {
+     "n": "Spades Stars",
+     "bcn": true
+    },
+    {
+     "n": "Mahjong Voyage",
+     "bcn": true
+    },
+    {
+     "n": "Zen Tiles",
+     "bcn": true
+    },
+    {
+     "n": "Block Blitz",
+     "bcn": true
+    },
+    {
+     "n": "Sort Journey",
+     "bcn": true
+    }
+   ]
+  },
+  "eve": {
+   "web": "https://eve.games",
+   "about": "Estudio en remoto. Por sus ofertas, prepara un juego de acción (3Cs, combate, IA de enemigos, niveles).",
+   "games": [
+    {
+     "n": "Juego de acción sin anunciar",
+     "dev": true
+    }
+   ]
+  },
+  "uplay": {
+   "web": "https://www.uplayonline.com",
+   "about": "Estudio de Barcelona de simuladores y juegos de gestión.",
+   "games": [
+    {
+     "n": "Youtubers Life 3: Stream Together!",
+     "bcn": true
+    },
+    {
+     "n": "Youtubers Life 2",
+     "bcn": true
+    },
+    {
+     "n": "Youtubers Life",
+     "bcn": true
+    },
+    {
+     "n": "Esports Life Tycoon",
+     "bcn": true
+    },
+    {
+     "n": "International Basketball Manager 26",
+     "bcn": true
+    },
+    {
+     "n": "Striker Manager 3",
+     "bcn": true
+    }
+   ]
+  },
+  "infinitethread": {
+   "web": "https://infinite-thread.com",
+   "about": "Estudio independiente de Barcelona.",
+   "games": [
+    {
+     "n": "Hidalgo",
+     "bcn": true
+    },
+    {
+     "n": "Hitori Kakurenbo Online",
+     "bcn": true
+    },
+    {
+     "n": "Es tu turno: Hitori Kakurenbo",
+     "bcn": true
+    }
+   ]
+  },
+  "loom": {
+   "web": "https://loomstudios.es",
+   "about": "Estudio independiente de Barcelona.",
+   "games": [
+    {
+     "n": "Myth of Valderit",
+     "bcn": true
+    }
+   ]
+  },
+  "herobeat": {
+   "web": "https://www.herobeatstudios.com",
+   "about": "Estudio independiente de Barcelona.",
+   "games": [
+    {
+     "n": "Endling: Extinction is Forever",
+     "bcn": true
+    },
+    {
+     "n": "Wilderings: The Lost Spring",
+     "dev": true,
+     "bcn": true
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,251 @@
+<title>Empresas y juegos</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=DM+Mono:wght@400;500&display=swap">
+<style>
+/* Companies and their games. Same palette and header as the job page. */
+:root {
+  --ground: #F5F0E8;
+  --paper: #FFFBF4;
+  --ink: #4B1D26;
+  --ink-soft: #6B5357;
+  --red: #B92B45;
+  --teal: #0F6E62;
+  --sand: #EBD3A8;
+  --line: rgba(75, 29, 38, .14);
+  --chip: #F1E4CF;
+  --place: #2D5E8C;
+  --date: #8A4F00;
+  --good: #1E7A4C; --good-bg: #DCEFE3;
+  --warn: #9A6200; --warn-bg: #F6E7C8;
+  --bad: #B3261E; --bad-bg: #F7DCD9;
+  --display: 'Bricolage Grotesque', system-ui, sans-serif;
+  --mono: 'DM Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ground: #1C1315; --paper: #281C1F; --ink: #F3E6E1; --ink-soft: #C4AEB0;
+    --red: #E8768B; --teal: #5CC2AF; --sand: #5B4631; --line: rgba(243, 230, 225, .14);
+    --chip: #3A2A22; color-scheme: dark; --place: #8DBDEB; --date: #E8B35C;
+    --good: #6CCB97; --good-bg: #1F3A2B; --warn: #E6B45A; --warn-bg: #3D3020; --bad: #F08A80; --bad-bg: #44231F;
+  }
+}
+:root[data-theme="dark"] {
+  --ground: #1C1315; --paper: #281C1F; --ink: #F3E6E1; --ink-soft: #C4AEB0;
+  --red: #E8768B; --teal: #5CC2AF; --sand: #5B4631; --line: rgba(243, 230, 225, .14);
+  --chip: #3A2A22; color-scheme: dark; --place: #8DBDEB; --date: #E8B35C;
+  --good: #6CCB97; --good-bg: #1F3A2B; --warn: #E6B45A; --warn-bg: #3D3020; --bad: #F08A80; --bad-bg: #44231F;
+}
+* { box-sizing: border-box; }
+body { background: var(--ground); color: var(--ink); font-family: var(--display); font-size: 15px; line-height: 1.45; }
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--red); outline-offset: 2px; border-radius: 4px; }
+.wrap { max-width: 1260px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.top { background: var(--sand); border-bottom: 2px solid var(--ink); }
+.top .wrap { padding-block: 28px 22px; display: flex; flex-wrap: wrap; gap: 12px 32px; align-items: end; justify-content: space-between; }
+.brand h1 { margin: 0; font-size: clamp(34px, 6vw, 52px); line-height: .95; font-weight: 800; letter-spacing: -1.5px; }
+.brand h1 span { color: var(--red); }
+.brand p { margin: 8px 0 0; color: var(--ink-soft); font-size: 16px; }
+.tabs { display: flex; gap: 6px; margin-top: 14px; flex-wrap: wrap; }
+.tabs a { display: inline-flex; align-items: center; min-height: 36px; padding: 0 14px; border-radius: 999px; border: 1.5px solid var(--ink); text-decoration: none; font-weight: 600; font-size: 14px; }
+.tabs a[aria-current="page"] { background: var(--ink); color: var(--sand); }
+.tabs a:not([aria-current]):hover { background: rgba(75, 29, 38, .08); }
+.stamp { font-family: var(--mono); font-size: 12.5px; color: var(--ink-soft); text-align: right; }
+.bar .wrap { padding-block: 16px; display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; }
+.search { flex: 1 1 260px; min-width: 0; min-height: 40px; padding: 0 14px; border-radius: 999px; border: 1.5px solid var(--line); background: var(--paper); color: var(--ink); font: 400 14px var(--display); }
+.search::placeholder { color: var(--ink-soft); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 12.5px; color: var(--ink-soft); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+main .wrap { padding-block: 4px 56px; display: flex; flex-direction: column; gap: 36px; }
+.section h2 { margin: 0 0 14px; font-size: 22px; font-weight: 800; letter-spacing: -.4px; display: flex; align-items: baseline; gap: 10px; }
+.section h2 small { font: 500 12.5px var(--mono); color: var(--ink-soft); letter-spacing: 0; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 14px; align-items: start; }
+.card { background: var(--paper); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.head { display: flex; align-items: center; gap: 12px; min-width: 0; }
+.logo { width: 40px; height: 40px; flex-shrink: 0; border-radius: 10px; background: var(--chip); display: grid; place-items: center; overflow: hidden; font-weight: 800; font-size: 15px; color: var(--ink); }
+.logo.img { background: #fff; box-shadow: inset 0 0 0 1px rgba(75, 29, 38, .12); }
+.logo.img img { width: 68%; height: 68%; object-fit: contain; display: block; }
+.logo.img.wide img { width: 88%; }
+.logo.img.fill img { width: 100%; height: 100%; object-fit: cover; }
+.who { flex: 1; min-width: 0; }
+.who h3 { margin: 0; font-size: 17px; font-weight: 800; line-height: 1.15; }
+.who a { font-size: 12.5px; color: var(--place); font-weight: 500; text-underline-offset: 2px; overflow-wrap: anywhere; }
+.bcn { flex-shrink: 0; font: 500 10.5px var(--mono); letter-spacing: .5px; text-transform: uppercase; padding: 3px 7px; border-radius: 5px; background: var(--chip); color: var(--ink); white-space: nowrap; }
+.about { margin: 0; font-size: 13.5px; color: var(--ink-soft); text-wrap: pretty; }
+.sub { margin: 4px 0 -4px; font: 500 11px var(--mono); letter-spacing: .5px; text-transform: uppercase; color: var(--ink-soft); }
+.games { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.games li { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 999px; background: var(--chip); font-size: 13.5px; font-weight: 600; line-height: 1.3; }
+.games li.dev { background: transparent; border: 1.5px dashed var(--ink-soft); }
+.games li.hit { box-shadow: 0 0 0 2px var(--red); }
+.tag { font: 500 10px var(--mono); letter-spacing: .4px; text-transform: uppercase; color: var(--date); white-space: nowrap; }
+.tag.b { color: var(--place); }
+.foot { display: flex; justify-content: space-between; gap: 10px; padding-top: 8px; border-top: 1px solid var(--line); font-size: 13px; }
+.foot a { font-weight: 600; text-underline-offset: 3px; }
+.foot span { font-family: var(--mono); font-size: 11.5px; color: var(--ink-soft); }
+.empty { padding: 28px; text-align: center; color: var(--ink-soft); }
+@media (max-width: 520px) { .stamp { text-align: left; } .grid { grid-template-columns: 1fr; } }
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <h1>Job <span>Search</span></h1>
+      <p>Game Design y UX en estudios de videojuegos</p>
+      <nav class="tabs" aria-label="Secciones">
+        <a href="./">Ofertas</a>
+        <a href="games.html" aria-current="page">Empresas y juegos</a>
+      </nav>
+    </div>
+    <div class="stamp" id="stamp"></div>
+  </div>
+</header>
+
+<div class="bar">
+  <div class="wrap">
+    <input class="search" id="q" type="search" placeholder="Buscar empresa o juego" aria-label="Buscar empresa o juego" autocomplete="off">
+    <div class="legend">
+      <span><span class="tag">En desarrollo</span> proyecto anunciado o que aparece en sus ofertas</span>
+      <span><span class="tag b">Barcelona</span> hecho en su estudio de Barcelona</span>
+    </div>
+  </div>
+</div>
+
+<main><div class="wrap" id="app"></div></main>
+
+<script>
+(function () {
+  var GROUPS = [
+    { id: 'mobile', name: 'Móvil y F2P' },
+    { id: 'pc', name: 'PC y consola' },
+    { id: 'services', name: 'Servicios para la industria' }
+  ];
+  var companies = [], games = {}, q = '';
+  function el(tag, cls, text) { var n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; }
+  function initials(name) { return name.split(/[\s-]+/).map(function (w) { return w[0]; }).join('').slice(0, 2).toUpperCase(); }
+  // Logos: try each candidate in companies.json (self-hosted SVGs first, then
+  // verified remote files), then a high-res favicon. Tiny images are rejected so
+  // nothing shows pixelated. The first one that works is reused for every box.
+  var logoCache = {};
+  function logoSources(c) {
+    var list = (c.logos || []).slice();
+    if (c.domain) list.push('https://www.google.com/s2/favicons?sz=128&domain=' + encodeURIComponent(c.domain));
+    return list;
+  }
+  function paintLogo(box, hit) {
+    box.textContent = '';
+    box.className = 'logo img ' + hit.cls;
+    var img = new Image(); img.alt = ''; img.src = hit.src;
+    box.appendChild(img);
+  }
+  function resolveLogo(c, done) {
+    var e = logoCache[c.id];
+    if (e && e.hit !== undefined) return done(e.hit);
+    if (e) return e.wait.push(done);
+    e = logoCache[c.id] = { wait: [done] };
+    var list = logoSources(c), i = 0;
+    function finish(hit) { e.hit = hit; e.wait.forEach(function (f) { f(hit); }); e.wait = []; }
+    (function next() {
+      if (i >= list.length) return finish(null);
+      var src = list[i++], img = new Image();
+      img.onload = function () {
+        var w = img.naturalWidth, h = img.naturalHeight, svg = /\.svg(\?|$)/i.test(src);
+        if (!svg && Math.max(w, h) < 64) return next();
+        var r = w && h ? w / h : 1, cls = '';
+        if (r > 1.6 || r < .6) cls = 'wide';
+        else if (!svg && r > .9 && r < 1.1 && !/s2\/favicons/.test(src)) cls = 'fill';
+        finish({ src: src, cls: cls });
+      };
+      img.onerror = next;
+      img.src = src;
+    })();
+  }
+  function logo(c) {
+    var box = el('div', 'logo');
+    box.setAttribute('aria-hidden', 'true');
+    box.textContent = initials(c.name);
+    resolveLogo(c, function (hit) { if (hit) paintLogo(box, hit); });
+    return box;
+  }
+
+
+  function host(u) { try { return new URL(u).hostname.replace(/^www\./, ''); } catch (e) { return u; } }
+
+  function card(c, info) {
+    var box = el('article', 'card');
+    var head = el('div', 'head');
+    head.appendChild(logo(c));
+    var who = el('div', 'who');
+    who.appendChild(el('h3', null, c.name));
+    if (info.web) { var a = el('a', null, host(info.web) + ' ↗'); a.href = info.web; a.target = '_blank'; a.rel = 'noopener'; who.appendChild(a); }
+    head.appendChild(who);
+    var list = info.games || [];
+    var allBcn = list.length && list.every(function (g) { return g.bcn; });
+    if (allBcn) head.appendChild(el('span', 'bcn', 'Barcelona'));
+    box.appendChild(head);
+    if (info.about) box.appendChild(el('p', 'about', info.about));
+    var groups = [], by = {};
+    list.forEach(function (g) { var k = g.g || ''; if (!by[k]) { by[k] = []; groups.push(k); } by[k].push(g); });
+    var ql = q.trim().toLowerCase();
+    groups.forEach(function (k) {
+      if (k) box.appendChild(el('p', 'sub', k));
+      var ul = el('ul', 'games');
+      by[k].forEach(function (g) {
+        var li = el('li', (g.dev ? 'dev' : '') + (ql && g.n.toLowerCase().indexOf(ql) !== -1 ? ' hit' : ''));
+        li.appendChild(document.createTextNode(g.n));
+        if (g.dev) li.appendChild(el('span', 'tag', 'En desarrollo'));
+        if (g.bcn && !allBcn) li.appendChild(el('span', 'tag b', 'Barcelona'));
+        ul.appendChild(li);
+      });
+      box.appendChild(ul);
+    });
+    var foot = el('div', 'foot');
+    var jobs = el('a', null, 'Web de empleo ↗'); jobs.href = c.careers; jobs.target = '_blank'; jobs.rel = 'noopener';
+    foot.appendChild(jobs);
+    foot.appendChild(el('span', null, list.length + (list.length === 1 ? ' juego o proyecto' : ' juegos y proyectos')));
+    box.appendChild(foot);
+    return box;
+  }
+
+  function matches(c, info) {
+    var ql = q.trim().toLowerCase();
+    if (!ql) return true;
+    var hay = [c.name, info.about || ''].concat((info.games || []).map(function (g) { return g.n + ' ' + (g.g || ''); })).join(' ').toLowerCase();
+    return hay.indexOf(ql) !== -1;
+  }
+
+  function render() {
+    var app = document.getElementById('app');
+    app.textContent = '';
+    var shown = 0;
+    GROUPS.forEach(function (gr) {
+      var list = companies.filter(function (c) { return c.group === gr.id && games[c.id] && matches(c, games[c.id]); });
+      if (!list.length) return;
+      list.sort(function (a, b) { return a.name.localeCompare(b.name); });
+      shown += list.length;
+      var s = el('section', 'section');
+      var h2 = el('h2', null, gr.name);
+      h2.appendChild(el('small', null, list.length + (list.length === 1 ? ' empresa' : ' empresas')));
+      s.appendChild(h2);
+      var grid = el('div', 'grid');
+      list.forEach(function (c) { grid.appendChild(card(c, games[c.id])); });
+      s.appendChild(grid);
+      app.appendChild(s);
+    });
+    if (!shown) app.appendChild(el('p', 'empty', 'Ninguna empresa ni juego coincide con la búsqueda.'));
+  }
+
+  document.getElementById('q').oninput = function (e) { q = e.target.value; render(); };
+  Promise.all([
+    fetch('companies.json?t=' + Date.now(), { cache: 'no-store' }).then(function (r) { return r.json(); }),
+    fetch('games.json?t=' + Date.now(), { cache: 'no-store' }).then(function (r) { return r.json(); })
+  ]).then(function (res) {
+    companies = res[0]; games = res[1].studios || {};
+    document.getElementById('stamp').textContent = companies.length + ' empresas · revisado el ' +
+      new Date(res[1].updated).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
+    render();
+  }).catch(function () {
+    document.getElementById('app').appendChild(el('p', 'empty', 'No se han podido cargar los datos. Recarga la página en unos minutos.'));
+  });
+})();
+</script>

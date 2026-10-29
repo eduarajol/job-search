@@ -57,6 +57,10 @@ a { color: inherit; }
 .brand h1 { margin: 0; font-size: clamp(34px, 6vw, 52px); line-height: .95; font-weight: 800; letter-spacing: -1.5px; text-wrap: balance; }
 .brand h1 span { color: var(--red); }
 .brand p { margin: 8px 0 0; color: var(--ink-soft); font-size: 16px; }
+.tabs { display: flex; gap: 6px; margin-top: 14px; flex-wrap: wrap; }
+.tabs a { display: inline-flex; align-items: center; min-height: 36px; padding: 0 14px; border-radius: 999px; border: 1.5px solid var(--ink); text-decoration: none; font-weight: 600; font-size: 14px; }
+.tabs a[aria-current="page"] { background: var(--ink); color: var(--sand); }
+.tabs a:not([aria-current]):hover { background: rgba(75, 29, 38, .08); }
 .stamp { font-family: var(--mono); font-size: 12.5px; color: var(--ink-soft); text-align: right; }
 .stamp b { display: block; font-family: var(--display); font-size: 15px; color: var(--ink); font-weight: 600; }
 
@@ -198,6 +202,10 @@ main .wrap { padding-block: 4px 56px; }
     <div class="brand">
       <h1>Job <span>Search</span></h1>
       <p>Game Design y UX en estudios de videojuegos</p>
+      <nav class="tabs" aria-label="Secciones">
+        <a href="./" aria-current="page">Ofertas</a>
+        <a href="games.html">Empresas y juegos</a>
+      </nav>
     </div>
     <div class="stamp" id="stamp"><b>Cargando ofertas…</b></div>
   </div>
