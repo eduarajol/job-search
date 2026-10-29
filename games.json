@@ -1173,10 +1173,26 @@
   },
   "alike": {
    "web": "https://www.alikestudio.com",
-   "about": "Estudio de animación de Barcelona.",
+   "about": "Estudio de Barcelona de juegos casual y de puzzle, para móvil y consola.",
    "games": [
     {
-     "n": "Alike (cortometraje)",
+     "n": "Love You to Bits",
+     "bcn": true
+    },
+    {
+     "n": "Bring You Home",
+     "bcn": true
+    },
+    {
+     "n": "Very Little Nightmares",
+     "bcn": true
+    },
+    {
+     "n": "All of You",
+     "bcn": true
+    },
+    {
+     "n": "Tamagotchi Adventure Kingdom",
      "bcn": true
     }
    ]
