@@ -60,31 +60,49 @@ a { color: inherit; }
 main .wrap { padding-block: 4px 56px; display: flex; flex-direction: column; gap: 36px; }
 .section h2 { margin: 0 0 14px; font-size: 22px; font-weight: 800; letter-spacing: -.4px; display: flex; align-items: baseline; gap: 10px; }
 .section h2 small { font: 500 12.5px var(--mono); color: var(--ink-soft); letter-spacing: 0; }
-.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 14px; align-items: start; }
-.card { background: var(--paper); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
-.head { display: flex; align-items: center; gap: 12px; min-width: 0; }
-.logo { width: 40px; height: 40px; flex-shrink: 0; border-radius: 10px; background: var(--chip); display: grid; place-items: center; overflow: hidden; font-weight: 800; font-size: 15px; color: var(--ink); }
+.panel { background: var(--paper); border: 1px solid var(--line); border-radius: 14px; }
+.row { padding: 18px 20px; display: flex; flex-direction: column; gap: 14px; }
+.row + .row { border-top: 1px solid var(--line); }
+.head { display: flex; align-items: center; gap: 14px; min-width: 0; flex-wrap: wrap; }
+.logo { width: 56px; height: 56px; flex-shrink: 0; border-radius: 12px; background: var(--chip); display: grid; place-items: center; overflow: hidden; font-weight: 800; font-size: 18px; color: var(--ink); }
 .logo.img { background: #fff; box-shadow: inset 0 0 0 1px rgba(75, 29, 38, .12); }
 .logo.img img { width: 68%; height: 68%; object-fit: contain; display: block; }
 .logo.img.wide img { width: 88%; }
 .logo.img.fill img { width: 100%; height: 100%; object-fit: cover; }
-.who { flex: 1; min-width: 0; }
-.who h3 { margin: 0; font-size: 17px; font-weight: 800; line-height: 1.15; }
-.who a { font-size: 12.5px; color: var(--place); font-weight: 500; text-underline-offset: 2px; overflow-wrap: anywhere; }
-.bcn { flex-shrink: 0; font: 500 10.5px var(--mono); letter-spacing: .5px; text-transform: uppercase; padding: 3px 7px; border-radius: 5px; background: var(--chip); color: var(--ink); white-space: nowrap; }
-.about { margin: 0; font-size: 13.5px; color: var(--ink-soft); text-wrap: pretty; }
-.sub { margin: 4px 0 -4px; font: 500 11px var(--mono); letter-spacing: .5px; text-transform: uppercase; color: var(--ink-soft); }
-.games { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px; }
-.games li { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 999px; background: var(--chip); font-size: 13.5px; font-weight: 600; line-height: 1.3; }
-.games li.dev { background: transparent; border: 1.5px dashed var(--ink-soft); }
-.games li.hit { box-shadow: 0 0 0 2px var(--red); }
+.name { margin: 0; font-size: 22px; font-weight: 800; letter-spacing: -.3px; line-height: 1.1; }
+.divider { width: 1.5px; align-self: stretch; min-height: 34px; background: var(--ink); opacity: .5; }
+.meta { flex: 1 1 320px; min-width: 0; display: flex; flex-direction: column; gap: 3px; }
+.about { margin: 0; font-size: 14px; color: var(--ink); text-wrap: pretty; }
+.links { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 12.5px; align-items: center; }
+.links a { color: var(--place); font-weight: 500; text-underline-offset: 2px; }
+.links a.jobs { color: var(--ink); font-weight: 600; }
+.bcn { font: 500 10.5px var(--mono); letter-spacing: .5px; text-transform: uppercase; padding: 3px 7px; border-radius: 5px; background: var(--chip); color: var(--place); white-space: nowrap; }
+.sub { margin: 0 0 -6px; font: 500 11px var(--mono); letter-spacing: .5px; text-transform: uppercase; color: var(--ink-soft); }
+.games { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px 18px; }
+.game { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.game.hit .thumb { box-shadow: 0 0 0 2.5px var(--red); }
+.game.hit .gname { color: var(--red); }
+.thumb { width: 52px; height: 52px; flex-shrink: 0; border-radius: 11px; overflow: hidden; background: var(--chip); display: grid; place-items: center; font: 800 15px var(--display); color: var(--ink-soft); box-shadow: inset 0 0 0 1px var(--line); }
+.thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.thumb.dev { background: transparent; border: 1.5px dashed var(--ink-soft); box-shadow: none; }
+.ginfo { display: flex; flex-direction: column; gap: 1px; min-width: 0; }
+.gname { font-size: 14px; font-weight: 600; line-height: 1.25; overflow-wrap: anywhere; }
+.gname a { text-decoration: none; }
+.gname a:hover { text-decoration: underline; text-underline-offset: 2px; }
+.tags { display: flex; gap: 8px; flex-wrap: wrap; }
 .tag { font: 500 10px var(--mono); letter-spacing: .4px; text-transform: uppercase; color: var(--date); white-space: nowrap; }
 .tag.b { color: var(--place); }
-.foot { display: flex; justify-content: space-between; gap: 10px; padding-top: 8px; border-top: 1px solid var(--line); font-size: 13px; }
-.foot a { font-weight: 600; text-underline-offset: 3px; }
-.foot span { font-family: var(--mono); font-size: 11.5px; color: var(--ink-soft); }
+.version { font-size: 13px; color: var(--ink-soft); }
+.version a { color: var(--ink); font-weight: 600; text-underline-offset: 3px; }
+@media (max-width: 640px) {
+  .divider { display: none; }
+  .meta { flex-basis: 100%; }
+  .games { grid-template-columns: 1fr 1fr; }
+  .thumb { width: 44px; height: 44px; }
+}
+@media (max-width: 380px) { .games { grid-template-columns: 1fr; } }
 .empty { padding: 28px; text-align: center; color: var(--ink-soft); }
-@media (max-width: 520px) { .stamp { text-align: left; } .grid { grid-template-columns: 1fr; } }
+@media (max-width: 520px) { .stamp { text-align: left; } }
 </style>
 
 <header class="top">
@@ -108,7 +126,6 @@ main .wrap { padding-block: 4px 56px; display: flex; flex-direction: column; gap
       <span><span class="tag">En desarrollo</span> proyecto anunciado o que aparece en sus ofertas</span>
       <span><span class="tag b">Barcelona</span> hecho en su estudio de Barcelona</span>
     </div>
-    <span class="version" style="font-size:13px;color:var(--ink-soft)">Propuesta 1 · <a href="games-v2.html" style="color:var(--ink);font-weight:600">ver propuesta 2</a></span>
   </div>
 </div>
 
@@ -121,7 +138,7 @@ main .wrap { padding-block: 4px 56px; display: flex; flex-direction: column; gap
     { id: 'pc', name: 'PC y consola' },
     { id: 'services', name: 'Servicios para la industria' }
   ];
-  var companies = [], games = {}, q = '';
+  var companies = [], games = {}, images = {}, q = '';
   function el(tag, cls, text) { var n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; }
   function initials(name) { return name.split(/[\s-]+/).map(function (w) { return w[0]; }).join('').slice(0, 2).toUpperCase(); }
   // Logos: try each candidate in companies.json (self-hosted SVGs first, then
@@ -172,40 +189,69 @@ main .wrap { padding-block: 4px 56px; display: flex; flex-direction: column; gap
 
   function host(u) { try { return new URL(u).hostname.replace(/^www\./, ''); } catch (e) { return u; } }
 
+  function initialsOf(t) { return t.replace(/[^\p{L}\p{N} ]/gu, ' ').split(/\s+/).filter(Boolean).slice(0, 2).map(function (w) { return w[0]; }).join('').toUpperCase(); }
+
+  function thumb(c, g) {
+    var box = el('span', 'thumb' + (g.dev ? ' dev' : ''));
+    box.setAttribute('aria-hidden', 'true');
+    var hit = images[c.id + ':' + g.n];
+    if (hit && hit.img) {
+      var img = new Image(); img.alt = ''; img.loading = 'lazy';
+      img.onerror = function () { box.textContent = initialsOf(g.n); };
+      img.src = hit.img; box.appendChild(img);
+    } else {
+      box.textContent = g.dev ? '?' : initialsOf(g.n);
+    }
+    return box;
+  }
+
   function card(c, info) {
-    var box = el('article', 'card');
+    var row = el('article', 'row');
     var head = el('div', 'head');
     head.appendChild(logo(c));
-    var who = el('div', 'who');
-    who.appendChild(el('h3', null, c.name));
-    if (info.web) { var a = el('a', null, host(info.web) + ' ↗'); a.href = info.web; a.target = '_blank'; a.rel = 'noopener'; who.appendChild(a); }
-    head.appendChild(who);
+    head.appendChild(el('h3', 'name', c.name));
+    head.appendChild(el('span', 'divider'));
+    var meta = el('div', 'meta');
+    if (info.about) meta.appendChild(el('p', 'about', info.about));
+    var links = el('div', 'links');
     var list = info.games || [];
     var allBcn = list.length && list.every(function (g) { return g.bcn; });
-    if (allBcn) head.appendChild(el('span', 'bcn', 'Barcelona'));
-    box.appendChild(head);
-    if (info.about) box.appendChild(el('p', 'about', info.about));
+    if (allBcn) links.appendChild(el('span', 'bcn', 'Barcelona'));
+    if (info.web) { var a = el('a', null, host(info.web) + ' ↗'); a.href = info.web; a.target = '_blank'; a.rel = 'noopener'; links.appendChild(a); }
+    var jobs = el('a', 'jobs', 'Web de empleo ↗'); jobs.href = c.careers; jobs.target = '_blank'; jobs.rel = 'noopener';
+    links.appendChild(jobs);
+    meta.appendChild(links);
+    head.appendChild(meta);
+    row.appendChild(head);
+
     var groups = [], by = {};
     list.forEach(function (g) { var k = g.g || ''; if (!by[k]) { by[k] = []; groups.push(k); } by[k].push(g); });
     var ql = q.trim().toLowerCase();
     groups.forEach(function (k) {
-      if (k) box.appendChild(el('p', 'sub', k));
+      if (k) row.appendChild(el('p', 'sub', k));
       var ul = el('ul', 'games');
       by[k].forEach(function (g) {
-        var li = el('li', (g.dev ? 'dev' : '') + (ql && g.n.toLowerCase().indexOf(ql) !== -1 ? ' hit' : ''));
-        li.appendChild(document.createTextNode(g.n));
-        if (g.dev) li.appendChild(el('span', 'tag', 'En desarrollo'));
-        if (g.bcn && !allBcn) li.appendChild(el('span', 'tag b', 'Barcelona'));
+        var li = el('li', 'game' + (ql && g.n.toLowerCase().indexOf(ql) !== -1 ? ' hit' : ''));
+        li.appendChild(thumb(c, g));
+        var gi = el('span', 'ginfo');
+        var name = el('span', 'gname');
+        var hit = images[c.id + ':' + g.n];
+        if (hit && hit.url) {
+          var link = el('a', null, g.n); link.href = hit.url; link.target = '_blank'; link.rel = 'noopener';
+          link.title = hit.src === 'steam' ? 'Ver en Steam' : 'Ver en App Store';
+          name.appendChild(link);
+        } else name.textContent = g.n;
+        gi.appendChild(name);
+        var tags = el('span', 'tags');
+        if (g.dev) tags.appendChild(el('span', 'tag', 'En desarrollo'));
+        if (g.bcn && !allBcn) tags.appendChild(el('span', 'tag b', 'Barcelona'));
+        if (tags.childNodes.length) gi.appendChild(tags);
+        li.appendChild(gi);
         ul.appendChild(li);
       });
-      box.appendChild(ul);
+      row.appendChild(ul);
     });
-    var foot = el('div', 'foot');
-    var jobs = el('a', null, 'Web de empleo ↗'); jobs.href = c.careers; jobs.target = '_blank'; jobs.rel = 'noopener';
-    foot.appendChild(jobs);
-    foot.appendChild(el('span', null, list.length + (list.length === 1 ? ' juego o proyecto' : ' juegos y proyectos')));
-    box.appendChild(foot);
-    return box;
+    return row;
   }
 
   function matches(c, info) {
@@ -228,9 +274,9 @@ main .wrap { padding-block: 4px 56px; display: flex; flex-direction: column; gap
       var h2 = el('h2', null, gr.name);
       h2.appendChild(el('small', null, list.length + (list.length === 1 ? ' empresa' : ' empresas')));
       s.appendChild(h2);
-      var grid = el('div', 'grid');
-      list.forEach(function (c) { grid.appendChild(card(c, games[c.id])); });
-      s.appendChild(grid);
+      var panel = el('div', 'panel');
+      list.forEach(function (c) { panel.appendChild(card(c, games[c.id])); });
+      s.appendChild(panel);
       app.appendChild(s);
     });
     if (!shown) app.appendChild(el('p', 'empty', 'Ninguna empresa ni juego coincide con la búsqueda.'));
@@ -239,9 +285,10 @@ main .wrap { padding-block: 4px 56px; display: flex; flex-direction: column; gap
   document.getElementById('q').oninput = function (e) { q = e.target.value; render(); };
   Promise.all([
     fetch('companies.json?t=' + Date.now(), { cache: 'no-store' }).then(function (r) { return r.json(); }),
-    fetch('games.json?t=' + Date.now(), { cache: 'no-store' }).then(function (r) { return r.json(); })
+    fetch('games.json?t=' + Date.now(), { cache: 'no-store' }).then(function (r) { return r.json(); }),
+    fetch('game_images.json?t=' + Date.now(), { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; })
   ]).then(function (res) {
-    companies = res[0]; games = res[1].studios || {};
+    companies = res[0]; games = res[1].studios || {}; images = res[2] || {};
     document.getElementById('stamp').textContent = companies.length + ' empresas · revisado el ' +
       new Date(res[1].updated).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
     render();
