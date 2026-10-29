@@ -13,7 +13,7 @@ HEAD = (
     "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n"
     "<style>body{margin:0}</style>\n</head>\n<body>\n"
 )
-for src, out in (("page.html", "index.html"), ("games.html", "games.html")):
+for src, out in (("page.html", "index.html"), ("games.html", "games.html"), ("games-v2.html", "games-v2.html")):
     page = (ROOT / "src" / src).read_text(encoding="utf-8")
     (ROOT / out).write_text(HEAD + page + "\n</body>\n</html>\n", encoding="utf-8")
 
