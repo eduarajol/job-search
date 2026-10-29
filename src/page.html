@@ -275,7 +275,7 @@ main .wrap { padding-block: 4px 56px; }
     'slovenia': 'Eslovenia', 'cyprus': 'Chipre', 'denmark': 'Dinamarca', 'portugal': 'Portugal', 'ukraine': 'Ucrania',
     'poland': 'Polonia', 'lithuania': 'Lituania', 'serbia': 'Serbia', 'belarus': 'Bielorrusia', 'georgia': 'Georgia',
     'indonesia': 'Indonesia', 'netherlands': 'Países Bajos', 'italy': 'Italia', 'malta': 'Malta', 'singapore': 'Singapur',
-    'belgium': 'Bélgica', 'malaysia': 'Malasia', 'israel': 'Israel', 'mexico': 'México', 'brazil': 'Brasil',
+    'belgium': 'Bélgica', 'czech republic': 'Chequia', 'czechia': 'Chequia', 'estonia': 'Estonia', 'malaysia': 'Malasia', 'israel': 'Israel', 'mexico': 'México', 'brazil': 'Brasil',
     'europe': 'Europa', 'emea': 'Europa', 'eu': 'Europa', 'worldwide': 'Mundial', 'global': 'Mundial', 'anywhere': 'Mundial'
   };
   // City -> [Spanish name, default country, well known (no country shown)]
@@ -297,7 +297,7 @@ main .wrap { padding-block: 4px 56px; }
     'shanghai': ['Shanghái', 'China', 1], 'guangzhou': ['Cantón', 'China', 0], 'chengdu': ['Chengdu', 'China', 0],
     'hanoi': ['Hanói', 'Vietnam', 1], 'ho chi minh city': ['Ciudad Ho Chi Minh', 'Vietnam', 1],
     'bengaluru': ['Bangalore', 'India', 0], 'jakarta': ['Yakarta', 'Indonesia', 1], 'sydney': ['Sídney', 'Australia', 1],
-    'brisbane': ['Brisbane', 'Australia', 0], 'helsinki metropolitan area': ['Helsinki', 'Finlandia', 1],
+    'brisbane': ['Brisbane', 'Australia', 0], 'gdansk': ['Gdansk', 'Polonia', 0], 'krakow': ['Cracovia', 'Polonia', 1], 'tallinn': ['Tallin', 'Estonia', 1], 'lisboa': ['Lisboa', 'Portugal', 1], 'lisbon': ['Lisboa', 'Portugal', 1], 'helsinki metropolitan area': ['Helsinki', 'Finlandia', 1],
     'québec city': ['Quebec', 'Canadá', 0], 'quebec city': ['Quebec', 'Canadá', 0], 'quebec': ['Quebec', 'Canadá', 0],
     'gent': ['Gante', 'Bélgica', 0], 'guildford': ['Guildford', 'Reino Unido', 0], 'kuala lumpur': ['Kuala Lumpur', 'Malasia', 1],
     'tel aviv': ['Tel Aviv', 'Israel', 1], 'any/tous les studios': ['Cualquier estudio', '', 1], 'beijing': ['Pekín', 'China', 1],
@@ -310,6 +310,8 @@ main .wrap { padding-block: 4px 56px; }
     // ";" separates places; inside one, "," separates city, region and country.
     var tokens = [];
     (raw || '').split(/\s*[;|]\s*|\s+·\s+/).forEach(function (g) {
+      // Workday style "Spain (Barcelona)" -> "Barcelona, Spain".
+      g = g.replace(/^\s*([^(),]+?)\s*\(([^()]+)\)\s*$/, '$2, $1');
       tokens = tokens.concat(g.split(/\s*,\s*|\s+or\s+|\s+o\s+/i));
       tokens.push('\u0000');
     });
@@ -356,6 +358,13 @@ main .wrap { padding-block: 4px 56px; }
       out.push({ label: label, bcn: it.key === 'barcelona' });
     });
     if (!remote && remoteFlag) remote = { region: '' };
+    // "Fully Remote | United States, Spain, ..." -> one remote item listing the countries.
+    if (remote && !remote.region && out.length && items.every(function (i) { return i.countryOnly; })) {
+      var cs = out.map(function (o) { return o.label; });
+      cs.sort(function (a, b) { return (b === 'España') - (a === 'España'); });
+      remote.region = cs.length > 2 ? cs.slice(0, 2).join(', ') + ' y ' + (cs.length - 2) + ' más' : cs.join(' o ');
+      out = [];
+    }
     if (remote) out.push({ label: 'Remoto' + (remote.region ? ' (' + remote.region + ')' : ''), remote: true });
     // Barcelona first, then remote, then the rest in the board's order.
     out.sort(function (a, b) { return (b.bcn ? 2 : b.remote ? 1 : 0) - (a.bcn ? 2 : a.remote ? 1 : 0); });
