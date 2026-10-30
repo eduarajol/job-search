@@ -1,56 +1,56 @@
 {
- "updated": "2026-10-29T15:16:02Z",
- "basedOn": "2026-10-29T14:16:28+00:00",
- "picks": [
-  {
-   "key": "ubisoft:744000153130529",
-   "fit": "Media",
-   "reason": "UX in-game en Barcelona: HUD, onboarding, tutoriales y flujos para Rainbow Six Siege. Pide 6+ años de UX en juegos."
-  },
-  {
-   "key": "scopely:5342027008",
-   "fit": "Media",
-   "reason": "Mecánicas, habilidades y specs para Stumble Guys con playtests y datos. No fija años mínimos y pide base de diseño multijugador."
-  },
-  {
-   "key": "ubisoft:744000158059429",
-   "fit": "Media",
-   "reason": "Features y specs de F2P móvil de principio a fin. Pide 3+ años como game designer y experiencia en balanceo."
-  },
-  {
-   "key": "scopely:5449845008",
-   "fit": "Media",
-   "reason": "Liderar el UX de Star Trek Fleet Command, un 4X: wireframes, flujos y prototipos. Pide liderazgo previo en UX de juegos."
-  },
-  {
-   "key": "scopely:5412268008",
-   "fit": "Baja",
-   "reason": "Contenido de eventos y features para Monopoly GO! con documentos y pitches. Pide 3+ años en diseño o contenido."
-  },
-  {
-   "key": "king:R027772",
-   "fit": "Baja",
-   "reason": "Metagame de Candy Crush Saga: progresión, eventos y funciones sociales. Exige experiencia en metagame de F2P en directo."
-  },
-  {
-   "key": "outfit7:7823877003",
-   "fit": "Baja",
-   "reason": "Casual móvil con la IP Talking Tom: mecánicas, progresión y documentación. Pide 5+ años y manejo de Unity."
-  },
-  {
-   "key": "scopely:5423473008",
-   "fit": "Baja",
-   "reason": "UX de producto para Monopoly GO! con workshops, research y prototipos. Pide 8+ años de UX en juegos."
-  },
-  {
-   "key": "voodoo:d633533c-ac08-440e-a6b6-33351b3ad005",
-   "fit": "Baja",
-   "reason": "Modos multijugador para Paper.io 2 desde Barcelona o remoto. Pide 5+ años en F2P móvil y prototipar en Unity."
-  },
-  {
-   "key": "angrymob:325",
-   "fit": "Baja",
-   "reason": "Gameplay en Unity para un cooperativo en Barcelona: prototipos y bucle principal. Pide programar y haber publicado juegos."
-  }
- ]
+  "updated": "2026-10-30T18:57:02Z",
+  "basedOn": "2026-10-30T18:46:33+00:00",
+  "picks": [
+    {
+      "key": "ubisoft:744000158795149",
+      "fit": "Media",
+      "reason": "UX in-game para Rainbow Six Siege en Barcelona: HUD, onboarding y tutoriales. Pide 6+ años de UX en juegos."
+    },
+    {
+      "key": "ubisoft:744000158059429",
+      "fit": "Media",
+      "reason": "Game Designer móvil F2P en Barcelona: features, sistemas y balanceo de RPG. Pide 3+ años como game designer."
+    },
+    {
+      "key": "scopely:5449845008",
+      "fit": "Media",
+      "reason": "Lead UX en Star Trek Fleet Command, 4X MMO en Barcelona. Flujos y prototipos para sistemas complejos. Pide liderazgo en UX de juegos."
+    },
+    {
+      "key": "scopely:5412268008",
+      "fit": "Media",
+      "reason": "Content Designer en Monopoly GO! en Barcelona: eventos, temática e IP licenciadas. Pide 3+ años y escritura UX."
+    },
+    {
+      "key": "scopely:5423473008",
+      "fit": "Baja",
+      "reason": "Principal UX en Monopoly GO! en Barcelona: estrategia UX de features y research. Pide 8+ años de UX en juegos."
+    },
+    {
+      "key": "king:R027772",
+      "fit": "Baja",
+      "reason": "Senior Game Designer en Candy Crush: metajuego, progresión y eventos live. Pide experiencia sólida en metagame F2P live."
+    },
+    {
+      "key": "voodoo:d633533c-ac08-440e-a6b6-33351b3ad005",
+      "fit": "Baja",
+      "reason": "Diseño de modos multijugador para Paper.io 2, remoto. Pide 5+ años en F2P móvil y prototipado en Unity."
+    },
+    {
+      "key": "bandainamco:2840478",
+      "fit": "Baja",
+      "reason": "Systems Designer en F2P móvil en soft launch en Barcelona. Pide RPG de squad, economía y uso de Unity."
+    },
+    {
+      "key": "scopely:5388806008",
+      "fit": "Baja",
+      "reason": "Lead Systems Designer en Star Trek Fleet Command, 4X MMO en Barcelona. Rol de liderazgo con amplia experiencia en sistemas."
+    },
+    {
+      "key": "angrymob:325",
+      "fit": "Baja",
+      "reason": "Gameplay Designer para un co-op multijugador en Barcelona. Prototipado diario dentro del motor."
+    }
+  ]
 }
