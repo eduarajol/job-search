@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T22:46:28+00:00",
+ "updated": "2026-10-30T11:36:37+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -974,7 +974,7 @@
     "https://upload.wikimedia.org/wikipedia/en/1/1a/King_logo.svg"
    ],
    "status": "ok",
-   "total": 19,
+   "total": 17,
    "jobs": [
     {
      "id": "R027772",
@@ -1038,17 +1038,6 @@
      "url": "https://xboxgaming.wd1.myworkdayjobs.com/King_External_Careers/job/Barcelona---King---PG/Tools-Developer---Shared-Tech_R028199",
      "remote": false,
      "posted": "2026-10-14T00:00:00.000+0000",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T20:11:37+00:00"
-    },
-    {
-     "id": "R027381",
-     "title": "Principal AI/ML Engineer",
-     "location": "Stockholm, Stockholm County, Sweden; London, London, United Kingdom; Barcelona, Spain",
-     "url": "https://xboxgaming.wd1.myworkdayjobs.com/King_External_Careers/job/Stockholm---King---Malmskillnadsgatan/Senior-Principal-AI-ML-Engineer_R027381",
-     "remote": false,
-     "posted": "2026-10-09T00:00:00.000+0000",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T20:11:37+00:00"
@@ -1270,7 +1259,7 @@
     "logos/gameloft.svg"
    ],
    "status": "ok",
-   "total": 61,
+   "total": 64,
    "jobs": [
     {
      "id": "744000158269799",
@@ -1472,7 +1461,7 @@
     "logos/ubisoft.svg"
    ],
    "status": "ok",
-   "total": 313,
+   "total": 309,
    "jobs": [
     {
      "id": "744000158059429",
@@ -1662,15 +1651,15 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "744000155797846",
+     "id": "744000158696195",
      "title": "Senior Game Designer - Beyond Good & Evil 2 - H/F/NB",
      "location": "Montpellier, Occitanie, France",
-     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000155797846",
+     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000158696195",
      "remote": false,
-     "posted": "2026-10-15T15:55:35.158Z",
+     "posted": "2026-10-30T09:30:21.183Z",
      "design": true,
      "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
+     "firstSeen": "2026-10-30T11:36:37+00:00"
     },
     {
      "id": "744000107117815",
@@ -1783,15 +1772,15 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "744000155707009",
+     "id": "744000158699224",
      "title": "Senior Data Analyst",
      "location": "Barcelona, CT, Spain",
-     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000155707009",
+     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000158699224",
      "remote": false,
-     "posted": "2026-10-15T09:15:51.205Z",
+     "posted": "2026-10-30T09:35:56.773Z",
      "design": false,
      "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
+     "firstSeen": "2026-10-30T11:36:37+00:00"
     },
     {
      "id": "744000152933699",
@@ -1815,7 +1804,7 @@
    "careers": "https://job-boards.eu.greenhouse.io/tripledotstudios",
    "logos": [],
    "status": "ok",
-   "total": 92,
+   "total": 89,
    "jobs": [
     {
      "id": "4965778101",
@@ -1840,17 +1829,6 @@
      "firstSeen": "2026-10-28T17:49:21+00:00"
     },
     {
-     "id": "4944287101",
-     "title": "Game Designer (Hybrid Casual)",
-     "location": "Minsk",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4944287101",
-     "remote": false,
-     "posted": "2026-08-05T11:52:03-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
      "id": "4944288101",
      "title": "Game Designer (Hybrid Casual)",
      "location": "Tblisi",
@@ -1862,12 +1840,12 @@
      "firstSeen": "2026-10-28T17:49:21+00:00"
     },
     {
-     "id": "4945678101",
+     "id": "4944287101",
      "title": "Game Designer (Hybrid Casual)",
-     "location": "Limassol",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4945678101",
+     "location": "Minsk",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4944287101",
      "remote": false,
-     "posted": "2026-08-05T11:53:43-04:00",
+     "posted": "2026-08-05T11:52:03-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -1879,6 +1857,17 @@
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4963495101",
      "remote": false,
      "posted": "2026-08-28T10:53:45-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4945678101",
+     "title": "Game Designer (Hybrid Casual)",
+     "location": "Limassol",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4945678101",
+     "remote": false,
+     "posted": "2026-08-05T11:53:43-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -1928,23 +1917,23 @@
      "firstSeen": "2026-10-28T17:49:21+00:00"
     },
     {
-     "id": "4999486101",
-     "title": "Senior Level Designer",
-     "location": "Minsk",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4999486101",
-     "remote": false,
-     "posted": "2026-10-07T05:27:11-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
      "id": "4999078101",
      "title": "Senior Level Designer",
      "location": "Warsaw",
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4999078101",
      "remote": false,
      "posted": "2026-10-07T05:27:09-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4999486101",
+     "title": "Senior Level Designer",
+     "location": "Minsk",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4999486101",
+     "remote": false,
+     "posted": "2026-10-07T05:27:11-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -1961,17 +1950,6 @@
      "firstSeen": "2026-10-28T17:49:21+00:00"
     },
     {
-     "id": "4988598101",
-     "title": "Data Analyst",
-     "location": "Barcelona",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988598101",
-     "remote": false,
-     "posted": "2026-09-28T09:42:08-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
      "id": "4988635101",
      "title": "Data Analyst",
      "location": "Remote Europe",
@@ -1983,12 +1961,12 @@
      "firstSeen": "2026-10-28T17:49:21+00:00"
     },
     {
-     "id": "4988610101",
-     "title": "Fraud Analyst",
+     "id": "4988598101",
+     "title": "Data Analyst",
      "location": "Barcelona",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988610101",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988598101",
      "remote": false,
-     "posted": "2026-09-28T09:45:46-04:00",
+     "posted": "2026-09-28T09:42:08-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -2000,6 +1978,17 @@
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988636101",
      "remote": true,
      "posted": "2026-09-28T09:54:28-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4988610101",
+     "title": "Fraud Analyst",
+     "location": "Barcelona",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988610101",
+     "remote": false,
+     "posted": "2026-09-28T09:45:46-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -2307,7 +2296,7 @@
     "https://upload.wikimedia.org/wikipedia/en/7/7b/Zynga.svg"
    ],
    "status": "ok",
-   "total": 46,
+   "total": 47,
    "jobs": [
     {
      "id": "5724174004",
@@ -2579,7 +2568,7 @@
     "https://upload.wikimedia.org/wikipedia/en/4/45/Rovio_Entertainment.svg"
    ],
    "status": "ok",
-   "total": 4,
+   "total": 5,
    "jobs": [
     {
      "id": "head-of-business-development-d915dfef-61b3-448a-a5ae-43c104c83901",
@@ -3280,7 +3269,7 @@
     "logos/blizzard.svg"
    ],
    "status": "ok",
-   "total": 50,
+   "total": 47,
    "jobs": [
     {
      "id": "R028135",
@@ -3383,7 +3372,7 @@
     "logos/ea.svg"
    ],
    "status": "ok",
-   "total": 356,
+   "total": 353,
    "jobs": [
     {
      "id": "216318",
@@ -3395,6 +3384,17 @@
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216050",
+     "title": "Associate Experience Designer - American Football Live",
+     "location": "Orlando, United States of America",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Associate-Experience-Designer/216050",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-30T11:36:37+00:00"
     },
     {
      "id": "216258",
@@ -3981,7 +3981,7 @@
     "logos/riot.svg"
    ],
    "status": "ok",
-   "total": 182,
+   "total": 184,
    "jobs": [
     {
      "id": "7102266",
@@ -4452,7 +4452,7 @@
    "careers": "https://eve.games/home/careers/",
    "logos": [],
    "status": "ok",
-   "total": 12,
+   "total": 11,
    "jobs": [
     {
      "id": "4438743009",
@@ -4647,7 +4647,7 @@
     "https://upload.wikimedia.org/wikipedia/commons/8/81/Keywords_Studios_Logo.png"
    ],
    "status": "ok",
-   "total": 369,
+   "total": 370,
    "jobs": [
     {
      "id": "36186",
@@ -4667,6 +4667,17 @@
      "url": "https://www.keywordsstudios.com/en/careers/browse-careers/ADB-combat-designer/",
      "remote": false,
      "posted": "2026-10-05T10:30:13+01:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "37815",
+     "title": "Game Designer (FPS)",
+     "location": "Warsaw, Masovian Voivodeship, Poland",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xLE-game-designer-fps/",
+     "remote": false,
+     "posted": "2026-09-30T10:32:13+01:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
@@ -4705,34 +4716,12 @@
      "firstSeen": "2026-10-28T22:59:48+00:00"
     },
     {
-     "id": "37815",
-     "title": "Game Designer (FPS)",
-     "location": "Warsaw, Masovian Voivodeship, Poland",
-     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xLE-game-designer-fps/",
-     "remote": false,
-     "posted": "2026-09-30T10:32:13+01:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
      "id": "37819",
      "title": "Game Designer – Japan & Global Game Development",
      "location": "Tokyo, Tokyo, jp",
      "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xL4-game-designer-japan-global-game-development/",
      "remote": false,
      "posted": "2026-09-30T10:32:23+01:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
-     "id": "31365",
-     "title": "Level Designer",
-     "location": "Singapore, Singapore, Singapore",
-     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/AxZ-level-designer/",
-     "remote": false,
-     "posted": "2026-10-05T10:30:12+01:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
@@ -4755,6 +4744,17 @@
      "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xm4-level-designer/",
      "remote": false,
      "posted": "2026-09-17T10:32:03+01:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "31365",
+     "title": "Level Designer",
+     "location": "Singapore, Singapore, Singapore",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/AxZ-level-designer/",
+     "remote": false,
+     "posted": "2026-10-05T10:30:12+01:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
@@ -5118,7 +5118,7 @@
    "careers": "https://careers.playstation.com/",
    "logos": [],
    "status": "ok",
-   "total": 203,
+   "total": 204,
    "jobs": [
     {
      "id": "6098184004",
@@ -5265,7 +5265,7 @@
    "careers": "https://careers.nintendo.com/",
    "logos": [],
    "status": "ok",
-   "total": 70,
+   "total": 71,
    "jobs": [
     {
      "id": "4426184009",
@@ -5413,7 +5413,7 @@
    "careers": "https://www.pentasia.com/cm/candidates/jobs",
    "logos": [],
    "status": "ok",
-   "total": 75,
+   "total": 72,
    "jobs": [
     {
      "id": "business-development-manager-gibraltar-europe-42732-29401",
@@ -5603,17 +5603,6 @@
      "firstSeen": "2026-10-29T14:16:28+00:00"
     },
     {
-     "id": "senior-java-engineer-pam-europe-39324-29346",
-     "title": "Senior Java Engineer - (PAM)",
-     "location": "Remote, Europe",
-     "url": "https://www.pentasia.com/careers/senior-java-engineer-pam-europe-39324-29346",
-     "remote": true,
-     "posted": null,
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-29T14:16:28+00:00"
-    },
-    {
      "id": "senior-product-manager-europe-39315-29340",
      "title": "Senior Product Manager",
      "location": "Remote, Europe",
@@ -5629,17 +5618,6 @@
      "title": "Senior Python Engineer",
      "location": "Remote, Europe",
      "url": "https://www.pentasia.com/careers/senior-python-engineer-europe-38145-29394",
-     "remote": true,
-     "posted": null,
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-29T14:16:28+00:00"
-    },
-    {
-     "id": "senior-sales-manager-igaming-sector-europe-39314-29341",
-     "title": "Senior Sales Manager - iGaming Sector",
-     "location": "Remote, Europe",
-     "url": "https://www.pentasia.com/careers/senior-sales-manager-igaming-sector-europe-39314-29341",
      "remote": true,
      "posted": null,
      "design": false,
