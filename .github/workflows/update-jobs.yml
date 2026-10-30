@@ -2,40 +2,46 @@ name: Update jobs
 
 on:
   schedule:
-    # 7:30 and 19:30 in Barcelona. GitHub schedules run in UTC, so both the
-    # summer (UTC+2) and winter (UTC+1) times are listed and the first step
-    # skips the pair that does not match the current Barcelona offset.
-    - cron: "17 5 * * *"   # 7:17 summer
-    - cron: "17 17 * * *"  # 19:17 summer
-    - cron: "17 6 * * *"   # 7:17 winter
-    - cron: "17 18 * * *"  # 19:17 winter
+    # Target: 7:30 and 19:30 in Barcelona. GitHub often starts scheduled runs
+    # hours late (or drops them), so several slots are listed and each run
+    # simply skips when the data is already fresh. The Top-10 scheduled task
+    # also starts this workflow by hand (workflow_dispatch) when it finds
+    # stale data, so it no longer depends on GitHub's timing.
+    - cron: "17 5 * * *"
+    - cron: "17 6 * * *"
+    - cron: "17 9 * * *"
+    - cron: "17 17 * * *"
+    - cron: "17 18 * * *"
+    - cron: "17 21 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: update-jobs
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - name: Check Barcelona time
+      - uses: actions/checkout@v4
+
+      - name: Skip if data is fresh
         id: when
         env:
-          SCHEDULE: ${{ github.event.schedule }}
+          EVENT: ${{ github.event_name }}
         run: |
           run=true
-          if [ -n "$SCHEDULE" ]; then
-            offset=$(TZ=Europe/Madrid date +%z)
-            case "$offset:$SCHEDULE" in
-              "+0200:17 5 * * *"|"+0200:17 17 * * *"|"+0100:17 6 * * *"|"+0100:17 18 * * *") run=true ;;
-              *) run=false ;;
-            esac
+          if [ "$EVENT" = "schedule" ] && [ -f details.json ]; then
+            age=$(python3 -c "import json,datetime as d;u=d.datetime.fromisoformat(json.load(open('details.json'))['updated']);print(int((d.datetime.now(d.timezone.utc)-u).total_seconds()))")
+            # Fresh = updated in the last 5 hours
+            if [ "$age" -lt 18000 ]; then run=false; fi
+            echo "details.json age ${age}s"
           fi
           echo "run=$run" >> "$GITHUB_OUTPUT"
-          echo "Barcelona offset $(TZ=Europe/Madrid date +%z), schedule '$SCHEDULE', run=$run"
-
-      - uses: actions/checkout@v4
-        if: steps.when.outputs.run == 'true'
+          echo "event $EVENT, run=$run"
 
       - uses: actions/setup-python@v5
         if: steps.when.outputs.run == 'true'
