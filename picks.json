@@ -1,16 +1,16 @@
 {
-  "updated": "2026-10-31T06:48:22Z",
-  "basedOn": "2026-10-31T06:46:05+00:00",
+  "updated": "2026-10-31T18:48:49Z",
+  "basedOn": "2026-10-31T18:46:26+00:00",
   "picks": [
     {
       "key": "ubisoft:744000158795149",
       "fit": "Media",
-      "reason": "UX in-game para Rainbow Six Siege en Barcelona: HUD, onboarding y tutoriales. Pide 6+ años de UX en juegos."
+      "reason": "UX in-game para Rainbow Six Siege en Barcelona: flujos, wireframes y prototipos. Pide 6+ años de UX en juegos."
     },
     {
       "key": "ubisoft:744000158059429",
       "fit": "Media",
-      "reason": "Game Designer móvil F2P en Barcelona: features, sistemas y balanceo de RPG. Pide 3+ años como game designer."
+      "reason": "Game Designer móvil F2P en Barcelona: features, sistemas y balanceo. Pide 3+ años como game designer y experiencia en RPG."
     },
     {
       "key": "scopely:5449845008",
@@ -25,7 +25,7 @@
     {
       "key": "scopely:5423473008",
       "fit": "Baja",
-      "reason": "Principal UX en Monopoly GO! en Barcelona: estrategia UX de features y research. Pide 8+ años de UX en juegos."
+      "reason": "Principal UX en Monopoly GO! en Barcelona: estrategia UX de features y research. Pide amplia experiencia en UX de juegos."
     },
     {
       "key": "king:R027772",
@@ -35,7 +35,7 @@
     {
       "key": "voodoo:d633533c-ac08-440e-a6b6-33351b3ad005",
       "fit": "Baja",
-      "reason": "Diseño de modos multijugador para Paper.io 2, remoto. Pide 5+ años en F2P móvil y prototipado en Unity."
+      "reason": "Diseño de modos multijugador para Paper.io 2, remoto o Barcelona. Pide experiencia en F2P móvil y prototipado."
     },
     {
       "key": "bandainamco:2840478",
