@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T06:46:05+00:00",
+ "updated": "2026-10-31T12:18:40+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -2687,9 +2687,98 @@
    "domain": "productmadness.com",
    "careers": "https://careers.aristocrat.com/en/",
    "logos": [],
-   "status": "error",
-   "error": "Expecting value: line 1 column 1 (char 0)",
-   "jobs": null
+   "status": "ok",
+   "total": 38,
+   "jobs": [
+    {
+     "id": "R0019205-1",
+     "title": "UI Animator",
+     "location": "Spain (Barcelona)",
+     "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Spain-Barcelona/UI-Animator_R0019205-1",
+     "remote": false,
+     "posted": "2026-10-14",
+     "design": true,
+     "local": true,
+     "firstSeen": "2026-10-31T12:18:40+00:00"
+    },
+    {
+     "id": "R0022488",
+     "title": "ML Engineer",
+     "location": "Barcelona, Spain",
+     "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/ML-Engineer_R0022488",
+     "remote": false,
+     "posted": "2026-10-06",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-31T12:18:40+00:00"
+    },
+    {
+     "id": "R0022029-1",
+     "title": "MLOps Engineer",
+     "location": "Barcelona, Spain",
+     "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/ML-Engineer_R0022029-1",
+     "remote": false,
+     "posted": "2026-10-05",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-31T12:18:40+00:00"
+    },
+    {
+     "id": "R0022377",
+     "title": "Senior Associate Game Ops Manager",
+     "location": "Barcelona, Spain",
+     "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Associate-Game-Ops-Manager_R0022377",
+     "remote": false,
+     "posted": "2026-10-29",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-31T12:18:40+00:00"
+    },
+    {
+     "id": "R0022646",
+     "title": "Senior Associate Product Manager",
+     "location": "Barcelona, Spain",
+     "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Associate-Product-Manager_R0022646",
+     "remote": false,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-31T12:18:40+00:00"
+    },
+    {
+     "id": "R0022725",
+     "title": "Senior Data Analyst",
+     "location": "Barcelona, Spain",
+     "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Data-Analyst_R0022725",
+     "remote": false,
+     "posted": "2026-10-05",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-31T12:18:40+00:00"
+    },
+    {
+     "id": "R0022928",
+     "title": "Senior UI Artist",
+     "location": "Barcelona, Spain",
+     "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-UI-Artist_R0022928",
+     "remote": false,
+     "posted": "2026-10-16",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-31T12:18:40+00:00"
+    },
+    {
+     "id": "R0022685",
+     "title": "Technical Product Owner",
+     "location": "Barcelona, Spain",
+     "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Technical-Product-Owner_R0022685",
+     "remote": false,
+     "posted": "2026-10-05",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-31T12:18:40+00:00"
+    }
+   ]
   },
   {
    "id": "bandainamco",
