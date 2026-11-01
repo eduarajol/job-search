@@ -1,56 +1,56 @@
 {
-  "updated": "2026-10-31T18:48:49Z",
-  "basedOn": "2026-10-31T18:46:26+00:00",
+  "updated": "2026-11-01T06:48:21Z",
+  "basedOn": "2026-11-01T06:45:53+00:00",
   "picks": [
     {
       "key": "ubisoft:744000158795149",
       "fit": "Media",
-      "reason": "UX in-game para Rainbow Six Siege en Barcelona: flujos, wireframes y prototipos. Pide 6+ años de UX en juegos."
-    },
-    {
-      "key": "ubisoft:744000158059429",
-      "fit": "Media",
-      "reason": "Game Designer móvil F2P en Barcelona: features, sistemas y balanceo. Pide 3+ años como game designer y experiencia en RPG."
+      "reason": "UX Senior en Rainbow Six Siege en Barcelona: flujos, HUD, onboarding y tutoriales. Pide 6+ años de UX en la industria del juego."
     },
     {
       "key": "scopely:5449845008",
       "fit": "Media",
-      "reason": "Lead UX en Star Trek Fleet Command, 4X MMO en Barcelona. Flujos y prototipos para sistemas complejos. Pide liderazgo en UX de juegos."
+      "reason": "Lead UX en Star Trek Fleet Command, 4X MMO live-service. Liderar el UX de sistemas complejos. Pide liderazgo previo en UX de juegos F2P."
+    },
+    {
+      "key": "ubisoft:744000158059429",
+      "fit": "Media",
+      "reason": "Game Designer mobile F2P en Barcelona: features, sistemas y balance de contenido. Pide 3+ años como game designer y experiencia en RPG F2P."
     },
     {
       "key": "scopely:5412268008",
       "fit": "Media",
-      "reason": "Content Designer en Monopoly GO! en Barcelona: eventos, temática e IP licenciadas. Pide 3+ años y escritura UX."
+      "reason": "Content Designer en Monopoly GO! en Barcelona: eventos, temáticas y contenido con IP licenciadas. Pide 3+ años en diseño de contenido o juego."
     },
     {
       "key": "scopely:5423473008",
       "fit": "Baja",
-      "reason": "Principal UX en Monopoly GO! en Barcelona: estrategia UX de features y research. Pide amplia experiencia en UX de juegos."
+      "reason": "Principal UX en Monopoly GO! en Barcelona: estrategia UX, research y prototipos de un área del juego. Rol de nivel principal con amplia experiencia."
     },
     {
       "key": "king:R027772",
       "fit": "Baja",
-      "reason": "Senior Game Designer en Candy Crush: metajuego, progresión y eventos live. Pide experiencia sólida en metagame F2P live."
-    },
-    {
-      "key": "voodoo:d633533c-ac08-440e-a6b6-33351b3ad005",
-      "fit": "Baja",
-      "reason": "Diseño de modos multijugador para Paper.io 2, remoto o Barcelona. Pide experiencia en F2P móvil y prototipado."
-    },
-    {
-      "key": "bandainamco:2840478",
-      "fit": "Baja",
-      "reason": "Systems Designer en F2P móvil en soft launch en Barcelona. Pide RPG de squad, economía y uso de Unity."
+      "reason": "Senior Game Designer en Candy Crush Saga: metajuego, progresión y eventos. Exige experiencia diseñando metajuego live en F2P casual."
     },
     {
       "key": "scopely:5388806008",
       "fit": "Baja",
-      "reason": "Lead Systems Designer en Star Trek Fleet Command, 4X MMO en Barcelona. Rol de liderazgo con amplia experiencia en sistemas."
+      "reason": "Lead Systems Designer en Star Trek Fleet Command: sistemas, economía y progresión de un 4X MMO. Rol de liderazgo con gestión de diseñadores."
     },
     {
-      "key": "angrymob:325",
+      "key": "bandainamco:2840478",
       "fit": "Baja",
-      "reason": "Gameplay Designer para un co-op multijugador en Barcelona. Prototipado diario dentro del motor."
+      "reason": "Diseño de sistemas para un F2P de Bandai Namco en soft launch: features, economía y live ops. Pide RPG de squad en mobile y uso de Unity."
+    },
+    {
+      "key": "voodoo:d633533c-ac08-440e-a6b6-33351b3ad005",
+      "fit": "Baja",
+      "reason": "Modos multijugador para Paper.io 2, en remoto: prototipado rápido y reglas simples. Pide 5+ años en F2P mobile y valora Unity."
+    },
+    {
+      "key": "tripledot:4965778101",
+      "fit": "Baja",
+      "reason": "Game Designer en remoto para puzles casual de Lion Studios. Pide 3+ años, balance de niveles y turco fluido para trabajar con estudios en Turquía."
     }
   ]
 }
