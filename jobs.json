@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T06:45:53+00:00",
+ "updated": "2026-11-01T11:49:17+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -1461,7 +1461,7 @@
     "logos/ubisoft.svg"
    ],
    "status": "ok",
-   "total": 314,
+   "total": 306,
    "jobs": [
     {
      "id": "744000158059429",
@@ -1508,17 +1508,6 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "744000158065309",
-     "title": "Develop at Ubisoft - Game Design Mentorship 2026-2027",
-     "location": "Berlin, BE, Germany",
-     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000158065309",
-     "remote": false,
-     "posted": "2026-10-27T14:30:25.555Z",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "744000158558959",
      "title": "Directeur·trice technique associé·e - Design",
      "location": "Montreal, QC, Canada",
@@ -1536,17 +1525,6 @@
      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000151860649",
      "remote": false,
      "posted": "2026-09-25T13:48:44.270Z",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "744000153683389",
-     "title": "Développe à Ubisoft - Programme de mentorat - Game Design 2026-2027",
-     "location": "Berlin, BE, Germany",
-     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000153683389",
-     "remote": false,
-     "posted": "2026-10-06T07:44:55.064Z",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -2696,7 +2674,7 @@
      "location": "Spain (Barcelona)",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Spain-Barcelona/UI-Animator_R0019205-1",
      "remote": false,
-     "posted": "2026-10-15",
+     "posted": "2026-10-14",
      "design": true,
      "local": true,
      "firstSeen": "2026-10-31T12:18:40+00:00"
@@ -2707,7 +2685,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/ML-Engineer_R0022488",
      "remote": false,
-     "posted": "2026-10-07",
+     "posted": "2026-10-06",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-31T12:18:40+00:00"
@@ -2718,7 +2696,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/ML-Engineer_R0022029-1",
      "remote": false,
-     "posted": "2026-10-06",
+     "posted": "2026-10-05",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-31T12:18:40+00:00"
@@ -2729,7 +2707,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Associate-Game-Ops-Manager_R0022377",
      "remote": false,
-     "posted": "2026-10-30",
+     "posted": "2026-10-29",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-31T12:18:40+00:00"
@@ -2751,7 +2729,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Data-Analyst_R0022725",
      "remote": false,
-     "posted": "2026-10-06",
+     "posted": "2026-10-05",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-31T12:18:40+00:00"
@@ -2762,7 +2740,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-UI-Artist_R0022928",
      "remote": false,
-     "posted": "2026-10-17",
+     "posted": "2026-10-16",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-31T12:18:40+00:00"
@@ -2773,7 +2751,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Technical-Product-Owner_R0022685",
      "remote": false,
-     "posted": "2026-10-06",
+     "posted": "2026-10-05",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-31T12:18:40+00:00"
@@ -3280,7 +3258,7 @@
     "logos/blizzard.svg"
    ],
    "status": "ok",
-   "total": 46,
+   "total": 45,
    "jobs": [
     {
      "id": "R028135",
@@ -4683,28 +4661,6 @@
      "firstSeen": "2026-10-28T22:59:48+00:00"
     },
     {
-     "id": "37815",
-     "title": "Game Designer (FPS)",
-     "location": "Warsaw, Masovian Voivodeship, Poland",
-     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xLE-game-designer-fps/",
-     "remote": false,
-     "posted": "2026-09-30T10:32:13+01:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
-     "id": "37816",
-     "title": "Game Designer (FPS)",
-     "location": "Bucharest, Bucharest, Romania",
-     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xLP-game-designer-fps/",
-     "remote": false,
-     "posted": "2026-09-30T10:32:15+01:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
      "id": "37860",
      "title": "Game Designer (FPS)",
      "location": "Yerevan, Yerevan, Armenia",
@@ -4722,6 +4678,28 @@
      "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xwV-game-designer-fps/",
      "remote": false,
      "posted": "2026-10-02T10:32:17+01:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "37815",
+     "title": "Game Designer (FPS)",
+     "location": "Warsaw, Masovian Voivodeship, Poland",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xLE-game-designer-fps/",
+     "remote": false,
+     "posted": "2026-09-30T10:32:13+01:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "37816",
+     "title": "Game Designer (FPS)",
+     "location": "Bucharest, Bucharest, Romania",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xLP-game-designer-fps/",
+     "remote": false,
+     "posted": "2026-09-30T10:32:15+01:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
@@ -4760,23 +4738,23 @@
      "firstSeen": "2026-10-28T22:59:48+00:00"
     },
     {
-     "id": "31365",
-     "title": "Level Designer",
-     "location": "Singapore, Singapore, Singapore",
-     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/AxZ-level-designer/",
-     "remote": false,
-     "posted": "2026-10-05T10:30:12+01:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
      "id": "37696",
      "title": "Level Designer",
      "location": "Belgrade, City of Belgrade, Serbia",
      "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xoY-level-designer/",
      "remote": false,
      "posted": "2026-09-17T10:32:06+01:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "31365",
+     "title": "Level Designer",
+     "location": "Singapore, Singapore, Singapore",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/AxZ-level-designer/",
+     "remote": false,
+     "posted": "2026-10-05T10:30:12+01:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
