@@ -1,41 +1,36 @@
 {
-  "updated": "2026-11-02T06:49:11Z",
-  "basedOn": "2026-11-02T06:46:57+00:00",
+  "updated": "2026-11-02T18:50:14Z",
+  "basedOn": "2026-11-02T18:46:51+00:00",
   "picks": [
     {
       "key": "ubisoft:744000158795149",
       "fit": "Media",
-      "reason": "UX en Rainbow Six Siege en Barcelona: flujos, HUD, onboarding y tutoriales. Pide 6+ años de UX en la industria del videojuego."
+      "reason": "UX en Rainbow Six Siege en Barcelona: user journeys, HUD, onboarding y tutoriales. Pide 6+ años de UX en juegos."
     },
     {
       "key": "scopely:5449845008",
       "fit": "Media",
-      "reason": "Lead UX en Star Trek Fleet Command, 4X MMO F2P en Barcelona. Define la visión UX y guía al equipo. Pide liderazgo en UX de juegos live-service."
+      "reason": "Lead UX de Star Trek Fleet Command, 4X MMO F2P: flujos de sistemas complejos y mentoría. Pide liderazgo en UX de juegos live-service."
     },
     {
       "key": "ubisoft:744000158059429",
       "fit": "Media",
-      "reason": "Game Designer mobile F2P en Barcelona: features, sistemas y balanceo. Pide 3+ años como game designer y experiencia en RPG F2P."
+      "reason": "Game Designer mobile F2P en Barcelona: features, sistemas y balance de progresión. Pide 3+ años y experiencia en RPG F2P."
     },
     {
       "key": "scopely:5412268008",
       "fit": "Media",
-      "reason": "Content Designer en Monopoly GO! en Barcelona: eventos, temática y contenido con IP licenciadas. Pide 3+ años en diseño de contenido o juegos."
+      "reason": "Content Designer de Monopoly GO! con IP licenciadas: eventos, temática y UX writing. Pide 3+ años en diseño de contenido o juegos."
     },
     {
       "key": "scopely:5423473008",
       "fit": "Baja",
-      "reason": "Principal UX en Monopoly GO! en Barcelona: estrategia UX de un área de producto, research y talleres. Rol de nivel principal en juegos."
+      "reason": "Principal UX de Monopoly GO! en Barcelona: estrategia UX de un área, discovery y talleres. Perfil muy senior en UX de juegos."
     },
     {
       "key": "king:R027772",
       "fit": "Baja",
-      "reason": "Senior Game Designer en Candy Crush Saga: metajuego, progresión y eventos live. Pide experiencia diseñando metajuego en F2P casual en vivo."
-    },
-    {
-      "key": "bandainamco:2840478",
-      "fit": "Baja",
-      "reason": "Diseño de sistemas en un F2P en soft launch en Barcelona: core loop, meta y economía. Pide experiencia en squad RPG mobile y Unity."
+      "reason": "Senior Game Designer de metajuego en Candy Crush: progresión, eventos y loops sociales. Pide experiencia en F2P live casual."
     },
     {
       "key": "voodoo:d633533c-ac08-440e-a6b6-33351b3ad005",
@@ -43,14 +38,19 @@
       "reason": "Diseño de modos multijugador para Paper.io 2, remoto o Barcelona. Pide 5+ años en mobile F2P y prototipado en Unity."
     },
     {
-      "key": "tripledot:4965778101",
-      "fit": "Baja",
-      "reason": "Game Designer remoto para juegos puzzle casual con estudios externos. Pide 3+ años de game design y turco fluido."
-    },
-    {
       "key": "scopely:5388806008",
       "fit": "Baja",
-      "reason": "Lead Systems Designer en Star Trek Fleet Command en Barcelona: progresión, economía y liderazgo del equipo de diseño."
+      "reason": "Lead Systems Designer de Star Trek Fleet Command: dirige el pipeline de features del 4X. Rol de liderazgo con mucha experiencia."
+    },
+    {
+      "key": "bandainamco:2840478",
+      "fit": "Baja",
+      "reason": "Systems Designer en F2P mobile en soft launch: core loop, economía y liveops. Pide RPG de squad y manejo de Unity."
+    },
+    {
+      "key": "angrymob:325",
+      "fit": "Baja",
+      "reason": "Gameplay Designer para un co-op multijugador en Barcelona: prototipado diario en motor. Pide trabajo práctico in-engine."
     }
   ]
 }
