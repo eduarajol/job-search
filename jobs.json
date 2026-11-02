@@ -13,6 +13,7 @@
     "https://upload.wikimedia.org/wikipedia/commons/8/8c/Scopely_logo.svg"
    ],
    "status": "ok",
+   "since": "2026-10-28T17:44:43+00:00",
    "total": 177,
    "jobs": [
     {
@@ -952,6 +953,7 @@
     "https://upload.wikimedia.org/wikipedia/en/1/1a/King_logo.svg"
    ],
    "status": "ok",
+   "since": "2026-10-28T20:11:37+00:00",
    "total": 17,
    "jobs": [
     {
@@ -1090,6 +1092,7 @@
     "https://upload.wikimedia.org/wikipedia/commons/0/00/Socialpoint_logo.png"
    ],
    "status": "ok",
+   "since": "2026-10-28T17:44:43+00:00",
    "total": 12,
    "jobs": [
     {
@@ -1237,6 +1240,7 @@
     "logos/gameloft.svg"
    ],
    "status": "ok",
+   "since": "2026-10-28T17:44:43+00:00",
    "total": 65,
    "jobs": [
     {
@@ -1439,6 +1443,7 @@
     "logos/ubisoft.svg"
    ],
    "status": "ok",
+   "since": "2026-10-28T17:44:43+00:00",
    "total": 299,
    "jobs": [
     {
@@ -1749,6 +1754,7 @@
    "careers": "https://job-boards.eu.greenhouse.io/tripledotstudios",
    "logos": [],
    "status": "ok",
+   "since": "2026-10-28T17:49:21+00:00",
    "total": 93,
    "jobs": [
     {
@@ -2061,6 +2067,7 @@
     "https://upload.wikimedia.org/wikipedia/commons/a/ab/Voodoo_Logo.svg"
    ],
    "status": "ok",
+   "since": "2026-10-28T22:59:48+00:00",
    "total": 103,
    "jobs": [
     {
@@ -2274,6 +2281,7 @@
     "https://upload.wikimedia.org/wikipedia/en/7/7b/Zynga.svg"
    ],
    "status": "ok",
+   "since": "2026-10-28T17:44:43+00:00",
    "total": 47,
    "jobs": [
     {
@@ -2465,6 +2473,7 @@
     "https://upload.wikimedia.org/wikipedia/en/0/0a/Moon_Active_logo.png"
    ],
    "status": "ok",
+   "since": "2026-10-28T22:59:48+00:00",
    "total": 34,
    "jobs": [
     {
@@ -2546,6 +2555,7 @@
     "https://upload.wikimedia.org/wikipedia/en/4/45/Rovio_Entertainment.svg"
    ],
    "status": "ok",
+   "since": "2026-10-28T22:59:48+00:00",
    "total": 5,
    "jobs": [
     {
@@ -2584,6 +2594,7 @@
     "https://upload.wikimedia.org/wikipedia/commons/1/18/Outfit7_Logo_2021.svg"
    ],
    "status": "ok",
+   "since": "2026-10-28T17:44:43+00:00",
    "total": 9,
    "jobs": [
     {
@@ -2632,6 +2643,7 @@
     "https://upload.wikimedia.org/wikipedia/commons/1/18/ZeptoLab.svg"
    ],
    "status": "ok",
+   "since": "2026-10-28T17:44:43+00:00",
    "total": 3,
    "jobs": []
   },
@@ -2644,6 +2656,7 @@
    "careers": "https://careers.aristocrat.com/en/",
    "logos": [],
    "status": "ok",
+   "since": "2026-10-29T00:15:52+00:00",
    "total": 38,
    "jobs": [
     {
@@ -2655,7 +2668,7 @@
      "posted": "2026-10-14",
      "design": true,
      "local": true,
-     "firstSeen": "2026-10-31T12:18:40+00:00"
+     "firstSeen": "2026-10-29T00:15:52+00:00"
     },
     {
      "id": "R0022488",
@@ -2666,7 +2679,7 @@
      "posted": "2026-10-06",
      "design": false,
      "local": true,
-     "firstSeen": "2026-10-31T12:18:40+00:00"
+     "firstSeen": "2026-10-29T00:15:52+00:00"
     },
     {
      "id": "R0022029-1",
@@ -2677,7 +2690,7 @@
      "posted": "2026-10-05",
      "design": false,
      "local": true,
-     "firstSeen": "2026-10-31T12:18:40+00:00"
+     "firstSeen": "2026-10-29T00:15:52+00:00"
     },
     {
      "id": "R0022377",
@@ -2688,7 +2701,7 @@
      "posted": "2026-10-29",
      "design": false,
      "local": true,
-     "firstSeen": "2026-10-31T12:18:40+00:00"
+     "firstSeen": "2026-10-29T00:15:52+00:00"
     },
     {
      "id": "R0022646",
@@ -2699,7 +2712,7 @@
      "posted": null,
      "design": false,
      "local": true,
-     "firstSeen": "2026-10-31T12:18:40+00:00"
+     "firstSeen": "2026-10-29T00:15:52+00:00"
     },
     {
      "id": "R0022725",
@@ -2710,7 +2723,7 @@
      "posted": "2026-10-05",
      "design": false,
      "local": true,
-     "firstSeen": "2026-10-31T12:18:40+00:00"
+     "firstSeen": "2026-10-29T00:15:52+00:00"
     },
     {
      "id": "R0022928",
@@ -2721,7 +2734,7 @@
      "posted": "2026-10-16",
      "design": false,
      "local": true,
-     "firstSeen": "2026-10-31T12:18:40+00:00"
+     "firstSeen": "2026-10-29T00:15:52+00:00"
     },
     {
      "id": "R0022685",
@@ -2732,7 +2745,7 @@
      "posted": "2026-10-05",
      "design": false,
      "local": true,
-     "firstSeen": "2026-10-31T12:18:40+00:00"
+     "firstSeen": "2026-10-29T00:15:52+00:00"
     }
    ]
   },
@@ -2745,6 +2758,7 @@
    "careers": "https://bandainamcomobile.jobs.personio.com",
    "logos": [],
    "status": "ok",
+   "since": "2026-10-29T00:15:52+00:00",
    "total": 1,
    "jobs": [
     {
@@ -2769,6 +2783,7 @@
    "careers": "https://tangelo-games.jobs.personio.com",
    "logos": [],
    "status": "ok",
+   "since": "2026-10-29T00:15:52+00:00",
    "total": 1,
    "jobs": [
     {
@@ -2828,6 +2843,7 @@
     "https://upload.wikimedia.org/wikipedia/commons/2/24/LarianStudiosLogo.png"
    ],
    "status": "ok",
+   "since": "2026-10-28T22:59:48+00:00",
    "total": 77,
    "jobs": [
     {
@@ -3008,6 +3024,7 @@
     "https://upload.wikimedia.org/wikipedia/commons/d/de/IO_Interactive_short_logo.svg"
    ],
    "status": "ok",
+   "since": "2026-10-28T17:49:21+00:00",
    "total": 7,
    "jobs": [
     {
@@ -3078,6 +3095,7 @@
     "logos/activision.svg"
    ],
    "status": "ok",
+   "since": "2026-10-28T22:59:48+00:00",
    "total": 75,
    "jobs": [
     {
@@ -3236,6 +3254,7 @@
     "logos/blizzard.svg"
    ],
    "status": "ok",
+   "since": "2026-10-28T20:11:37+00:00",
    "total": 45,
    "jobs": [
     {
@@ -3339,6 +3358,7 @@
     "logos/ea.svg"
    ],
    "status": "ok",
+   "since": "2026-10-28T22:59:48+00:00",
    "total": 356,
    "jobs": [
     {
@@ -3970,6 +3990,7 @@
     "logos/riot.svg"
    ],
    "status": "ok",
+   "since": "2026-10-28T17:44:43+00:00",
    "total": 182,
    "jobs": [
     {
@@ -4128,6 +4149,7 @@
     "logos/wargaming.svg"
    ],
    "status": "ok",
+   "since": "2026-10-28T17:44:43+00:00",
    "total": 40,
    "jobs": [
     {
@@ -4286,6 +4308,7 @@
     "logos/taketwo.svg"
    ],
    "status": "ok",
+   "since": "2026-10-28T17:44:43+00:00",
    "total": 36,
    "jobs": [
     {
@@ -4312,6 +4335,7 @@
     "https://www-static.digitalextremes.com/images/footer/DELogo-BlueOnWhite-Footer.png"
    ],
    "status": "ok",
+   "since": "2026-10-28T17:44:43+00:00",
    "total": 10,
    "jobs": [
     {
@@ -4323,7 +4347,7 @@
      "posted": "2026-09-21T15:05:02-04:00",
      "design": true,
      "local": false,
-     "firstSeen": "2026-11-02T00:48:26+00:00"
+     "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
      "id": "5255630007",
@@ -4349,6 +4373,7 @@
     "https://images.teamtailor-cdn.com/images/s3/teamtailor-production/logotype-v3/image_uploads/3bf2e5d3-18fd-41e2-8158-7087637e6ce3/original.jpeg"
    ],
    "status": "ok",
+   "since": "2026-10-28T17:49:21+00:00",
    "total": 3,
    "jobs": [
     {
@@ -4395,6 +4420,7 @@
    "careers": "https://www.angrymobgames.com/",
    "logos": [],
    "status": "ok",
+   "since": "2026-10-28T20:11:37+00:00",
    "total": 3,
    "jobs": [
     {
@@ -4441,6 +4467,7 @@
    "careers": "https://eve.games/home/careers/",
    "logos": [],
    "status": "ok",
+   "since": "2026-10-29T00:15:52+00:00",
    "total": 10,
    "jobs": [
     {
@@ -4603,6 +4630,7 @@
     "https://upload.wikimedia.org/wikipedia/commons/8/81/Keywords_Studios_Logo.png"
    ],
    "status": "ok",
+   "since": "2026-10-28T22:59:48+00:00",
    "total": 374,
    "jobs": [
     {
@@ -4913,6 +4941,7 @@
    "careers": "https://www.jamcity.com/careers",
    "logos": [],
    "status": "ok",
+   "since": "2026-10-29T14:16:28+00:00",
    "total": 15,
    "jobs": [
     {
@@ -4937,6 +4966,7 @@
    "careers": "https://scorewarrior.com/careers",
    "logos": [],
    "status": "ok",
+   "since": "2026-10-29T14:16:28+00:00",
    "total": 19,
    "jobs": [
     {
@@ -4972,6 +5002,7 @@
    "careers": "https://fortis.teamtailor.com/jobs",
    "logos": [],
    "status": "ok",
+   "since": "2026-10-29T14:16:28+00:00",
    "total": 6,
    "jobs": []
   },
@@ -4984,6 +5015,7 @@
    "careers": "https://www.cdprojektred.com/en/jobs",
    "logos": [],
    "status": "ok",
+   "since": "2026-10-29T14:16:28+00:00",
    "total": 53,
    "jobs": [
     {
@@ -5074,6 +5106,7 @@
    "careers": "https://careers.playstation.com/",
    "logos": [],
    "status": "ok",
+   "since": "2026-10-29T14:16:28+00:00",
    "total": 207,
    "jobs": [
     {
@@ -5131,6 +5164,7 @@
    "careers": "https://insomniac.games/careers/",
    "logos": [],
    "status": "ok",
+   "since": "2026-10-29T14:16:28+00:00",
    "total": 28,
    "jobs": [
     {
@@ -5210,6 +5244,7 @@
    "careers": "https://careers.nintendo.com/",
    "logos": [],
    "status": "ok",
+   "since": "2026-10-29T14:16:28+00:00",
    "total": 72,
    "jobs": [
     {
@@ -5245,6 +5280,7 @@
    "careers": "https://www.crystaldynamics.com/careers/",
    "logos": [],
    "status": "ok",
+   "since": "2026-10-29T14:16:28+00:00",
    "total": 11,
    "jobs": [
     {
@@ -5302,6 +5338,7 @@
    "careers": "https://www.pixar.com/careers",
    "logos": [],
    "status": "ok",
+   "since": "2026-10-29T14:16:28+00:00",
    "total": 3,
    "jobs": []
   },
@@ -5358,6 +5395,7 @@
    "careers": "https://www.pentasia.com/cm/candidates/jobs",
    "logos": [],
    "status": "ok",
+   "since": "2026-10-29T14:16:28+00:00",
    "total": 67,
    "jobs": [
     {

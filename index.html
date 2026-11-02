@@ -129,12 +129,12 @@ main .wrap { padding-block: 4px 56px; }
 .fit.down1 .ico, .fit.down2 .ico { color: var(--bad); background: var(--bad-bg); }
 
 .section h2 { margin: 0 0 14px; font-size: 22px; font-weight: 800; letter-spacing: -.4px; display: flex; align-items: baseline; gap: 10px; }
-.section h2 small { font: 500 12.5px var(--mono); color: var(--ink-soft); letter-spacing: 0; }
+.section h2 small, .fresh h2 small { font: 500 12.5px var(--mono); color: var(--ink-soft); letter-spacing: 0; }
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; align-items: start; }
 
 /* New offers strip */
 .fresh { background: var(--paper); border: 1.5px solid var(--ink); border-radius: 14px; box-shadow: 4px 4px 0 var(--ink); padding: 16px 18px; }
-.fresh h2 { margin: 0 0 10px; }
+.fresh h2 { margin: 0 0 10px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
 
 /* Company card */
 .card { background: var(--paper); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px 12px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
@@ -289,10 +289,23 @@ header.top.compact .stamp { display: none; }
     return j.design ? 'gd' : 'other';
   }
 
-  function isNew(j) {
-    if (!data || !data.updated || !j.firstSeen) return false;
-    return (new Date(data.updated) - new Date(j.firstSeen)) < 1000 * 60 * 60 * 36;
+  // ---------- Novedades: published or first seen in the last 7 days ----------
+  // "First seen" only counts when the company was already being read before,
+  // so offers found on a company's first read are not shown as new.
+  var WEEK = 1000 * 60 * 60 * 24 * 7, HOUR = 1000 * 60 * 60;
+  function windowStart() { return data && data.updated ? new Date(new Date(data.updated) - WEEK) : null; }
+  function newInfo(j, c) {
+    var start = windowStart();
+    if (!start) return null;
+    var p = postedDate(j);
+    if (p && p >= start) return { at: p, posted: true };
+    if (j.firstSeen && c && c.since) {
+      var f = new Date(j.firstSeen);
+      if (f >= start && f - new Date(c.since) > HOUR) return { at: f, posted: false };
+    }
+    return null;
   }
+  function isNew(j, c) { return !!newInfo(j, c); }
 
   // ---------- Locations: one readable format for every board ----------
   // "ES - Barcelona, Spain" / "Barcelona, CT, Spain" -> "Barcelona".
@@ -535,9 +548,11 @@ header.top.compact .stamp { display: none; }
     var badge = el('span', 'badges');
     var done = applied[c.id + ':' + j.id];
     if (done) { badge.appendChild(appliedBadge()); li.className = 'is-applied'; }
-    if (isNew(j)) badge.appendChild(el('span', 'new', 'Nueva'));
+    if (isNew(j, c)) badge.appendChild(el('span', 'new', 'Nueva'));
     var pt = placeText(j), place = pt.text;
     var when = dateText(j);
+    var ni = withCompany ? newInfo(j, c) : null;
+    if (ni && !ni.posted) when = (when ? when + ' · ' : '') + 'Detectada ' + fmtDate(ni.at);
 
     if (withCompany) {
       var split = splitGame(j.title);
@@ -633,12 +648,12 @@ header.top.compact .stamp { display: none; }
     var fresh = [], total = 0, auto = 0;
     cs.forEach(function (c) {
       if (c.status === 'ok') auto++;
-      visible(c).forEach(function (j) { total++; if (isNew(j)) fresh.push({ j: j, c: c }); });
+      visible(c).forEach(function (j) { total++; var ni = newInfo(j, c); if (ni) fresh.push({ j: j, c: c, at: ni.at }); });
     });
 
     var sum = document.getElementById('summary');
     sum.textContent = '';
-    [[total, total === 1 ? ' oferta' : ' ofertas'], [fresh.length, fresh.length === 1 ? ' nueva' : ' nuevas'], [auto + ' de ' + cs.length, ' empresas con lectura automática']].forEach(function (p) {
+    [[total, total === 1 ? ' oferta' : ' ofertas'], [fresh.length, fresh.length === 1 ? ' novedad' : ' novedades'], [auto + ' de ' + cs.length, ' empresas con lectura automática']].forEach(function (p) {
       var s = el('span'); s.appendChild(el('b', null, String(p[0]))); s.appendChild(document.createTextNode(p[1])); sum.appendChild(s);
     });
     var legend = el('div', 'legend');
@@ -649,8 +664,10 @@ header.top.compact .stamp { display: none; }
 
     if (fresh.length) {
       var f = el('section', 'fresh');
-      var h = el('h2', null, 'Nuevas desde ayer');
+      var h = el('h2', null, 'Novedades');
+      h.appendChild(el('small', null, 'Publicadas o detectadas en los últimos 7 días · desde ' + fmtDate(windowStart())));
       f.appendChild(h);
+      fresh.sort(function (a, b) { return b.at - a.at; });
       var ul = el('ul', 'jobs');
       fresh.forEach(function (p) { ul.appendChild(jobRow(p.j, p.c, true)); });
       f.appendChild(ul);

@@ -22,6 +22,9 @@ ROOT = Path(__file__).resolve().parent.parent
 COMPANIES = ROOT / "companies.json"
 OUTPUT = ROOT / "jobs.json"
 DETAILS = ROOT / "details.json"
+# Every offer ever kept, with the first time it was seen, plus the first time each
+# company was read. Offers that vanish for a while keep their date when they return.
+SEEN = ROOT / "seen.json"
 DESC_LIMIT = 7000
 
 UA = "Mozilla/5.0 (job-search personal dashboard)"
@@ -593,6 +596,13 @@ def main():
         except Exception:
             pass
 
+    seen_db = {"companies": {}, "jobs": {}}
+    if SEEN.exists():
+        try:
+            seen_db.update(json.loads(SEEN.read_text(encoding="utf-8")))
+        except Exception:
+            pass
+
     now = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
     result = []
     details = {}
@@ -615,7 +625,9 @@ def main():
                 j["local"] = is_local(j)
                 if not (j["design"] or j["local"]):
                     continue
-                j["firstSeen"] = previous.get((c["id"], j["id"])) or now
+                key = f"{c['id']}:{j['id']}"
+                j["firstSeen"] = seen_db["jobs"].get(key) or previous.get((c["id"], j["id"])) or now
+                seen_db["jobs"][key] = j["firstSeen"]
                 if not j.get("posted") and src["type"] in DATE_FROM_PAGE:
                     j["posted"] = date_from_page(j["url"])
                 jobs.append(j)
@@ -629,7 +641,8 @@ def main():
                 for k in ("_desc", "_teaser", "_workday"):
                     j.pop(k, None)
             jobs.sort(key=lambda j: (not j["design"], not j["local"], j["title"].lower()))
-            entry.update(status="ok", total=len(raw), jobs=jobs)
+            since = seen_db["companies"].setdefault(c["id"], now)
+            entry.update(status="ok", since=since, total=len(raw), jobs=jobs)
             print(f"ok    {c['name']}: {len(raw)} open, {len(jobs)} kept")
         except Exception as e:
             entry.update(status="error", error=str(e)[:200], jobs=None)
@@ -637,6 +650,10 @@ def main():
         result.append(entry)
         time.sleep(0.5)
 
+    SEEN.write_text(
+        json.dumps(seen_db, ensure_ascii=False, indent=0, sort_keys=True),
+        encoding="utf-8",
+    )
     DETAILS.write_text(
         json.dumps({"updated": now, "jobs": details}, ensure_ascii=False, indent=1),
         encoding="utf-8",
