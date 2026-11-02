@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T18:46:51+00:00",
+ "updated": "2026-11-02T23:53:02+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -2602,7 +2602,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T00:15:52+00:00",
-   "total": 39,
+   "total": 38,
    "jobs": [
     {
      "id": "R0019205-1",
@@ -3041,7 +3041,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 74,
+   "total": 72,
    "jobs": [
     {
      "id": "R028091",
@@ -3200,7 +3200,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T20:11:37+00:00",
-   "total": 43,
+   "total": 41,
    "jobs": [
     {
      "id": "R028135",
@@ -3304,7 +3304,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 353,
+   "total": 355,
    "jobs": [
     {
      "id": "216318",
@@ -3327,6 +3327,17 @@
      "design": true,
      "local": false,
      "firstSeen": "2026-10-30T11:36:37+00:00"
+    },
+    {
+     "id": "216587",
+     "title": "Associate Quality Designer",
+     "location": "Vancouver, Canada",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/AQD-SGP-FUT-Accelerator/216587",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-11-02T23:53:02+00:00"
     },
     {
      "id": "216258",
@@ -3573,7 +3584,7 @@
     {
      "id": "215422",
      "title": "Gameplay Designer - EA SPORTS™ FC",
-     "location": "Vancouver, Canada",
+     "location": "Sydney, Australia",
      "url": "https://jobs.ea.com/en_US/careers/JobDetail/Gameplay-Designer-EA-SPORTS-FC/215422",
      "remote": false,
      "posted": null,
@@ -3947,7 +3958,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 181,
+   "total": 182,
    "jobs": [
     {
      "id": "7102266",
@@ -5063,7 +5074,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 206,
+   "total": 207,
    "jobs": [
     {
      "id": "6098184004",
@@ -5121,19 +5132,8 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 28,
+   "total": 27,
    "jobs": [
-    {
-     "id": "6226630004",
-     "title": "Game Design Intern-Undergraduate",
-     "location": "United States, Burbank, CA",
-     "url": "https://job-boards.greenhouse.io/insomniac/jobs/6226630004",
-     "remote": false,
-     "posted": "2026-10-19T18:14:03-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-29T14:16:28+00:00"
-    },
     {
      "id": "6009620004",
      "title": "Lead Systems Designer",
