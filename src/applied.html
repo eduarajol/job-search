@@ -153,6 +153,23 @@ header.top.compact .tabs { margin-top: 0; }
 header.top.compact .tabs a { min-height: 32px; }
 header.top.compact .stamp { display: none; }
 @media (prefers-reduced-motion: reduce) { header.top .wrap, header.top .brand h1 { transition: none; } }
+
+/* Phone header: fixed height, tabs in a menu at the top right. */
+.menu-btn, .menu-stamp { display: none; }
+@media (max-width: 640px) {
+  header.top .wrap, header.top.compact .wrap { padding-block: 10px; flex-wrap: nowrap; align-items: center; position: relative; gap: 12px; transition: none; }
+  header.top .brand, header.top.compact .brand { display: block; }
+  header.top .brand h1, header.top.compact .brand h1 { font-size: 26px; letter-spacing: -.8px; transition: none; }
+  header.top .brand p, header.top .stamp, header.top.compact .stamp { display: none; }
+  .menu-btn { display: grid; place-items: center; width: 44px; height: 44px; flex-shrink: 0; border-radius: 12px; border: 1.5px solid var(--ink); background: transparent; color: var(--ink); cursor: pointer; }
+  .menu-btn svg { width: 20px; height: 20px; }
+  header.top.menu-open .menu-btn { background: var(--ink); color: var(--sand); }
+  header.top .tabs, header.top.compact .tabs { display: none; position: absolute; top: calc(100% + 4px); right: max(16px, env(safe-area-inset-right, 0px)); margin: 0; flex-direction: column; align-items: stretch; gap: 6px; min-width: 230px; padding: 12px; background: var(--paper); border: 1.5px solid var(--ink); border-radius: 14px; box-shadow: 4px 4px 0 var(--ink); z-index: 40; }
+  header.top.menu-open .tabs { display: flex; }
+  header.top .tabs a, header.top.compact .tabs a { min-height: 44px; }
+  header.top .tabs .menu-stamp { display: block; margin: 4px 2px 0; font: 400 11.5px var(--mono); color: var(--ink-soft); }
+  header.top .tabs .menu-stamp:empty { display: none; }
+}
 </style>
 
 <header class="top">
@@ -160,13 +177,15 @@ header.top.compact .stamp { display: none; }
     <div class="brand">
       <h1>Job <span>Search</span></h1>
       <p>Game Design y UX en estudios de videojuegos</p>
-      <nav class="tabs" aria-label="Secciones">
+      <nav class="tabs" id="site-nav" aria-label="Secciones">
         <a href="./">Ofertas</a>
         <a href="applied.html" aria-current="page">Aplicadas</a>
         <a href="games.html">Empresas y juegos</a>
+        <p class="menu-stamp" aria-live="polite"></p>
       </nav>
     </div>
     <div class="stamp" id="stamp"></div>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menú"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 5.5h14M3 10h14M3 14.5h14"/></svg></button>
   </div>
 </header>
 
@@ -352,5 +371,21 @@ header.top.compact .stamp { display: none; }
   window.addEventListener('resize', setH);
   if (window.ResizeObserver) new ResizeObserver(setH).observe(head);
   setH(); onScroll();
+})();
+
+// Phone menu: the section tabs open from the button at the top right.
+(function () {
+  var head = document.querySelector('header.top'), btn = head && head.querySelector('.menu-btn');
+  if (!btn) return;
+  var stampLine = head.querySelector('.menu-stamp'), stamp = document.getElementById('stamp');
+  function set(open) {
+    head.classList.toggle('menu-open', open);
+    btn.setAttribute('aria-expanded', String(open));
+    btn.setAttribute('aria-label', open ? 'Cerrar menú' : 'Abrir menú');
+    if (open && stampLine && stamp) stampLine.textContent = Array.prototype.map.call(stamp.childNodes, function (n) { return n.textContent.trim(); }).filter(Boolean).join(' · ');
+  }
+  btn.onclick = function (e) { e.stopPropagation(); set(!head.classList.contains('menu-open')); };
+  document.addEventListener('click', function (e) { if (!head.querySelector('.tabs').contains(e.target)) set(false); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && head.classList.contains('menu-open')) { set(false); btn.focus(); } });
 })();
 </script>

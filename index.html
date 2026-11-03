@@ -216,6 +216,46 @@ header.top.compact .tabs { margin-top: 0; }
 header.top.compact .tabs a { min-height: 32px; }
 header.top.compact .stamp { display: none; }
 @media (prefers-reduced-motion: reduce) { header.top .wrap, header.top .brand h1 { transition: none; } }
+
+
+/* Short filter labels on phones. */
+.lbl-s { display: none; }
+@media (max-width: 640px) {
+  .lbl-l { display: none; }
+  .lbl-s { display: inline; }
+  .bar .wrap { gap: 8px; }
+  .toggle { padding: 0 12px; gap: 6px; }
+  .search { flex-basis: 100%; }
+}
+/* Below 1100px the Top 10, the new offers and the full list are separate views. */
+.views, .fresh-none { display: none; }
+@media (max-width: 1100px) {
+  main .wrap.views { display: flex; gap: 6px; padding-block: 0 16px; }
+  .view-btn { flex: 1 1 0; min-width: 0; min-height: 40px; padding: 0 10px; border-radius: 999px; border: 1.5px solid var(--ink); background: transparent; color: var(--ink); font: 600 14px var(--display); cursor: pointer; display: inline-flex; align-items: center; justify-content: center; gap: 6px; white-space: nowrap; }
+  .view-btn[aria-selected="true"] { background: var(--ink); color: var(--ground); }
+  .view-btn .n { font: 500 11.5px var(--mono); opacity: .8; }
+  .view-btn[hidden] { display: none; }
+  main[data-view="top"] #app { display: none; }
+  main[data-view="fresh"] .picks, main[data-view="fresh"] #app > .section { display: none; }
+  main[data-view="fresh"] .fresh-none { display: block; }
+  main[data-view="all"] .picks, main[data-view="all"] #app > .fresh { display: none; }
+}
+/* Phone header: fixed height, tabs in a menu at the top right. */
+.menu-btn, .menu-stamp { display: none; }
+@media (max-width: 640px) {
+  header.top .wrap, header.top.compact .wrap { padding-block: 10px; flex-wrap: nowrap; align-items: center; position: relative; gap: 12px; transition: none; }
+  header.top .brand, header.top.compact .brand { display: block; }
+  header.top .brand h1, header.top.compact .brand h1 { font-size: 26px; letter-spacing: -.8px; transition: none; }
+  header.top .brand p, header.top .stamp, header.top.compact .stamp { display: none; }
+  .menu-btn { display: grid; place-items: center; width: 44px; height: 44px; flex-shrink: 0; border-radius: 12px; border: 1.5px solid var(--ink); background: transparent; color: var(--ink); cursor: pointer; }
+  .menu-btn svg { width: 20px; height: 20px; }
+  header.top.menu-open .menu-btn { background: var(--ink); color: var(--sand); }
+  header.top .tabs, header.top.compact .tabs { display: none; position: absolute; top: calc(100% + 4px); right: max(16px, env(safe-area-inset-right, 0px)); margin: 0; flex-direction: column; align-items: stretch; gap: 6px; min-width: 230px; padding: 12px; background: var(--paper); border: 1.5px solid var(--ink); border-radius: 14px; box-shadow: 4px 4px 0 var(--ink); z-index: 40; }
+  header.top.menu-open .tabs { display: flex; }
+  header.top .tabs a, header.top.compact .tabs a { min-height: 44px; }
+  header.top .tabs .menu-stamp { display: block; margin: 4px 2px 0; font: 400 11.5px var(--mono); color: var(--ink-soft); }
+  header.top .tabs .menu-stamp:empty { display: none; }
+}
 </style>
 
 <header class="top">
@@ -223,31 +263,38 @@ header.top.compact .stamp { display: none; }
     <div class="brand">
       <h1>Job <span>Search</span></h1>
       <p>Game Design y UX en estudios de videojuegos</p>
-      <nav class="tabs" aria-label="Secciones">
+      <nav class="tabs" id="site-nav" aria-label="Secciones">
         <a href="./" aria-current="page">Ofertas</a>
         <a href="applied.html">Aplicadas</a>
         <a href="games.html">Empresas y juegos</a>
+        <p class="menu-stamp" aria-live="polite"></p>
       </nav>
     </div>
     <div class="stamp" id="stamp"><b>Cargando ofertas…</b></div>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menú"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 5.5h14M3 10h14M3 14.5h14"/></svg></button>
   </div>
 </header>
 
 <div class="bar">
   <div class="wrap">
     <span class="chips" role="group" aria-label="Filtros">
-      <button class="toggle" data-f="ux" type="button" aria-pressed="true"><span class="gem ux" aria-hidden="true"></span>UX</button>
-      <button class="toggle" data-f="gd" type="button" aria-pressed="true"><span class="gem gd" aria-hidden="true"></span>Game Design</button>
+      <button class="toggle" data-f="ux" type="button" aria-pressed="true" aria-label="UX"><span class="gem ux" aria-hidden="true"></span>UX</button>
+      <button class="toggle" data-f="gd" type="button" aria-pressed="true" aria-label="Game Design"><span class="gem gd" aria-hidden="true"></span><span class="lbl-l">Game Design</span><span class="lbl-s" aria-hidden="true">GD</span></button>
       <span class="sep" aria-hidden="true"></span>
-      <button class="toggle" data-f="bcn" type="button" aria-pressed="true"><svg class="pin" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M8 14.5s4.5-4.2 4.5-7.8a4.5 4.5 0 0 0-9 0c0 3.6 4.5 7.8 4.5 7.8z"/><circle cx="8" cy="6.6" r="1.6"/></svg>Barcelona</button>
-      <button class="toggle" data-f="remote" type="button" aria-pressed="true"><svg class="pin" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="8" cy="8" r="6.2"/><path d="M1.8 8h12.4M8 1.8c1.8 2 1.8 10.4 0 12.4M8 1.8c-1.8 2-1.8 10.4 0 12.4"/></svg>Remoto</button>
+      <button class="toggle" data-f="bcn" type="button" aria-pressed="true" aria-label="Barcelona"><svg class="pin" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M8 14.5s4.5-4.2 4.5-7.8a4.5 4.5 0 0 0-9 0c0 3.6 4.5 7.8 4.5 7.8z"/><circle cx="8" cy="6.6" r="1.6"/></svg><span class="lbl-l">Barcelona</span><span class="lbl-s" aria-hidden="true">BCN</span></button>
+      <button class="toggle" data-f="remote" type="button" aria-pressed="true" aria-label="Remoto"><svg class="pin" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="8" cy="8" r="6.2"/><path d="M1.8 8h12.4M8 1.8c1.8 2 1.8 10.4 0 12.4M8 1.8c-1.8 2-1.8 10.4 0 12.4"/></svg><span class="lbl-l">Remoto</span><span class="lbl-s" aria-hidden="true">Remote</span></button>
     </span>
     <input class="search" id="f-text" type="search" placeholder="Buscar puesto o empresa" aria-label="Buscar puesto o empresa" autocomplete="off">
   </div>
   <div class="wrap summary" id="summary"></div>
 </div>
 
-<main>
+<main id="main" data-view="top">
+  <div class="wrap views" role="tablist" aria-label="Vista de ofertas">
+    <button class="view-btn" type="button" role="tab" data-v="top" aria-selected="true" aria-controls="picks">Top 10</button>
+    <button class="view-btn" type="button" role="tab" data-v="fresh" aria-selected="false" aria-controls="app">Novedades <span class="n" data-n="fresh"></span></button>
+    <button class="view-btn" type="button" role="tab" data-v="all" aria-selected="false" aria-controls="app">Todas <span class="n" data-n="all"></span></button>
+  </div>
   <div class="wrap layout">
     <div id="app"></div>
     <aside class="picks" id="picks" aria-labelledby="picks-title" hidden></aside>
@@ -675,7 +722,10 @@ header.top.compact .stamp { display: none; }
       fresh.forEach(function (p) { ul.appendChild(jobRow(p.j, p.c, true)); });
       f.appendChild(ul);
       app.appendChild(f);
+    } else {
+      app.appendChild(el('p', 'empty fresh-none', 'No hay novedades en los últimos 7 días con estos filtros.'));
     }
+    counts.fresh = fresh.length; counts.all = total; syncViews();
 
     GROUPS.forEach(function (g) {
       var all = cs.filter(function (c) { return c.group === g.id; });
@@ -710,6 +760,31 @@ header.top.compact .stamp { display: none; }
   }
 
   var picks = null;
+  // Views (below 1100px): Top 10, Novedades and Todas. The choice is remembered.
+  var counts = { top: null, fresh: 0, all: 0 };
+  var view = 'top';
+  try { view = localStorage.getItem('job-search-view') || 'top'; } catch (e) {}
+  function syncViews() {
+    var main = document.getElementById('main');
+    var topBtn = document.querySelector('.view-btn[data-v="top"]');
+    var noTop = counts.top === 0;
+    topBtn.hidden = noTop;
+    var v = view === 'top' && noTop ? 'fresh' : view;
+    main.setAttribute('data-view', v);
+    Array.prototype.forEach.call(document.querySelectorAll('.view-btn'), function (b) {
+      var on = b.getAttribute('data-v') === v;
+      b.setAttribute('aria-selected', String(on));
+      b.tabIndex = on ? 0 : -1;
+    });
+    Array.prototype.forEach.call(document.querySelectorAll('.view-btn .n'), function (n) { n.textContent = counts[n.getAttribute('data-n')]; });
+  }
+  function setView(v) {
+    view = v;
+    try { localStorage.setItem('job-search-view', v); } catch (e) {}
+    syncViews();
+    var bar = document.querySelector('.views');
+    if (bar.getBoundingClientRect().top < 0) window.scrollTo({ top: window.scrollY + bar.getBoundingClientRect().top - (parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--head-h')) || 0) - 8 });
+  }
   var FIT = {
     'muy alta': { cls: 'up2', d: 'M3 11l5-5 5 5M3 6l5-5 5 5' },
     'alta': { cls: 'up1', d: 'M3 10l5-5 5 5' },
@@ -731,12 +806,13 @@ header.top.compact .stamp { display: none; }
   function renderPicks() {
     var box = document.getElementById('picks');
     box.textContent = '';
-    if (!picks || !picks.picks || !data) { box.hidden = true; return; }
+    if (!picks || !picks.picks || !data) { box.hidden = true; counts.top = 0; syncViews(); return; }
     var index = {};
     (data.companies || []).forEach(function (c) {
       (c.jobs || []).forEach(function (j) { index[c.id + ':' + j.id] = { j: j, c: c }; });
     });
     var list = picks.picks.filter(function (p) { return index[p.key]; });
+    counts.top = list.length; syncViews();
     if (!list.length) { box.hidden = true; return; }
     box.hidden = false;
     var h = el('h2', null, 'Top 10 para ti'); h.id = 'picks-title';
@@ -799,6 +875,18 @@ header.top.compact .stamp { display: none; }
       b.onclick = function () { state.f[k] = !state.f[k]; b.setAttribute('aria-pressed', String(state.f[k])); save(); render(); };
     });
     text.oninput = function () { state.text = text.value; render(); };
+    var btns = Array.prototype.slice.call(document.querySelectorAll('.view-btn'));
+    btns.forEach(function (b) {
+      b.onclick = function () { setView(b.getAttribute('data-v')); };
+      b.onkeydown = function (e) {
+        if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return;
+        var shown = btns.filter(function (x) { return !x.hidden; });
+        var i = shown.indexOf(b) + (e.key === 'ArrowRight' ? 1 : -1);
+        var next = shown[(i + shown.length) % shown.length];
+        setView(next.getAttribute('data-v')); next.focus();
+      };
+    });
+    syncViews();
   }
 
   function load() {
@@ -850,6 +938,22 @@ header.top.compact .stamp { display: none; }
   window.addEventListener('resize', setH);
   if (window.ResizeObserver) new ResizeObserver(setH).observe(head);
   setH(); onScroll();
+})();
+
+// Phone menu: the section tabs open from the button at the top right.
+(function () {
+  var head = document.querySelector('header.top'), btn = head && head.querySelector('.menu-btn');
+  if (!btn) return;
+  var stampLine = head.querySelector('.menu-stamp'), stamp = document.getElementById('stamp');
+  function set(open) {
+    head.classList.toggle('menu-open', open);
+    btn.setAttribute('aria-expanded', String(open));
+    btn.setAttribute('aria-label', open ? 'Cerrar menú' : 'Abrir menú');
+    if (open && stampLine && stamp) stampLine.textContent = Array.prototype.map.call(stamp.childNodes, function (n) { return n.textContent.trim(); }).filter(Boolean).join(' · ');
+  }
+  btn.onclick = function (e) { e.stopPropagation(); set(!head.classList.contains('menu-open')); };
+  document.addEventListener('click', function (e) { if (!head.querySelector('.tabs').contains(e.target)) set(false); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && head.classList.contains('menu-open')) { set(false); btn.focus(); } });
 })();
 </script>
 
