@@ -2,11 +2,48 @@
  "applied": [
   {
    "key": "scopely:5442573008",
-   "date": "2026-10"
+   "company": "scopely",
+   "title": "Associate Economy Game Designer",
+   "team": "Proyecto sin anunciar · estrategia/MMO",
+   "location": "Barcelona · Híbrido (3 días en la oficina)",
+   "url": "https://job-boards.greenhouse.io/scopely/jobs/5442573008",
+   "date": "2026-10-19",
+   "status": "rejected",
+   "stage": "Descartada tras la llamada con el recruiter",
+   "cv": "CV de diseño + carta de presentación",
+   "referral": "Sí, de 2 personas del proyecto",
+   "steps": [
+    {
+     "date": "2026-10-19",
+     "text": "Dos personas del proyecto me hacen el referral, con el CV de diseño y el enlace al portfolio."
+    },
+    {
+     "date": "2026-10-22",
+     "text": "Primera llamada introductoria por Zoom con el recruiter."
+    },
+    {
+     "date": "2026-10",
+     "text": "Descartado: siguen con otros candidatos. Me vieron muy apasionado, pero había perfiles mejores para economy y quizá encajo más en un rol de UX."
+    }
+   ]
   },
   {
-   "key": "ubisoft:744000158059429",
-   "date": "2026-11"
+   "key": "ubisoft-mobile:744000158059429",
+   "company": "ubisoft-mobile",
+   "title": "Game Designer (Mobile)",
+   "location": "Barcelona · Presencial",
+   "url": "https://www.ubisoft.com/en-us/company/careers/search/744000158059429-game-designer-mobile-",
+   "date": "2026-11-03",
+   "status": "applied",
+   "stage": "Esperando respuesta",
+   "cv": "CV ATS · Game Designer (Mobile) + mensaje al equipo",
+   "referral": "No (estudio independiente). Un contacto en Ubisoft preguntará a RR. HH.",
+   "steps": [
+    {
+     "date": "2026-11-03",
+     "text": "Candidatura enviada desde la web de Ubisoft, con el CV enfocado a mobile y un mensaje al equipo de selección."
+    }
+   ]
   }
  ]
 }
