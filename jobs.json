@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T06:46:11+00:00",
+ "updated": "2026-11-03T11:24:28+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -138,17 +138,6 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5449846008",
-     "title": "Lead UX Designer - Star Trek Fleet Command",
-     "location": "GB - London, United Kingdom",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5449846008?gh_jid=5449846008",
-     "remote": false,
-     "posted": "2026-10-12T04:46:53-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5448555008",
      "title": "Lead UX Designer - Star Trek Fleet Command",
      "location": "IE - Ireland",
@@ -160,12 +149,12 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5406914008",
-     "title": "Principal Systems Designer",
-     "location": "US - United States",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5406914008?gh_jid=5406914008",
+     "id": "5449846008",
+     "title": "Lead UX Designer - Star Trek Fleet Command",
+     "location": "GB - London, United Kingdom",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5449846008?gh_jid=5449846008",
      "remote": false,
-     "posted": "2026-08-28T14:39:25-04:00",
+     "posted": "2026-10-12T04:46:53-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -177,6 +166,17 @@
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5413049008?gh_jid=5413049008",
      "remote": false,
      "posted": "2026-09-01T15:24:02-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5406914008",
+     "title": "Principal Systems Designer",
+     "location": "US - United States",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5406914008?gh_jid=5406914008",
+     "remote": false,
+     "posted": "2026-08-28T14:39:25-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -215,12 +215,12 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5418071008",
-     "title": "Analyst - Market Strategy",
+     "id": "5222025008",
+     "title": "Analytics Engineer",
      "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5418071008?gh_jid=5418071008",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5222025008?gh_jid=5222025008",
      "remote": false,
-     "posted": "2026-09-15T05:47:42-04:00",
+     "posted": "2026-05-19T11:02:29-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -232,17 +232,6 @@
      "url": "https://job-boards.greenhouse.io/scopely/jobs/4626426008?gh_jid=4626426008",
      "remote": false,
      "posted": "2025-04-10T11:59:49-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "5222025008",
-     "title": "Analytics Engineer",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5222025008?gh_jid=5222025008",
-     "remote": false,
-     "posted": "2026-05-19T11:02:29-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -545,6 +534,17 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
+     "id": "5466060008",
+     "title": "Senior 2D Marketing Artist",
+     "location": "ES - Barcelona, Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5466060008?gh_jid=5466060008",
+     "remote": false,
+     "posted": "2026-11-03T05:52:26-05:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-03T11:24:28+00:00"
+    },
+    {
      "id": "5444465008",
      "title": "Senior Analyst, Ad Monetization",
      "location": "ES - Barcelona, Spain",
@@ -721,6 +721,17 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
+     "id": "5434025008",
+     "title": "Senior Security IAM Engineer",
+     "location": "ES - Barcelona, Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5434025008?gh_jid=5434025008",
+     "remote": false,
+     "posted": "2026-10-07T23:09:04-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
      "id": "5420171008",
      "title": "Senior Security IAM Engineer",
      "location": "ES - Spain",
@@ -732,15 +743,15 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5434025008",
-     "title": "Senior Security IAM Engineer",
+     "id": "5469902008",
+     "title": "Senior Social Media Manager - Stumble Guys!",
      "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5434025008?gh_jid=5434025008",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5469902008?gh_jid=5469902008",
      "remote": false,
-     "posted": "2026-10-07T23:09:04-04:00",
+     "posted": "2026-11-03T03:58:23-05:00",
      "design": false,
      "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
+     "firstSeen": "2026-11-03T11:24:28+00:00"
     },
     {
      "id": "5433009008",
@@ -886,23 +897,23 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5430085008",
-     "title": "Technical Release Manager - Unannounced Project",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5430085008?gh_jid=5430085008",
-     "remote": false,
-     "posted": "2026-09-21T10:58:48-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5427196008",
      "title": "Technical Release Manager - Unannounced Project",
      "location": "ES - Barcelona, Spain",
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5427196008?gh_jid=5427196008",
      "remote": false,
      "posted": "2026-09-21T10:51:58-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5430085008",
+     "title": "Technical Release Manager - Unannounced Project",
+     "location": "ES - Barcelona, Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5430085008?gh_jid=5430085008",
+     "remote": false,
+     "posted": "2026-09-21T10:58:48-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -1219,18 +1230,18 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 67,
+   "total": 65,
    "jobs": [
     {
-     "id": "744000158745579",
+     "id": "744000159308135",
      "title": "Lead Game Designer (PC/Console/Mobile)",
      "location": "Barcelona, CT, Spain",
-     "url": "https://jobs.smartrecruiters.com/Gameloft/744000158745579",
+     "url": "https://jobs.smartrecruiters.com/Gameloft/744000159308135",
      "remote": false,
-     "posted": "2026-10-30T13:32:01.637Z",
+     "posted": "2026-11-03T07:24:23.568Z",
      "design": true,
      "local": true,
-     "firstSeen": "2026-10-30T18:46:33+00:00"
+     "firstSeen": "2026-11-03T11:24:28+00:00"
     },
     {
      "id": "744000140722334",
@@ -1286,6 +1297,17 @@
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "744000159356939",
+     "title": "Narrative Designer (DISNEY DREAMLIGHT VALLEY)",
+     "location": "Lviv, Lviv Oblast, Ukraine",
+     "url": "https://jobs.smartrecruiters.com/Gameloft/744000159356939",
+     "remote": true,
+     "posted": "2026-11-03T11:02:50.086Z",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-11-03T11:24:28+00:00"
     },
     {
      "id": "744000153382859",
@@ -1354,15 +1376,15 @@
      "firstSeen": "2026-10-29T13:26:32+00:00"
     },
     {
-     "id": "744000158284679",
+     "id": "744000159307389",
      "title": "Lead UI Artist",
      "location": "Barcelona, CT, Spain",
-     "url": "https://jobs.smartrecruiters.com/Gameloft/744000158284679",
+     "url": "https://jobs.smartrecruiters.com/Gameloft/744000159307389",
      "remote": false,
-     "posted": "2026-10-28T12:45:20.873Z",
+     "posted": "2026-11-03T07:17:09.562Z",
      "design": false,
      "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
+     "firstSeen": "2026-11-03T11:24:28+00:00"
     },
     {
      "id": "744000158285779",
@@ -1412,9 +1434,9 @@
   },
   {
    "id": "ubisoft",
-   "name": "Ubisoft",
+   "name": "Ubisoft Barcelona",
    "group": "mobile",
-   "note": "Barcelona Mobile y Barcelona",
+   "note": "Rainbow Six Siege",
    "domain": "ubisoft.com",
    "careers": "https://www.ubisoft.com/en-us/company/careers/search",
    "logos": [
@@ -1422,19 +1444,8 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 295,
+   "total": 5,
    "jobs": [
-    {
-     "id": "744000158059429",
-     "title": "Game Designer (Mobile)",
-     "location": "Barcelona, CT, Spain",
-     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000158059429",
-     "remote": false,
-     "posted": "2026-10-27T14:12:04.221Z",
-     "design": true,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
     {
      "id": "744000158795149",
      "title": "Senior UX Designer",
@@ -1444,205 +1455,24 @@
      "posted": "2026-10-30T16:18:13.652Z",
      "design": true,
      "local": true,
-     "firstSeen": "2026-10-30T18:46:33+00:00"
-    },
-    {
-     "id": "744000145306029",
-     "title": "Associate Technical Director - Design",
-     "location": "Montreal, QC, Canada",
-     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000145306029",
-     "remote": false,
-     "posted": "2026-08-24T15:00:20.444Z",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "744000158558959",
-     "title": "Directeur·trice technique associé·e - Design",
-     "location": "Montreal, QC, Canada",
-     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000158558959",
-     "remote": false,
-     "posted": "2026-10-29T15:56:23.632Z",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-29T22:46:28+00:00"
-    },
-    {
-     "id": "744000158549096",
-     "title": "Economy Designer",
-     "location": "Montreal, QC, Canada",
-     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000158549096",
-     "remote": false,
-     "posted": "2026-10-29T15:30:19.995Z",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-29T22:46:28+00:00"
-    },
-    {
-     "id": "744000151339377",
-     "title": "Junior UX Requirements Specialist",
-     "location": "Kyiv, Kyiv city, Ukraine",
-     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000151339377",
-     "remote": false,
-     "posted": "2026-09-23T10:01:04.831Z",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "744000156005133",
-     "title": "Lead Game Designer [The Division 2]",
-     "location": "Bucharest, Bucharest, Romania",
-     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000156005133",
-     "remote": false,
-     "posted": "2026-10-16T13:55:19.463Z",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "744000140062699",
-     "title": "Lead Level Design (F/M/NB) [AAA Project]",
-     "location": "Annecy, Auvergne-Rhône-Alpes, France",
-     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000140062699",
-     "remote": false,
-     "posted": "2026-07-27T17:32:44.055Z",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "744000158552740",
-     "title": "Lead Level Designer (F/H/NB) [AAA Project]",
-     "location": "Annecy, Auvergne-Rhône-Alpes, France",
-     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000158552740",
-     "remote": false,
-     "posted": "2026-10-29T15:33:13.372Z",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-29T22:46:28+00:00"
-    },
-    {
-     "id": "744000158752199",
-     "title": "Lead Level Designer - BGE2 - (H/F/NB)",
-     "location": "Montpellier, Occitanie, France",
-     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000158752199",
-     "remote": false,
-     "posted": "2026-10-30T13:59:12.602Z",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-30T18:46:33+00:00"
-    },
-    {
-     "id": "744000146459475",
-     "title": "Lead Level Designer - BGE2 - (M/F/NB)",
-     "location": "Montpellier, Occitanie, France",
-     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000146459475",
-     "remote": false,
-     "posted": "2026-08-31T12:32:10.244Z",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "744000157071936",
-     "title": "Level Designer Assistant - Stage 6 mois (F/H/NB)",
-     "location": "Bordeaux, Nouvelle-Aquitaine, France",
-     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000157071936",
-     "remote": false,
-     "posted": "2026-10-22T08:59:19.128Z",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "744000158300478",
-     "title": "Senior AI Game Designer [Tom Clancy's The Division 3]",
-     "location": "Malmö, Skåne County, Sweden",
-     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000158300478",
-     "remote": false,
-     "posted": "2026-10-28T13:52:55.160Z",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "744000158696195",
-     "title": "Senior Game Designer - Beyond Good & Evil 2 - H/F/NB",
-     "location": "Montpellier, Occitanie, France",
-     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000158696195",
-     "remote": false,
-     "posted": "2026-10-30T09:30:21.183Z",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-30T11:36:37+00:00"
-    },
-    {
-     "id": "744000107117815",
-     "title": "Senior Game Designer - Beyond Good & Evil 2 - M/F/NB",
-     "location": "Montpellier, Occitanie, France",
-     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000107117815",
-     "remote": false,
-     "posted": "2026-02-03T16:54:27.710Z",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "744000158790960",
-     "title": "Senior Game Designer [The Division 2]",
-     "location": "Bucharest, Bucharest, Romania",
-     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000158790960",
-     "remote": false,
-     "posted": "2026-10-30T16:04:16.991Z",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-30T18:46:33+00:00"
-    },
-    {
-     "id": "744000156498469",
-     "title": "Senior Game Designer [The Division 2]",
-     "location": "Bucharest, Bucharest, Romania",
-     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000156498469",
-     "remote": false,
-     "posted": "2026-10-20T08:43:37.715Z",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "744000158052630",
-     "title": "Senior UI Designer [Tom Clancy's The Division 3]",
-     "location": "Malmö, Skåne County, Sweden",
-     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000158052630",
-     "remote": false,
-     "posted": "2026-10-27T14:00:22.768Z",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "744000158039080",
-     "title": "Team Lead Level Designer [Splinter Cell Remake]",
-     "location": "Toronto, ON, Canada",
-     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000158039080",
-     "remote": false,
-     "posted": "2026-10-27T13:13:45.768Z",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "744000158059069",
-     "title": "Technical Level Designer",
-     "location": "Sofia, Sofia City Province, Bulgaria",
-     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000158059069",
-     "remote": false,
-     "posted": "2026-10-27T14:10:54.205Z",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
+     "firstSeen": "2026-10-30T18:46:33+00:00",
+     "srFields": [
+      "Ubisoft",
+      "Ubisoft",
+      "Organizational Unit=Barcelona studio",
+      "Recruitment Programs=N/A",
+      "Contract=Permanent",
+      "MU/zone work location=Not applicable",
+      "Job Family=Design",
+      "Brands=Ubisoft",
+      "Job  Function=User Experience Design & User Research",
+      "Reference Job=User Experience Designer",
+      "Management Unit L0&1 (New)=VANTAGE STUDIOS",
+      "Department=Ubisoft",
+      "Country/Region=Spain",
+      "Work flexibility=Office-based",
+      "OU sub location (select when applicable)=N/A"
+     ]
     },
     {
      "id": "744000158751601",
@@ -1653,7 +1483,24 @@
      "posted": "2026-10-30T14:07:53.982Z",
      "design": false,
      "local": true,
-     "firstSeen": "2026-10-30T18:46:33+00:00"
+     "firstSeen": "2026-10-30T18:46:33+00:00",
+     "srFields": [
+      "Ubisoft",
+      "Ubisoft",
+      "Organizational Unit=Vantage - Rainbow Six",
+      "Recruitment Programs=N/A",
+      "Contract=Permanent",
+      "MU/zone work location=Not applicable",
+      "Job Family=Art",
+      "Brands=Ubisoft",
+      "Job  Function=Technical Art",
+      "Reference Job=Technical Artist",
+      "Management Unit L0&1 (New)=VANTAGE STUDIOS",
+      "Department=Ubisoft",
+      "Country/Region=Spain",
+      "Work flexibility=Office-based",
+      "OU sub location (select when applicable)=Spain"
+     ]
     },
     {
      "id": "744000158789496",
@@ -1664,7 +1511,24 @@
      "posted": "2026-10-30T16:02:04.870Z",
      "design": false,
      "local": true,
-     "firstSeen": "2026-10-30T18:46:33+00:00"
+     "firstSeen": "2026-10-30T18:46:33+00:00",
+     "srFields": [
+      "Ubisoft",
+      "Ubisoft",
+      "Organizational Unit=Barcelona studio",
+      "Recruitment Programs=N/A",
+      "Contract=Permanent",
+      "MU/zone work location=Not applicable",
+      "Job Family=Game Production",
+      "Brands=Ubisoft",
+      "Job  Function=Producing",
+      "Reference Job=Production Manager",
+      "Management Unit L0&1 (New)=VANTAGE STUDIOS",
+      "Department=Ubisoft",
+      "Country/Region=Spain",
+      "Work flexibility=Office-based",
+      "OU sub location (select when applicable)=N/A"
+     ]
     },
     {
      "id": "744000158039659",
@@ -1675,18 +1539,24 @@
      "posted": "2026-10-27T13:03:16.089Z",
      "design": false,
      "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "744000158699224",
-     "title": "Senior Data Analyst",
-     "location": "Barcelona, CT, Spain",
-     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000158699224",
-     "remote": false,
-     "posted": "2026-10-30T09:35:56.773Z",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-30T11:36:37+00:00"
+     "firstSeen": "2026-10-28T17:44:43+00:00",
+     "srFields": [
+      "Ubisoft",
+      "Ubisoft",
+      "Organizational Unit=Barcelona studio",
+      "Recruitment Programs=N/A",
+      "Contract=Permanent",
+      "MU/zone work location=Not applicable",
+      "Job Family=Animation",
+      "Brands=Ubisoft",
+      "Job  Function=Technical Animation",
+      "Reference Job=Technical Animator",
+      "Management Unit L0&1 (New)=VANTAGE STUDIOS",
+      "Department=Ubisoft",
+      "Country/Region=Spain",
+      "Work flexibility=Office-based",
+      "OU sub location (select when applicable)=N/A"
+     ]
     },
     {
      "id": "744000158761684",
@@ -1697,7 +1567,95 @@
      "posted": "2026-10-30T14:37:33.147Z",
      "design": false,
      "local": true,
-     "firstSeen": "2026-10-30T18:46:33+00:00"
+     "firstSeen": "2026-10-30T18:46:33+00:00",
+     "srFields": [
+      "Ubisoft",
+      "Ubisoft",
+      "Organizational Unit=Barcelona studio",
+      "Recruitment Programs=N/A",
+      "Contract=Permanent",
+      "MU/zone work location=Not applicable",
+      "Job Family=Software Development",
+      "Brands=Ubisoft",
+      "Job  Function=Software Development Game",
+      "Reference Job=Software Developer Game UI",
+      "Management Unit L0&1 (New)=VANTAGE STUDIOS",
+      "Department=Ubisoft",
+      "Country/Region=Spain",
+      "Work flexibility=Office-based",
+      "OU sub location (select when applicable)=N/A"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ubisoft-mobile",
+   "name": "Ubisoft Barcelona Mobile",
+   "group": "mobile",
+   "note": "Juegos para móvil",
+   "domain": "ubisoft.com",
+   "careers": "https://www.ubisoft.com/en-us/company/careers/search",
+   "logos": [
+    "logos/ubisoft.svg"
+   ],
+   "status": "ok",
+   "since": "2026-10-28T17:44:43+00:00",
+   "total": 2,
+   "jobs": [
+    {
+     "id": "744000158059429",
+     "title": "Game Designer (Mobile)",
+     "location": "Barcelona, CT, Spain",
+     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000158059429",
+     "remote": false,
+     "posted": "2026-10-27T14:12:04.221Z",
+     "design": true,
+     "local": true,
+     "firstSeen": "2026-10-28T17:44:43+00:00",
+     "srFields": [
+      "Ubisoft",
+      "Ubisoft",
+      "Organizational Unit=Barcelona mobile studio",
+      "Contract=Permanent",
+      "MU/zone work location=Not applicable",
+      "Job Family=Design",
+      "Brands=Ubisoft",
+      "Job  Function=Game Design",
+      "Reference Job=Game Designer",
+      "Management Unit L0&1 (New)=CREATIVE HOUSE 3-5",
+      "Department=Ubisoft",
+      "Country/Region=Spain",
+      "Management Unit L2 (New)=CREATIVE HOUSE 5",
+      "Work flexibility=Office-based",
+      "OU sub location (select when applicable)=N/A"
+     ]
+    },
+    {
+     "id": "744000158699224",
+     "title": "Senior Data Analyst",
+     "location": "Barcelona, CT, Spain",
+     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000158699224",
+     "remote": false,
+     "posted": "2026-10-30T09:35:56.773Z",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-30T11:36:37+00:00",
+     "srFields": [
+      "Ubisoft",
+      "Ubisoft",
+      "Organizational Unit=Barcelona mobile studio",
+      "Contract=Permanent",
+      "MU/zone work location=Not applicable",
+      "Job Family=Data",
+      "Brands=Ubisoft",
+      "Job  Function=Data Utilization",
+      "Reference Job=Data Analyst",
+      "Management Unit L0&1 (New)=CREATIVE HOUSE 5",
+      "Department=Ubisoft",
+      "Country/Region=Spain",
+      "Work flexibility=Office-based",
+      "OU sub location (select when applicable)=N/A"
+     ]
     }
    ]
   },
@@ -2024,7 +1982,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 102,
+   "total": 103,
    "jobs": [
     {
      "id": "d633533c-ac08-440e-a6b6-33351b3ad005",
@@ -2104,45 +2062,12 @@
      "firstSeen": "2026-10-28T22:59:48+00:00"
     },
     {
-     "id": "de2f9e66-cf05-47e1-9d2f-1368475068a0",
-     "title": "Game Lead - Crazy Kick",
-     "location": "Istanbul; Warsaw; Helsinki; Stockholm; Lisboa; Berlin; London; Barcelona",
-     "url": "https://jobs.ashbyhq.com/voodoo/de2f9e66-cf05-47e1-9d2f-1368475068a0",
-     "remote": false,
-     "posted": "2026-09-28T10:12:36.980+00:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
-     "id": "216b6cc7-66e5-4dc9-bbd9-3e46a966acc2",
-     "title": "Game Lead - Flappy Dunk",
-     "location": "Istanbul; Warsaw; Helsinki; Stockholm; Lisboa; Berlin; London; Barcelona",
-     "url": "https://jobs.ashbyhq.com/voodoo/216b6cc7-66e5-4dc9-bbd9-3e46a966acc2",
-     "remote": false,
-     "posted": "2026-06-09T10:50:51.012+00:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
      "id": "1c428341-5d1f-4903-aacd-1ce05b04dc17",
      "title": "Gameplay & UI Developer - Paper.io2",
      "location": "Barcelona; Madrid; Warsaw; Tallinn; Karkiv; Malta; Helsinki; Stockholm; Istanbul; Lisboa; Berlin; Tbilisi; Amsterdam; Milan; Krakow; Bucharest; London; Kiev; Remote",
      "url": "https://jobs.ashbyhq.com/voodoo/1c428341-5d1f-4903-aacd-1ce05b04dc17",
      "remote": true,
      "posted": "2026-11-02T09:24:48.911+00:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
-     "id": "ee013fb9-3719-430a-b07a-78a25b500370",
-     "title": "General Manager - Live Studios (Hybrid-casual Games)",
-     "location": "Istanbul; Warsaw; Helsinki; Stockholm; Lisboa; Berlin; London; Barcelona",
-     "url": "https://jobs.ashbyhq.com/voodoo/ee013fb9-3719-430a-b07a-78a25b500370",
-     "remote": false,
-     "posted": "2026-06-09T10:52:37.765+00:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T22:59:48+00:00"
@@ -2602,26 +2527,15 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T00:15:52+00:00",
-   "total": 38,
+   "total": 37,
    "jobs": [
-    {
-     "id": "R0019205-1",
-     "title": "UI Animator",
-     "location": "Spain (Barcelona)",
-     "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Spain-Barcelona/UI-Animator_R0019205-1",
-     "remote": false,
-     "posted": "2026-10-15",
-     "design": true,
-     "local": true,
-     "firstSeen": "2026-10-29T00:15:52+00:00"
-    },
     {
      "id": "R0022488",
      "title": "ML Engineer",
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/ML-Engineer_R0022488",
      "remote": false,
-     "posted": "2026-10-07",
+     "posted": "2026-10-06",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -2632,7 +2546,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/ML-Engineer_R0022029-1",
      "remote": false,
-     "posted": "2026-10-06",
+     "posted": "2026-10-05",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -2643,7 +2557,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Associate-Game-Ops-Manager_R0022377",
      "remote": false,
-     "posted": "2026-10-30",
+     "posted": "2026-10-29",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -2665,7 +2579,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Data-Analyst_R0022725",
      "remote": false,
-     "posted": "2026-10-06",
+     "posted": "2026-10-05",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -2676,7 +2590,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-UI-Artist_R0022928",
      "remote": false,
-     "posted": "2026-10-17",
+     "posted": "2026-10-16",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -2687,7 +2601,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Technical-Product-Owner_R0022685",
      "remote": false,
-     "posted": "2026-10-06",
+     "posted": "2026-10-05",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -3659,6 +3573,17 @@
      "firstSeen": "2026-10-28T22:59:48+00:00"
     },
     {
+     "id": "216586",
+     "title": "Quality Designer",
+     "location": "Shanghai, China",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Quality-Designer-QVS/216586",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-11-03T11:24:28+00:00"
+    },
+    {
      "id": "216286",
      "title": "Quality Designer Co-op (Summer 2027)",
      "location": "Vancouver, Canada",
@@ -3668,17 +3593,6 @@
      "design": true,
      "local": false,
      "firstSeen": "2026-10-30T18:46:33+00:00"
-    },
-    {
-     "id": "216420",
-     "title": "Quality Designer II",
-     "location": "Kuala Lumpur, Malaysia",
-     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Quality-Designer-II/216420",
-     "remote": false,
-     "posted": null,
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
     },
     {
      "id": "215870",
@@ -4117,7 +4031,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 36,
+   "total": 35,
    "jobs": [
     {
      "id": "8288743",
@@ -4142,23 +4056,23 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "8200605",
-     "title": "Game Design Director (World of Warships, PC)",
-     "location": "Berlin",
-     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8200605",
-     "remote": false,
-     "posted": "2026-09-15T04:11:10-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "8200609",
      "title": "Game Design Director (World of Warships, PC)",
      "location": "Nicosia",
      "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8200609",
      "remote": false,
      "posted": "2026-09-15T03:52:01-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "8200605",
+     "title": "Game Design Director (World of Warships, PC)",
+     "location": "Berlin",
+     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8200605",
+     "remote": false,
+     "posted": "2026-09-15T04:11:10-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -4598,7 +4512,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 374,
+   "total": 371,
    "jobs": [
     {
      "id": "36186",
@@ -5074,7 +4988,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 206,
+   "total": 207,
    "jobs": [
     {
      "id": "6098184004",
