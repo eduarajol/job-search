@@ -178,28 +178,11 @@ def sr_fields(raw):
     return [v for v in vals if v]
 
 
-_SR_STUDIO = {}
-
-
 def sr_studio(company, j, studio):
-    """True when the offer belongs to `studio`. Checks the posting's own
-    fields first and, for offers in that city, the full offer text."""
-    key = (company, j["id"], studio)
-    if key in _SR_STUDIO:
-        return _SR_STUDIO[key]
+    """True when one of the posting's fields names `studio`, e.g. Ubisoft's
+    "Organizational Unit=Barcelona mobile studio"."""
     want = studio.lower()
-    hit = any(want in v.lower() for v in j.get("_srFields", []))
-    if not hit:
-        city = studio.split()[-2].lower() if len(studio.split()) > 2 else ""
-        if city and city in j["location"].lower():
-            try:
-                d = get_json(f"https://api.smartrecruiters.com/v1/companies/{company}/postings/{j['id']}")
-                hit = want in json.dumps(d, ensure_ascii=False).lower()
-                time.sleep(0.2)
-            except Exception as e:
-                print(f"  no studio for {j['title']}: {e}", file=sys.stderr)
-    _SR_STUDIO[key] = hit
-    return hit
+    return any(want in v.lower() for v in j.get("_srFields", []))
 
 
 def _sr_all(company):
@@ -699,8 +682,6 @@ def main():
                         "url": j["url"], "firstSeen": j["firstSeen"],
                         "description": describe(src, j),
                     }
-                if j.get("_srFields") and src.get("studio"):
-                    j["srFields"] = j["_srFields"]  # kept for checking the studio split
                 for k in ("_desc", "_teaser", "_workday", "_srFields"):
                     j.pop(k, None)
             jobs.sort(key=lambda j: (not j["design"], not j["local"], j["title"].lower()))
