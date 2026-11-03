@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-03T06:48:43Z",
-  "basedOn": "2026-11-03T06:46:11+00:00",
+  "updated": "2026-11-03T18:51:10Z",
+  "basedOn": "2026-11-03T18:47:27+00:00",
   "picks": [
     {
       "key": "ubisoft-mobile:744000158059429",
@@ -18,14 +18,14 @@
       "reason": "Senior UX en Rainbow Six Siege: HUD, onboarding, tutoriales y design system. Pide 6+ años de UX en la industria del videojuego."
     },
     {
-      "key": "scopely:5412268008",
-      "fit": "Media",
-      "reason": "Content Designer en Monopoly GO!: eventos, temáticas y contenido con IP licenciadas. Pide 3+ años en diseño de contenido o juegos."
-    },
-    {
       "key": "king:R027772",
       "fit": "Baja",
       "reason": "Senior Game Designer de metagame en Candy Crush Saga: progresión, social y recompensas. Pide perfil senior en juegos live de móvil."
+    },
+    {
+      "key": "tripledot:4965778101",
+      "fit": "Baja",
+      "reason": "Game Designer de puzzles casual en remoto (Europa) con estudios turcos: mecánicas, niveles y datos. Pide 3+ años en diseño de juegos."
     },
     {
       "key": "scopely:5423473008",
