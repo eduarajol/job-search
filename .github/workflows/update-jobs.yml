@@ -14,6 +14,12 @@ on:
     - cron: "17 18 * * *"
     - cron: "17 21 * * *"
   workflow_dispatch:
+  # Run right away when the company list or the reader changes.
+  push:
+    branches: [main]
+    paths:
+      - companies.json
+      - scripts/fetch_jobs.py
 
 permissions:
   contents: write

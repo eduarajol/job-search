@@ -144,8 +144,65 @@ def read_lever(src):
     return out
 
 
+_SR_CACHE = {}
+
+
 def read_smartrecruiters(src):
+    """One SmartRecruiters board can hold several studios (Ubisoft). With
+    "studio" in the source, keep only that studio's offers, or, with
+    "studioExclude", every offer in Barcelona or remote that is not from it."""
     company = src["company"]
+    if company not in _SR_CACHE:
+        _SR_CACHE[company] = _sr_all(company)
+    jobs = [dict(j) for j in _SR_CACHE[company]]
+    studio = src.get("studio")
+    if not studio:
+        return jobs
+    out = []
+    for j in jobs:
+        is_it = sr_studio(company, j, studio)
+        if src.get("studioExclude"):
+            if not is_it and (j["remote"] or re.search(r"barcelona", j["location"], re.I)):
+                out.append(j)
+        elif is_it:
+            out.append(j)
+    return out
+
+
+def sr_fields(raw):
+    """Studio-like values of a SmartRecruiters posting: department, company,
+    custom fields (Ubisoft names the studio in one of them)."""
+    vals = [(raw.get("department") or {}).get("label"), (raw.get("company") or {}).get("name")]
+    for f in raw.get("customField") or []:
+        vals.append(f"{f.get('fieldLabel')}={f.get('valueLabel')}")
+    return [v for v in vals if v]
+
+
+_SR_STUDIO = {}
+
+
+def sr_studio(company, j, studio):
+    """True when the offer belongs to `studio`. Checks the posting's own
+    fields first and, for offers in that city, the full offer text."""
+    key = (company, j["id"], studio)
+    if key in _SR_STUDIO:
+        return _SR_STUDIO[key]
+    want = studio.lower()
+    hit = any(want in v.lower() for v in j.get("_srFields", []))
+    if not hit:
+        city = studio.split()[-2].lower() if len(studio.split()) > 2 else ""
+        if city and city in j["location"].lower():
+            try:
+                d = get_json(f"https://api.smartrecruiters.com/v1/companies/{company}/postings/{j['id']}")
+                hit = want in json.dumps(d, ensure_ascii=False).lower()
+                time.sleep(0.2)
+            except Exception as e:
+                print(f"  no studio for {j['title']}: {e}", file=sys.stderr)
+    _SR_STUDIO[key] = hit
+    return hit
+
+
+def _sr_all(company):
     out, offset = [], 0
     while True:
         data = get_json(
@@ -158,12 +215,14 @@ def read_smartrecruiters(src):
             loc = l.get("fullLocation") or ", ".join(
                 x for x in [l.get("city"), l.get("country", "").upper()] if x
             )
-            out.append(job(
+            item = job(
                 j["id"], j.get("name"), loc,
                 f"https://jobs.smartrecruiters.com/{company}/{j['id']}",
                 remote=bool(l.get("remote")) or bool(REMOTE.search(loc)),
                 posted=j.get("releasedDate"),
-            ))
+            )
+            item["_srFields"] = sr_fields(j)
+            out.append(item)
         offset += len(content)
         if not content or offset >= data.get("totalFound", 0) or offset > 5000:
             break
@@ -626,7 +685,9 @@ def main():
                 if not (j["design"] or j["local"]):
                     continue
                 key = f"{c['id']}:{j['id']}"
-                j["firstSeen"] = seen_db["jobs"].get(key) or previous.get((c["id"], j["id"])) or now
+                old_key = f"{c['seenAs']}:{j['id']}" if c.get("seenAs") else None
+                j["firstSeen"] = (seen_db["jobs"].get(key) or (old_key and seen_db["jobs"].get(old_key))
+                                  or previous.get((c["id"], j["id"])) or now)
                 seen_db["jobs"][key] = j["firstSeen"]
                 if not j.get("posted") and src["type"] in DATE_FROM_PAGE:
                     j["posted"] = date_from_page(j["url"])
@@ -638,10 +699,13 @@ def main():
                         "url": j["url"], "firstSeen": j["firstSeen"],
                         "description": describe(src, j),
                     }
-                for k in ("_desc", "_teaser", "_workday"):
+                if j.get("_srFields") and src.get("studio"):
+                    j["srFields"] = j["_srFields"]  # kept for checking the studio split
+                for k in ("_desc", "_teaser", "_workday", "_srFields"):
                     j.pop(k, None)
             jobs.sort(key=lambda j: (not j["design"], not j["local"], j["title"].lower()))
-            since = seen_db["companies"].setdefault(c["id"], now)
+            since = seen_db["companies"].setdefault(
+                c["id"], seen_db["companies"].get(c.get("seenAs") or "", now))
             entry.update(status="ok", since=since, total=len(raw), jobs=jobs)
             print(f"ok    {c['name']}: {len(raw)} open, {len(jobs)} kept")
         except Exception as e:
