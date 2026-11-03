@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T11:24:28+00:00",
+ "updated": "2026-11-03T11:28:36+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -1299,15 +1299,15 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "744000159356939",
+     "id": "744000159361159",
      "title": "Narrative Designer (DISNEY DREAMLIGHT VALLEY)",
      "location": "Lviv, Lviv Oblast, Ukraine",
-     "url": "https://jobs.smartrecruiters.com/Gameloft/744000159356939",
+     "url": "https://jobs.smartrecruiters.com/Gameloft/744000159361159",
      "remote": true,
-     "posted": "2026-11-03T11:02:50.086Z",
+     "posted": "2026-11-03T11:28:07.680Z",
      "design": true,
      "local": false,
-     "firstSeen": "2026-11-03T11:24:28+00:00"
+     "firstSeen": "2026-11-03T11:28:36+00:00"
     },
     {
      "id": "744000153382859",
@@ -1455,24 +1455,7 @@
      "posted": "2026-10-30T16:18:13.652Z",
      "design": true,
      "local": true,
-     "firstSeen": "2026-10-30T18:46:33+00:00",
-     "srFields": [
-      "Ubisoft",
-      "Ubisoft",
-      "Organizational Unit=Barcelona studio",
-      "Recruitment Programs=N/A",
-      "Contract=Permanent",
-      "MU/zone work location=Not applicable",
-      "Job Family=Design",
-      "Brands=Ubisoft",
-      "Job  Function=User Experience Design & User Research",
-      "Reference Job=User Experience Designer",
-      "Management Unit L0&1 (New)=VANTAGE STUDIOS",
-      "Department=Ubisoft",
-      "Country/Region=Spain",
-      "Work flexibility=Office-based",
-      "OU sub location (select when applicable)=N/A"
-     ]
+     "firstSeen": "2026-10-30T18:46:33+00:00"
     },
     {
      "id": "744000158751601",
@@ -1483,24 +1466,7 @@
      "posted": "2026-10-30T14:07:53.982Z",
      "design": false,
      "local": true,
-     "firstSeen": "2026-10-30T18:46:33+00:00",
-     "srFields": [
-      "Ubisoft",
-      "Ubisoft",
-      "Organizational Unit=Vantage - Rainbow Six",
-      "Recruitment Programs=N/A",
-      "Contract=Permanent",
-      "MU/zone work location=Not applicable",
-      "Job Family=Art",
-      "Brands=Ubisoft",
-      "Job  Function=Technical Art",
-      "Reference Job=Technical Artist",
-      "Management Unit L0&1 (New)=VANTAGE STUDIOS",
-      "Department=Ubisoft",
-      "Country/Region=Spain",
-      "Work flexibility=Office-based",
-      "OU sub location (select when applicable)=Spain"
-     ]
+     "firstSeen": "2026-10-30T18:46:33+00:00"
     },
     {
      "id": "744000158789496",
@@ -1511,24 +1477,7 @@
      "posted": "2026-10-30T16:02:04.870Z",
      "design": false,
      "local": true,
-     "firstSeen": "2026-10-30T18:46:33+00:00",
-     "srFields": [
-      "Ubisoft",
-      "Ubisoft",
-      "Organizational Unit=Barcelona studio",
-      "Recruitment Programs=N/A",
-      "Contract=Permanent",
-      "MU/zone work location=Not applicable",
-      "Job Family=Game Production",
-      "Brands=Ubisoft",
-      "Job  Function=Producing",
-      "Reference Job=Production Manager",
-      "Management Unit L0&1 (New)=VANTAGE STUDIOS",
-      "Department=Ubisoft",
-      "Country/Region=Spain",
-      "Work flexibility=Office-based",
-      "OU sub location (select when applicable)=N/A"
-     ]
+     "firstSeen": "2026-10-30T18:46:33+00:00"
     },
     {
      "id": "744000158039659",
@@ -1539,24 +1488,7 @@
      "posted": "2026-10-27T13:03:16.089Z",
      "design": false,
      "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00",
-     "srFields": [
-      "Ubisoft",
-      "Ubisoft",
-      "Organizational Unit=Barcelona studio",
-      "Recruitment Programs=N/A",
-      "Contract=Permanent",
-      "MU/zone work location=Not applicable",
-      "Job Family=Animation",
-      "Brands=Ubisoft",
-      "Job  Function=Technical Animation",
-      "Reference Job=Technical Animator",
-      "Management Unit L0&1 (New)=VANTAGE STUDIOS",
-      "Department=Ubisoft",
-      "Country/Region=Spain",
-      "Work flexibility=Office-based",
-      "OU sub location (select when applicable)=N/A"
-     ]
+     "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
      "id": "744000158761684",
@@ -1567,24 +1499,7 @@
      "posted": "2026-10-30T14:37:33.147Z",
      "design": false,
      "local": true,
-     "firstSeen": "2026-10-30T18:46:33+00:00",
-     "srFields": [
-      "Ubisoft",
-      "Ubisoft",
-      "Organizational Unit=Barcelona studio",
-      "Recruitment Programs=N/A",
-      "Contract=Permanent",
-      "MU/zone work location=Not applicable",
-      "Job Family=Software Development",
-      "Brands=Ubisoft",
-      "Job  Function=Software Development Game",
-      "Reference Job=Software Developer Game UI",
-      "Management Unit L0&1 (New)=VANTAGE STUDIOS",
-      "Department=Ubisoft",
-      "Country/Region=Spain",
-      "Work flexibility=Office-based",
-      "OU sub location (select when applicable)=N/A"
-     ]
+     "firstSeen": "2026-10-30T18:46:33+00:00"
     }
    ]
   },
@@ -1611,24 +1526,7 @@
      "posted": "2026-10-27T14:12:04.221Z",
      "design": true,
      "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00",
-     "srFields": [
-      "Ubisoft",
-      "Ubisoft",
-      "Organizational Unit=Barcelona mobile studio",
-      "Contract=Permanent",
-      "MU/zone work location=Not applicable",
-      "Job Family=Design",
-      "Brands=Ubisoft",
-      "Job  Function=Game Design",
-      "Reference Job=Game Designer",
-      "Management Unit L0&1 (New)=CREATIVE HOUSE 3-5",
-      "Department=Ubisoft",
-      "Country/Region=Spain",
-      "Management Unit L2 (New)=CREATIVE HOUSE 5",
-      "Work flexibility=Office-based",
-      "OU sub location (select when applicable)=N/A"
-     ]
+     "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
      "id": "744000158699224",
@@ -1639,23 +1537,7 @@
      "posted": "2026-10-30T09:35:56.773Z",
      "design": false,
      "local": true,
-     "firstSeen": "2026-10-30T11:36:37+00:00",
-     "srFields": [
-      "Ubisoft",
-      "Ubisoft",
-      "Organizational Unit=Barcelona mobile studio",
-      "Contract=Permanent",
-      "MU/zone work location=Not applicable",
-      "Job Family=Data",
-      "Brands=Ubisoft",
-      "Job  Function=Data Utilization",
-      "Reference Job=Data Analyst",
-      "Management Unit L0&1 (New)=CREATIVE HOUSE 5",
-      "Department=Ubisoft",
-      "Country/Region=Spain",
-      "Work flexibility=Office-based",
-      "OU sub location (select when applicable)=N/A"
-     ]
+     "firstSeen": "2026-10-30T11:36:37+00:00"
     }
    ]
   },
