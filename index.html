@@ -501,10 +501,12 @@ header.top.compact .stamp { display: none; }
       if (i >= list.length) return finish(null);
       var src = list[i++], img = new Image();
       img.onload = function () {
-        var w = img.naturalWidth, h = img.naturalHeight, svg = /\.svg(\?|$)/i.test(src);
+        var w = img.naturalWidth, h = img.naturalHeight, svg = /\.svg(\?|#|$)/i.test(src);
         if (!svg && Math.max(w, h) < 64) return next();
         var r = w && h ? w / h : 1, cls = '';
-        if (r > 1.6 || r < .6) cls = 'wide';
+        // "logo.svg#fill": a square tile designed to cover the whole box.
+        if (/#fill$/.test(src)) cls = 'fill';
+        else if (r > 1.6 || r < .6) cls = 'wide';
         else if (!svg && r > .9 && r < 1.1 && !/s2\/favicons/.test(src)) cls = 'fill';
         finish({ src: src, cls: cls });
       };

@@ -1440,6 +1440,7 @@
    "domain": "ubisoft.com",
    "careers": "https://www.ubisoft.com/en-us/company/careers/search",
    "logos": [
+    "logos/ubisoft-barcelona.svg#fill",
     "logos/ubisoft.svg"
    ],
    "status": "ok",
@@ -1511,6 +1512,7 @@
    "domain": "ubisoft.com",
    "careers": "https://www.ubisoft.com/en-us/company/careers/search",
    "logos": [
+    "logos/ubisoft-barcelona-mobile.svg#fill",
     "logos/ubisoft.svg"
    ],
    "status": "ok",
