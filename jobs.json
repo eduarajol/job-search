@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T23:53:02+00:00",
+ "updated": "2026-11-03T06:46:11+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -1219,7 +1219,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 66,
+   "total": 67,
    "jobs": [
     {
      "id": "744000158745579",
@@ -1422,7 +1422,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 294,
+   "total": 295,
    "jobs": [
     {
      "id": "744000158059429",
@@ -2238,7 +2238,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 47,
+   "total": 46,
    "jobs": [
     {
      "id": "5724174004",
@@ -2610,7 +2610,7 @@
      "location": "Spain (Barcelona)",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Spain-Barcelona/UI-Animator_R0019205-1",
      "remote": false,
-     "posted": "2026-10-14",
+     "posted": "2026-10-15",
      "design": true,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -2621,7 +2621,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/ML-Engineer_R0022488",
      "remote": false,
-     "posted": "2026-10-06",
+     "posted": "2026-10-07",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -2632,7 +2632,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/ML-Engineer_R0022029-1",
      "remote": false,
-     "posted": "2026-10-05",
+     "posted": "2026-10-06",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -2643,7 +2643,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Associate-Game-Ops-Manager_R0022377",
      "remote": false,
-     "posted": "2026-10-29",
+     "posted": "2026-10-30",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -2665,7 +2665,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Data-Analyst_R0022725",
      "remote": false,
-     "posted": "2026-10-05",
+     "posted": "2026-10-06",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -2676,7 +2676,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-UI-Artist_R0022928",
      "remote": false,
-     "posted": "2026-10-16",
+     "posted": "2026-10-17",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -2687,7 +2687,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Technical-Product-Owner_R0022685",
      "remote": false,
-     "posted": "2026-10-05",
+     "posted": "2026-10-06",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -3041,7 +3041,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 72,
+   "total": 70,
    "jobs": [
     {
      "id": "R028091",
@@ -3304,7 +3304,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 355,
+   "total": 354,
    "jobs": [
     {
      "id": "216318",
@@ -3538,6 +3538,17 @@
      "firstSeen": "2026-10-28T22:59:48+00:00"
     },
     {
+     "id": "216542",
+     "title": "Game Designer - EA SPORTS FC™ Mobile",
+     "location": "Seoul, Korea, Republic of",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Game-Designer-FC-Mobile/216542",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-29T09:39:32+00:00"
+    },
+    {
      "id": "216061",
      "title": "Game Designer - Gameplay",
      "location": "Shanghai, China",
@@ -3558,17 +3569,6 @@
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
-     "id": "216542",
-     "title": "Game Designer, EA SPORTS FC™ Mobile",
-     "location": "Seoul, Korea, Republic of",
-     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Game-Designer-FC-Mobile/216542",
-     "remote": false,
-     "posted": null,
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-29T09:39:32+00:00"
     },
     {
      "id": "216168",
@@ -4983,7 +4983,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 56,
+   "total": 54,
    "jobs": [
     {
      "id": "744000158050965",
@@ -5074,7 +5074,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 207,
+   "total": 206,
    "jobs": [
     {
      "id": "6098184004",
