@@ -14,6 +14,7 @@ Página personal para revisar cada día las ofertas de Game Design y UX de los e
 - `games.json` y `games.html`: página «Empresas y juegos», con los juegos de cada empresa y su web. Se genera desde `src/games.html`.
 - `index.html`: la página. Lee `jobs.json`. Se genera desde `src/page.html` con `python scripts/build_page.py`.
 
+- `icons/`: icono de la web (pestaña del navegador y pantalla de inicio del móvil).
 - `logos/`: logos SVG guardados en el repositorio. En `companies.json`, el campo `logos` lista las imágenes que la página prueba en orden. Si ninguna carga, usa el favicon en alta resolución y, si tampoco, las iniciales.
 
 Las empresas sin portal público aparecen solo con el enlace a su web de empleo.
