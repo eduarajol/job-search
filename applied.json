@@ -44,6 +44,29 @@
      "text": "Candidatura enviada desde la web de Ubisoft, con el CV enfocado a mobile y un mensaje al equipo de selección."
     }
    ]
+  },
+  {
+   "key": "ubisoft:744000158795149",
+   "company": "ubisoft",
+   "title": "Senior UX Designer",
+   "team": "Rainbow Six Siege",
+   "location": "Barcelona · Presencial",
+   "url": "https://www.ubisoft.com/en-us/company/careers/search/744000158795149-senior-ux-designer",
+   "date": "2026-11-04",
+   "status": "applied",
+   "stage": "Esperando respuesta",
+   "cv": "CV ATS · Senior UX Designer + mensaje al equipo",
+   "referral": "Pedido a un excompañero de SEAT que trabaja en Siege. Va a preguntar si puede hacerlo.",
+   "steps": [
+    {
+     "date": "2026-11-03",
+     "text": "Pido el referral a un excompañero de SEAT que trabaja en el equipo de Siege. Me anima a aplicar y va a preguntar si puede hacerlo."
+    },
+    {
+     "date": "2026-11-04",
+     "text": "Candidatura enviada desde la web de Ubisoft, con el CV enfocado a UX (incluye el HUD de los coches) y un mensaje al equipo de selección."
+    }
+   ]
   }
  ]
 }
