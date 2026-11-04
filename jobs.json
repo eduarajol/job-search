@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T01:26:41+00:00",
+ "updated": "2026-11-04T06:46:35+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -105,23 +105,23 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5379017008",
-     "title": "Lead Systems Designer - Star Trek Fleet Command",
-     "location": "GB - London, United Kingdom",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5379017008?gh_jid=5379017008",
-     "remote": false,
-     "posted": "2026-08-13T06:52:46-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5388807008",
      "title": "Lead Systems Designer - Star Trek Fleet Command",
      "location": "IE - Dublin, Ireland",
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5388807008?gh_jid=5388807008",
      "remote": false,
      "posted": "2026-08-13T06:54:47-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5379017008",
+     "title": "Lead Systems Designer - Star Trek Fleet Command",
+     "location": "GB - London, United Kingdom",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5379017008?gh_jid=5379017008",
+     "remote": false,
+     "posted": "2026-08-13T06:52:46-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -1520,7 +1520,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-28T17:49:21+00:00",
-   "total": 91,
+   "total": 90,
    "jobs": [
     {
      "id": "4965778101",
@@ -1556,28 +1556,6 @@
      "firstSeen": "2026-11-02T06:46:57+00:00"
     },
     {
-     "id": "4944287101",
-     "title": "Game Designer (Hybrid Casual)",
-     "location": "Minsk",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4944287101",
-     "remote": false,
-     "posted": "2026-08-05T11:52:03-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
-     "id": "4963495101",
-     "title": "Game Designer (Hybrid Casual)",
-     "location": "Warsaw",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4963495101",
-     "remote": false,
-     "posted": "2026-08-28T10:53:45-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
      "id": "4944288101",
      "title": "Game Designer (Hybrid Casual)",
      "location": "Tblisi",
@@ -1589,12 +1567,34 @@
      "firstSeen": "2026-10-28T17:49:21+00:00"
     },
     {
+     "id": "4944287101",
+     "title": "Game Designer (Hybrid Casual)",
+     "location": "Minsk",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4944287101",
+     "remote": false,
+     "posted": "2026-08-05T11:52:03-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
      "id": "4945678101",
      "title": "Game Designer (Hybrid Casual)",
      "location": "Limassol",
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4945678101",
      "remote": false,
      "posted": "2026-08-05T11:53:43-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4963495101",
+     "title": "Game Designer (Hybrid Casual)",
+     "location": "Warsaw",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4963495101",
+     "remote": false,
+     "posted": "2026-08-28T10:53:45-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -1672,17 +1672,6 @@
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4999486101",
      "remote": false,
      "posted": "2026-10-07T05:27:11-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
-     "id": "4980920101",
-     "title": "UX Designer",
-     "location": "Jakarta",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4980920101",
-     "remote": false,
-     "posted": "2026-09-21T03:36:24-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -2987,7 +2976,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T20:11:37+00:00",
-   "total": 44,
+   "total": 43,
    "jobs": [
     {
      "id": "R028135",
@@ -3091,7 +3080,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 351,
+   "total": 352,
    "jobs": [
     {
      "id": "216318",
@@ -3929,23 +3918,23 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "8200605",
-     "title": "Game Design Director (World of Warships, PC)",
-     "location": "Berlin",
-     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8200605",
-     "remote": false,
-     "posted": "2026-09-15T04:11:10-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "8200609",
      "title": "Game Design Director (World of Warships, PC)",
      "location": "Nicosia",
      "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8200609",
      "remote": false,
      "posted": "2026-09-15T03:52:01-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "8200605",
+     "title": "Game Design Director (World of Warships, PC)",
+     "location": "Berlin",
+     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8200605",
+     "remote": false,
+     "posted": "2026-09-15T04:11:10-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -4017,23 +4006,23 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "8159183",
-     "title": "UI Designer (World of Warships, PC)",
-     "location": "Belgrade",
-     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8159183",
-     "remote": false,
-     "posted": "2026-10-05T05:26:42-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "8159188",
      "title": "UI Designer (World of Warships, PC)",
      "location": "Nicosia",
      "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8159188",
      "remote": false,
      "posted": "2026-10-05T05:59:52-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "8159183",
+     "title": "UI Designer (World of Warships, PC)",
+     "location": "Belgrade",
+     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8159183",
+     "remote": false,
+     "posted": "2026-10-05T05:26:42-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
