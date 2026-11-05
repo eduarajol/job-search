@@ -668,6 +668,12 @@ def main():
             continue
         try:
             raw = READERS[src["type"]](src)
+            if src.get("allRemote"):
+                # Fully remote companies whose feed gives no location (Yodo1).
+                for j in raw:
+                    j["remote"] = True
+                    if not j["location"]:
+                        j["location"] = "Remote"
             jobs = []
             seen = set()
             for j in raw:
