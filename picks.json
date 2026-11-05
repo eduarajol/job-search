@@ -1,11 +1,16 @@
 {
-  "updated": "2026-11-05T06:48:35Z",
-  "basedOn": "2026-11-05T06:46:15+00:00",
+  "updated": "2026-11-05T09:14:05Z",
+  "basedOn": "2026-11-05T09:07:35+00:00",
   "picks": [
     {
       "key": "ubisoft-mobile:744000158059429",
       "fit": "Media",
       "reason": "Game Designer mobile F2P en Barcelona: features, sistemas y tuning de contenido. Pide 3+ años y balanceo de RPG F2P."
+    },
+    {
+      "key": "userwise:0853FED995",
+      "fit": "Media",
+      "reason": "Lead UI/UX en remoto para un F2P móvil casual con IP conocida: flujos, wireframes y prototipos. Pide experiencia senior en juegos lanzados."
     },
     {
       "key": "scopely:5449845008",
@@ -46,11 +51,6 @@
       "key": "scopely:5442575008",
       "fit": "Baja",
       "reason": "Combat Designer para un MMO de estrategia sin anunciar en Barcelona. Pide 4+ años diseñando contenido y sistemas de juego."
-    },
-    {
-      "key": "angrymob:325",
-      "fit": "Baja",
-      "reason": "Gameplay Designer para un co-op multijugador en Barcelona. Rol práctico de construir y ajustar mecánicas dentro del motor."
     }
   ]
 }
