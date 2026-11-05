@@ -2,6 +2,11 @@ name: Update game images
 
 on:
   workflow_dispatch:
+  # Find thumbnails right away when the game list changes.
+  push:
+    branches: [main]
+    paths:
+      - games.json
 
 permissions:
   contents: write

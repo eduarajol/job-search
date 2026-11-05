@@ -22,7 +22,8 @@ UA = "Mozilla/5.0 (job-search personal dashboard)"
 ALIASES = {
     "scopely": ["scopely", "niantic", "foxnext"], "king": ["king"], "socialpoint": ["social point", "socialpoint"],
     "gameloft": ["gameloft"], "ubisoft": ["ubisoft"], "tripledot": ["tripledot", "zephyr", "lion studios"],
-    "voodoo": ["voodoo"], "zynga": ["zynga", "peak", "small giant", "naturalmotion"], "moonactive": ["moon active"],
+    "voodoo": ["voodoo"], "ubisoft-mobile": ["ubisoft"], "yodo1": ["yodo1", "featherweight", "defiant"],
+    "viragames": ["vira games"], "userwise": ["halfbrick", "peoplefun", "userwise"], "zynga": ["zynga", "peak", "small giant", "naturalmotion"], "moonactive": ["moon active"],
     "rovio": ["rovio"], "outfit7": ["outfit7"], "zeptolab": ["zeptolab"], "larian": ["larian"],
     "ioi": ["io interactive", "ioi"], "activision": ["activision", "infinity ward", "treyarch", "toys for bob", "vicarious"],
     "blizzard": ["blizzard"], "ea": ["electronic arts", "ea swiss", "ea sports", "respawn", "dice", "maxis", "bioware", "motive", "full circle"],

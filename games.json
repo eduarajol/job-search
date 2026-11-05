@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29",
+ "updated": "2026-11-05",
  "studios": {
   "scopely": {
    "web": "https://scopely.com",
@@ -120,7 +120,7 @@
   },
   "ubisoft": {
    "web": "https://www.ubisoft.com",
-   "about": "En Barcelona tiene dos estudios: Ubisoft Barcelona y Ubisoft Barcelona Mobile.",
+   "about": "Ubisoft Barcelona trabaja en Rainbow Six Siege. El resto son otros juegos de PC y consola de Ubisoft.",
    "games": [
     {
      "n": "Rainbow Six Siege",
@@ -151,18 +151,24 @@
     },
     {
      "n": "Just Dance"
-    },
+    }
+   ]
+  },
+  "ubisoft-mobile": {
+   "web": "https://www.ubisoft.com",
+   "about": "Estudio de Ubisoft en Barcelona dedicado a juegos para móvil.",
+   "games": [
     {
      "n": "Invincible: Guarding the Globe",
-     "g": "Ubisoft Barcelona Mobile"
+     "bcn": true
     },
     {
      "n": "Hungry Dragon",
-     "g": "Ubisoft Barcelona Mobile"
+     "bcn": true
     },
     {
      "n": "Might & Magic: Elemental Guardians",
-     "g": "Ubisoft Barcelona Mobile"
+     "bcn": true
     }
    ]
   },
@@ -1201,6 +1207,77 @@
    "web": "https://www.athletic-club.eus",
    "about": "Club de fútbol de Bilbao.",
    "games": []
+  },
+  "yodo1": {
+   "web": "https://www.yodo1.com",
+   "about": "Edita y opera juegos móviles y de PC, y ofrece servicios de publishing y licencias de IP. Trabaja 100% en remoto.",
+   "games": [
+    {
+     "n": "Transformers: Earth Wars"
+    },
+    {
+     "n": "Rodeo Stampede"
+    },
+    {
+     "n": "Ski Safari"
+    },
+    {
+     "n": "Hand of Fate: Hordes"
+    }
+   ]
+  },
+  "viragames": {
+   "web": "https://www.vira.games",
+   "about": "Estudio ucraniano de juegos móviles casual e hipercasual. Trabaja 100% en remoto.",
+   "games": [
+    {
+     "n": "Life Sim 3D: Family Simulator"
+    },
+    {
+     "n": "Lifting Hero: More Strong"
+    },
+    {
+     "n": "DIY Factory"
+    },
+    {
+     "n": "Ragdoll Break: Kick Master"
+    },
+    {
+     "n": "Match 3D: Matching Tile Game"
+    },
+    {
+     "n": "Queens Race: Story of Heart"
+    },
+    {
+     "n": "Drag Race: Motorcycles Tuning"
+    },
+    {
+     "n": "Air Shooter: Girl Got Gun"
+    }
+   ]
+  },
+  "userwise": {
+   "web": "https://userwise.io",
+   "about": "Desarrollo, live-ops y crecimiento de juegos móviles para otras empresas.",
+   "games": [
+    {
+     "n": "Fruit Ninja Adventures",
+     "g": "Trabajo para clientes"
+    },
+    {
+     "n": "Wordscapes Search",
+     "g": "Trabajo para clientes"
+    },
+    {
+     "n": "Sudoku",
+     "g": "Trabajo para clientes"
+    },
+    {
+     "n": "Juego de un concurso de TV sin anunciar",
+     "dev": true,
+     "g": "Trabajo para clientes"
+    }
+   ]
   }
  }
 }
