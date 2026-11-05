@@ -218,7 +218,13 @@ def read_workable(src):
     data = get_json(f"https://apply.workable.com/api/v1/widget/accounts/{acct}")
     out = []
     for j in data.get("jobs", []):
-        loc = ", ".join(x for x in [j.get("city"), j.get("country")] if x)
+        # A remote offer can list several countries ("Serbia, Romania, Spain"): keep them all.
+        places = []
+        for l in j.get("locations") or [{"city": j.get("city"), "country": j.get("country")}]:
+            for x in (l.get("city"), l.get("country")):
+                if x and x not in places:
+                    places.append(x)
+        loc = ", ".join(places)
         out.append(job(
             j.get("shortcode") or j.get("id"), j.get("title"), loc,
             j.get("url") or j.get("application_url"),
