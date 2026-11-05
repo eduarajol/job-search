@@ -187,7 +187,7 @@ main .wrap { padding-block: 4px 56px; }
 .place { color: var(--place); font-weight: 500; }
 .rest { margin: 14px 0 0; font-size: 13px; color: var(--ink-soft); line-height: 1.7; }
 .rest a { color: var(--ink); font-weight: 600; text-underline-offset: 3px; }
-.cost { display: inline-flex; align-items: center; gap: 4px; font: 500 10.5px var(--mono); letter-spacing: .6px; text-transform: uppercase; padding: 2px 7px 2px 5px; border-radius: 5px; white-space: nowrap; align-self: center; cursor: help; }
+.cost { display: inline-flex; align-items: center; gap: 4px; font: 500 10.5px var(--mono); letter-spacing: .6px; text-transform: uppercase; padding: 4px 6px; border-radius: 5px; white-space: nowrap; align-self: center; cursor: help; }
 .cost .bars { width: 13px; height: 11px; display: block; }
 .cost.bajo { background: var(--good-bg); color: var(--good); }
 .cost.medio { background: var(--warn-bg); color: var(--warn); }
@@ -338,7 +338,6 @@ header.top.compact .stamp { display: none; }
     var b = el('span', 'cost ' + e.level);
     var ic = el('span'); ic.innerHTML = bars(COST[e.level][0]);
     b.appendChild(ic.firstChild);
-    b.appendChild(document.createTextNode(COST[e.level][1]));
     b.title = 'Preparar la candidatura: ' + COST[e.level][1].toLowerCase() + (e.note ? '. ' + e.note : '');
     b.setAttribute('aria-label', b.title);
     return b;
