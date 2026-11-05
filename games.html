@@ -244,7 +244,8 @@ header.top.compact .stamp { display: none; }
   function thumb(c, g) {
     var box = el('span', 'thumb' + (g.dev ? ' dev' : ''));
     box.setAttribute('aria-hidden', 'true');
-    var hit = images[c.id + ':' + g.n];
+    // "img" in games.json: a picture kept in the repo, used before the automatic one.
+    var hit = g.img ? { img: g.img } : images[c.id + ':' + g.n];
     if (hit && hit.img) {
       var img = new Image(); img.alt = ''; img.loading = 'lazy';
       img.onerror = function () { box.textContent = initialsOf(g.n); };
