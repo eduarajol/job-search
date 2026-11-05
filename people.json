@@ -2,8 +2,12 @@
  "people": [
   {
    "name": "Laura Nepormoseno",
+   "company": "scopely",
+   "role": "Senior UX Designer",
+   "why": "Coincidimos en el HMI de SEAT y CUPRA (Bertrandt). Lleva 2 años en Scopely Barcelona, empezó como UX Designer y ahora es Senior.",
+   "degree": 1,
    "status": "todo",
-   "notes": "Entrada de prueba para ver cómo queda la página."
+   "notes": "180 contactos en común."
   }
  ]
 }
