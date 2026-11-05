@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T09:56:37+00:00",
+ "updated": "2026-11-05T15:55:11+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -14,7 +14,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 170,
+   "total": 169,
    "jobs": [
     {
      "id": "5442573008",
@@ -94,23 +94,23 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
+     "id": "5473234008",
+     "title": "Senior Level Designer - Stumble Guys!",
+     "location": "ES - Barcelona, Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5473234008?gh_jid=5473234008",
+     "remote": false,
+     "posted": "2026-11-05T08:38:59-05:00",
+     "design": true,
+     "local": true,
+     "firstSeen": "2026-11-05T15:55:11+00:00"
+    },
+    {
      "id": "5429316008",
      "title": "Design Director, World Systems",
      "location": "US - United States",
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5429316008?gh_jid=5429316008",
      "remote": false,
      "posted": "2026-09-23T09:09:54-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "5379017008",
-     "title": "Lead Systems Designer - Star Trek Fleet Command",
-     "location": "GB - London, United Kingdom",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5379017008?gh_jid=5379017008",
-     "remote": false,
-     "posted": "2026-08-13T06:52:46-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -127,12 +127,12 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5449846008",
-     "title": "Lead UX Designer - Star Trek Fleet Command",
+     "id": "5379017008",
+     "title": "Lead Systems Designer - Star Trek Fleet Command",
      "location": "GB - London, United Kingdom",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5449846008?gh_jid=5449846008",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5379017008?gh_jid=5379017008",
      "remote": false,
-     "posted": "2026-10-12T04:46:53-04:00",
+     "posted": "2026-08-13T06:52:46-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -144,6 +144,17 @@
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5448555008?gh_jid=5448555008",
      "remote": false,
      "posted": "2026-10-12T04:46:49-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5449846008",
+     "title": "Lead UX Designer - Star Trek Fleet Command",
+     "location": "GB - London, United Kingdom",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5449846008?gh_jid=5449846008",
+     "remote": false,
+     "posted": "2026-10-12T04:46:53-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -435,15 +446,15 @@
      "firstSeen": "2026-10-29T22:46:28+00:00"
     },
     {
-     "id": "5282076008",
-     "title": "Performance Marketing Director",
+     "id": "5437074008",
+     "title": "Playable Ads Developer",
      "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5282076008?gh_jid=5282076008",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5437074008?gh_jid=5437074008",
      "remote": false,
-     "posted": "2026-07-09T04:37:37-04:00",
+     "posted": "2026-11-05T08:44:51-05:00",
      "design": false,
      "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
+     "firstSeen": "2026-11-05T15:55:11+00:00"
     },
     {
      "id": "5363714008",
@@ -452,17 +463,6 @@
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5363714008?gh_jid=5363714008",
      "remote": false,
      "posted": "2026-07-18T09:49:07-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "5412494008",
-     "title": "QA Analyst",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5412494008?gh_jid=5412494008",
-     "remote": false,
-     "posted": "2026-09-11T11:38:06-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -567,23 +567,23 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5434025008",
-     "title": "Senior Identity Security Engineer",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5434025008?gh_jid=5434025008",
-     "remote": false,
-     "posted": "2026-10-07T23:09:04-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5420171008",
      "title": "Senior Identity Security Engineer",
      "location": "ES - Spain",
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5420171008?gh_jid=5420171008",
      "remote": false,
      "posted": "2026-09-21T14:00:34-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5434025008",
+     "title": "Senior Identity Security Engineer",
+     "location": "ES - Barcelona, Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5434025008?gh_jid=5434025008",
+     "remote": false,
+     "posted": "2026-10-07T23:09:04-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -855,7 +855,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T20:11:37+00:00",
-   "total": 16,
+   "total": 15,
    "jobs": [
     {
      "id": "R027772",
@@ -941,17 +941,6 @@
      "url": "https://xboxgaming.wd1.myworkdayjobs.com/King_External_Careers/job/Barcelona---King---PG/Senior-Producer---Minecraft-Blast--New-Games_R027929",
      "remote": false,
      "posted": "2026-10-19T00:00:00.000+0000",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T20:11:37+00:00"
-    },
-    {
-     "id": "R028163",
-     "title": "Senior Systems Engineer | Shared Tech",
-     "location": "Barcelona, Spain",
-     "url": "https://xboxgaming.wd1.myworkdayjobs.com/King_External_Careers/job/Barcelona---King---PG/Senior-Systems-Engineer---Shared-Tech_R028163",
-     "remote": false,
-     "posted": "2026-09-24T00:00:00.000+0000",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T20:11:37+00:00"
@@ -1490,6 +1479,17 @@
      "firstSeen": "2026-11-02T06:46:57+00:00"
     },
     {
+     "id": "4945678101",
+     "title": "Game Designer (Hybrid Casual)",
+     "location": "Limassol",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4945678101",
+     "remote": false,
+     "posted": "2026-08-05T11:53:43-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
      "id": "4963495101",
      "title": "Game Designer (Hybrid Casual)",
      "location": "Warsaw",
@@ -1507,17 +1507,6 @@
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4944288101",
      "remote": false,
      "posted": "2026-08-05T11:52:20-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
-     "id": "4945678101",
-     "title": "Game Designer (Hybrid Casual)",
-     "location": "Limassol",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4945678101",
-     "remote": false,
-     "posted": "2026-08-05T11:53:43-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -1590,7 +1579,7 @@
     },
     {
      "id": "4999078101",
-     "title": "Senior Level Designer",
+     "title": "Level Designer",
      "location": "Warsaw",
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4999078101",
      "remote": false,
@@ -1699,23 +1688,23 @@
      "firstSeen": "2026-10-28T17:49:21+00:00"
     },
     {
-     "id": "4960068101",
-     "title": "Senior Ad Monetisation Analyst",
-     "location": "Remote Europe",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4960068101",
-     "remote": true,
-     "posted": "2026-08-25T06:37:03-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
      "id": "4962295101",
      "title": "Senior Ad Monetisation Analyst",
      "location": "Barcelona",
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4962295101",
      "remote": false,
      "posted": "2026-08-27T10:44:54-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4960068101",
+     "title": "Senior Ad Monetisation Analyst",
+     "location": "Remote Europe",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4960068101",
+     "remote": true,
+     "posted": "2026-08-25T06:37:03-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -2326,6 +2315,17 @@
      "firstSeen": "2026-11-05T09:04:25+00:00"
     },
     {
+     "id": "R0023038",
+     "title": "Associate Product Analyst",
+     "location": "Spain (Barcelona)",
+     "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Spain-Barcelona/Associate-Product-Analyst_R0023038",
+     "remote": false,
+     "posted": "2026-11-05",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-05T15:55:11+00:00"
+    },
+    {
      "id": "R0023071",
      "title": "ML Engineer",
      "location": "Barcelona, Spain",
@@ -2370,17 +2370,6 @@
      "firstSeen": "2026-10-29T00:15:52+00:00"
     },
     {
-     "id": "R0022646",
-     "title": "Senior Associate Product Manager",
-     "location": "Barcelona, Spain",
-     "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Associate-Product-Manager_R0022646",
-     "remote": false,
-     "posted": null,
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-29T00:15:52+00:00"
-    },
-    {
      "id": "R0022725",
      "title": "Senior Data Analyst",
      "location": "Barcelona, Spain",
@@ -2390,6 +2379,17 @@
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
+    },
+    {
+     "id": "R0023047",
+     "title": "Senior Games Producer",
+     "location": "Barcelona, Spain",
+     "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Games-Producer_R0023047",
+     "remote": false,
+     "posted": "2026-11-05",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-05T15:55:11+00:00"
     },
     {
      "id": "R0023070",
@@ -2762,7 +2762,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 64,
+   "total": 65,
    "jobs": [
     {
      "id": "R028091",
@@ -3014,7 +3014,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 345,
+   "total": 346,
    "jobs": [
     {
      "id": "216318",
@@ -3841,23 +3841,23 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "8200605",
-     "title": "Game Design Director (World of Warships, PC)",
-     "location": "Berlin",
-     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8200605",
-     "remote": false,
-     "posted": "2026-09-15T04:11:10-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "8200609",
      "title": "Game Design Director (World of Warships, PC)",
      "location": "Nicosia",
      "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8200609",
      "remote": false,
      "posted": "2026-09-15T03:52:01-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "8200605",
+     "title": "Game Design Director (World of Warships, PC)",
+     "location": "Berlin",
+     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8200605",
+     "remote": false,
+     "posted": "2026-09-15T04:11:10-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -3896,6 +3896,17 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
+     "id": "8305734",
+     "title": "Senior UI Designer (World of Tanks Console)",
+     "location": "Vilnius",
+     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8305734",
+     "remote": false,
+     "posted": "2026-10-28T03:28:19-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
      "id": "8305729",
      "title": "Senior UI Designer (World of Tanks Console)",
      "location": "Nicosia",
@@ -3918,12 +3929,12 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "8305734",
-     "title": "Senior UI Designer (World of Tanks Console)",
-     "location": "Vilnius",
-     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8305734",
+     "id": "8159188",
+     "title": "UI Designer (World of Warships, PC)",
+     "location": "Nicosia",
+     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8159188",
      "remote": false,
-     "posted": "2026-10-28T03:28:19-04:00",
+     "posted": "2026-10-05T05:59:52-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -3935,17 +3946,6 @@
      "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8159183",
      "remote": false,
      "posted": "2026-10-05T05:26:42-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "8159188",
-     "title": "UI Designer (World of Warships, PC)",
-     "location": "Nicosia",
-     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8159188",
-     "remote": false,
-     "posted": "2026-10-05T05:59:52-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -4130,7 +4130,7 @@
      "title": "Principal 3Cs Designer | Fully Remote",
      "location": "United States, Canada, Spain, United Kingdom, Czech Republic",
      "url": "https://job-boards.greenhouse.io/escapevelocityentertainmentinc/jobs/4438743009",
-     "remote": false,
+     "remote": true,
      "posted": "2026-10-08T13:04:28-04:00",
      "design": true,
      "local": true,
@@ -4141,7 +4141,7 @@
      "title": "Principal Combat Designer | Fully Remote",
      "location": "United States, Canada, Spain, United Kingdom, Czech Republic",
      "url": "https://job-boards.greenhouse.io/escapevelocityentertainmentinc/jobs/4408001009",
-     "remote": false,
+     "remote": true,
      "posted": "2026-10-07T05:39:29-04:00",
      "design": true,
      "local": true,
@@ -4152,7 +4152,7 @@
      "title": "Senior Game AI Designer | Fully Remote",
      "location": "United States, Canada, Spain, United Kingdom, Czech Republic",
      "url": "https://job-boards.greenhouse.io/escapevelocityentertainmentinc/jobs/4409665009",
-     "remote": false,
+     "remote": true,
      "posted": "2026-10-07T05:40:04-04:00",
      "design": true,
      "local": true,
@@ -4163,7 +4163,7 @@
      "title": "Senior Gameplay Designer (Characters) | Fully Remote",
      "location": "United States, Canada, Spain, United Kingdom, Czech Republic",
      "url": "https://job-boards.greenhouse.io/escapevelocityentertainmentinc/jobs/4409727009",
-     "remote": false,
+     "remote": true,
      "posted": "2026-10-07T05:40:36-04:00",
      "design": true,
      "local": true,
@@ -4174,7 +4174,7 @@
      "title": "Senior Gameplay Designer | Fully Remote",
      "location": "United States, Canada, Spain, United Kingdom, Czech Republic",
      "url": "https://job-boards.greenhouse.io/escapevelocityentertainmentinc/jobs/4409771009",
-     "remote": false,
+     "remote": true,
      "posted": "2026-10-07T05:41:14-04:00",
      "design": true,
      "local": true,
@@ -4185,7 +4185,7 @@
      "title": "Lead Outsourcing VFX Artist | Fully Remote",
      "location": "United States, Canada, Spain, United Kingdom, Czech Republic",
      "url": "https://job-boards.greenhouse.io/escapevelocityentertainmentinc/jobs/4438551009",
-     "remote": false,
+     "remote": true,
      "posted": "2026-10-08T11:20:53-04:00",
      "design": false,
      "local": true,
@@ -4196,7 +4196,7 @@
      "title": "Regular Gameplay Engineer (Mid Level) | Fully Remote",
      "location": "United States, Canada, Spain, United Kingdom, Czech Republic",
      "url": "https://job-boards.greenhouse.io/escapevelocityentertainmentinc/jobs/4409527009",
-     "remote": false,
+     "remote": true,
      "posted": "2026-10-07T05:38:58-04:00",
      "design": false,
      "local": true,
@@ -4275,14 +4275,14 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 376,
+   "total": 378,
    "jobs": [
     {
      "id": "36186",
      "title": "Technical Designer (Remote) - Talent Pipeline",
      "location": "Spain",
      "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xgJ-technical-designer-remote-talent-pipeline/",
-     "remote": false,
+     "remote": true,
      "posted": "2026-06-06T10:32:06+01:00",
      "design": true,
      "local": true,
@@ -4355,12 +4355,12 @@
      "firstSeen": "2026-10-28T22:59:48+00:00"
     },
     {
-     "id": "37697",
+     "id": "31365",
      "title": "Level Designer",
-     "location": "Bucharest, Bucharest, Romania",
-     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xoe-level-designer/",
+     "location": "Singapore, Singapore, Singapore",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/AxZ-level-designer/",
      "remote": false,
-     "posted": "2026-09-17T10:32:08+01:00",
+     "posted": "2026-10-05T10:30:12+01:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
@@ -4372,17 +4372,6 @@
      "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xmR-level-designer/",
      "remote": false,
      "posted": "2026-09-17T10:32:01+01:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
-     "id": "31365",
-     "title": "Level Designer",
-     "location": "Singapore, Singapore, Singapore",
-     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/AxZ-level-designer/",
-     "remote": false,
-     "posted": "2026-10-05T10:30:12+01:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
@@ -4405,6 +4394,17 @@
      "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xoY-level-designer/",
      "remote": false,
      "posted": "2026-09-17T10:32:06+01:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "37697",
+     "title": "Level Designer",
+     "location": "Bucharest, Bucharest, Romania",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xoe-level-designer/",
+     "remote": false,
+     "posted": "2026-09-17T10:32:08+01:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
@@ -4487,23 +4487,23 @@
      "firstSeen": "2026-10-28T22:59:48+00:00"
     },
     {
-     "id": "36188",
+     "id": "36187",
      "title": "Technical Designer (Remote) - Talent Pipeline",
-     "location": "Greece",
-     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xgc-technical-designer-remote-talent-pipeline/",
-     "remote": false,
-     "posted": "2026-06-06T10:32:11+01:00",
+     "location": "Netherlands",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xgV-technical-designer-remote-talent-pipeline/",
+     "remote": true,
+     "posted": "2026-06-06T10:32:08+01:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
     },
     {
-     "id": "36187",
+     "id": "36188",
      "title": "Technical Designer (Remote) - Talent Pipeline",
-     "location": "Netherlands",
-     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xgV-technical-designer-remote-talent-pipeline/",
-     "remote": false,
-     "posted": "2026-06-06T10:32:08+01:00",
+     "location": "Greece",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xgc-technical-designer-remote-talent-pipeline/",
+     "remote": true,
+     "posted": "2026-06-06T10:32:11+01:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
@@ -4831,7 +4831,7 @@
    "logos": null,
    "status": "ok",
    "since": "2026-11-05T09:54:19+00:00",
-   "total": 6,
+   "total": 8,
    "jobs": [
     {
      "id": "4cfc76b2-2b94-4d05-bfed-5b33ce3311a3",
@@ -4889,6 +4889,17 @@
      "firstSeen": "2026-11-05T09:56:37+00:00"
     },
     {
+     "id": "4645effe-0f0d-4db2-805b-2b7108bed33b",
+     "title": "Games Recruiter - China Market (中国招聘专员)",
+     "location": "Remote",
+     "url": "https://careers.yodo1.com/jobs/8657755-games-recruiter-china-market",
+     "remote": true,
+     "posted": "2026-11-03T11:35:16+00:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-05T15:55:11+00:00"
+    },
+    {
      "id": "e8112ac8-ce99-4bb2-805c-21b04421f674",
      "title": "Marketing Manager/Lead (BiG) - China",
      "location": "Remote",
@@ -4898,6 +4909,17 @@
      "design": false,
      "local": true,
      "firstSeen": "2026-11-05T09:56:37+00:00"
+    },
+    {
+     "id": "e3836683-6e04-4f6f-a340-81f72b1ce1b5",
+     "title": "Project Operations Manager - China",
+     "location": "Remote",
+     "url": "https://careers.yodo1.com/jobs/8059946-project-operations-manager-china",
+     "remote": true,
+     "posted": "2026-07-13T13:37:35+01:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-05T15:55:11+00:00"
     }
    ]
   },
@@ -4911,7 +4933,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 58,
+   "total": 57,
    "jobs": [
     {
      "id": "744000158050965",
