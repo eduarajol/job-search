@@ -42,6 +42,7 @@ NOT_DESIGN = re.compile(
 )
 LOCAL = re.compile(r"barcelona|spain|españa|espana|catalonia|cataluña|catalunya", re.I)
 REMOTE = re.compile(r"remote|remoto|anywhere|work from home|wfh", re.I)
+NOT_REMOTE = re.compile(r"\b(non|not|no)[- ]remote\b", re.I)
 EUROPE = re.compile(r"europe|emea|eu\b|spain|españa|worldwide|global|anywhere", re.I)
 
 
@@ -668,6 +669,10 @@ def main():
             continue
         try:
             raw = READERS[src["type"]](src)
+            for j in raw:
+                # Some boards only say it in the title: "Senior Designer | Fully Remote".
+                if not j["remote"] and REMOTE.search(j["title"] or "") and not NOT_REMOTE.search(j["title"] or ""):
+                    j["remote"] = True
             if src.get("allRemote"):
                 # Fully remote companies whose feed gives no location (Yodo1).
                 for j in raw:
