@@ -187,6 +187,12 @@ main .wrap { padding-block: 4px 56px; }
 .place { color: var(--place); font-weight: 500; }
 .rest { margin: 14px 0 0; font-size: 13px; color: var(--ink-soft); line-height: 1.7; }
 .rest a { color: var(--ink); font-weight: 600; text-underline-offset: 3px; }
+.cost { display: inline-flex; align-items: center; gap: 4px; font: 500 10.5px var(--mono); letter-spacing: .6px; text-transform: uppercase; padding: 2px 7px 2px 5px; border-radius: 5px; white-space: nowrap; align-self: center; cursor: help; }
+.cost .coins { letter-spacing: -1px; font-weight: 700; }
+.cost.barato { background: var(--good-bg); color: var(--good); }
+.cost.medio { background: var(--warn-bg); color: var(--warn); }
+.cost.caro { background: var(--bad-bg); color: var(--bad); }
+.picks .cost { justify-self: start; }
 .new { font: 500 10.5px var(--mono); letter-spacing: .6px; text-transform: uppercase; padding: 2px 6px; border-radius: 5px; background: var(--teal); color: var(--paper); align-self: center; }
 .more { align-self: flex-start; background: none; border: 0; padding: 4px 0; color: var(--ink); font: 600 13px var(--display); text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
 .msg { margin: 0; font-size: 13.5px; color: var(--ink-soft); }
@@ -318,6 +324,20 @@ header.top.compact .stamp { display: none; }
   var SHOW = 5;
   var state = { f: { ux: true, gd: true, bcn: true, remote: true }, text: '', open: {} };
   var applied = {};
+  var effort = {};
+  // Cost of preparing the application (effort.json): barato, medio or caro.
+  var COST = { barato: ['€', 'Barato'], medio: ['€€', 'Medio'], caro: ['€€€', 'Caro'] };
+  function costBadge(key) {
+    var e = effort[key];
+    if (!e || !COST[e.level]) return null;
+    var b = el('span', 'cost ' + e.level);
+    var c = el('span', 'coins', COST[e.level][0]); c.setAttribute('aria-hidden', 'true');
+    b.appendChild(c);
+    b.appendChild(document.createTextNode(COST[e.level][1]));
+    b.title = 'Preparar la candidatura: ' + COST[e.level][1].toLowerCase() + (e.note ? '. ' + e.note : '');
+    b.setAttribute('aria-label', b.title);
+    return b;
+  }
   var data = null;
 
   try {
@@ -604,6 +624,8 @@ header.top.compact .stamp { display: none; }
     var done = applied[c.id + ':' + j.id];
     if (done) { badge.appendChild(appliedBadge()); li.className = 'is-applied'; }
     if (isNew(j, c)) badge.appendChild(el('span', 'new', 'Nueva'));
+    var cb = costBadge(c.id + ':' + j.id);
+    if (cb) badge.appendChild(cb);
     var pt = placeText(j), place = pt.text;
     var when = dateText(j);
     var ni = withCompany ? newInfo(j, c) : null;
@@ -715,6 +737,7 @@ header.top.compact .stamp { display: none; }
     [['gd', 'Game design'], ['ux', 'UX / UI'], ['other', 'Otros puestos']].forEach(function (p) {
       var s = el('span'); var g = el('span', 'gem ' + p[0]); g.setAttribute('aria-hidden', 'true'); s.appendChild(g); s.appendChild(document.createTextNode(p[1])); legend.appendChild(s);
     });
+    var cs2 = el('span'); cs2.appendChild(document.createTextNode('Preparar la candidatura: € barato · €€ medio · €€€ caro')); legend.appendChild(cs2);
     sum.appendChild(legend);
 
     if (fresh.length) {
@@ -851,6 +874,8 @@ header.top.compact .stamp { display: none; }
       if (pd) { meta.appendChild(document.createTextNode(' · ')); meta.appendChild(el('span', 'date', pd)); }
       a.appendChild(meta);
       if (applied[p.key]) { li.className = 'is-applied'; var ab = appliedBadge(); ab.style.justifySelf = 'start'; a.appendChild(ab); }
+      var pc = costBadge(p.key);
+      if (pc) a.appendChild(pc);
       if (p.reason) a.appendChild(el('span', 'why', p.reason));
       li.appendChild(a);
       ol.appendChild(li);
@@ -908,7 +933,13 @@ header.top.compact .stamp { display: none; }
         .then(function (ap) {
           ((ap && ap.applied) || []).forEach(function (x) { applied[typeof x === 'string' ? x : x.key] = true; });
         })
-        .catch(function () {});
+        .catch(function () {})
+        .then(function () {
+          return fetch('effort.json?t=' + Date.now(), { cache: 'no-store' })
+            .then(function (r) { return r.ok ? r.json() : null; })
+            .then(function (ef) { effort = (ef && ef.effort) || {}; })
+            .catch(function () {});
+        });
     })
     .then(function () {
       if (!data) return;

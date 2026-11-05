@@ -9,6 +9,7 @@ Página personal para revisar cada día las ofertas de Game Design y UX de los e
 - `.github/workflows/update-jobs.yml`: ejecuta el script cada día a las 7:30 y a las 19:30 (hora de Barcelona) y guarda el resultado.
 - `details.json`: descripción completa de las ofertas de diseño y UX en Barcelona o remoto.
 - `picks.json`: el Top-10 de ofertas que mejor encajan, que Claude elige en una tarea programada a las 7:45 y a las 19:45.
+- `effort.json`: lo que cuesta preparar la candidatura a cada oferta (`barato`, `medio` o `caro`), con una nota corta. La página lo muestra como € / €€ / €€€ en Ofertas y en el Top 10. La tarea programada del Top 10 añade las ofertas nuevas.
 - `applied.json`: candidaturas enviadas. Cada una lleva la clave `companyId:jobId`, el puesto, la fecha, el estado (`applied`, `process`, `offer`, `rejected` o `withdrawn`), en qué punto estoy, qué envié, el referral y los pasos del proceso. La página de ofertas las marca con «Aplicada».
 - `applied.html`: página «Aplicadas», el histórico de candidaturas. Se genera desde `src/applied.html`.
 - `people.json` y `people.html`: página «Personas», la gente de los estudios con la que quiero contactar. Cada persona lleva nombre, enlace a LinkedIn, empresa (`id` de `companies.json`), equipo o juego, cargo, por qué encaja, ubicación según su LinkedIn (`location`), grado de conexión (`degree`), estado (`todo`, `contacted`, `replied`, `talked` o `noreply`), fecha de contacto y notas. Un campo con valor `""` se muestra como «Falta», para acordarme de rellenarlo. Se genera desde `src/people.html`.
