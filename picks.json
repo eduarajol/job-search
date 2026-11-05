@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-05T09:14:05Z",
-  "basedOn": "2026-11-05T09:07:35+00:00",
+  "updated": "2026-11-05T18:45:50Z",
+  "basedOn": "2026-11-05T15:55:11+00:00",
   "picks": [
     {
       "key": "ubisoft-mobile:744000158059429",
@@ -43,9 +43,9 @@
       "reason": "Game Designer de modos multijugador en Paper.io 2, remoto o Barcelona. Pide 5+ años en juegos móviles F2P."
     },
     {
-      "key": "bandainamco:2840478",
+      "key": "yodo1:4cfc76b2-2b94-4d05-bfed-5b33ce3311a3",
       "fit": "Baja",
-      "reason": "Principal Systems Designer en un F2P móvil en soft launch: core loop, meta, economía y LiveOps. Pide RPG de escuadras y Unity."
+      "reason": "Senior Game Designer en remoto para Transformers: Earth Wars: personajes, eventos y balance F2P. Pide Unity y experiencia en juegos live."
     },
     {
       "key": "scopely:5442575008",
