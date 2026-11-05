@@ -225,7 +225,6 @@ header.top.compact .stamp { display: none; }
     ['noreply', 'Sin respuesta']
   ];
   var LABEL = {}; STATUS.forEach(function (s) { LABEL[s[0]] = s[1]; });
-  var PRIO = { alta: 0, media: 1, baja: 2 };
   var MONTHS = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
   function el(tag, cls, text) { var n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; }
   function initials(name) { return name.split(/[\s-]+/).map(function (w) { return w[0]; }).join('').slice(0, 2).toUpperCase(); }
@@ -279,7 +278,7 @@ header.top.compact .stamp { display: none; }
   }
 
   // Fields kept as "" in people.json are shown as missing, as a reminder to fill them in.
-  var FIELDS = [['team', 'Equipo o juego'], ['role', 'Cargo'], ['why', 'Por qué encaja'], ['linkedin', 'LinkedIn'], ['degree', 'Grado de conexión'], ['priority', 'Prioridad'], ['contacted', 'Contacto']];
+  var FIELDS = [['team', 'Equipo o juego'], ['role', 'Cargo'], ['why', 'Por qué encaja'], ['linkedin', 'LinkedIn'], ['location', 'Ubicación'], ['degree', 'Grado de conexión'], ['contacted', 'Contacto']];
   function missing(p) { return FIELDS.filter(function (f) { return p[f[0]] === ''; }); }
 
   function person(p) {
@@ -292,17 +291,15 @@ header.top.compact .stamp { display: none; }
     var st = p.status || 'todo';
     top.appendChild(el('span', 'pill ' + st, LABEL[st] || st));
     if (isDue(p)) top.appendChild(el('span', 'pill due', 'Toca recordatorio'));
-    if (p.priority === 'alta') top.appendChild(el('span', 'pill high', 'Prioridad alta'));
     if (missing(p).length) top.appendChild(el('span', 'pill gap', 'Faltan datos'));
     if (p.degree) top.appendChild(el('span', 'pill', p.degree === 1 ? '1.er grado' : p.degree + '.º grado'));
     row.appendChild(top);
-    var role = [p.role, p.team].filter(Boolean).join(' · ');
+    var role = [p.role, p.team, p.location].filter(Boolean).join(' · ');
     if (role) row.appendChild(el('div', 'p-role', role));
 
     var dl = el('dl', 'facts');
     [['Por qué encaja', p.why],
      ['Contacto', p.contacted ? 'Le escribí ' + (String(p.contacted).split('-').length < 3 ? 'en ' : 'el ') + fmt(p.contacted) : null],
-     ['Prioridad', p.priority && p.priority !== 'alta' ? p.priority.charAt(0).toUpperCase() + p.priority.slice(1) : null],
      ['Notas', p.notes, 'note']].forEach(function (f) {
       if (!f[1]) return;
       dl.appendChild(el('dt', null, f[0]));
@@ -344,7 +341,7 @@ header.top.compact .stamp { display: none; }
       s.appendChild(head);
       var panel = el('div', 'panel');
       g.people.sort(function (a, b) {
-        return (isDue(b) - isDue(a)) || ((PRIO[a.priority] ?? 1) - (PRIO[b.priority] ?? 1)) || String(a.name).localeCompare(String(b.name));
+        return (isDue(b) - isDue(a)) || String(a.name).localeCompare(String(b.name));
       }).forEach(function (p) { panel.appendChild(person(p)); });
       s.appendChild(panel);
       app.appendChild(s);
