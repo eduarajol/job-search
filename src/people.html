@@ -161,6 +161,8 @@ header.top.compact .stamp { display: none; }
 .pill.due { background: var(--red); color: var(--paper); }
 .person .facts { margin: 4px 0 0; }
 .person .facts dd.note { color: var(--ink-soft); }
+.person .facts dd.missing { color: var(--ink-soft); font-style: italic; }
+.pill.gap { background: transparent; box-shadow: inset 0 0 0 1.5px var(--line); color: var(--ink-soft); }
 @media (max-width: 640px) {
   .person { padding: 16px; }
 }
@@ -264,6 +266,10 @@ header.top.compact .stamp { display: none; }
     return box;
   }
 
+  // Fields kept as "" in people.json are shown as missing, as a reminder to fill them in.
+  var FIELDS = [['team', 'Equipo o juego'], ['role', 'Cargo'], ['why', 'Por qué encaja'], ['linkedin', 'LinkedIn'], ['degree', 'Grado de conexión'], ['priority', 'Prioridad'], ['contacted', 'Contacto'], ['followup', 'Recordatorio']];
+  function missing(p) { return FIELDS.filter(function (f) { return p[f[0]] === ''; }); }
+
   function person(p) {
     var row = el('article', 'person');
     var top = el('div', 'p-top');
@@ -275,6 +281,7 @@ header.top.compact .stamp { display: none; }
     top.appendChild(el('span', 'pill ' + st, LABEL[st] || st));
     if (isDue(p)) top.appendChild(el('span', 'pill due', 'Toca recordatorio'));
     if (p.priority === 'alta') top.appendChild(el('span', 'pill high', 'Prioridad alta'));
+    if (missing(p).length) top.appendChild(el('span', 'pill gap', 'Faltan datos'));
     if (p.degree) top.appendChild(el('span', 'pill', p.degree === 1 ? '1.er grado' : p.degree + '.º grado'));
     row.appendChild(top);
     var role = [p.role, p.team].filter(Boolean).join(' · ');
@@ -282,13 +289,17 @@ header.top.compact .stamp { display: none; }
 
     var dl = el('dl', 'facts');
     [['Por qué encaja', p.why],
-     ['Contacto', p.contacted ? 'Le escribí el ' + fmt(p.contacted) : null],
+     ['Contacto', p.contacted ? 'Le escribí ' + (String(p.contacted).split('-').length < 3 ? 'en ' : 'el ') + fmt(p.contacted) : null],
      ['Recordatorio', p.followup && st === 'contacted' ? fmt(p.followup) : null],
      ['Prioridad', p.priority && p.priority !== 'alta' ? p.priority.charAt(0).toUpperCase() + p.priority.slice(1) : null],
      ['Notas', p.notes, 'note']].forEach(function (f) {
       if (!f[1]) return;
       dl.appendChild(el('dt', null, f[0]));
       dl.appendChild(el('dd', f[2] || null, f[1]));
+    });
+    missing(p).forEach(function (f) {
+      dl.appendChild(el('dt', null, f[1]));
+      dl.appendChild(el('dd', 'missing', 'Falta'));
     });
     if (dl.childNodes.length) row.appendChild(dl);
     return row;
