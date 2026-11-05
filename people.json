@@ -1,3 +1,9 @@
 {
- "people": []
+ "people": [
+  {
+   "name": "Laura Nepormoseno",
+   "status": "todo",
+   "notes": "Entrada de prueba para ver cómo queda la página."
+  }
+ ]
 }
