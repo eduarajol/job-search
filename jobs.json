@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T09:07:35+00:00",
+ "updated": "2026-11-05T09:54:19+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -1756,7 +1756,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 102,
+   "total": 101,
    "jobs": [
     {
      "id": "d633533c-ac08-440e-a6b6-33351b3ad005",
@@ -3014,7 +3014,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 347,
+   "total": 345,
    "jobs": [
     {
      "id": "216318",
@@ -3320,17 +3320,6 @@
      "url": "https://jobs.ea.com/en_US/careers/JobDetail/Lead-Designer-UI-UX/216388",
      "remote": false,
      "posted": null,
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
-     "id": "213598",
-     "title": "Lead Features Designer",
-     "location": "Manchester, United Kingdom",
-     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Lead-Features-Designer/213598",
-     "remote": false,
-     "posted": "2026-04-08T00:00:00+00:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
@@ -4729,6 +4718,133 @@
    "since": "2026-10-29T14:16:28+00:00",
    "total": 6,
    "jobs": []
+  },
+  {
+   "id": "viragames",
+   "name": "Vira Games",
+   "group": "mobile",
+   "note": "Juegos móviles, 100% remoto",
+   "domain": "vira.games",
+   "careers": "https://viragames.teamtailor.com/jobs",
+   "logos": null,
+   "status": "ok",
+   "since": "2026-11-05T09:54:19+00:00",
+   "total": 8,
+   "jobs": [
+    {
+     "id": "805b5037-c1a4-4cd0-b231-736ed3144fc4",
+     "title": "Game Economy Designer",
+     "location": "Europe (Remote), Kyiv, Ukraine",
+     "url": "https://viragames.teamtailor.com/jobs/8026441-game-economy-designer",
+     "remote": true,
+     "posted": "2026-07-06T18:10:10+02:00",
+     "design": true,
+     "local": true,
+     "firstSeen": "2026-11-05T09:54:19+00:00"
+    },
+    {
+     "id": "69b850bf-c636-415d-a1f6-354f9b7b710f",
+     "title": "Senior Game Designer",
+     "location": "Europe (Remote), Kyiv, Ukraine",
+     "url": "https://viragames.teamtailor.com/jobs/8633837-senior-game-designer",
+     "remote": true,
+     "posted": "2026-10-29T08:37:06+01:00",
+     "design": true,
+     "local": true,
+     "firstSeen": "2026-11-05T09:54:19+00:00"
+    },
+    {
+     "id": "1702be08-2892-431a-8eda-a33d633f3748",
+     "title": "3D Animator",
+     "location": "Europe (Remote), Kyiv, Ukraine",
+     "url": "https://viragames.teamtailor.com/jobs/8554161-3d-animator",
+     "remote": true,
+     "posted": "2026-10-15T18:59:33+02:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-05T09:54:19+00:00"
+    },
+    {
+     "id": "8da6879b-c218-4b59-81fc-8755b11f94a0",
+     "title": "Creative Producer",
+     "location": "Europe (Remote), Kyiv, Ukraine",
+     "url": "https://viragames.teamtailor.com/jobs/8667020-creative-producer",
+     "remote": true,
+     "posted": "2026-11-04T15:33:51+01:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-05T09:54:19+00:00"
+    },
+    {
+     "id": "5a2a388e-b98b-4378-88ee-a018eb764cb7",
+     "title": "Game Discovery Producer",
+     "location": "Europe (Remote), Kyiv, Ukraine",
+     "url": "https://viragames.teamtailor.com/jobs/8357211-game-discovery-producer",
+     "remote": true,
+     "posted": "2026-09-10T09:56:11+02:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-05T09:54:19+00:00"
+    },
+    {
+     "id": "ec3ce011-3825-4a56-b812-26cbf99b0ba0",
+     "title": "Head of Publishing",
+     "location": "Europe (Remote), Kyiv, Ukraine",
+     "url": "https://viragames.teamtailor.com/jobs/8475036-head-of-publishing",
+     "remote": true,
+     "posted": "2026-09-29T18:37:59+02:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-05T09:54:19+00:00"
+    },
+    {
+     "id": "a8782c3a-feb4-466b-943b-5e0457049723",
+     "title": "IT Administrator",
+     "location": "Europe (Remote), Kyiv, Ukraine",
+     "url": "https://viragames.teamtailor.com/jobs/8653824-it-administrator",
+     "remote": true,
+     "posted": "2026-11-02T18:27:04+01:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-05T09:54:19+00:00"
+    },
+    {
+     "id": "84a66678-b75e-4522-acb8-0bd862c8d5cb",
+     "title": "Middle Legal Counsel",
+     "location": "Europe (Remote), Kyiv, Ukraine",
+     "url": "https://viragames.teamtailor.com/jobs/8638184-middle-legal-counsel",
+     "remote": true,
+     "posted": "2026-10-29T16:21:02+01:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-05T09:54:19+00:00"
+    }
+   ]
+  },
+  {
+   "id": "yodo1",
+   "name": "Yodo1 Games",
+   "group": "mobile",
+   "note": "Transformers: Earth Wars, 100% remoto",
+   "domain": "yodo1.com",
+   "careers": "https://careers.yodo1.com/jobs",
+   "logos": null,
+   "status": "ok",
+   "since": "2026-11-05T09:54:19+00:00",
+   "total": 6,
+   "jobs": [
+    {
+     "id": "4cfc76b2-2b94-4d05-bfed-5b33ce3311a3",
+     "title": "Senior Game Designer",
+     "location": "",
+     "url": "https://careers.yodo1.com/jobs/8224438-senior-game-designer",
+     "remote": false,
+     "posted": "2026-08-14T16:51:29+01:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-11-05T09:54:19+00:00"
+    }
+   ]
   },
   {
    "id": "cdpr",
