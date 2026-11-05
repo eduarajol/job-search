@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-04T18:49:24Z",
-  "basedOn": "2026-11-04T18:46:03+00:00",
+  "updated": "2026-11-05T06:48:35Z",
+  "basedOn": "2026-11-05T06:46:15+00:00",
   "picks": [
     {
       "key": "ubisoft-mobile:744000158059429",
@@ -40,7 +40,7 @@
     {
       "key": "bandainamco:2840478",
       "fit": "Baja",
-      "reason": "Systems Designer en un F2P móvil en soft launch: core loop, meta, economía y LiveOps. Pide RPG de escuadras y uso de Unity."
+      "reason": "Principal Systems Designer en un F2P móvil en soft launch: core loop, meta, economía y LiveOps. Pide RPG de escuadras y Unity."
     },
     {
       "key": "scopely:5442575008",
