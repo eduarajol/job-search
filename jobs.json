@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T06:46:15+00:00",
+ "updated": "2026-11-05T09:04:25+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -14,7 +14,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 171,
+   "total": 170,
    "jobs": [
     {
      "id": "5442573008",
@@ -127,17 +127,6 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5448555008",
-     "title": "Lead UX Designer - Star Trek Fleet Command",
-     "location": "IE - Ireland",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5448555008?gh_jid=5448555008",
-     "remote": false,
-     "posted": "2026-10-12T04:46:49-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5449846008",
      "title": "Lead UX Designer - Star Trek Fleet Command",
      "location": "GB - London, United Kingdom",
@@ -149,12 +138,12 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "4981693008",
-     "title": "Senior Economy Designer - Monster Hunter Now",
-     "location": "JP - Tokyo, Japan",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/4981693008?gh_jid=4981693008",
+     "id": "5448555008",
+     "title": "Lead UX Designer - Star Trek Fleet Command",
+     "location": "IE - Ireland",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5448555008?gh_jid=5448555008",
      "remote": false,
-     "posted": "2025-11-09T21:44:21-05:00",
+     "posted": "2026-10-12T04:46:49-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -866,7 +855,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T20:11:37+00:00",
-   "total": 15,
+   "total": 16,
    "jobs": [
     {
      "id": "R027772",
@@ -889,6 +878,17 @@
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T20:11:37+00:00"
+    },
+    {
+     "id": "R028006",
+     "title": "Data Scientist | Catalog Games",
+     "location": "Barcelona, Spain",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/King_External_Careers/job/Barcelona---King---PG/Data-Scientist---Catalog-Games_R028006",
+     "remote": false,
+     "posted": "2026-11-05T00:00:00.000+0000",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-30T18:46:33+00:00"
     },
     {
      "id": "R028194",
@@ -1454,7 +1454,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-28T17:49:21+00:00",
-   "total": 93,
+   "total": 92,
    "jobs": [
     {
      "id": "4965778101",
@@ -1501,6 +1501,17 @@
      "firstSeen": "2026-10-28T17:49:21+00:00"
     },
     {
+     "id": "4963495101",
+     "title": "Game Designer (Hybrid Casual)",
+     "location": "Warsaw",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4963495101",
+     "remote": false,
+     "posted": "2026-08-28T10:53:45-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
      "id": "4945678101",
      "title": "Game Designer (Hybrid Casual)",
      "location": "Limassol",
@@ -1518,17 +1529,6 @@
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4944287101",
      "remote": false,
      "posted": "2026-08-05T11:52:03-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
-     "id": "4963495101",
-     "title": "Game Designer (Hybrid Casual)",
-     "location": "Warsaw",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4963495101",
-     "remote": false,
-     "posted": "2026-08-28T10:53:45-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -1622,23 +1622,23 @@
      "firstSeen": "2026-10-30T18:46:33+00:00"
     },
     {
-     "id": "4988635101",
-     "title": "Data Analyst",
-     "location": "Remote Europe",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988635101",
-     "remote": true,
-     "posted": "2026-09-28T09:54:30-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
      "id": "4988598101",
      "title": "Data Analyst",
      "location": "Barcelona",
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988598101",
      "remote": false,
      "posted": "2026-09-28T09:42:08-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4988635101",
+     "title": "Data Analyst",
+     "location": "Remote Europe",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988635101",
+     "remote": true,
+     "posted": "2026-09-28T09:54:30-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -1727,17 +1727,6 @@
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4983098101",
      "remote": false,
      "posted": "2026-09-23T12:14:48-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
-     "id": "4941941101",
-     "title": "Senior Product Manager",
-     "location": "Barcelona",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4941941101",
-     "remote": false,
-     "posted": "2026-07-31T03:30:19-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -2140,7 +2129,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 33,
+   "total": 32,
    "jobs": [
     {
      "id": "39792f97-064a-4744-a812-da844620b80e",
@@ -2323,15 +2312,26 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T00:15:52+00:00",
-   "total": 39,
+   "total": 40,
    "jobs": [
+    {
+     "id": "R0023080-1",
+     "title": "Art Lead",
+     "location": "Barcelona, Spain",
+     "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Art-Lead_R0023080-1",
+     "remote": false,
+     "posted": "2026-11-05",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-05T09:04:25+00:00"
+    },
     {
      "id": "R0023071",
      "title": "ML Engineer",
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/ML-Engineer_R0023071",
      "remote": false,
-     "posted": "2026-11-04",
+     "posted": "2026-11-03",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-03T18:47:27+00:00"
@@ -2342,7 +2342,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/ML-Engineer_R0022488",
      "remote": false,
-     "posted": "2026-10-07",
+     "posted": "2026-10-06",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -2353,7 +2353,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/ML-Engineer_R0022029-1",
      "remote": false,
-     "posted": "2026-10-06",
+     "posted": null,
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -2364,7 +2364,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Associate-Game-Ops-Manager_R0022377",
      "remote": false,
-     "posted": "2026-10-30",
+     "posted": "2026-10-29",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -2386,7 +2386,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Data-Analyst_R0022725",
      "remote": false,
-     "posted": "2026-10-06",
+     "posted": null,
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -2397,7 +2397,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-ML-Engineer_R0023070",
      "remote": false,
-     "posted": "2026-11-04",
+     "posted": "2026-11-03",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-03T18:47:27+00:00"
@@ -2408,7 +2408,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-UI-Artist_R0022928",
      "remote": false,
-     "posted": "2026-10-17",
+     "posted": "2026-10-16",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -2419,7 +2419,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Technical-Product-Owner_R0022685",
      "remote": false,
-     "posted": "2026-10-06",
+     "posted": null,
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -3014,7 +3014,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 348,
+   "total": 347,
    "jobs": [
     {
      "id": "216318",
@@ -3668,7 +3668,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 188,
+   "total": 187,
    "jobs": [
     {
      "id": "7102266",
@@ -3827,7 +3827,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 37,
+   "total": 36,
    "jobs": [
     {
      "id": "8288743",
@@ -3852,23 +3852,23 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "8200605",
-     "title": "Game Design Director (World of Warships, PC)",
-     "location": "Berlin",
-     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8200605",
-     "remote": false,
-     "posted": "2026-09-15T04:11:10-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "8200609",
      "title": "Game Design Director (World of Warships, PC)",
      "location": "Nicosia",
      "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8200609",
      "remote": false,
      "posted": "2026-09-15T03:52:01-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "8200605",
+     "title": "Game Design Director (World of Warships, PC)",
+     "location": "Berlin",
+     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8200605",
+     "remote": false,
+     "posted": "2026-09-15T04:11:10-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -3907,6 +3907,17 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
+     "id": "8305734",
+     "title": "Senior UI Designer (World of Tanks Console)",
+     "location": "Vilnius",
+     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8305734",
+     "remote": false,
+     "posted": "2026-10-28T03:28:19-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
      "id": "8305729",
      "title": "Senior UI Designer (World of Tanks Console)",
      "location": "Nicosia",
@@ -3929,12 +3940,12 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "8305734",
-     "title": "Senior UI Designer (World of Tanks Console)",
-     "location": "Vilnius",
-     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8305734",
+     "id": "8159188",
+     "title": "UI Designer (World of Warships, PC)",
+     "location": "Nicosia",
+     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8159188",
      "remote": false,
-     "posted": "2026-10-28T03:28:19-04:00",
+     "posted": "2026-10-05T05:59:52-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -3946,17 +3957,6 @@
      "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8159183",
      "remote": false,
      "posted": "2026-10-05T05:26:42-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "8159188",
-     "title": "UI Designer (World of Warships, PC)",
-     "location": "Nicosia",
-     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8159188",
-     "remote": false,
-     "posted": "2026-10-05T05:59:52-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -3986,7 +3986,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 37,
+   "total": 36,
    "jobs": [
     {
      "id": "8226938",
@@ -4584,6 +4584,53 @@
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T22:59:48+00:00"
+    }
+   ]
+  },
+  {
+   "id": "userwise",
+   "name": "UserWise",
+   "group": "services",
+   "note": "Live-ops y desarrollo de juegos móviles F2P",
+   "domain": "userwise.io",
+   "careers": "https://userwise.io/career/",
+   "logos": null,
+   "status": "ok",
+   "since": "2026-11-05T09:04:25+00:00",
+   "total": 53,
+   "jobs": [
+    {
+     "id": "0853FED995",
+     "title": "Lead UI/UX Designer - Mobile Casual F2P Games",
+     "location": "Serbia",
+     "url": "https://apply.workable.com/j/0853FED995",
+     "remote": true,
+     "posted": "2026-09-08",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-11-05T09:04:25+00:00"
+    },
+    {
+     "id": "B371023F92",
+     "title": "Live-Ops Game Designer - Mobile F2P",
+     "location": "Serbia",
+     "url": "https://apply.workable.com/j/B371023F92",
+     "remote": true,
+     "posted": "2026-02-20",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-11-05T09:04:25+00:00"
+    },
+    {
+     "id": "648F4A33B9",
+     "title": "Senior Game Designer / Product Builder (AI Games)",
+     "location": "Serbia",
+     "url": "https://apply.workable.com/j/648F4A33B9",
+     "remote": true,
+     "posted": "2026-10-06",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-11-05T09:04:25+00:00"
     }
    ]
   },
