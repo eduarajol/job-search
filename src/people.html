@@ -267,7 +267,7 @@ header.top.compact .stamp { display: none; }
   }
 
   // Fields kept as "" in people.json are shown as missing, as a reminder to fill them in.
-  var FIELDS = [['team', 'Equipo o juego'], ['role', 'Cargo'], ['why', 'Por qué encaja'], ['linkedin', 'LinkedIn'], ['degree', 'Grado de conexión'], ['priority', 'Prioridad'], ['contacted', 'Contacto'], ['followup', 'Recordatorio']];
+  var FIELDS = [['team', 'Equipo o juego'], ['role', 'Cargo'], ['why', 'Por qué encaja'], ['linkedin', 'LinkedIn'], ['degree', 'Grado de conexión'], ['priority', 'Prioridad'], ['contacted', 'Contacto'], ['reply', 'Respuesta']];
   function missing(p) { return FIELDS.filter(function (f) { return p[f[0]] === ''; }); }
 
   function person(p) {
@@ -290,7 +290,7 @@ header.top.compact .stamp { display: none; }
     var dl = el('dl', 'facts');
     [['Por qué encaja', p.why],
      ['Contacto', p.contacted ? 'Le escribí ' + (String(p.contacted).split('-').length < 3 ? 'en ' : 'el ') + fmt(p.contacted) : null],
-     ['Recordatorio', p.followup && st === 'contacted' ? fmt(p.followup) : null],
+     ['Respuesta', p.reply === 'si' ? 'Sí' + (p.replyDate ? ', el ' + fmt(p.replyDate) : '') : p.reply === 'no' ? 'No, todavía no' : null],
      ['Prioridad', p.priority && p.priority !== 'alta' ? p.priority.charAt(0).toUpperCase() + p.priority.slice(1) : null],
      ['Notas', p.notes, 'note']].forEach(function (f) {
       if (!f[1]) return;
