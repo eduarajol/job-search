@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T09:54:19+00:00",
+ "updated": "2026-11-05T09:56:37+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -4836,13 +4836,68 @@
     {
      "id": "4cfc76b2-2b94-4d05-bfed-5b33ce3311a3",
      "title": "Senior Game Designer",
-     "location": "",
+     "location": "Remote",
      "url": "https://careers.yodo1.com/jobs/8224438-senior-game-designer",
-     "remote": false,
+     "remote": true,
      "posted": "2026-08-14T16:51:29+01:00",
      "design": true,
-     "local": false,
+     "local": true,
      "firstSeen": "2026-11-05T09:54:19+00:00"
+    },
+    {
+     "id": "82ed9f71-1e9e-4b7a-a9cf-a2cd0d9e2fcf",
+     "title": "Business Development & Sales Manager: IP Licensing, China Market",
+     "location": "Remote",
+     "url": "https://careers.yodo1.com/jobs/7665031-business-development-sales-manager-ip-licensing-china-market",
+     "remote": true,
+     "posted": "2026-04-30T12:15:19+01:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-05T09:56:37+00:00"
+    },
+    {
+     "id": "b660edde-21fd-49c1-95ed-b841bc29bcb6",
+     "title": "China Publishing Lead",
+     "location": "Remote",
+     "url": "https://careers.yodo1.com/jobs/8086877-china-publishing-lead",
+     "remote": true,
+     "posted": "2026-07-17T13:09:47+01:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-05T09:56:37+00:00"
+    },
+    {
+     "id": "eee4e00e-67c8-4b83-83c5-106c8e4e7075",
+     "title": "Game Lead / General Manager",
+     "location": "Remote",
+     "url": "https://careers.yodo1.com/jobs/8061732-game-lead-general-manager",
+     "remote": true,
+     "posted": "2026-07-13T18:36:12+01:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-05T09:56:37+00:00"
+    },
+    {
+     "id": "a70a62c8-acd2-40be-b51c-3e54154409b5",
+     "title": "Game Operations Manager - China",
+     "location": "Remote",
+     "url": "https://careers.yodo1.com/jobs/7665720-game-operations-manager-china",
+     "remote": true,
+     "posted": "2026-04-30T13:29:54+01:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-05T09:56:37+00:00"
+    },
+    {
+     "id": "e8112ac8-ce99-4bb2-805c-21b04421f674",
+     "title": "Marketing Manager/Lead (BiG) - China",
+     "location": "Remote",
+     "url": "https://careers.yodo1.com/jobs/8061845-marketing-manager-lead-big-china",
+     "remote": true,
+     "posted": "2026-07-13T19:58:52+01:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-05T09:56:37+00:00"
     }
    ]
   },
@@ -4958,7 +5013,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 213,
+   "total": 214,
    "jobs": [
     {
      "id": "6098184004",
