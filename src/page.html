@@ -176,10 +176,10 @@ main .wrap { padding-block: 4px 56px; }
 .rest { margin: 14px 0 0; font-size: 13px; color: var(--ink-soft); line-height: 1.7; }
 .rest a { color: var(--ink); font-weight: 600; text-underline-offset: 3px; }
 .cost { display: inline-flex; align-items: center; gap: 4px; font: 500 10.5px var(--mono); letter-spacing: .6px; text-transform: uppercase; padding: 2px 7px 2px 5px; border-radius: 5px; white-space: nowrap; align-self: center; cursor: help; }
-.cost .coins { letter-spacing: -1px; font-weight: 700; }
-.cost.barato { background: var(--good-bg); color: var(--good); }
+.cost .bars { width: 13px; height: 11px; display: block; }
+.cost.bajo { background: var(--good-bg); color: var(--good); }
 .cost.medio { background: var(--warn-bg); color: var(--warn); }
-.cost.caro { background: var(--bad-bg); color: var(--bad); }
+.cost.alto { background: var(--bad-bg); color: var(--bad); }
 .picks .cost { justify-self: start; }
 .new { font: 500 10.5px var(--mono); letter-spacing: .6px; text-transform: uppercase; padding: 2px 6px; border-radius: 5px; background: var(--teal); color: var(--paper); align-self: center; }
 .more { align-self: flex-start; background: none; border: 0; padding: 4px 0; color: var(--ink); font: 600 13px var(--display); text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
@@ -313,14 +313,19 @@ header.top.compact .stamp { display: none; }
   var state = { f: { ux: true, gd: true, bcn: true, remote: true }, text: '', open: {} };
   var applied = {};
   var effort = {};
-  // Cost of preparing the application (effort.json): barato, medio or caro.
-  var COST = { barato: ['€', 'Barato'], medio: ['€€', 'Medio'], caro: ['€€€', 'Caro'] };
+  // Effort of preparing the application (effort.json): bajo, medio or alto, shown as 1 to 3 bars.
+  var COST = { bajo: [1, 'Esfuerzo bajo'], medio: [2, 'Esfuerzo medio'], alto: [3, 'Esfuerzo alto'] };
+  function bars(n) {
+    var svg = '<svg class="bars" viewBox="0 0 13 11" aria-hidden="true">';
+    for (var i = 0; i < 3; i++) svg += '<rect x="' + (i * 4.5) + '" y="0" width="3.5" height="11" rx="1" fill="currentColor"' + (i < n ? '' : ' fill-opacity="0.22"') + '/>';
+    return svg + '</svg>';
+  }
   function costBadge(key) {
     var e = effort[key];
     if (!e || !COST[e.level]) return null;
     var b = el('span', 'cost ' + e.level);
-    var c = el('span', 'coins', COST[e.level][0]); c.setAttribute('aria-hidden', 'true');
-    b.appendChild(c);
+    var ic = el('span'); ic.innerHTML = bars(COST[e.level][0]);
+    b.appendChild(ic.firstChild);
     b.appendChild(document.createTextNode(COST[e.level][1]));
     b.title = 'Preparar la candidatura: ' + COST[e.level][1].toLowerCase() + (e.note ? '. ' + e.note : '');
     b.setAttribute('aria-label', b.title);
@@ -725,7 +730,7 @@ header.top.compact .stamp { display: none; }
     [['gd', 'Game design'], ['ux', 'UX / UI'], ['other', 'Otros puestos']].forEach(function (p) {
       var s = el('span'); var g = el('span', 'gem ' + p[0]); g.setAttribute('aria-hidden', 'true'); s.appendChild(g); s.appendChild(document.createTextNode(p[1])); legend.appendChild(s);
     });
-    var cs2 = el('span'); cs2.appendChild(document.createTextNode('Preparar la candidatura: € barato · €€ medio · €€€ caro')); legend.appendChild(cs2);
+    var cs2 = el('span'); cs2.appendChild(document.createTextNode('Esfuerzo de la candidatura: bajo · medio · alto')); legend.appendChild(cs2);
     sum.appendChild(legend);
 
     if (fresh.length) {
