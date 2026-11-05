@@ -17,7 +17,7 @@ HEAD = (
     "<meta name=\"apple-mobile-web-app-title\" content=\"Job Search\">\n"
     "<style>body{margin:0}</style>\n</head>\n<body>\n"
 )
-for src, out in (("page.html", "index.html"), ("games.html", "games.html"), ("applied.html", "applied.html")):
+for src, out in (("page.html", "index.html"), ("games.html", "games.html"), ("applied.html", "applied.html"), ("people.html", "people.html")):
     page = (ROOT / "src" / src).read_text(encoding="utf-8")
     (ROOT / out).write_text(HEAD + page + "\n</body>\n</html>\n", encoding="utf-8")
 
