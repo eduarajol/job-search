@@ -214,21 +214,26 @@ def _sr_all(company):
 
 
 def read_workable(src):
+    """The widget lists an offer once per location (a remote offer open in
+    Serbia, Romania and Spain comes three times): merge them by shortcode."""
     acct = src["account"]
     data = get_json(f"https://apply.workable.com/api/v1/widget/accounts/{acct}")
-    out = []
+    merged = {}
     for j in data.get("jobs", []):
-        # A remote offer can list several countries ("Serbia, Romania, Spain"): keep them all.
-        places = []
+        key = j.get("shortcode") or j.get("id")
+        m = merged.setdefault(key, {"raw": j, "places": [], "remote": False})
         for l in j.get("locations") or [{"city": j.get("city"), "country": j.get("country")}]:
             for x in (l.get("city"), l.get("country")):
-                if x and x not in places:
-                    places.append(x)
-        loc = ", ".join(places)
+                if x and x not in m["places"]:
+                    m["places"].append(x)
+        m["remote"] = m["remote"] or bool(j.get("telecommuting"))
+    out = []
+    for key, m in merged.items():
+        j, loc = m["raw"], ", ".join(m["places"])
         out.append(job(
-            j.get("shortcode") or j.get("id"), j.get("title"), loc,
+            key, j.get("title"), loc,
             j.get("url") or j.get("application_url"),
-            remote=bool(j.get("telecommuting")) or bool(REMOTE.search(loc)),
+            remote=m["remote"] or bool(REMOTE.search(loc)),
             posted=j.get("published_on") or j.get("created_at"),
         ))
     return out
