@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T12:55:34+00:00",
+ "updated": "2026-11-06T18:46:06+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -14,7 +14,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 165,
+   "total": 166,
    "jobs": [
     {
      "id": "5442573008",
@@ -116,23 +116,23 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5388807008",
-     "title": "Lead Systems Designer - Star Trek Fleet Command",
-     "location": "IE - Dublin, Ireland",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5388807008?gh_jid=5388807008",
-     "remote": false,
-     "posted": "2026-08-13T06:54:47-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5379017008",
      "title": "Lead Systems Designer - Star Trek Fleet Command",
      "location": "GB - London, United Kingdom",
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5379017008?gh_jid=5379017008",
      "remote": false,
      "posted": "2026-08-13T06:52:46-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5388807008",
+     "title": "Lead Systems Designer - Star Trek Fleet Command",
+     "location": "IE - Dublin, Ireland",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5388807008?gh_jid=5388807008",
+     "remote": false,
+     "posted": "2026-08-13T06:54:47-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -182,15 +182,15 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5222025008",
-     "title": "Analytics Engineer",
+     "id": "5462613008",
+     "title": "Accounting Manager",
      "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5222025008?gh_jid=5222025008",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5462613008?gh_jid=5462613008",
      "remote": false,
-     "posted": "2026-05-19T11:02:29-04:00",
+     "posted": "2026-11-06T11:43:47-05:00",
      "design": false,
      "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
+     "firstSeen": "2026-11-06T18:46:06+00:00"
     },
     {
      "id": "4626426008",
@@ -204,23 +204,23 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
+     "id": "5222025008",
+     "title": "Analytics Engineer",
+     "location": "ES - Barcelona, Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5222025008?gh_jid=5222025008",
+     "remote": false,
+     "posted": "2026-05-19T11:02:29-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
      "id": "5397052008",
      "title": "Associate Counsel, Product & Privacy",
      "location": "ES - Barcelona, Spain",
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5397052008?gh_jid=5397052008",
      "remote": false,
      "posted": "2026-08-20T22:09:12-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "5342840008",
-     "title": "Client Engineer",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5342840008?gh_jid=5342840008",
-     "remote": false,
-     "posted": "2026-08-06T10:05:04-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -331,6 +331,17 @@
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5287064008?gh_jid=5287064008",
      "remote": false,
      "posted": "2026-07-06T09:52:23-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5282364008",
+     "title": "Engineering Manager (Unity)",
+     "location": "ES - Barcelona, Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5282364008?gh_jid=5282364008",
+     "remote": false,
+     "posted": "2026-06-26T05:03:06-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -534,23 +545,23 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5420171008",
-     "title": "Senior Identity Security Engineer",
-     "location": "ES - Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5420171008?gh_jid=5420171008",
-     "remote": false,
-     "posted": "2026-09-21T14:00:34-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5434025008",
      "title": "Senior Identity Security Engineer",
      "location": "ES - Barcelona, Spain",
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5434025008?gh_jid=5434025008",
      "remote": false,
      "posted": "2026-10-07T23:09:04-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5420171008",
+     "title": "Senior Identity Security Engineer",
+     "location": "ES - Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5420171008?gh_jid=5420171008",
+     "remote": false,
+     "posted": "2026-09-21T14:00:34-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -672,6 +683,17 @@
      "url": "https://job-boards.greenhouse.io/scopely/jobs/4596752008?gh_jid=4596752008",
      "remote": false,
      "posted": "2025-03-26T11:16:32-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5342840008",
+     "title": "Software Engineer (Ad Tech)",
+     "location": "ES - Barcelona, Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5342840008?gh_jid=5342840008",
+     "remote": false,
+     "posted": "2026-08-06T10:05:04-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -1065,7 +1087,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 60,
+   "total": 61,
    "jobs": [
     {
      "id": "744000159308135",
@@ -1187,6 +1209,17 @@
      "design": false,
      "local": true,
      "firstSeen": "2026-11-05T22:40:37+00:00"
+    },
+    {
+     "id": "744000160221619",
+     "title": "Game Cinematic Artist Intern",
+     "location": "Barcelona, CT, Spain",
+     "url": "https://jobs.smartrecruiters.com/Gameloft/744000160221619",
+     "remote": false,
+     "posted": "2026-11-06T14:38:40.192Z",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-06T18:46:06+00:00"
     },
     {
      "id": "744000151013658",
@@ -1712,7 +1745,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 103,
+   "total": 104,
    "jobs": [
     {
      "id": "d633533c-ac08-440e-a6b6-33351b3ad005",
@@ -2532,7 +2565,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 79,
+   "total": 78,
    "jobs": [
     {
      "id": "ace7bbeb-31ff-44ea-991d-223ef9685284",
@@ -2932,7 +2965,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T20:11:37+00:00",
-   "total": 39,
+   "total": 38,
    "jobs": [
     {
      "id": "R027774",
@@ -3025,7 +3058,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 340,
+   "total": 343,
    "jobs": [
     {
      "id": "216318",
@@ -3589,6 +3622,17 @@
      "firstSeen": "2026-10-28T22:59:48+00:00"
     },
     {
+     "id": "216359",
+     "title": "UI Scripter Intern",
+     "location": "Guildford, United Kingdom",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/UI-Scripter-Intern/216359",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
      "id": "216570",
      "title": "UX Lead",
      "location": "Los Angeles - Chatsworth, United States of America",
@@ -3668,7 +3712,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 188,
+   "total": 187,
    "jobs": [
     {
      "id": "7102266",
@@ -4286,7 +4330,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 376,
+   "total": 378,
    "jobs": [
     {
      "id": "36186",
@@ -4311,28 +4355,6 @@
      "firstSeen": "2026-10-28T22:59:48+00:00"
     },
     {
-     "id": "37860",
-     "title": "Game Designer (FPS)",
-     "location": "Yerevan, Yerevan, Armenia",
-     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xwJ-game-designer-fps/",
-     "remote": false,
-     "posted": "2026-10-02T10:32:15+01:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
-     "id": "37861",
-     "title": "Game Designer (FPS)",
-     "location": "Belgrade, City of Belgrade, Serbia",
-     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xwV-game-designer-fps/",
-     "remote": false,
-     "posted": "2026-10-02T10:32:17+01:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
      "id": "37815",
      "title": "Game Designer (FPS)",
      "location": "Warsaw, Masovian Voivodeship, Poland",
@@ -4350,6 +4372,28 @@
      "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xLP-game-designer-fps/",
      "remote": false,
      "posted": "2026-09-30T10:32:15+01:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "37860",
+     "title": "Game Designer (FPS)",
+     "location": "Yerevan, Yerevan, Armenia",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xwJ-game-designer-fps/",
+     "remote": false,
+     "posted": "2026-10-02T10:32:15+01:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "37861",
+     "title": "Game Designer (FPS)",
+     "location": "Belgrade, City of Belgrade, Serbia",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xwV-game-designer-fps/",
+     "remote": false,
+     "posted": "2026-10-02T10:32:17+01:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
@@ -5035,7 +5079,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 220,
+   "total": 216,
    "jobs": [
     {
      "id": "6098184004",
