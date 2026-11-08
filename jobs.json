@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T11:55:12+00:00",
+ "updated": "2026-11-08T18:46:13+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -14,7 +14,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 167,
+   "total": 168,
    "jobs": [
     {
      "id": "5442573008",
@@ -116,23 +116,23 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5379017008",
-     "title": "Lead Systems Designer - Star Trek Fleet Command",
-     "location": "GB - London, United Kingdom",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5379017008?gh_jid=5379017008",
-     "remote": false,
-     "posted": "2026-08-13T06:52:46-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5388807008",
      "title": "Lead Systems Designer - Star Trek Fleet Command",
      "location": "IE - Dublin, Ireland",
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5388807008?gh_jid=5388807008",
      "remote": false,
      "posted": "2026-08-13T06:54:47-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5379017008",
+     "title": "Lead Systems Designer - Star Trek Fleet Command",
+     "location": "GB - London, United Kingdom",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5379017008?gh_jid=5379017008",
+     "remote": false,
+     "posted": "2026-08-13T06:52:46-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -193,23 +193,23 @@
      "firstSeen": "2026-11-06T18:46:06+00:00"
     },
     {
-     "id": "5222025008",
-     "title": "Analytics Engineer",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5222025008?gh_jid=5222025008",
-     "remote": false,
-     "posted": "2026-05-19T11:02:29-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "4626426008",
      "title": "Analytics Engineer",
      "location": "ES - Barcelona, Spain",
      "url": "https://job-boards.greenhouse.io/scopely/jobs/4626426008?gh_jid=4626426008",
      "remote": false,
      "posted": "2025-04-10T11:59:49-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5222025008",
+     "title": "Analytics Engineer",
+     "location": "ES - Barcelona, Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5222025008?gh_jid=5222025008",
+     "remote": false,
+     "posted": "2026-05-19T11:02:29-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -501,6 +501,17 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
+     "id": "5475452008",
+     "title": "Senior Client Engineer - Stumble Guys!",
+     "location": "ES - Barcelona, Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5475452008?gh_jid=5475452008",
+     "remote": false,
+     "posted": "2026-11-08T07:43:47-05:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-08T18:46:13+00:00"
+    },
+    {
      "id": "4897109008",
      "title": "Senior Cloud Data Platform Engineer",
      "location": "ES - Barcelona, Spain",
@@ -787,23 +798,23 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5430085008",
-     "title": "Technical Release Manager - Unannounced Project",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5430085008?gh_jid=5430085008",
-     "remote": false,
-     "posted": "2026-09-21T10:58:48-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5427196008",
      "title": "Technical Release Manager - Unannounced Project",
      "location": "ES - Barcelona, Spain",
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5427196008?gh_jid=5427196008",
      "remote": false,
      "posted": "2026-09-21T10:51:58-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5430085008",
+     "title": "Technical Release Manager - Unannounced Project",
+     "location": "ES - Barcelona, Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5430085008?gh_jid=5430085008",
+     "remote": false,
+     "posted": "2026-09-21T10:58:48-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
