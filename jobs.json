@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T13:27:00+00:00",
+ "updated": "2026-11-10T22:22:18+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -14,7 +14,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 171,
+   "total": 168,
    "jobs": [
     {
      "id": "5442573008",
@@ -105,23 +105,23 @@
      "firstSeen": "2026-11-05T15:55:11+00:00"
     },
     {
-     "id": "5388807008",
-     "title": "Lead Systems Designer - Star Trek Fleet Command",
-     "location": "IE - Dublin, Ireland",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5388807008?gh_jid=5388807008",
-     "remote": false,
-     "posted": "2026-08-13T06:54:47-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5379017008",
      "title": "Lead Systems Designer - Star Trek Fleet Command",
      "location": "GB - London, United Kingdom",
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5379017008?gh_jid=5379017008",
      "remote": false,
      "posted": "2026-08-13T06:52:46-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5388807008",
+     "title": "Lead Systems Designer - Star Trek Fleet Command",
+     "location": "IE - Dublin, Ireland",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5388807008?gh_jid=5388807008",
+     "remote": false,
+     "posted": "2026-08-13T06:54:47-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -182,23 +182,23 @@
      "firstSeen": "2026-11-06T18:46:06+00:00"
     },
     {
-     "id": "4626426008",
-     "title": "Analytics Engineer",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/4626426008?gh_jid=4626426008",
-     "remote": false,
-     "posted": "2025-04-10T11:59:49-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5222025008",
      "title": "Analytics Engineer",
      "location": "ES - Barcelona, Spain",
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5222025008?gh_jid=5222025008",
      "remote": false,
      "posted": "2026-05-19T11:02:29-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "4626426008",
+     "title": "Analytics Engineer",
+     "location": "ES - Barcelona, Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/4626426008?gh_jid=4626426008",
+     "remote": false,
+     "posted": "2025-04-10T11:59:49-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -512,6 +512,17 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
+     "id": "5477082008",
+     "title": "Senior Compensation Business Partner",
+     "location": "ES - Barcelona, Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5477082008?gh_jid=5477082008",
+     "remote": false,
+     "posted": "2026-11-10T10:43:39-05:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-10T22:22:18+00:00"
+    },
+    {
      "id": "5368795008",
      "title": "Senior Engineer, Graphics - Unannounced Project",
      "location": "ES - Barcelona, Spain; ES - Spain",
@@ -622,17 +633,6 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5181482008",
-     "title": "Senior Security Compliance Engineer",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5181482008?gh_jid=5181482008",
-     "remote": false,
-     "posted": "2026-04-22T09:26:02-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5469902008",
      "title": "Senior Social Media Manager - Stumble Guys!",
      "location": "ES - Barcelona, Spain",
@@ -688,6 +688,28 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
+     "id": "5430085008",
+     "title": "Software Integration Manager - Unannounced Project",
+     "location": "ES - Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5430085008?gh_jid=5430085008",
+     "remote": false,
+     "posted": "2026-09-21T10:58:48-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5427196008",
+     "title": "Software Integration Manager - Unannounced Project",
+     "location": "ES - Barcelona, Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5427196008?gh_jid=5427196008",
+     "remote": false,
+     "posted": "2026-09-21T10:51:58-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
      "id": "5394718008",
      "title": "Sr Marketing Artist",
      "location": "ES - Barcelona, Spain",
@@ -721,34 +743,12 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5387038008",
-     "title": "Sr. Security Compliance Engineer",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5387038008?gh_jid=5387038008",
-     "remote": false,
-     "posted": "2026-08-11T22:18:53-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "4958835008",
      "title": "Staff Engineer, Server",
      "location": "ES - Barcelona, Spain",
      "url": "https://job-boards.greenhouse.io/scopely/jobs/4958835008?gh_jid=4958835008",
      "remote": false,
      "posted": "2025-11-03T05:10:57-05:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "5394988008",
-     "title": "Staff Software Engineer",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5394988008?gh_jid=5394988008",
-     "remote": false,
-     "posted": "2026-09-28T05:03:47-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -771,28 +771,6 @@
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5412645008?gh_jid=5412645008",
      "remote": false,
      "posted": "2026-09-15T12:07:28-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "5427196008",
-     "title": "Technical Release Manager - Unannounced Project",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5427196008?gh_jid=5427196008",
-     "remote": false,
-     "posted": "2026-09-21T10:51:58-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "5430085008",
-     "title": "Technical Release Manager - Unannounced Project",
-     "location": "ES - Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5430085008?gh_jid=5430085008",
-     "remote": false,
-     "posted": "2026-09-21T10:58:48-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -1032,7 +1010,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 60,
+   "total": 61,
    "jobs": [
     {
      "id": "744000159308135",
@@ -1231,6 +1209,17 @@
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "744000160880969",
+     "title": "Marketing Activations Intern",
+     "location": "Barcelona, CT, Spain",
+     "url": "https://jobs.smartrecruiters.com/Gameloft/744000160880969",
+     "remote": false,
+     "posted": "2026-11-10T13:49:15.190Z",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-10T22:22:18+00:00"
     }
    ]
   },
@@ -1849,7 +1838,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 46,
+   "total": 47,
    "jobs": [
     {
      "id": "5724174004",
@@ -2282,23 +2271,23 @@
      "firstSeen": "2026-10-29T00:15:52+00:00"
     },
     {
+     "id": "R0023079",
+     "title": "Principal Tech Artist",
+     "location": "Barcelona, Spain",
+     "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Principal-Tech-Artist_R0023079",
+     "remote": false,
+     "posted": "2026-11-10",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-10T22:22:18+00:00"
+    },
+    {
      "id": "R0022377",
      "title": "Senior Associate Game Ops Manager",
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Associate-Game-Ops-Manager_R0022377",
      "remote": false,
      "posted": "2026-10-29",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-29T00:15:52+00:00"
-    },
-    {
-     "id": "R0022725",
-     "title": "Senior Data Analyst",
-     "location": "Barcelona, Spain",
-     "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Data-Analyst_R0022725",
-     "remote": false,
-     "posted": null,
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -2855,7 +2844,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T20:11:37+00:00",
-   "total": 39,
+   "total": 40,
    "jobs": [
     {
      "id": "R027774",
@@ -2948,7 +2937,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 333,
+   "total": 334,
    "jobs": [
     {
      "id": "216318",
@@ -3031,7 +3020,7 @@
      "id": "216538",
      "title": "Cinematic Designer - EA Sports FC",
      "location": "Vancouver, Canada",
-     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Cinematic-Designer-EA-Sports-FC/216538",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Cinematic-Designer/216538",
      "remote": false,
      "posted": null,
      "design": true,
@@ -3107,7 +3096,7 @@
     {
      "id": "216265",
      "title": "Experience Designer - College Football",
-     "location": "Orlando, United States of America",
+     "location": "Vancouver, Canada",
      "url": "https://jobs.ea.com/en_US/careers/JobDetail/Experience-Designer-College-Football/216265",
      "remote": false,
      "posted": null,
@@ -3281,17 +3270,6 @@
      "firstSeen": "2026-10-31T00:50:55+00:00"
     },
     {
-     "id": "216388",
-     "title": "Lead Designer - UI/UX",
-     "location": "Vancouver, Canada",
-     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Lead-Designer-UI-UX/216388",
-     "remote": false,
-     "posted": null,
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
      "id": "216455",
      "title": "Live Service Visual Designer – EA SPORTS™ NHL",
      "location": "Vancouver, Canada",
@@ -3380,10 +3358,32 @@
      "firstSeen": "2026-10-28T22:59:48+00:00"
     },
     {
+     "id": "216388",
+     "title": "Senior Experience Designer",
+     "location": "Vancouver, Canada",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Senior-Experience-Designer/216388",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
      "id": "216216",
      "title": "Senior Experience Designer - EA SPORTS™ NHL",
      "location": "Vancouver, Canada",
      "url": "https://jobs.ea.com/en_US/careers/JobDetail/Senior-Experience-Designer-EA-SPORTS-NHL/216216",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216390",
+     "title": "Senior Experience Designer II",
+     "location": "Vancouver, Canada",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Senior-Experience-Designer-II/216390",
      "remote": false,
      "posted": null,
      "design": true,
@@ -3406,17 +3406,6 @@
      "title": "Senior Game Designer - EA SPORTS™ NHL",
      "location": "Vancouver, Canada",
      "url": "https://jobs.ea.com/en_US/careers/JobDetail/Senior-Game-Designer-EA-SPORTS-NHL/216163",
-     "remote": false,
-     "posted": null,
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
-     "id": "216390",
-     "title": "Senior Lead Designer- UI/UX",
-     "location": "Vancouver, Canada",
-     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Senior-Lead-Designer-UI-UX/216390",
      "remote": false,
      "posted": null,
      "design": true,
@@ -3491,9 +3480,9 @@
     },
     {
      "id": "216565",
-     "title": "Technical Game Designer (Gameplay Bots)",
+     "title": "Technical Game Designer - Gameplay Bots (Apex Legends)",
      "location": "Los Angeles - Chatsworth, United States of America",
-     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Technical-Game-Designer-Gameplay-Bots/216565",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Technical-Game-Designer-Gameplay-Bots-Apex-Legends/216565",
      "remote": false,
      "posted": null,
      "design": true,
@@ -3513,9 +3502,9 @@
     },
     {
      "id": "216570",
-     "title": "UX Lead",
+     "title": "UX Lead (Apex Legends)",
      "location": "Los Angeles - Chatsworth, United States of America",
-     "url": "https://jobs.ea.com/en_US/careers/JobDetail/UX-Lead/216570",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/UX-Lead-Apex-Legends/216570",
      "remote": false,
      "posted": null,
      "design": true,
@@ -3556,6 +3545,17 @@
      "firstSeen": "2026-10-28T22:59:48+00:00"
     },
     {
+     "id": "216689",
+     "title": "Videogame Tester - Arabic (Future Opportunity)",
+     "location": "Madrid, Spain",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Videogame-Tester-Arabic/216689",
+     "remote": false,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-10T22:22:18+00:00"
+    },
+    {
      "id": "212720",
      "title": "Videogame Tester - Danish",
      "location": "Madrid, Spain",
@@ -3576,6 +3576,17 @@
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216688",
+     "title": "Videogame Tester - Mexican Spanish (Future Opportunity)",
+     "location": "Madrid, Spain",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Videogame-Tester-Mexican-Spanish/216688",
+     "remote": false,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-10T22:22:18+00:00"
     }
    ]
   },
@@ -3591,7 +3602,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 190,
+   "total": 186,
    "jobs": [
     {
      "id": "7102266",
@@ -3750,7 +3761,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 39,
+   "total": 44,
    "jobs": [
     {
      "id": "8288743",
@@ -3874,23 +3885,23 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "8159183",
-     "title": "UI Designer (World of Warships, PC)",
-     "location": "Belgrade",
-     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8159183",
-     "remote": false,
-     "posted": "2026-10-05T05:26:42-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "8159188",
      "title": "UI Designer (World of Warships, PC)",
      "location": "Nicosia",
      "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8159188",
      "remote": false,
      "posted": "2026-10-05T05:59:52-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "8159183",
+     "title": "UI Designer (World of Warships, PC)",
+     "location": "Belgrade",
+     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8159183",
+     "remote": false,
+     "posted": "2026-10-05T05:26:42-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -4625,7 +4636,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 18,
+   "total": 19,
    "jobs": [
     {
      "id": "56bdf264-6e20-438d-b70f-d3f973fc22d7",
@@ -4867,8 +4878,19 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 56,
+   "total": 59,
    "jobs": [
+    {
+     "id": "744000160969830",
+     "title": "Senior Cinematic Designer",
+     "location": "Boston, MA, United States",
+     "url": "https://jobs.smartrecruiters.com/cdprojektred/744000160969830",
+     "remote": false,
+     "posted": "2026-11-10T21:15:17.393Z",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-11-10T22:22:18+00:00"
+    },
     {
      "id": "744000158050965",
      "title": "Senior Gameplay Designer",
@@ -4969,7 +4991,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 230,
+   "total": 233,
    "jobs": [
     {
      "id": "6098184004",
@@ -5258,8 +5280,19 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 65,
+   "total": 68,
    "jobs": [
+    {
+     "id": "account-manager-chinese-speaking-remote-in-europe-europe-remote-49958-29475",
+     "title": "Account Manager - Mandarin speaking (Remote in Europe)",
+     "location": "Remote, Europe, Remote",
+     "url": "https://www.pentasia.com/careers/account-manager-chinese-speaking-remote-in-europe-europe-remote-49958-29475",
+     "remote": true,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-10T22:22:18+00:00"
+    },
     {
      "id": "business-development-manager-europe-48245-29463",
      "title": "Business Development Manager",
@@ -5316,15 +5349,15 @@
      "firstSeen": "2026-10-29T14:16:28+00:00"
     },
     {
-     "id": "director-sales-igaming-europe-42058-29397",
-     "title": "Director of Sales - iGaming",
+     "id": "director-sales-russian-speaker-europe-49957-29477",
+     "title": "Director of Sales - Russian Speaker",
      "location": "Remote, Europe",
-     "url": "https://www.pentasia.com/careers/director-sales-igaming-europe-42058-29397",
+     "url": "https://www.pentasia.com/careers/director-sales-russian-speaker-europe-49957-29477",
      "remote": true,
      "posted": null,
      "design": false,
      "local": true,
-     "firstSeen": "2026-10-29T14:16:28+00:00"
+     "firstSeen": "2026-11-10T22:22:18+00:00"
     },
     {
      "id": "growth-marketing-manager-ceuta-europe-45604-29424",
@@ -5485,17 +5518,6 @@
      "title": "Slots UI Artist",
      "location": "Remote, Europe",
      "url": "https://www.pentasia.com/careers/slots-ui-artist-europe-43126-29408",
-     "remote": true,
-     "posted": null,
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-29T14:16:28+00:00"
-    },
-    {
-     "id": "streamer-manager-remote-39323-29347",
-     "title": "Streamer Manager",
-     "location": "Remote, Remote",
-     "url": "https://www.pentasia.com/careers/streamer-manager-remote-39323-29347",
      "remote": true,
      "posted": null,
      "design": false,
