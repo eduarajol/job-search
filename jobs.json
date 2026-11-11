@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T22:22:18+00:00",
+ "updated": "2026-11-11T12:42:11+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -14,7 +14,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 168,
+   "total": 169,
    "jobs": [
     {
      "id": "5442573008",
@@ -545,23 +545,23 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5434025008",
-     "title": "Senior Identity Security Engineer",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5434025008?gh_jid=5434025008",
-     "remote": false,
-     "posted": "2026-10-07T23:09:04-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5420171008",
      "title": "Senior Identity Security Engineer",
      "location": "ES - Spain",
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5420171008?gh_jid=5420171008",
      "remote": false,
      "posted": "2026-09-21T14:00:34-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5434025008",
+     "title": "Senior Identity Security Engineer",
+     "location": "ES - Barcelona, Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5434025008?gh_jid=5434025008",
+     "remote": false,
+     "posted": "2026-10-07T23:09:04-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -688,23 +688,23 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5430085008",
-     "title": "Software Integration Manager - Unannounced Project",
-     "location": "ES - Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5430085008?gh_jid=5430085008",
-     "remote": false,
-     "posted": "2026-09-21T10:58:48-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5427196008",
      "title": "Software Integration Manager - Unannounced Project",
      "location": "ES - Barcelona, Spain",
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5427196008?gh_jid=5427196008",
      "remote": false,
      "posted": "2026-09-21T10:51:58-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5430085008",
+     "title": "Software Integration Manager - Unannounced Project",
+     "location": "ES - Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5430085008?gh_jid=5430085008",
+     "remote": false,
+     "posted": "2026-09-21T10:58:48-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -1010,7 +1010,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 61,
+   "total": 59,
    "jobs": [
     {
      "id": "744000159308135",
@@ -1063,17 +1063,6 @@
      "url": "https://jobs.smartrecruiters.com/Gameloft/744000158215559",
      "remote": false,
      "posted": "2026-10-28T07:01:24.064Z",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "744000154035310",
-     "title": "Game Designer Intern",
-     "location": "Hanoi, , Vietnam",
-     "url": "https://jobs.smartrecruiters.com/Gameloft/744000154035310",
-     "remote": false,
-     "posted": "2026-10-07T08:15:33.212Z",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -1391,28 +1380,6 @@
      "firstSeen": "2026-11-02T06:46:57+00:00"
     },
     {
-     "id": "4945678101",
-     "title": "Game Designer (Hybrid Casual)",
-     "location": "Limassol",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4945678101",
-     "remote": false,
-     "posted": "2026-08-05T11:53:43-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
-     "id": "4944287101",
-     "title": "Game Designer (Hybrid Casual)",
-     "location": "Minsk",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4944287101",
-     "remote": false,
-     "posted": "2026-08-05T11:52:03-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
      "id": "4944288101",
      "title": "Game Designer (Hybrid Casual)",
      "location": "Tblisi",
@@ -1430,6 +1397,28 @@
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4963495101",
      "remote": false,
      "posted": "2026-08-28T10:53:45-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4945678101",
+     "title": "Game Designer (Hybrid Casual)",
+     "location": "Limassol",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4945678101",
+     "remote": false,
+     "posted": "2026-08-05T11:53:43-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4944287101",
+     "title": "Game Designer (Hybrid Casual)",
+     "location": "Minsk",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4944287101",
+     "remote": false,
+     "posted": "2026-08-05T11:52:03-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -1490,6 +1479,17 @@
      "firstSeen": "2026-10-28T17:49:21+00:00"
     },
     {
+     "id": "5031309101",
+     "title": "Senior Game Economy Designer",
+     "location": "Warsaw",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5031309101",
+     "remote": false,
+     "posted": "2026-11-09T12:50:56-05:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-11-09T19:51:24+00:00"
+    },
+    {
      "id": "5028838101",
      "title": "Senior Game Economy Designer",
      "location": "Tbilisi",
@@ -1512,17 +1512,6 @@
      "firstSeen": "2026-11-09T19:51:24+00:00"
     },
     {
-     "id": "5031309101",
-     "title": "Senior Game Economy Designer",
-     "location": "Warsaw",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5031309101",
-     "remote": false,
-     "posted": "2026-11-09T12:50:56-05:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-11-09T19:51:24+00:00"
-    },
-    {
      "id": "5019451101",
      "title": "Ad Monetisation Analyst",
      "location": "Remote Europe",
@@ -1532,17 +1521,6 @@
      "design": false,
      "local": true,
      "firstSeen": "2026-10-30T18:46:33+00:00"
-    },
-    {
-     "id": "4988635101",
-     "title": "Data Analyst",
-     "location": "Remote Europe",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988635101",
-     "remote": true,
-     "posted": "2026-09-28T09:54:30-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
     },
     {
      "id": "4988598101",
@@ -1556,12 +1534,12 @@
      "firstSeen": "2026-10-28T17:49:21+00:00"
     },
     {
-     "id": "4988610101",
-     "title": "Fraud Analyst",
-     "location": "Barcelona",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988610101",
-     "remote": false,
-     "posted": "2026-09-28T09:45:46-04:00",
+     "id": "4988635101",
+     "title": "Data Analyst",
+     "location": "Remote Europe",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988635101",
+     "remote": true,
+     "posted": "2026-09-28T09:54:30-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -1573,6 +1551,17 @@
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988636101",
      "remote": true,
      "posted": "2026-09-28T09:54:28-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4988610101",
+     "title": "Fraud Analyst",
+     "location": "Barcelona",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988610101",
+     "remote": false,
+     "posted": "2026-09-28T09:45:46-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -1838,7 +1827,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 47,
+   "total": 45,
    "jobs": [
     {
      "id": "5724174004",
@@ -2008,7 +1997,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 30,
+   "total": 27,
    "jobs": [
     {
      "id": "39792f97-064a-4744-a812-da844620b80e",
@@ -2079,7 +2068,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 5,
+   "total": 4,
    "jobs": [
     {
      "id": "head-of-business-development-d915dfef-61b3-448a-a5ae-43c104c83901",
@@ -2444,7 +2433,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 77,
+   "total": 76,
    "jobs": [
     {
      "id": "ace7bbeb-31ff-44ea-991d-223ef9685284",
@@ -2625,53 +2614,8 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:49:21+00:00",
-   "total": 6,
-   "jobs": [
-    {
-     "id": "8be96f99-ca4f-4d9c-87fd-88d61013e99a",
-     "title": "Core Engine Programmer",
-     "location": "Brighton, United Kingdom, Barcelona, Spain",
-     "url": "https://apply.ioi.dk/jobs/8486438-core-engine-programmer",
-     "remote": false,
-     "posted": "2026-10-01T15:07:10+02:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
-     "id": "3e0a313e-a158-4000-ab1c-7bec33f6f7bf",
-     "title": "Graphics Programmer",
-     "location": "Brighton, United Kingdom, Barcelona, Spain",
-     "url": "https://apply.ioi.dk/jobs/8486365-graphics-programmer",
-     "remote": false,
-     "posted": "2026-10-01T14:57:20+02:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
-     "id": "ac8812fa-842c-43e0-8990-9daccfba9f56",
-     "title": "Graphics Programmer",
-     "location": "Brighton, United Kingdom, Barcelona, Spain",
-     "url": "https://apply.ioi.dk/jobs/8484803-graphics-programmer",
-     "remote": false,
-     "posted": "2026-10-01T12:03:25+02:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
-     "id": "8c1aec8e-0bc9-4fa9-8ab5-f028d429ec87",
-     "title": "Release Manager",
-     "location": "Brighton, United Kingdom, Barcelona, Spain",
-     "url": "https://apply.ioi.dk/jobs/8512298-release-manager",
-     "remote": false,
-     "posted": "2026-10-07T15:00:46+02:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    }
-   ]
+   "total": 1,
+   "jobs": []
   },
   {
    "id": "activision",
@@ -2844,7 +2788,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T20:11:37+00:00",
-   "total": 40,
+   "total": 41,
    "jobs": [
     {
      "id": "R027774",
@@ -2937,7 +2881,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 334,
+   "total": 339,
    "jobs": [
     {
      "id": "216318",
@@ -3094,10 +3038,21 @@
      "firstSeen": "2026-10-28T22:59:48+00:00"
     },
     {
+     "id": "215955",
+     "title": "Experience Design Intern",
+     "location": "Kuala Lumpur, Malaysia",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Experience-Design-Intern/215955",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-11-11T12:42:11+00:00"
+    },
+    {
      "id": "216265",
      "title": "Experience Designer - College Football",
      "location": "Vancouver, Canada",
-     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Experience-Designer-College-Football/216265",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Experience-Designer-II/216265",
      "remote": false,
      "posted": null,
      "design": true,
@@ -3169,6 +3124,17 @@
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "215951",
+     "title": "Game Design Intern",
+     "location": "Kuala Lumpur, Malaysia",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Game-Design-Intern/215951",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-11-11T12:42:11+00:00"
     },
     {
      "id": "216365",
@@ -3261,7 +3227,7 @@
     {
      "id": "215422",
      "title": "Gameplay Designer - EA SPORTS™ FC",
-     "location": "Sydney, Australia",
+     "location": "Vancouver, Canada",
      "url": "https://jobs.ea.com/en_US/careers/JobDetail/Gameplay-Designer-EA-SPORTS-FC/215422",
      "remote": false,
      "posted": null,
@@ -3334,17 +3300,6 @@
      "design": true,
      "local": false,
      "firstSeen": "2026-10-30T18:46:33+00:00"
-    },
-    {
-     "id": "216420",
-     "title": "Quality Designer II",
-     "location": "Kuala Lumpur, Malaysia",
-     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Quality-Designer-II/216420",
-     "remote": false,
-     "posted": null,
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
     },
     {
      "id": "216160",
@@ -3535,7 +3490,7 @@
     },
     {
      "id": "215973",
-     "title": "Senior Software Engineer - Low Level Systems - C++",
+     "title": "Senior Software Engineer - Low-Level Systems - C++",
      "location": "Madrid, Spain",
      "url": "https://jobs.ea.com/en_US/careers/JobDetail/Senior-Software-Engineer-Low-Level-Systems-C/215973",
      "remote": false,
@@ -3602,7 +3557,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 186,
+   "total": 192,
    "jobs": [
     {
      "id": "7102266",
@@ -3680,6 +3635,17 @@
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "8376238",
+     "title": "Senior Game Designer, Systems - Unpublished R&D Product",
+     "location": "Shanghai, China",
+     "url": "https://www.riotgames.com/en/work-with-us/job/8376238?gh_jid=8376238",
+     "remote": false,
+     "posted": "2026-11-11T06:30:37-05:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-11-11T12:42:11+00:00"
     },
     {
      "id": "8124193",
@@ -3852,6 +3818,17 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
+     "id": "8305724",
+     "title": "Senior UI Designer (World of Tanks Console)",
+     "location": "Belgrade",
+     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8305724",
+     "remote": false,
+     "posted": "2026-10-21T08:27:52-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
      "id": "8305734",
      "title": "Senior UI Designer (World of Tanks Console)",
      "location": "Vilnius",
@@ -3874,12 +3851,12 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "8305724",
-     "title": "Senior UI Designer (World of Tanks Console)",
+     "id": "8159183",
+     "title": "UI Designer (World of Warships, PC)",
      "location": "Belgrade",
-     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8305724",
+     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8159183",
      "remote": false,
-     "posted": "2026-10-21T08:27:52-04:00",
+     "posted": "2026-10-05T05:26:42-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -3891,17 +3868,6 @@
      "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8159188",
      "remote": false,
      "posted": "2026-10-05T05:59:52-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "8159183",
-     "title": "UI Designer (World of Warships, PC)",
-     "location": "Belgrade",
-     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8159183",
-     "remote": false,
-     "posted": "2026-10-05T05:26:42-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -4231,7 +4197,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 363,
+   "total": 355,
    "jobs": [
     {
      "id": "36186",
@@ -4251,17 +4217,6 @@
      "url": "https://www.keywordsstudios.com/en/careers/browse-careers/ADB-combat-designer/",
      "remote": false,
      "posted": "2026-11-10T10:30:11+00:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
-     "id": "37816",
-     "title": "Game Designer (FPS)",
-     "location": "Bucharest, Bucharest, Romania",
-     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xLP-game-designer-fps/",
-     "remote": false,
-     "posted": "2026-09-30T10:32:15+01:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
@@ -4295,6 +4250,17 @@
      "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xLE-game-designer-fps/",
      "remote": false,
      "posted": "2026-09-30T10:32:13+01:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "37816",
+     "title": "Game Designer (FPS)",
+     "location": "Bucharest, Bucharest, Romania",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xLP-game-designer-fps/",
+     "remote": false,
+     "posted": "2026-09-30T10:32:15+01:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
@@ -4397,6 +4363,17 @@
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "38282",
+     "title": "Senior Level Designer - Electric Square",
+     "location": "United Kingdom",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xSn-senior-level-designer-electric-square/",
+     "remote": false,
+     "posted": "2026-11-11T10:32:02+00:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-11-11T12:42:11+00:00"
     },
     {
      "id": "32487",
@@ -4636,7 +4613,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 19,
+   "total": 18,
    "jobs": [
     {
      "id": "56bdf264-6e20-438d-b70f-d3f973fc22d7",
@@ -5086,7 +5063,7 @@
     },
     {
      "id": "6221946004",
-     "title": "Senior User Experience Researcher",
+     "title": "Senior User Experience Researcher (CONTRACT)",
      "location": "United States, Remote",
      "url": "https://job-boards.greenhouse.io/insomniac/jobs/6221946004",
      "remote": true,
@@ -5280,7 +5257,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 68,
+   "total": 66,
    "jobs": [
     {
      "id": "account-manager-chinese-speaking-remote-in-europe-europe-remote-49958-29475",
@@ -5358,17 +5335,6 @@
      "design": false,
      "local": true,
      "firstSeen": "2026-11-10T22:22:18+00:00"
-    },
-    {
-     "id": "growth-marketing-manager-ceuta-europe-45604-29424",
-     "title": "Growth Marketing Manager - Ceuta",
-     "location": "Barcelona, Europe",
-     "url": "https://www.pentasia.com/careers/growth-marketing-manager-ceuta-europe-45604-29424",
-     "remote": false,
-     "posted": null,
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-29T14:16:28+00:00"
     },
     {
      "id": "head-fraud-europe-47273-29433",
