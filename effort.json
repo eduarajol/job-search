@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T18:49:21Z",
+  "updated": "2026-11-13T18:49:30Z",
   "levels": {
     "bajo": "Reutilizas casi todo lo que tienes. Una hora o menos.",
     "medio": "Hay que adaptar CV y mensaje y preparar algo concreto. Media jornada.",
@@ -197,6 +197,10 @@
     "ubisoft-mobile:744000160135969": {
       "level": "alto",
       "note": "Lead Game Designer con un ciclo completo de F2P móvil y LiveOps, economía y monetización. Pide liderar un equipo."
+    },
+    "gameloft:744000161462070": {
+      "level": "alto",
+      "note": "Pide 6+ años como lead o principal, 2 títulos lanzados, 3Cs de acción PC/consola y prototipado en Unity o Unreal."
     }
   }
 }
