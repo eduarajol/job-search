@@ -34,14 +34,18 @@
    "location": "Barcelona · Presencial",
    "url": "https://www.ubisoft.com/en-us/company/careers/search/744000158059429-game-designer-mobile-",
    "date": "2026-11-03",
-   "status": "applied",
-   "stage": "Esperando respuesta",
+   "status": "rejected",
+   "stage": "Descartada sin entrevista",
    "cv": "CV ATS · Game Designer (Mobile) + mensaje al equipo",
    "referral": "No (estudio independiente). Un contacto en Ubisoft preguntará a RR. HH.",
    "steps": [
     {
      "date": "2026-11-03",
      "text": "Candidatura enviada desde la web de Ubisoft, con el CV enfocado a mobile y un mensaje al equipo de selección."
+    },
+    {
+     "date": "2026-11-16",
+     "text": "Correo de Ubisoft: siguen con otro candidato. Me animan a mirar nuevas ofertas en su web."
     }
    ]
   },
