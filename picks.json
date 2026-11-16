@@ -1,21 +1,16 @@
 {
-  "updated": "2026-11-16T06:49:04Z",
-  "basedOn": "2026-11-16T06:46:51+00:00",
+  "updated": "2026-11-16T18:49:46Z",
+  "basedOn": "2026-11-16T18:46:30+00:00",
   "picks": [
     {
-      "key": "ubisoft-mobile:744000158059429",
+      "key": "scopely:5449845008",
       "fit": "Media",
-      "reason": "Game Designer mobile F2P en Barcelona: features, sistemas y tuning de contenido. Pide 3+ años y balanceo de RPG F2P."
+      "reason": "Lead UX en Star Trek Fleet Command, MMO de estrategia 4X live-service. Flujos, wireframes y prototipos. Pide liderazgo en UX de juegos."
     },
     {
       "key": "userwise:0853FED995",
       "fit": "Media",
       "reason": "Lead UI/UX en remoto para un F2P móvil casual con IP conocida: flujos, wireframes y prototipos. Pide experiencia senior en juegos lanzados."
-    },
-    {
-      "key": "scopely:5449845008",
-      "fit": "Media",
-      "reason": "Lead UX en Star Trek Fleet Command, MMO de estrategia 4X live-service. Flujos, wireframes y prototipos. Pide liderazgo en UX de juegos."
     },
     {
       "key": "ubisoft:744000158795149",
@@ -28,6 +23,11 @@
       "reason": "Senior Game Designer de metagame en Candy Crush Saga: progresión, social y recompensas. Pide perfil senior en juegos live de móvil."
     },
     {
+      "key": "userwise:648F4A33B9",
+      "fit": "Baja",
+      "reason": "Senior Game Designer y product builder en remoto para juegos móviles con IA: conceptos, KPIs y prototipos. Pide perfil senior de producto."
+    },
+    {
       "key": "tripledot:4965778101",
       "fit": "Baja",
       "reason": "Game Designer de puzzles casual en remoto (Europa) con estudios turcos: mecánicas, niveles y datos. Pide 3+ años en diseño de juegos."
@@ -38,11 +38,6 @@
       "reason": "Principal UX en Monopoly GO! (Barcelona): visión UX y mentoría en un F2P móvil masivo. Pide 8+ años de UX en juegos."
     },
     {
-      "key": "voodoo:d633533c-ac08-440e-a6b6-33351b3ad005",
-      "fit": "Baja",
-      "reason": "Game Designer de modos multijugador en Paper.io 2, remoto o Barcelona. Pide 5+ años en juegos móviles F2P."
-    },
-    {
       "key": "yodo1:4cfc76b2-2b94-4d05-bfed-5b33ce3311a3",
       "fit": "Baja",
       "reason": "Senior Game Designer en remoto para Transformers: Earth Wars: personajes, eventos y balance F2P. Pide Unity y experiencia en juegos live."
@@ -51,6 +46,11 @@
       "key": "scopely:5442575008",
       "fit": "Baja",
       "reason": "Combat Designer para un MMO de estrategia sin anunciar en Barcelona. Pide 4+ años diseñando contenido y sistemas de juego."
+    },
+    {
+      "key": "ubisoft-mobile:744000160135969",
+      "fit": "Baja",
+      "reason": "Lead Game Designer de un F2P móvil live en Barcelona: visión, economía y monetización. Pide liderar un equipo de diseño."
     }
   ]
 }
