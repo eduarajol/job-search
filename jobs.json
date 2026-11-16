@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T13:36:24+00:00",
+ "updated": "2026-11-16T18:46:30+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -14,7 +14,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 181,
+   "total": 178,
    "jobs": [
     {
      "id": "5442573008",
@@ -127,23 +127,23 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5449846008",
-     "title": "Lead UX Designer - Star Trek Fleet Command",
-     "location": "GB - London, United Kingdom",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5449846008?gh_jid=5449846008",
-     "remote": false,
-     "posted": "2026-10-12T04:46:53-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5448555008",
      "title": "Lead UX Designer - Star Trek Fleet Command",
      "location": "IE - Ireland",
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5448555008?gh_jid=5448555008",
      "remote": false,
      "posted": "2026-10-12T04:46:49-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5449846008",
+     "title": "Lead UX Designer - Star Trek Fleet Command",
+     "location": "GB - London, United Kingdom",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5449846008?gh_jid=5449846008",
+     "remote": false,
+     "posted": "2026-10-12T04:46:53-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -193,23 +193,23 @@
      "firstSeen": "2026-11-06T18:46:06+00:00"
     },
     {
-     "id": "4626426008",
-     "title": "Analytics Engineer",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/4626426008?gh_jid=4626426008",
-     "remote": false,
-     "posted": "2025-04-10T11:59:49-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5222025008",
      "title": "Analytics Engineer",
      "location": "ES - Barcelona, Spain",
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5222025008?gh_jid=5222025008",
      "remote": false,
      "posted": "2026-05-19T11:02:29-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "4626426008",
+     "title": "Analytics Engineer",
+     "location": "ES - Barcelona, Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/4626426008?gh_jid=4626426008",
+     "remote": false,
+     "posted": "2025-04-10T11:59:49-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -232,17 +232,6 @@
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5397052008?gh_jid=5397052008",
      "remote": false,
      "posted": "2026-08-20T22:09:12-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "5426001008",
-     "title": "Client Engineer (Unity, Real User Monitoring) - Unannounced Project",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5426001008?gh_jid=5426001008",
-     "remote": false,
-     "posted": "2026-09-25T03:10:29-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -512,17 +501,6 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5409477008",
-     "title": "Senior Art Manager",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5409477008?gh_jid=5409477008",
-     "remote": false,
-     "posted": "2026-09-09T14:09:40-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5475452008",
      "title": "Senior Client Engineer - Stumble Guys!",
      "location": "ES - Barcelona, Spain",
@@ -622,17 +600,6 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5394587008",
-     "title": "Senior Motion Designer",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5394587008?gh_jid=5394587008",
-     "remote": false,
-     "posted": "2026-08-31T09:47:28-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5428967008",
      "title": "Senior Motion Designer",
      "location": "ES - Barcelona, Spain",
@@ -642,6 +609,17 @@
      "design": false,
      "local": true,
      "firstSeen": "2026-11-13T18:46:16+00:00"
+    },
+    {
+     "id": "5394587008",
+     "title": "Senior Motion Designer",
+     "location": "ES - Barcelona, Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5394587008?gh_jid=5394587008",
+     "remote": false,
+     "posted": "2026-08-31T09:47:28-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
      "id": "5435832008",
@@ -1622,23 +1600,23 @@
      "firstSeen": "2026-10-30T18:46:33+00:00"
     },
     {
-     "id": "4988598101",
-     "title": "Data Analyst",
-     "location": "Barcelona",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988598101",
-     "remote": false,
-     "posted": "2026-09-28T09:42:08-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
      "id": "4988635101",
      "title": "Data Analyst",
      "location": "Remote Europe",
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988635101",
      "remote": true,
      "posted": "2026-09-28T09:54:30-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4988598101",
+     "title": "Data Analyst",
+     "location": "Barcelona",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988598101",
+     "remote": false,
+     "posted": "2026-09-28T09:42:08-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -2673,7 +2651,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 57,
+   "total": 55,
    "jobs": [
     {
      "id": "R027887",
@@ -2799,7 +2777,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T20:11:37+00:00",
-   "total": 42,
+   "total": 45,
    "jobs": [
     {
      "id": "R027774",
@@ -2970,17 +2948,6 @@
      "design": true,
      "local": false,
      "firstSeen": "2026-11-05T22:40:37+00:00"
-    },
-    {
-     "id": "216538",
-     "title": "Cinematic Designer - EA Sports FC",
-     "location": "Vancouver, Canada",
-     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Cinematic-Designer/216538",
-     "remote": false,
-     "posted": null,
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-11-02T18:46:51+00:00"
     },
     {
      "id": "216616",
@@ -3557,7 +3524,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 193,
+   "total": 195,
    "jobs": [
     {
      "id": "7102266",
@@ -3864,7 +3831,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 34,
+   "total": 33,
    "jobs": [
     {
      "id": "8226938",
@@ -3891,7 +3858,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 8,
+   "total": 7,
    "jobs": []
   },
   {
@@ -3906,7 +3873,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:49:21+00:00",
-   "total": 3,
+   "total": 2,
    "jobs": [
     {
      "id": "d15919dc-12c4-40b4-bb6f-2ca0b2fd2eb7",
@@ -3916,17 +3883,6 @@
      "remote": false,
      "posted": "2026-10-06T10:06:34+02:00",
      "design": true,
-     "local": true,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
-     "id": "78c96008-b264-4b86-ab85-7ed3e4d127eb",
-     "title": "SENIOR GAMEPLAY PROGRAMMER",
-     "location": "Bespoke Pixel, Barcelona, Spain",
-     "url": "https://bespokepixel.teamtailor.com/jobs/8370521-senior-gameplay-programmer",
-     "remote": false,
-     "posted": "2026-09-14T08:50:43+02:00",
-     "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:49:21+00:00"
     },
@@ -4221,17 +4177,6 @@
      "firstSeen": "2026-10-28T22:59:48+00:00"
     },
     {
-     "id": "31365",
-     "title": "Level Designer",
-     "location": "Singapore, Singapore, Singapore",
-     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/AxZ-level-designer/",
-     "remote": false,
-     "posted": "2026-11-10T10:30:11+00:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
      "id": "37694",
      "title": "Level Designer",
      "location": "Warsaw, Masovian Voivodeship, Poland",
@@ -4271,6 +4216,17 @@
      "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xoe-level-designer/",
      "remote": false,
      "posted": "2026-09-17T10:32:08+01:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "31365",
+     "title": "Level Designer",
+     "location": "Singapore, Singapore, Singapore",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/AxZ-level-designer/",
+     "remote": false,
+     "posted": "2026-11-10T10:30:11+00:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
@@ -4572,7 +4528,7 @@
    "logos": null,
    "status": "ok",
    "since": "2026-11-05T09:54:19+00:00",
-   "total": 9,
+   "total": 8,
    "jobs": [
     {
      "id": "805b5037-c1a4-4cd0-b231-736ed3144fc4",
@@ -4593,17 +4549,6 @@
      "remote": true,
      "posted": "2026-10-29T08:37:06+01:00",
      "design": true,
-     "local": true,
-     "firstSeen": "2026-11-05T09:54:19+00:00"
-    },
-    {
-     "id": "1702be08-2892-431a-8eda-a33d633f3748",
-     "title": "3D Animator",
-     "location": "Europe (Remote), Kyiv, Ukraine",
-     "url": "https://viragames.teamtailor.com/jobs/8554161-3d-animator",
-     "remote": true,
-     "posted": "2026-10-15T18:59:33+02:00",
-     "design": false,
      "local": true,
      "firstSeen": "2026-11-05T09:54:19+00:00"
     },
@@ -4809,7 +4754,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 56,
+   "total": 58,
    "jobs": [
     {
      "id": "744000160969830",
@@ -4900,7 +4845,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 228,
+   "total": 229,
    "jobs": [
     {
      "id": "6098184004",
@@ -5038,7 +4983,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 74,
+   "total": 76,
    "jobs": [
     {
      "id": "4426184009",
@@ -5189,7 +5134,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 65,
+   "total": 67,
    "jobs": [
     {
      "id": "account-manager-chinese-speaking-remote-in-europe-europe-remote-49958-29475",
@@ -5278,6 +5223,17 @@
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T14:16:28+00:00"
+    },
+    {
+     "id": "head-legal-compliance-europe-50700-29484",
+     "title": "Head of Legal and Compliance",
+     "location": "Remote, Europe",
+     "url": "https://www.pentasia.com/careers/head-legal-compliance-europe-50700-29484",
+     "remote": true,
+     "posted": null,
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-16T18:46:30+00:00"
     },
     {
      "id": "head-product-remote-49934-29465",
