@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T14:21:31+00:00",
+ "updated": "2026-11-17T18:46:29+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -14,7 +14,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 175,
+   "total": 172,
    "jobs": [
     {
      "id": "5442573008",
@@ -92,17 +92,6 @@
      "design": true,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "5473234008",
-     "title": "Senior Level Designer - Stumble Guys!",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5473234008?gh_jid=5473234008",
-     "remote": false,
-     "posted": "2026-11-05T08:38:59-05:00",
-     "design": true,
-     "local": true,
-     "firstSeen": "2026-11-05T15:55:11+00:00"
     },
     {
      "id": "5379017008",
@@ -433,17 +422,6 @@
      "design": false,
      "local": true,
      "firstSeen": "2026-11-05T15:55:11+00:00"
-    },
-    {
-     "id": "5363714008",
-     "title": "Production Director – Seasonal Content | MONOPOLY GO!",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5363714008?gh_jid=5363714008",
-     "remote": false,
-     "posted": "2026-07-18T09:49:07-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
      "id": "5474067008",
@@ -1065,7 +1043,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 56,
+   "total": 57,
    "jobs": [
     {
      "id": "744000162021645",
@@ -1269,7 +1247,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 6,
+   "total": 5,
    "jobs": [
     {
      "id": "744000158795149",
@@ -1279,17 +1257,6 @@
      "remote": false,
      "posted": "2026-10-30T16:18:13.652Z",
      "design": true,
-     "local": true,
-     "firstSeen": "2026-10-30T18:46:33+00:00"
-    },
-    {
-     "id": "744000158751601",
-     "title": "Junior Technical Artist - Rainbow Six  Siege",
-     "location": "Barcelona, CT, Spain",
-     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000158751601",
-     "remote": false,
-     "posted": "2026-10-30T14:07:53.982Z",
-     "design": false,
      "local": true,
      "firstSeen": "2026-10-30T18:46:33+00:00"
     },
@@ -1399,7 +1366,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-28T17:49:21+00:00",
-   "total": 82,
+   "total": 83,
    "jobs": [
     {
      "id": "4965778101",
@@ -1501,6 +1468,17 @@
      "firstSeen": "2026-11-11T23:27:57+00:00"
     },
     {
+     "id": "5031308101",
+     "title": "Senior Game Economy Designer",
+     "location": "Minsk",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5031308101",
+     "remote": false,
+     "posted": "2026-11-09T12:49:14-05:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-11-09T19:51:24+00:00"
+    },
+    {
      "id": "5031309101",
      "title": "Senior Game Economy Designer",
      "location": "Warsaw",
@@ -1523,17 +1501,6 @@
      "firstSeen": "2026-11-09T19:51:24+00:00"
     },
     {
-     "id": "5031308101",
-     "title": "Senior Game Economy Designer",
-     "location": "Minsk",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5031308101",
-     "remote": false,
-     "posted": "2026-11-09T12:49:14-05:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-11-09T19:51:24+00:00"
-    },
-    {
      "id": "5019451101",
      "title": "Ad Monetisation Analyst",
      "location": "Remote Europe",
@@ -1543,17 +1510,6 @@
      "design": false,
      "local": true,
      "firstSeen": "2026-10-30T18:46:33+00:00"
-    },
-    {
-     "id": "4988598101",
-     "title": "Data Analyst",
-     "location": "Barcelona",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988598101",
-     "remote": false,
-     "posted": "2026-09-28T09:42:08-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
     },
     {
      "id": "4988635101",
@@ -1567,12 +1523,12 @@
      "firstSeen": "2026-10-28T17:49:21+00:00"
     },
     {
-     "id": "4988610101",
-     "title": "Fraud Analyst",
+     "id": "4988598101",
+     "title": "Data Analyst",
      "location": "Barcelona",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988610101",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988598101",
      "remote": false,
-     "posted": "2026-09-28T09:45:46-04:00",
+     "posted": "2026-09-28T09:42:08-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -1584,6 +1540,17 @@
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988636101",
      "remote": true,
      "posted": "2026-09-28T09:54:28-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4988610101",
+     "title": "Fraud Analyst",
+     "location": "Barcelona",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988610101",
+     "remote": false,
+     "posted": "2026-09-28T09:45:46-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -1611,23 +1578,23 @@
      "firstSeen": "2026-10-28T17:49:21+00:00"
     },
     {
-     "id": "4962295101",
-     "title": "Senior Ad Monetisation Analyst",
-     "location": "Barcelona",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4962295101",
-     "remote": false,
-     "posted": "2026-08-27T10:44:54-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
      "id": "4960068101",
      "title": "Senior Ad Monetisation Analyst",
      "location": "Remote Europe",
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4960068101",
      "remote": true,
      "posted": "2026-08-25T06:37:03-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4962295101",
+     "title": "Senior Ad Monetisation Analyst",
+     "location": "Barcelona",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4962295101",
+     "remote": false,
+     "posted": "2026-08-27T10:44:54-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -1657,7 +1624,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 102,
+   "total": 103,
    "jobs": [
     {
      "id": "d633533c-ac08-440e-a6b6-33351b3ad005",
@@ -1816,7 +1783,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 40,
+   "total": 39,
    "jobs": [
     {
      "id": "5724174004",
@@ -2282,6 +2249,17 @@
      "firstSeen": "2026-10-29T00:15:52+00:00"
     },
     {
+     "id": "R0022927",
+     "title": "Stochastic Modelling Specialist",
+     "location": "Barcelona, Spain",
+     "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Stochastic-Modelling-Specialist_R0022927",
+     "remote": false,
+     "posted": "2026-11-17",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-17T18:46:29+00:00"
+    },
+    {
      "id": "R0022685",
      "title": "Technical Product Owner",
      "location": "Barcelona, Spain",
@@ -2389,7 +2367,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 72,
+   "total": 71,
    "jobs": [
     {
      "id": "ace7bbeb-31ff-44ea-991d-223ef9685284",
@@ -2711,7 +2689,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T20:11:37+00:00",
-   "total": 43,
+   "total": 45,
    "jobs": [
     {
      "id": "R027774",
@@ -2804,7 +2782,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 337,
+   "total": 334,
    "jobs": [
     {
      "id": "216318",
@@ -3245,17 +3223,6 @@
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
-     "id": "216660",
-     "title": "Senior Gameplay Designer",
-     "location": "Kirkland, United States of America",
-     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Senior-Gameplay-Designer/216660",
-     "remote": false,
-     "posted": null,
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-11-12T18:46:54+00:00"
     },
     {
      "id": "216390",
@@ -3803,7 +3770,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 7,
+   "total": 6,
    "jobs": []
   },
   {
@@ -4964,7 +4931,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 11,
+   "total": 10,
    "jobs": [
     {
      "id": "4747682005",
@@ -5079,7 +5046,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 68,
+   "total": 66,
    "jobs": [
     {
      "id": "account-manager-chinese-speaking-remote-in-europe-europe-remote-49958-29475",
@@ -5126,15 +5093,15 @@
      "firstSeen": "2026-10-29T14:16:28+00:00"
     },
     {
-     "id": "compliance-operations-manager-europe-malta-46254-29429",
-     "title": "Compliance Operations Manager",
-     "location": "Remote, Europe, Malta",
-     "url": "https://www.pentasia.com/careers/compliance-operations-manager-europe-malta-46254-29429",
+     "id": "commercial-sales-director-europe-50798-29488",
+     "title": "Commercial Sales Director",
+     "location": "Remote, Europe",
+     "url": "https://www.pentasia.com/careers/commercial-sales-director-europe-50798-29488",
      "remote": true,
      "posted": null,
      "design": false,
      "local": true,
-     "firstSeen": "2026-10-29T14:16:28+00:00"
+     "firstSeen": "2026-11-17T18:46:29+00:00"
     },
     {
      "id": "cybersecurity-consultant-europe-48224-29452",
@@ -5157,17 +5124,6 @@
      "design": false,
      "local": true,
      "firstSeen": "2026-11-10T22:22:18+00:00"
-    },
-    {
-     "id": "head-fraud-europe-47273-29433",
-     "title": "Head of Fraud",
-     "location": "Remote, Europe",
-     "url": "https://www.pentasia.com/careers/head-fraud-europe-47273-29433",
-     "remote": true,
-     "posted": null,
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-29T14:16:28+00:00"
     },
     {
      "id": "head-legal-compliance-europe-50700-29484",
