@@ -42,6 +42,7 @@ NOT_DESIGN = re.compile(
 )
 LOCAL = re.compile(r"barcelona|spain|españa|espana|catalonia|cataluña|catalunya", re.I)
 REMOTE = re.compile(r"remote|remoto|anywhere|work from home|wfh", re.I)
+FREELANCE = re.compile(r"freelanc|contractor|\bfreiberuf", re.I)
 NOT_REMOTE = re.compile(r"\b(non|not|no)[- ]remote\b", re.I)
 EUROPE = re.compile(r"europe|emea|eu\b|spain|españa|worldwide|global|anywhere", re.I)
 
@@ -541,6 +542,86 @@ def read_pentasia(src):
         time.sleep(0.5)
     return out
 
+INGAMEJOB_DELAY = 5  # robots.txt asks for 5 seconds between requests
+
+
+def ago_date(text):
+    """INGAMEJOB only says "Posted 4 days ago", "Posted 1 week ago"..."""
+    t = (text or "").lower()
+    now = datetime.now(timezone.utc)
+    if "today" in t or re.search(r"\b(second|minute|hour)s?\b", t):
+        return now.date().isoformat()
+    if "yesterday" in t:
+        return (now.date().fromordinal(now.date().toordinal() - 1)).isoformat()
+    m = re.search(r"(\d+)\s*(day|week|month|year)s?", t)
+    if not m:
+        return None
+    days = int(m.group(1)) * {"day": 1, "week": 7, "month": 30, "year": 365}[m.group(2)]
+    return now.date().fromordinal(now.date().toordinal() - days).isoformat()
+
+
+def read_ingamejob(src):
+    """INGAMEJOB (games job portal): HTML cards of a saved search, in pages.
+    Each card says the employer, location, level and employment type. Offers
+    from studios this page already reads are skipped, and offers that only
+    link out (/away/) are kept with that link but never fetched (robots.txt)."""
+    tracked = [c for c in json.loads(COMPANIES.read_text(encoding="utf-8"))
+               if c.get("source") and c["source"].get("type") != "ingamejob"]
+
+    def norm(name):
+        n = re.sub(r"\b(gmbh|ltd|inc|llc|s\.?l\.?|sa|ab|oy|games?|studios?|entertainment|"
+                   r"interactive|mobile|barcelona|berlin|paris|london)\b|[^a-z0-9 ]", " ", name.lower())
+        return n.split()[0] if n.split() else ""
+
+    known = {norm(c["name"]) for c in tracked} - {""}
+    out, seen = [], set()
+    for page in range(1, 11):
+        url = src["url"] + (f"&page={page}" if page > 1 else "")
+        t = get_text(url)
+        cards = re.split(r'<div class="employer-job-listing-single', t)[1:]
+        new = 0
+        for c in cards:
+            a = re.search(r'(?s)<h5>\s*<a[^>]*href="([^"]+)"[^>]*>(.*?)</a>', c)
+            if not a or a.group(1) in seen:
+                continue
+            seen.add(a.group(1)); new += 1
+            href, title = a.group(1), strip_tags(a.group(2))
+            info = [strip_tags(p) for p in re.findall(r'(?s)<p class="m-0">(.*?)</p>', c)]
+            employer = re.search(r'(?s)la-building-o"></i>(.*?)</strong>', c)
+            employer = strip_tags(employer.group(1)) if employer else ""
+            if norm(employer) in known:
+                continue
+            loc = re.search(r'(?s)la-map-marker"></i>(.*?)</p>', c)
+            loc = strip_tags(loc.group(1)) if loc else ""
+            posted = next((ago_date(p) for p in info if p.lower().startswith("posted")), None)
+            level = re.search(r'(?s)la-area-chart"></i>(.*?)</p>', c)
+            kind = re.search(r'(?s)la-briefcase"></i>(.*?)</p>', c)
+            kind = strip_tags(kind.group(1)) if kind else ""
+            j = job(href.rstrip("/").split("/")[-1], title, loc, href,
+                    remote=bool(REMOTE.search(loc)), posted=posted)
+            j["employer"] = employer
+            if level:
+                j["level"] = strip_tags(level.group(1))
+            if kind:
+                j["employment"] = kind
+            if "/away/" in href:
+                j["_away"] = True
+            out.append(j)
+        if not cards or not new:
+            break
+        time.sleep(INGAMEJOB_DELAY)
+    return out
+
+
+def ingamejob_description(j):
+    if j.get("_away"):
+        return ""
+    time.sleep(INGAMEJOB_DELAY)
+    t = get_text(j["url"])
+    parts = re.findall(r'(?s)<div class="job-view-single-section[^"]*">(.*?)</div>', t)
+    return "\n".join(parts)
+
+
 def read_wordpress(src):
     """Studios that post offers as WordPress entries (Angry Mob Games):
     every entry of the given post type and category is an open offer."""
@@ -579,6 +660,8 @@ def describe(src, j):
             return plain("\n".join(parts))
         if src["type"] in ("phenom", "workday"):
             return plain(workday_description(j.get("_workday")) or j.get("_teaser") or "")
+        if src["type"] == "ingamejob":
+            return plain(ingamejob_description(j))
         if src["type"] in ("avature", "rovio", "keywords", "pentasia"):
             return plain(page_text(j["url"]))
         if src["type"] == "workable":
@@ -616,6 +699,7 @@ READERS = {
     "personio": read_personio,
     "workday": read_workday,
     "pentasia": read_pentasia,
+    "ingamejob": read_ingamejob,
 }
 
 
@@ -673,6 +757,10 @@ def main():
                 # Some boards only say it in the title: "Senior Designer | Fully Remote".
                 if not j["remote"] and REMOTE.search(j["title"] or "") and not NOT_REMOTE.search(j["title"] or ""):
                     j["remote"] = True
+            for j in raw:
+                # Freelance offers go to the Freelance page instead of Ofertas.
+                if FREELANCE.search(j.get("employment") or "") or FREELANCE.search(j["title"] or ""):
+                    j["freelance"] = True
             if src.get("allRemote"):
                 # Fully remote companies whose feed gives no location (Yodo1).
                 for j in raw:
@@ -700,11 +788,11 @@ def main():
             for j in jobs:
                 if j["design"] and j["local"]:
                     details[f"{c['id']}:{j['id']}"] = {
-                        "company": c["name"], "title": j["title"], "location": j["location"],
+                        "company": j.get("employer") or c["name"], "title": j["title"], "location": j["location"],
                         "url": j["url"], "firstSeen": j["firstSeen"],
                         "description": describe(src, j),
                     }
-                for k in ("_desc", "_teaser", "_workday", "_srFields"):
+                for k in ("_desc", "_teaser", "_workday", "_srFields", "_away"):
                     j.pop(k, None)
             jobs.sort(key=lambda j: (not j["design"], not j["local"], j["title"].lower()))
             since = seen_db["companies"].setdefault(

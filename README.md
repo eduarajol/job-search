@@ -13,6 +13,7 @@ Página personal para revisar cada día las ofertas de Game Design y UX de los e
 - `applied.json`: candidaturas enviadas. Cada una lleva la clave `companyId:jobId`, el puesto, la fecha, el estado (`applied`, `process`, `offer`, `rejected` o `withdrawn`), en qué punto estoy, qué envié, el referral y los pasos del proceso. La página de ofertas las marca con «Aplicada».
 - `applied.html`: página «Aplicadas», el histórico de candidaturas. Se genera desde `src/applied.html`.
 - `people.json` y `people.html`: página «Personas», la gente de los estudios con la que quiero contactar. Cada persona lleva nombre, enlace a LinkedIn, empresa (`id` de `companies.json`), equipo o juego, cargo, por qué encaja, ubicación según su LinkedIn (`location`), grado de conexión (`degree`), estado (`todo`, `contacted`, `replied`, `talked` o `noreply`), fecha de contacto y notas. Un campo con valor `""` se muestra como «Falta», para acordarme de rellenarlo. Se genera desde `src/people.html`.
+- `freelance.json` y `freelance.html`: página «Freelance», los encargos freelance de UX y Game Design. Arriba, los **registrados** en `freelance.json` (los que revisamos y encajan), cada uno con título, cliente, plataforma (Upwork, INGAMEJOB…), enlace, ubicación, tarifa, duración, dedicación, disciplina (`ux` o `gd`), encaje, esfuerzo, nota, estado (`open`, `proposal`, `talk`, `hired`, `discarded` o `closed`) y pasos. Abajo, los **detectados** en los portales: las ofertas de `jobs.json` marcadas como freelance, que no salen en Ofertas. Se genera desde `src/freelance.html`.
 - `games.json` y `games.html`: página «Empresas y juegos», con los juegos de cada empresa y su web. Se genera desde `src/games.html`.
 - `index.html`: la página. Lee `jobs.json`. Se genera desde `src/page.html` con `python scripts/build_page.py`.
 
@@ -20,6 +21,8 @@ Página personal para revisar cada día las ofertas de Game Design y UX de los e
 - `logos/`: logos SVG guardados en el repositorio. En `companies.json`, el campo `logos` lista las imágenes que la página prueba en orden. Si ninguna carga, usa el favicon en alta resolución y, si tampoco, las iniciales.
 
 Las empresas sin portal público aparecen solo con el enlace a su web de empleo.
+
+INGAMEJOB es un portal con ofertas de muchos estudios: se lee una búsqueda guardada (Game Designer y UI/UX Designer, en Barcelona o remoto) y cada oferta lleva el estudio en `employer`. Se omiten las de estudios que ya se leen directamente, las que solo enlazan fuera (`/away/`) no se abren, y entre petición y petición se esperan 5 segundos, como pide su robots.txt. Una oferta es freelance (`freelance: true`) cuando el portal lo indica o el título lo dice.
 
 ## Puesta en marcha
 

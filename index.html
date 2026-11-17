@@ -278,6 +278,7 @@ header.top.compact .stamp { display: none; }
       <p>Game Design y UX en estudios de videojuegos</p>
       <nav class="tabs" id="site-nav" aria-label="Secciones">
         <a href="./" aria-current="page">Ofertas</a>
+        <a href="freelance.html">Freelance</a>
         <a href="applied.html">Aplicadas</a>
         <a href="games.html">Empresas y juegos</a>
         <a href="people.html">Personas</a>
@@ -517,12 +518,13 @@ header.top.compact .stamp { display: none; }
     if ((f.ux || f.gd) && !((f.ux && k === 'ux') || (f.gd && k === 'gd'))) return false;
     if ((f.bcn || f.remote) && !((f.bcn && isBcn(j)) || (f.remote && isRemote(j)))) return false;
     var q = state.text.trim().toLowerCase();
-    if (q && (j.title + ' ' + (j.location || '') + ' ' + placeText(j).text + ' ' + placeText(j).full + ' ' + c.name).toLowerCase().indexOf(q) === -1) return false;
+    if (q && (j.title + ' ' + (j.location || '') + ' ' + placeText(j).text + ' ' + placeText(j).full + ' ' + c.name + ' ' + (j.employer || '')).toLowerCase().indexOf(q) === -1) return false;
     return true;
   }
   function visible(c) {
     if (!c.jobs) return [];
-    return c.jobs.filter(function (j) { return passes(j, c); });
+    // Freelance offers live on their own page.
+    return c.jobs.filter(function (j) { return !j.freelance && passes(j, c); });
   }
   function filtering() {
     var f = state.f;
@@ -646,7 +648,7 @@ header.top.compact .stamp { display: none; }
       var info = el('span', 'info');
       info.appendChild(el('span', 't', split.role));
       var w = el('span', 'where');
-      w.appendChild(el('span', 'co', c.name));
+      w.appendChild(el('span', 'co', j.employer ? j.employer + ' (vía ' + c.name + ')' : c.name));
       w.appendChild(document.createTextNode(' · '));
       w.appendChild(el('span', 'place', pt.text));
       if (when) { w.appendChild(document.createTextNode(' · ')); w.appendChild(el('span', 'date', when)); }
@@ -660,6 +662,8 @@ header.top.compact .stamp { display: none; }
       a.appendChild(el('span', 't', j.title));
       a.appendChild(badge);
       var wh = el('span', 'where');
+      // Portals (INGAMEJOB) list offers from many studios: say which one.
+      if (j.employer) { wh.appendChild(el('span', 'co', j.employer)); wh.appendChild(document.createTextNode(' · ')); }
       wh.appendChild(el('span', 'place', pt.text));
       if (when) wh.appendChild(document.createTextNode(' · '));
       if (pt.full) wh.title = pt.full;
@@ -877,7 +881,7 @@ header.top.compact .stamp { display: none; }
       if (p.fit) top.appendChild(fitBadge(p.fit));
       a.appendChild(top);
       var meta = el('span', 'meta');
-      meta.appendChild(el('span', 'co', c.name));
+      meta.appendChild(el('span', 'co', j.employer ? j.employer + ' (vía ' + c.name + ')' : c.name));
       if (split.game) { meta.appendChild(document.createTextNode(' · ')); meta.appendChild(el('i', null, split.game)); }
       var mp = placeText(j);
       meta.appendChild(document.createTextNode(' · '));
