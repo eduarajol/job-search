@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T18:49:46Z",
+  "updated": "2026-11-17T18:49:36Z",
   "levels": {
     "bajo": "Reutilizas casi todo lo que tienes. Una hora o menos.",
     "medio": "Hay que adaptar CV y mensaje y preparar algo concreto. Media jornada.",
@@ -205,6 +205,10 @@
     "king:R028168": {
       "level": "alto",
       "note": "Principal de economía para un Merge 2. Pide modelos y simulaciones de economía y experiencia en juegos merge lanzados."
+    },
+    "gameloft:744000162021645": {
+      "level": "alto",
+      "note": "Pide 6+ años como Lead con 2 títulos lanzados, 3Cs de acción en PC/consola y prototipado en Unity o Unreal."
     }
   }
 }
