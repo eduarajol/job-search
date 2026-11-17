@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T18:46:30+00:00",
+ "updated": "2026-11-17T00:48:10+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -14,7 +14,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 178,
+   "total": 179,
    "jobs": [
     {
      "id": "5442573008",
@@ -105,23 +105,23 @@
      "firstSeen": "2026-11-05T15:55:11+00:00"
     },
     {
-     "id": "5388807008",
-     "title": "Lead Systems Designer - Star Trek Fleet Command",
-     "location": "IE - Dublin, Ireland",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5388807008?gh_jid=5388807008",
-     "remote": false,
-     "posted": "2026-08-13T06:54:47-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5379017008",
      "title": "Lead Systems Designer - Star Trek Fleet Command",
      "location": "GB - London, United Kingdom",
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5379017008?gh_jid=5379017008",
      "remote": false,
      "posted": "2026-08-13T06:52:46-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5388807008",
+     "title": "Lead Systems Designer - Star Trek Fleet Command",
+     "location": "IE - Dublin, Ireland",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5388807008?gh_jid=5388807008",
+     "remote": false,
+     "posted": "2026-08-13T06:54:47-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -193,23 +193,23 @@
      "firstSeen": "2026-11-06T18:46:06+00:00"
     },
     {
-     "id": "5222025008",
-     "title": "Analytics Engineer",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5222025008?gh_jid=5222025008",
-     "remote": false,
-     "posted": "2026-05-19T11:02:29-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "4626426008",
      "title": "Analytics Engineer",
      "location": "ES - Barcelona, Spain",
      "url": "https://job-boards.greenhouse.io/scopely/jobs/4626426008?gh_jid=4626426008",
      "remote": false,
      "posted": "2025-04-10T11:59:49-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5222025008",
+     "title": "Analytics Engineer",
+     "location": "ES - Barcelona, Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5222025008?gh_jid=5222025008",
+     "remote": false,
+     "posted": "2026-05-19T11:02:29-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -600,17 +600,6 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5428967008",
-     "title": "Senior Motion Designer",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5428967008?gh_jid=5428967008",
-     "remote": false,
-     "posted": "2026-11-13T09:25:19-05:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-11-13T18:46:16+00:00"
-    },
-    {
      "id": "5394587008",
      "title": "Senior Motion Designer",
      "location": "ES - Barcelona, Spain",
@@ -620,6 +609,17 @@
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5428967008",
+     "title": "Senior Motion Designer",
+     "location": "ES - Barcelona, Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5428967008?gh_jid=5428967008",
+     "remote": false,
+     "posted": "2026-11-13T09:25:19-05:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-13T18:46:16+00:00"
     },
     {
      "id": "5435832008",
@@ -1600,23 +1600,23 @@
      "firstSeen": "2026-10-30T18:46:33+00:00"
     },
     {
-     "id": "4988635101",
-     "title": "Data Analyst",
-     "location": "Remote Europe",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988635101",
-     "remote": true,
-     "posted": "2026-09-28T09:54:30-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
      "id": "4988598101",
      "title": "Data Analyst",
      "location": "Barcelona",
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988598101",
      "remote": false,
      "posted": "2026-09-28T09:42:08-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4988635101",
+     "title": "Data Analyst",
+     "location": "Remote Europe",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988635101",
+     "remote": true,
+     "posted": "2026-09-28T09:54:30-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -1882,7 +1882,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 42,
+   "total": 41,
    "jobs": [
     {
      "id": "5724174004",
@@ -2199,7 +2199,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/ML-Engineer_R0023071",
      "remote": false,
-     "posted": "2026-11-12",
+     "posted": "2026-11-13",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-03T18:47:27+00:00"
@@ -2210,7 +2210,7 @@
      "location": "Spain (Barcelona)",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Spain-Barcelona/UI-Animator_R0019205-1",
      "remote": false,
-     "posted": "2026-11-10",
+     "posted": "2026-11-11",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -2221,7 +2221,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Art-Lead_R0023080-1",
      "remote": false,
-     "posted": "2026-11-05",
+     "posted": "2026-11-06",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-05T09:04:25+00:00"
@@ -2232,7 +2232,7 @@
      "location": "Spain (Barcelona)",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Spain-Barcelona/Associate-Product-Analyst_R0023038",
      "remote": false,
-     "posted": "2026-11-05",
+     "posted": "2026-11-06",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-05T15:55:11+00:00"
@@ -2243,7 +2243,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Data-Scientist_R0023128-1",
      "remote": false,
-     "posted": "2026-11-06",
+     "posted": "2026-11-07",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-06T12:55:34+00:00"
@@ -2254,7 +2254,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Growth-Data-Scientist_R0022972",
      "remote": false,
-     "posted": "2026-11-06",
+     "posted": "2026-11-07",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-06T12:55:34+00:00"
@@ -2287,7 +2287,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Principal-Tech-Artist_R0023079",
      "remote": false,
-     "posted": "2026-11-10",
+     "posted": "2026-11-11",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-10T22:22:18+00:00"
@@ -2298,7 +2298,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Associate-Game-Ops-Manager_R0022377",
      "remote": false,
-     "posted": "2026-10-29",
+     "posted": "2026-10-30",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -2320,7 +2320,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Data-Scientist_R0023068",
      "remote": false,
-     "posted": "2026-11-06",
+     "posted": "2026-11-07",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-06T12:55:34+00:00"
@@ -2331,7 +2331,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Games-Producer_R0023047",
      "remote": false,
-     "posted": "2026-11-05",
+     "posted": "2026-11-06",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-05T15:55:11+00:00"
@@ -2777,7 +2777,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T20:11:37+00:00",
-   "total": 45,
+   "total": 44,
    "jobs": [
     {
      "id": "R027774",
@@ -2870,7 +2870,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 329,
+   "total": 332,
    "jobs": [
     {
      "id": "216318",
@@ -3524,7 +3524,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 195,
+   "total": 199,
    "jobs": [
     {
      "id": "7102266",
@@ -4177,6 +4177,17 @@
      "firstSeen": "2026-10-28T22:59:48+00:00"
     },
     {
+     "id": "31365",
+     "title": "Level Designer",
+     "location": "Singapore, Singapore, Singapore",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/AxZ-level-designer/",
+     "remote": false,
+     "posted": "2026-11-10T10:30:11+00:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
      "id": "37694",
      "title": "Level Designer",
      "location": "Warsaw, Masovian Voivodeship, Poland",
@@ -4216,17 +4227,6 @@
      "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xoe-level-designer/",
      "remote": false,
      "posted": "2026-09-17T10:32:08+01:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
-     "id": "31365",
-     "title": "Level Designer",
-     "location": "Singapore, Singapore, Singapore",
-     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/AxZ-level-designer/",
-     "remote": false,
-     "posted": "2026-11-10T10:30:11+00:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
@@ -4983,7 +4983,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 76,
+   "total": 77,
    "jobs": [
     {
      "id": "4426184009",
@@ -5134,7 +5134,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 67,
+   "total": 68,
    "jobs": [
     {
      "id": "account-manager-chinese-speaking-remote-in-europe-europe-remote-49958-29475",
