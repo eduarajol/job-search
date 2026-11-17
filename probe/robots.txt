@@ -1,0 +1,65 @@
+User-agent: *
+Crawl-delay: 5
+
+Disallow: /away/
+Disallow: /*/away/
+Disallow: /email/
+Disallow: /*/email/
+
+
+User-Agent: ImagesiftBot
+Disallow: /
+
+User-agent: Bingbot
+Crawl-delay: 60
+Disallow: /away/
+Disallow: /*/away/
+
+User-agent: Slurp
+Crawl-delay: 5
+Disallow: /away/
+Disallow: /*/away/
+
+User-agent: Googlebot
+Crawl-delay: 5
+Disallow: /away/
+Disallow: /*/away/
+
+User-agent: DataForSeoBot
+Crawl-delay: 15
+Disallow: /away/
+Disallow: /*/away/
+
+User-agent: GPTBot
+Crawl-delay: 60
+Disallow: /away/
+Disallow: /*/away/
+
+User-agent: Yandex
+Disallow: /away/
+Disallow: /*/away/
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
