@@ -1,0 +1,30 @@
+name: Probe INGAMEJOB (temporary)
+on:
+  push:
+    branches: [probe-ingamejob]
+    paths: [.github/workflows/probe-ingamejob.yml]
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch pages
+        run: |
+          UA="Mozilla/5.0 (job-search personal dashboard)"
+          mkdir -p probe
+          curl -sSL -A "$UA" -o probe/list.html -w "list %{http_code}\n" "https://ingamejob.com/en/jobs?profession%5B%5D=26&profession%5B%5D=35&cities%5B%5D=0&cities%5B%5D=162" || true
+          curl -sSL -A "$UA" -o probe/list2.html -w "list2 %{http_code}\n" "https://ingamejob.com/en/jobs?profession%5B%5D=26&profession%5B%5D=35&cities%5B%5D=0&cities%5B%5D=162&page=2" || true
+          curl -sSL -A "$UA" -o probe/robots.txt "https://ingamejob.com/robots.txt" || true
+          link=$(grep -oE 'https://ingamejob.com/en/job/[^"]+' probe/list.html | head -1)
+          echo "first job: $link"
+          [ -n "$link" ] && curl -sSL -A "$UA" -o probe/job.html "$link" || true
+          ls -la probe
+      - name: Save
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add probe
+          git commit -m "probe" || true
+          git push
