@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T00:57:58+00:00",
+ "updated": "2026-11-18T06:46:45+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -556,6 +556,17 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
+     "id": "5434025008",
+     "title": "Senior Identity Security Engineer",
+     "location": "ES - Barcelona, Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5434025008?gh_jid=5434025008",
+     "remote": false,
+     "posted": "2026-10-07T23:09:04-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
      "id": "5420171008",
      "title": "Senior Identity Security Engineer",
      "location": "ES - Spain",
@@ -567,12 +578,12 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5434025008",
-     "title": "Senior Identity Security Engineer",
+     "id": "5394587008",
+     "title": "Senior Motion Designer",
      "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5434025008?gh_jid=5434025008",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5394587008?gh_jid=5394587008",
      "remote": false,
-     "posted": "2026-10-07T23:09:04-04:00",
+     "posted": "2026-08-31T09:47:28-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -587,17 +598,6 @@
      "design": false,
      "local": true,
      "firstSeen": "2026-11-13T18:46:16+00:00"
-    },
-    {
-     "id": "5394587008",
-     "title": "Senior Motion Designer",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5394587008?gh_jid=5394587008",
-     "remote": false,
-     "posted": "2026-08-31T09:47:28-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
      "id": "5435832008",
@@ -1491,12 +1491,12 @@
      "firstSeen": "2026-11-18T00:57:58+00:00"
     },
     {
-     "id": "5031308101",
+     "id": "5031309101",
      "title": "Senior Game Economy Designer",
-     "location": "Minsk",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5031308101",
+     "location": "Warsaw",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5031309101",
      "remote": false,
-     "posted": "2026-11-09T12:49:14-05:00",
+     "posted": "2026-11-09T12:50:56-05:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-11-09T19:51:24+00:00"
@@ -1513,12 +1513,12 @@
      "firstSeen": "2026-11-09T19:51:24+00:00"
     },
     {
-     "id": "5031309101",
+     "id": "5031308101",
      "title": "Senior Game Economy Designer",
-     "location": "Warsaw",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5031309101",
+     "location": "Minsk",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5031308101",
      "remote": false,
-     "posted": "2026-11-09T12:50:56-05:00",
+     "posted": "2026-11-09T12:49:14-05:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-11-09T19:51:24+00:00"
@@ -1807,7 +1807,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 38,
+   "total": 37,
    "jobs": [
     {
      "id": "5724174004",
@@ -2587,7 +2587,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 52,
+   "total": 50,
    "jobs": [
     {
      "id": "R027887",
@@ -2806,7 +2806,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 337,
+   "total": 338,
    "jobs": [
     {
      "id": "216318",
@@ -3449,7 +3449,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 203,
+   "total": 201,
    "jobs": [
     {
      "id": "7102266",
@@ -3721,23 +3721,23 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "8159188",
-     "title": "UI Designer (World of Warships, PC)",
-     "location": "Nicosia",
-     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8159188",
-     "remote": false,
-     "posted": "2026-10-05T05:59:52-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "8159183",
      "title": "UI Designer (World of Warships, PC)",
      "location": "Belgrade",
      "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8159183",
      "remote": false,
      "posted": "2026-10-05T05:26:42-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "8159188",
+     "title": "UI Designer (World of Warships, PC)",
+     "location": "Nicosia",
+     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8159188",
+     "remote": false,
+     "posted": "2026-10-05T05:59:52-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
