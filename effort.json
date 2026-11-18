@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T18:49:36Z",
+  "updated": "2026-11-18T06:57:04Z",
   "levels": {
     "bajo": "Reutilizas casi todo lo que tienes. Una hora o menos.",
     "medio": "Hay que adaptar CV y mensaje y preparar algo concreto. Media jornada.",
@@ -209,6 +209,18 @@
     "gameloft:744000162021645": {
       "level": "alto",
       "note": "Pide 6+ años como Lead con 2 títulos lanzados, 3Cs de acción en PC/consola y prototipado en Unity o Unreal."
+    },
+    "ingamejob:game-designer-564": {
+      "level": "alto",
+      "note": "La oferta y el equipo trabajan en ruso. Pide 1+ año en juegos de PC narrativos y una prueba técnica."
+    },
+    "ingamejob:game-designer-ai-native": {
+      "level": "alto",
+      "note": "Pide 3+ años en móvil, un juego lanzado y un portfolio de hasta 5 juegos o features programados con IA."
+    },
+    "ingamejob:game-designer-537": {
+      "level": "alto",
+      "note": "Pide 5+ años en juegos, LiveOps y balance de niveles en puzzles móviles."
     }
   }
 }
