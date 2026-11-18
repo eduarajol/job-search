@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-18T06:57:04Z",
-  "basedOn": "2026-11-18T06:46:45+00:00",
+  "updated": "2026-11-18T18:50:49Z",
+  "basedOn": "2026-11-18T18:46:23+00:00",
   "picks": [
     {
       "key": "scopely:5449845008",
@@ -38,14 +38,14 @@
       "reason": "Principal UX en Monopoly GO! (Barcelona): visión UX y mentoría en un F2P móvil masivo. Pide 8+ años de UX en juegos."
     },
     {
-      "key": "yodo1:4cfc76b2-2b94-4d05-bfed-5b33ce3311a3",
-      "fit": "Baja",
-      "reason": "Senior Game Designer en remoto para Transformers: Earth Wars: personajes, eventos y balance F2P. Pide Unity y experiencia en juegos live."
-    },
-    {
       "key": "scopely:5442575008",
       "fit": "Baja",
       "reason": "Combat Designer para un MMO de estrategia sin anunciar en Barcelona. Pide 4+ años diseñando contenido y sistemas de juego."
+    },
+    {
+      "key": "scopely:5388806008",
+      "fit": "Baja",
+      "reason": "Lead Systems Designer en Star Trek Fleet Command, MMO de estrategia live. Progresión y economía. Pide liderazgo en diseño de sistemas."
     },
     {
       "key": "ubisoft-mobile:744000160135969",

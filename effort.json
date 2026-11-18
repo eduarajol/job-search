@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T06:57:04Z",
+  "updated": "2026-11-18T18:50:49Z",
   "levels": {
     "bajo": "Reutilizas casi todo lo que tienes. Una hora o menos.",
     "medio": "Hay que adaptar CV y mensaje y preparar algo concreto. Media jornada.",
@@ -221,6 +221,10 @@
     "ingamejob:game-designer-537": {
       "level": "alto",
       "note": "Pide 5+ años en juegos, LiveOps y balance de niveles en puzzles móviles."
+    },
+    "gameloft:744000162293827": {
+      "level": "alto",
+      "note": "Pide 6+ años de diseño con rol de lead, 2 títulos lanzados, 3Cs de acción en PC o consola y prototipos en Unity o Unreal."
     }
   }
 }
