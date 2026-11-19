@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T14:24:17+00:00",
+ "updated": "2026-11-19T18:46:38+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -105,23 +105,23 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5449846008",
-     "title": "Lead UX Designer - Star Trek Fleet Command",
-     "location": "GB - London, United Kingdom",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5449846008?gh_jid=5449846008",
-     "remote": false,
-     "posted": "2026-10-12T04:46:53-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5448555008",
      "title": "Lead UX Designer - Star Trek Fleet Command",
      "location": "IE - Ireland",
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5448555008?gh_jid=5448555008",
      "remote": false,
      "posted": "2026-10-12T04:46:49-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5449846008",
+     "title": "Lead UX Designer - Star Trek Fleet Command",
+     "location": "GB - London, United Kingdom",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5449846008?gh_jid=5449846008",
+     "remote": false,
+     "posted": "2026-10-12T04:46:53-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -171,23 +171,23 @@
      "firstSeen": "2026-11-06T18:46:06+00:00"
     },
     {
-     "id": "4626426008",
-     "title": "Analytics Engineer",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/4626426008?gh_jid=4626426008",
-     "remote": false,
-     "posted": "2025-04-10T11:59:49-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5222025008",
      "title": "Analytics Engineer",
      "location": "ES - Barcelona, Spain",
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5222025008?gh_jid=5222025008",
      "remote": false,
      "posted": "2026-05-19T11:02:29-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "4626426008",
+     "title": "Analytics Engineer",
+     "location": "ES - Barcelona, Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/4626426008?gh_jid=4626426008",
+     "remote": false,
+     "posted": "2025-04-10T11:59:49-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -556,23 +556,23 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5434025008",
-     "title": "Senior Identity Security Engineer",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5434025008?gh_jid=5434025008",
-     "remote": false,
-     "posted": "2026-10-07T23:09:04-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5420171008",
      "title": "Senior Identity Security Engineer",
      "location": "ES - Spain",
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5420171008?gh_jid=5420171008",
      "remote": false,
      "posted": "2026-09-21T14:00:34-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5434025008",
+     "title": "Senior Identity Security Engineer",
+     "location": "ES - Barcelona, Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5434025008?gh_jid=5434025008",
+     "remote": false,
+     "posted": "2026-10-07T23:09:04-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -1043,29 +1043,18 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 55,
+   "total": 52,
    "jobs": [
     {
-     "id": "744000162455119",
-     "title": "Lead Game Designer (PC/Console/Mobile)",
+     "id": "744000162572249",
+     "title": "Lead Gameplay Designer",
      "location": "Barcelona, CT, Spain",
-     "url": "https://jobs.smartrecruiters.com/Gameloft/744000162455119",
+     "url": "https://jobs.smartrecruiters.com/Gameloft/744000162572249",
      "remote": false,
-     "posted": "2026-11-19T07:56:49.762Z",
+     "posted": "2026-11-19T17:26:56.978Z",
      "design": true,
      "local": true,
-     "firstSeen": "2026-11-19T14:24:17+00:00"
-    },
-    {
-     "id": "744000140722334",
-     "title": "[Dungeons & Dragons PC-Console] Chef d'équipe concepteur de quêtes  - Lead quest designer",
-     "location": "Montreal, QC, Canada",
-     "url": "https://jobs.smartrecruiters.com/Gameloft/744000140722334",
-     "remote": false,
-     "posted": "2026-07-30T15:31:44.622Z",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
+     "firstSeen": "2026-11-19T18:46:38+00:00"
     },
     {
      "id": "744000142975579",
@@ -1145,26 +1134,26 @@
      "firstSeen": "2026-11-05T22:40:37+00:00"
     },
     {
-     "id": "744000162256281",
+     "id": "744000162550779",
      "title": "Lead Product Manager",
      "location": "Barcelona, CT, Spain",
-     "url": "https://jobs.smartrecruiters.com/Gameloft/744000162256281",
+     "url": "https://jobs.smartrecruiters.com/Gameloft/744000162550779",
      "remote": false,
-     "posted": "2026-11-18T10:06:57.120Z",
+     "posted": "2026-11-19T15:56:16.245Z",
      "design": false,
      "local": true,
-     "firstSeen": "2026-11-18T13:55:13+00:00"
+     "firstSeen": "2026-11-19T18:46:38+00:00"
     },
     {
-     "id": "744000162455664",
+     "id": "744000162550679",
      "title": "Lead UI Artist",
      "location": "Barcelona, CT, Spain",
-     "url": "https://jobs.smartrecruiters.com/Gameloft/744000162455664",
+     "url": "https://jobs.smartrecruiters.com/Gameloft/744000162550679",
      "remote": false,
-     "posted": "2026-11-19T08:03:47.026Z",
+     "posted": "2026-11-19T15:55:38.104Z",
      "design": false,
      "local": true,
-     "firstSeen": "2026-11-19T14:24:17+00:00"
+     "firstSeen": "2026-11-19T18:46:38+00:00"
     },
     {
      "id": "744000158285779",
@@ -1179,26 +1168,15 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "744000162084039",
+     "id": "744000162550119",
      "title": "Lead VFX Artist",
      "location": "Barcelona, CT, Spain",
-     "url": "https://jobs.smartrecruiters.com/Gameloft/744000162084039",
+     "url": "https://jobs.smartrecruiters.com/Gameloft/744000162550119",
      "remote": false,
-     "posted": "2026-11-17T13:54:13.936Z",
+     "posted": "2026-11-19T15:53:27.793Z",
      "design": false,
      "local": true,
-     "firstSeen": "2026-11-17T14:21:31+00:00"
-    },
-    {
-     "id": "744000160880969",
-     "title": "Marketing Activations Intern",
-     "location": "Barcelona, CT, Spain",
-     "url": "https://jobs.smartrecruiters.com/Gameloft/744000160880969",
-     "remote": false,
-     "posted": "2026-11-10T13:49:15.190Z",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-11-10T22:22:18+00:00"
+     "firstSeen": "2026-11-19T18:46:38+00:00"
     }
    ]
   },
@@ -1215,7 +1193,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 6,
+   "total": 5,
    "jobs": [
     {
      "id": "744000158795149",
@@ -1411,7 +1389,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-28T17:49:21+00:00",
-   "total": 93,
+   "total": 97,
    "jobs": [
     {
      "id": "4965778101",
@@ -1436,6 +1414,28 @@
      "firstSeen": "2026-11-02T06:46:57+00:00"
     },
     {
+     "id": "5042795101",
+     "title": "Casual Mobile Level Designer - Peoplefun",
+     "location": "USA",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5042795101",
+     "remote": false,
+     "posted": "2026-11-19T12:45:06-05:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-11-19T18:46:38+00:00"
+    },
+    {
+     "id": "5015075101",
+     "title": "Casual Mobile Level Designer - Peoplefun",
+     "location": "Dallas",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5015075101",
+     "remote": false,
+     "posted": "2026-10-23T10:41:46-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
      "id": "4955732101",
      "title": "Game Designer - Lion Studios (f/m/d) - Turkish Market",
      "location": "Berlin",
@@ -1453,17 +1453,6 @@
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4984042101",
      "remote": true,
      "posted": "2026-09-23T11:17:30-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
-     "id": "5015075101",
-     "title": "Game Level Designer - Peoplefun",
-     "location": "Dallas",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5015075101",
-     "remote": false,
-     "posted": "2026-10-23T10:41:46-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -1702,7 +1691,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 102,
+   "total": 103,
    "jobs": [
     {
      "id": "d633533c-ac08-440e-a6b6-33351b3ad005",
@@ -1818,10 +1807,10 @@
     {
      "id": "c0f28476-2ff1-4206-b344-530c9f36a73a",
      "title": "Senior Product Manager - Paper.io 2",
-     "location": "Paris; Madrid; Warsaw; Lviv; Tallinn; Karkiv; Malta; Helsinki; Stockholm; Istanbul; Lisboa; Berlin; Tbilisi; Amsterdam; Milan; Krakow; Bucharest; London; Kiev; Barcelona; Remote",
+     "location": "Paris; Belgrade; Madrid; Warsaw; Prague; Lviv; Tallinn; Karkiv; Malta; Bratislava; Helsinki; Stockholm; Istanbul; Yerevan; Zagreb; Lisboa; Berlin; Chişinău; Tbilisi; Amsterdam; Vilnius; Milan; Krakow; Bucharest; London; Kiev; Barcelona; Riga; Remote",
      "url": "https://jobs.ashbyhq.com/voodoo/c0f28476-2ff1-4206-b344-530c9f36a73a",
      "remote": true,
-     "posted": "2026-10-20T12:04:36.758+00:00",
+     "posted": "2026-11-19T15:34:25.660+00:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T22:59:48+00:00"
@@ -1862,7 +1851,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 41,
+   "total": 38,
    "jobs": [
     {
      "id": "6252447004",
@@ -2883,7 +2872,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 351,
+   "total": 349,
    "jobs": [
     {
      "id": "216318",
@@ -3360,9 +3349,9 @@
     },
     {
      "id": "216479",
-     "title": "Sr Encounter Designer (Star Wars Jedi)",
+     "title": "Sr Encounter Designer",
      "location": "Vancouver - Great Northern Way, Canada",
-     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Sr-Encounter-Designer-Star-Wars-Jedi/216479",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Sr-Encounter-Designer/216479",
      "remote": false,
      "posted": null,
      "design": true,
@@ -3385,17 +3374,6 @@
      "title": "Sr. Systems Designer",
      "location": "Los Angeles - Chatsworth, United States of America",
      "url": "https://jobs.ea.com/en_US/careers/JobDetail/Sr-Systems-Designer/216546",
-     "remote": false,
-     "posted": null,
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
-     "id": "216332",
-     "title": "Technical Designer (TFT 12 months)",
-     "location": "Vancouver, Canada",
-     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Technical-Designer-12-mo-TFT/216332",
      "remote": false,
      "posted": null,
      "design": true,
@@ -3548,7 +3526,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 205,
+   "total": 204,
    "jobs": [
     {
      "id": "7102266",
@@ -4168,28 +4146,6 @@
      "firstSeen": "2026-10-28T22:59:48+00:00"
     },
     {
-     "id": "37815",
-     "title": "Game Designer (FPS)",
-     "location": "Warsaw, Masovian Voivodeship, Poland",
-     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xLE-game-designer-fps/",
-     "remote": false,
-     "posted": "2026-09-30T10:32:13+01:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
-     "id": "37816",
-     "title": "Game Designer (FPS)",
-     "location": "Bucharest, Bucharest, Romania",
-     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xLP-game-designer-fps/",
-     "remote": false,
-     "posted": "2026-09-30T10:32:15+01:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
      "id": "37860",
      "title": "Game Designer (FPS)",
      "location": "Yerevan, Yerevan, Armenia",
@@ -4212,23 +4168,23 @@
      "firstSeen": "2026-10-28T22:59:48+00:00"
     },
     {
-     "id": "37697",
-     "title": "Level Designer",
-     "location": "Bucharest, Bucharest, Romania",
-     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xoe-level-designer/",
+     "id": "37815",
+     "title": "Game Designer (FPS)",
+     "location": "Warsaw, Masovian Voivodeship, Poland",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xLE-game-designer-fps/",
      "remote": false,
-     "posted": "2026-09-17T10:32:08+01:00",
+     "posted": "2026-09-30T10:32:13+01:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
     },
     {
-     "id": "31365",
-     "title": "Level Designer",
-     "location": "Singapore, Singapore, Singapore",
-     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/AxZ-level-designer/",
+     "id": "37816",
+     "title": "Game Designer (FPS)",
+     "location": "Bucharest, Bucharest, Romania",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xLP-game-designer-fps/",
      "remote": false,
-     "posted": "2026-11-10T10:30:11+00:00",
+     "posted": "2026-09-30T10:32:15+01:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
@@ -4262,6 +4218,28 @@
      "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xoY-level-designer/",
      "remote": false,
      "posted": "2026-09-17T10:32:06+01:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "37697",
+     "title": "Level Designer",
+     "location": "Bucharest, Bucharest, Romania",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xoe-level-designer/",
+     "remote": false,
+     "posted": "2026-09-17T10:32:08+01:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "31365",
+     "title": "Level Designer",
+     "location": "Singapore, Singapore, Singapore",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/AxZ-level-designer/",
+     "remote": false,
+     "posted": "2026-11-10T10:30:11+00:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
@@ -4925,7 +4903,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 225,
+   "total": 221,
    "jobs": [
     {
      "id": "6098184004",
@@ -5250,17 +5228,6 @@
      "firstSeen": "2026-11-17T18:46:29+00:00"
     },
     {
-     "id": "cybersecurity-consultant-europe-48224-29452",
-     "title": "Cybersecurity Consultant",
-     "location": "Remote, Europe",
-     "url": "https://www.pentasia.com/careers/cybersecurity-consultant-europe-48224-29452",
-     "remote": true,
-     "posted": null,
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-29T14:16:28+00:00"
-    },
-    {
      "id": "director-sales-russian-speaker-europe-49957-29477",
      "title": "Director of Sales - Russian Speaker",
      "location": "Remote, Europe",
@@ -5487,7 +5454,7 @@
      "location": "Remote, Ukraine",
      "url": "https://ingamejob.com/en/job/ai-prototype-game-designer",
      "remote": true,
-     "posted": "2026-11-14",
+     "posted": "2026-11-13",
      "employer": "Mind Studios Games",
      "level": "Middle",
      "employment": "Freelance",
