@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T06:46:48+00:00",
+ "updated": "2026-11-19T14:24:17+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -14,19 +14,8 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 174,
+   "total": 173,
    "jobs": [
-    {
-     "id": "5442573008",
-     "title": "Associate Economy Game Designer",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5442573008?gh_jid=5442573008",
-     "remote": false,
-     "posted": "2026-10-07T11:36:38-04:00",
-     "design": true,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
     {
      "id": "5442575008",
      "title": "Combat Game Designer",
@@ -182,23 +171,23 @@
      "firstSeen": "2026-11-06T18:46:06+00:00"
     },
     {
-     "id": "5222025008",
-     "title": "Analytics Engineer",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5222025008?gh_jid=5222025008",
-     "remote": false,
-     "posted": "2026-05-19T11:02:29-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "4626426008",
      "title": "Analytics Engineer",
      "location": "ES - Barcelona, Spain",
      "url": "https://job-boards.greenhouse.io/scopely/jobs/4626426008?gh_jid=4626426008",
      "remote": false,
      "posted": "2025-04-10T11:59:49-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5222025008",
+     "title": "Analytics Engineer",
+     "location": "ES - Barcelona, Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5222025008?gh_jid=5222025008",
+     "remote": false,
+     "posted": "2026-05-19T11:02:29-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -364,6 +353,17 @@
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5448961008?gh_jid=5448961008",
      "remote": false,
      "posted": "2026-10-09T13:11:57-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5409495008",
+     "title": "Lead 2D Artist",
+     "location": "ES - Barcelona, Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5409495008?gh_jid=5409495008",
+     "remote": false,
+     "posted": "2026-09-21T14:57:56-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -754,17 +754,6 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5210907008",
-     "title": "Sr. Development Manager, LiveOps QA",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5210907008?gh_jid=5210907008",
-     "remote": false,
-     "posted": "2026-05-08T10:59:31-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5457020008",
      "title": "Sr. IT Procurement Specialist",
      "location": "ES - Barcelona, Spain",
@@ -1054,18 +1043,18 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 54,
+   "total": 55,
    "jobs": [
     {
-     "id": "744000162293827",
+     "id": "744000162455119",
      "title": "Lead Game Designer (PC/Console/Mobile)",
      "location": "Barcelona, CT, Spain",
-     "url": "https://jobs.smartrecruiters.com/Gameloft/744000162293827",
+     "url": "https://jobs.smartrecruiters.com/Gameloft/744000162455119",
      "remote": false,
-     "posted": "2026-11-18T13:26:03.937Z",
+     "posted": "2026-11-19T07:56:49.762Z",
      "design": true,
      "local": true,
-     "firstSeen": "2026-11-18T13:55:13+00:00"
+     "firstSeen": "2026-11-19T14:24:17+00:00"
     },
     {
      "id": "744000140722334",
@@ -1167,15 +1156,15 @@
      "firstSeen": "2026-11-18T13:55:13+00:00"
     },
     {
-     "id": "744000162323730",
+     "id": "744000162455664",
      "title": "Lead UI Artist",
      "location": "Barcelona, CT, Spain",
-     "url": "https://jobs.smartrecruiters.com/Gameloft/744000162323730",
+     "url": "https://jobs.smartrecruiters.com/Gameloft/744000162455664",
      "remote": false,
-     "posted": "2026-11-18T15:05:45.745Z",
+     "posted": "2026-11-19T08:03:47.026Z",
      "design": false,
      "local": true,
-     "firstSeen": "2026-11-18T18:46:23+00:00"
+     "firstSeen": "2026-11-19T14:24:17+00:00"
     },
     {
      "id": "744000158285779",
@@ -1226,7 +1215,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 5,
+   "total": 6,
    "jobs": [
     {
      "id": "744000158795149",
@@ -1873,8 +1862,19 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 39,
+   "total": 41,
    "jobs": [
+    {
+     "id": "6252447004",
+     "title": "Lead / Senior Level Game Designer",
+     "location": "Bengaluru, India",
+     "url": "https://job-boards.greenhouse.io/zyngacareers/jobs/6252447004",
+     "remote": false,
+     "posted": "2026-11-19T02:15:16-05:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-11-19T14:24:17+00:00"
+    },
     {
      "id": "5724174004",
      "title": "Lead Game Designer",
@@ -2036,7 +2036,7 @@
     },
     {
      "id": "e25d97ca-e883-4cc4-a71f-6e1384af75e8",
-     "title": "Senior Level Designer",
+     "title": "Level Designer",
      "location": "London; Remote",
      "url": "https://jobs.ashbyhq.com/moonactive/e25d97ca-e883-4cc4-a71f-6e1384af75e8",
      "remote": true,
@@ -2190,7 +2190,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/ML-Engineer_R0023071",
      "remote": false,
-     "posted": "2026-11-13",
+     "posted": "2026-11-12",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-03T18:47:27+00:00"
@@ -2201,7 +2201,7 @@
      "location": "Spain (Barcelona)",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Spain-Barcelona/UI-Animator_R0019205-1",
      "remote": false,
-     "posted": "2026-11-11",
+     "posted": "2026-11-10",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -2212,7 +2212,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Art-Lead_R0023080-1",
      "remote": false,
-     "posted": "2026-11-06",
+     "posted": "2026-11-05",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-05T09:04:25+00:00"
@@ -2223,7 +2223,7 @@
      "location": "Spain (Barcelona)",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Spain-Barcelona/Associate-Product-Analyst_R0023038",
      "remote": false,
-     "posted": "2026-11-06",
+     "posted": "2026-11-05",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-05T15:55:11+00:00"
@@ -2234,7 +2234,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Data-Scientist_R0023128-1",
      "remote": false,
-     "posted": "2026-11-07",
+     "posted": "2026-11-06",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-06T12:55:34+00:00"
@@ -2245,7 +2245,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Growth-Data-Scientist_R0022972",
      "remote": false,
-     "posted": "2026-11-07",
+     "posted": "2026-11-06",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-06T12:55:34+00:00"
@@ -2278,10 +2278,21 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Principal-Tech-Artist_R0023079",
      "remote": false,
-     "posted": "2026-11-11",
+     "posted": "2026-11-10",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-10T22:22:18+00:00"
+    },
+    {
+     "id": "R0023070",
+     "title": "Senior AI Engineer",
+     "location": "Barcelona, Spain",
+     "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-ML-Engineer_R0023070",
+     "remote": false,
+     "posted": "2026-11-19",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-03T18:47:27+00:00"
     },
     {
      "id": "R0022377",
@@ -2289,7 +2300,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Associate-Game-Ops-Manager_R0022377",
      "remote": false,
-     "posted": "2026-10-30",
+     "posted": "2026-10-29",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -2311,7 +2322,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Data-Scientist_R0023068",
      "remote": false,
-     "posted": "2026-11-07",
+     "posted": "2026-11-06",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-06T12:55:34+00:00"
@@ -2322,7 +2333,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Games-Producer_R0023047",
      "remote": false,
-     "posted": "2026-11-06",
+     "posted": "2026-11-05",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-05T15:55:11+00:00"
@@ -2344,7 +2355,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Stochastic-Modelling-Specialist_R0022927",
      "remote": false,
-     "posted": "2026-11-18",
+     "posted": "2026-11-17",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-17T18:46:29+00:00"
@@ -2872,7 +2883,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 343,
+   "total": 351,
    "jobs": [
     {
      "id": "216318",
@@ -3491,6 +3502,17 @@
      "firstSeen": "2026-10-28T22:59:48+00:00"
     },
     {
+     "id": "208365",
+     "title": "Videogame Tester - Dutch",
+     "location": "Madrid, Spain",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Videogame-Tester-Dutch/208365",
+     "remote": false,
+     "posted": "2025-02-25T00:00:00+00:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-19T14:24:17+00:00"
+    },
+    {
      "id": "213703",
      "title": "Videogame Tester - Hungarian",
      "location": "Madrid, Spain",
@@ -3707,7 +3729,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 40,
+   "total": 37,
    "jobs": [
     {
      "id": "8288743",
@@ -3844,7 +3866,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 33,
+   "total": 32,
    "jobs": [
     {
      "id": "8226938",
@@ -4121,7 +4143,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 360,
+   "total": 359,
    "jobs": [
     {
      "id": "36186",
@@ -4141,17 +4163,6 @@
      "url": "https://www.keywordsstudios.com/en/careers/browse-careers/ADB-combat-designer/",
      "remote": false,
      "posted": "2026-11-10T10:30:11+00:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
-     "id": "37861",
-     "title": "Game Designer (FPS)",
-     "location": "Belgrade, City of Belgrade, Serbia",
-     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xwV-game-designer-fps/",
-     "remote": false,
-     "posted": "2026-10-02T10:32:17+01:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
@@ -4190,6 +4201,39 @@
      "firstSeen": "2026-10-28T22:59:48+00:00"
     },
     {
+     "id": "37861",
+     "title": "Game Designer (FPS)",
+     "location": "Belgrade, City of Belgrade, Serbia",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xwV-game-designer-fps/",
+     "remote": false,
+     "posted": "2026-10-02T10:32:17+01:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "37697",
+     "title": "Level Designer",
+     "location": "Bucharest, Bucharest, Romania",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xoe-level-designer/",
+     "remote": false,
+     "posted": "2026-09-17T10:32:08+01:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "31365",
+     "title": "Level Designer",
+     "location": "Singapore, Singapore, Singapore",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/AxZ-level-designer/",
+     "remote": false,
+     "posted": "2026-11-10T10:30:11+00:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
      "id": "37694",
      "title": "Level Designer",
      "location": "Warsaw, Masovian Voivodeship, Poland",
@@ -4218,28 +4262,6 @@
      "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xoY-level-designer/",
      "remote": false,
      "posted": "2026-09-17T10:32:06+01:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
-     "id": "37697",
-     "title": "Level Designer",
-     "location": "Bucharest, Bucharest, Romania",
-     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xoe-level-designer/",
-     "remote": false,
-     "posted": "2026-09-17T10:32:08+01:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
-     "id": "31365",
-     "title": "Level Designer",
-     "location": "Singapore, Singapore, Singapore",
-     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/AxZ-level-designer/",
-     "remote": false,
-     "posted": "2026-11-10T10:30:11+00:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
@@ -4320,6 +4342,18 @@
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "38348",
+     "title": "Systems Designer (Live Ops & Economy) - 6 Month FTC/Freelance, Electric Square",
+     "location": "United Kingdom",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xRO-systems-designer-live-ops-economy-6-month-ftcfreelance-electric-square/",
+     "remote": false,
+     "posted": "2026-11-19T10:32:07+00:00",
+     "freelance": true,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-11-19T14:24:17+00:00"
     },
     {
      "id": "36187",
@@ -4676,7 +4710,7 @@
    "logos": null,
    "status": "ok",
    "since": "2026-11-05T09:54:19+00:00",
-   "total": 9,
+   "total": 10,
    "jobs": [
     {
      "id": "82ed9f71-1e9e-4b7a-a9cf-a2cd0d9e2fcf",
@@ -4745,6 +4779,17 @@
      "firstSeen": "2026-11-13T13:04:32+00:00"
     },
     {
+     "id": "4544824a-ed8f-41fa-bfcb-55069ba35e38",
+     "title": "Influencer & Media Manager",
+     "location": "Remote",
+     "url": "https://careers.yodo1.com/jobs/8767128-influencer-media-manager",
+     "remote": true,
+     "posted": "2026-11-19T12:29:11+00:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-19T14:24:17+00:00"
+    },
+    {
      "id": "e8112ac8-ce99-4bb2-805c-21b04421f674",
      "title": "Marketing Manager/Lead (BiG) - China",
      "location": "Remote",
@@ -4789,7 +4834,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 56,
+   "total": 57,
    "jobs": [
     {
      "id": "744000160969830",
@@ -4880,7 +4925,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 228,
+   "total": 225,
    "jobs": [
     {
      "id": "6098184004",
@@ -5147,7 +5192,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 66,
+   "total": 65,
    "jobs": [
     {
      "id": "account-manager-chinese-speaking-remote-in-europe-europe-remote-49958-29475",
