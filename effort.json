@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T18:50:49Z",
+  "updated": "2026-11-19T18:50:59Z",
   "levels": {
     "bajo": "Reutilizas casi todo lo que tienes. Una hora o menos.",
     "medio": "Hay que adaptar CV y mensaje y preparar algo concreto. Media jornada.",
@@ -225,6 +225,10 @@
     "gameloft:744000162293827": {
       "level": "alto",
       "note": "Pide 6+ años de diseño con rol de lead, 2 títulos lanzados, 3Cs de acción en PC o consola y prototipos en Unity o Unreal."
+    },
+    "gameloft:744000162572249": {
+      "level": "alto",
+      "note": "Pide 6+ años, 2 títulos lanzados como lead, 3Cs de acción en PC o consola y prototipado en Unity o Unreal."
     }
   }
 }
