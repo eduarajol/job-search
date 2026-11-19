@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T00:24:02+00:00",
+ "updated": "2026-11-19T06:46:48+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -14,7 +14,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 172,
+   "total": 174,
    "jobs": [
     {
      "id": "5442573008",
@@ -94,17 +94,6 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5388807008",
-     "title": "Lead Systems Designer - Star Trek Fleet Command",
-     "location": "IE - Dublin, Ireland",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5388807008?gh_jid=5388807008",
-     "remote": false,
-     "posted": "2026-08-13T06:54:47-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5379017008",
      "title": "Lead Systems Designer - Star Trek Fleet Command",
      "location": "GB - London, United Kingdom",
@@ -116,12 +105,12 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5448555008",
-     "title": "Lead UX Designer - Star Trek Fleet Command",
-     "location": "IE - Ireland",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5448555008?gh_jid=5448555008",
+     "id": "5388807008",
+     "title": "Lead Systems Designer - Star Trek Fleet Command",
+     "location": "IE - Dublin, Ireland",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5388807008?gh_jid=5388807008",
      "remote": false,
-     "posted": "2026-10-12T04:46:49-04:00",
+     "posted": "2026-08-13T06:54:47-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -133,6 +122,17 @@
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5449846008?gh_jid=5449846008",
      "remote": false,
      "posted": "2026-10-12T04:46:53-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5448555008",
+     "title": "Lead UX Designer - Star Trek Fleet Command",
+     "location": "IE - Ireland",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5448555008?gh_jid=5448555008",
+     "remote": false,
+     "posted": "2026-10-12T04:46:49-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -556,23 +556,23 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5420171008",
-     "title": "Senior Identity Security Engineer",
-     "location": "ES - Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5420171008?gh_jid=5420171008",
-     "remote": false,
-     "posted": "2026-09-21T14:00:34-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5434025008",
      "title": "Senior Identity Security Engineer",
      "location": "ES - Barcelona, Spain",
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5434025008?gh_jid=5434025008",
      "remote": false,
      "posted": "2026-10-07T23:09:04-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5420171008",
+     "title": "Senior Identity Security Engineer",
+     "location": "ES - Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5420171008?gh_jid=5420171008",
+     "remote": false,
+     "posted": "2026-09-21T14:00:34-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -1054,7 +1054,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 56,
+   "total": 54,
    "jobs": [
     {
      "id": "744000162293827",
@@ -1140,17 +1140,6 @@
      "url": "https://jobs.smartrecruiters.com/Gameloft/744000153382859",
      "remote": false,
      "posted": "2026-10-04T21:51:51.922Z",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "744000150312827",
-     "title": "UI UX Designer Intern",
-     "location": "Hanoi, Ha Noi, Vietnam",
-     "url": "https://jobs.smartrecruiters.com/Gameloft/744000150312827",
-     "remote": false,
-     "posted": "2026-09-18T08:56:49.976Z",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -1433,7 +1422,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-28T17:49:21+00:00",
-   "total": 92,
+   "total": 93,
    "jobs": [
     {
      "id": "4965778101",
@@ -1546,17 +1535,6 @@
      "firstSeen": "2026-11-18T00:57:58+00:00"
     },
     {
-     "id": "5040702101",
-     "title": "Senior Game Designer - Wordscapes - Peoplefun",
-     "location": "Remote USA",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5040702101",
-     "remote": true,
-     "posted": "2026-11-17T15:12:10-05:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-11-18T00:57:58+00:00"
-    },
-    {
      "id": "5027846101",
      "title": "Senior Game Designer - Wordscapes - Peoplefun",
      "location": "Dallas",
@@ -1568,15 +1546,15 @@
      "firstSeen": "2026-11-18T00:57:58+00:00"
     },
     {
-     "id": "5028838101",
-     "title": "Senior Game Economy Designer",
-     "location": "Tbilisi",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5028838101",
-     "remote": false,
-     "posted": "2026-11-09T12:48:14-05:00",
+     "id": "5040702101",
+     "title": "Senior Game Designer - Wordscapes - Peoplefun",
+     "location": "Remote USA",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5040702101",
+     "remote": true,
+     "posted": "2026-11-17T15:12:10-05:00",
      "design": true,
      "local": false,
-     "firstSeen": "2026-11-09T19:51:24+00:00"
+     "firstSeen": "2026-11-18T00:57:58+00:00"
     },
     {
      "id": "5031308101",
@@ -1585,6 +1563,17 @@
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5031308101",
      "remote": false,
      "posted": "2026-11-09T12:49:14-05:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-11-09T19:51:24+00:00"
+    },
+    {
+     "id": "5028838101",
+     "title": "Senior Game Economy Designer",
+     "location": "Tbilisi",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5028838101",
+     "remote": false,
+     "posted": "2026-11-09T12:48:14-05:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-11-09T19:51:24+00:00"
@@ -1689,23 +1678,23 @@
      "firstSeen": "2026-10-28T17:49:21+00:00"
     },
     {
-     "id": "4962295101",
-     "title": "Senior Ad Monetisation Analyst",
-     "location": "Barcelona",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4962295101",
-     "remote": false,
-     "posted": "2026-08-27T10:44:54-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
      "id": "4960068101",
      "title": "Senior Ad Monetisation Analyst",
      "location": "Remote Europe",
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4960068101",
      "remote": true,
      "posted": "2026-08-25T06:37:03-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4962295101",
+     "title": "Senior Ad Monetisation Analyst",
+     "location": "Barcelona",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4962295101",
+     "remote": false,
+     "posted": "2026-08-27T10:44:54-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -1884,7 +1873,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 37,
+   "total": 39,
    "jobs": [
     {
      "id": "5724174004",
@@ -2790,7 +2779,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T20:11:37+00:00",
-   "total": 44,
+   "total": 45,
    "jobs": [
     {
      "id": "R027774",
@@ -2883,7 +2872,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 339,
+   "total": 343,
    "jobs": [
     {
      "id": "216318",
@@ -3537,7 +3526,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 204,
+   "total": 205,
    "jobs": [
     {
      "id": "7102266",
@@ -4891,7 +4880,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 230,
+   "total": 228,
    "jobs": [
     {
      "id": "6098184004",
