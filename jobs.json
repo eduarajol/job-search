@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T18:46:38+00:00",
+ "updated": "2026-11-20T00:37:26+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -1043,7 +1043,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 52,
+   "total": 51,
    "jobs": [
     {
      "id": "744000162572249",
@@ -1079,17 +1079,6 @@
      "firstSeen": "2026-11-18T18:46:23+00:00"
     },
     {
-     "id": "744000157926609",
-     "title": "Game Designer (Gameplay & Combat)",
-     "location": "Brisbane, QLD, Australia",
-     "url": "https://jobs.smartrecruiters.com/Gameloft/744000157926609",
-     "remote": false,
-     "posted": "2026-10-27T00:03:58.075Z",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "744000158215559",
      "title": "Game Designer (Middle/Senior)",
      "location": "Ho Chi Minh City, Ho Chi Minh, Vietnam",
@@ -1123,15 +1112,15 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "744000159968050",
+     "id": "744000162608573",
      "title": "Data Scientist",
      "location": "Barcelona, CT, Spain",
-     "url": "https://jobs.smartrecruiters.com/Gameloft/744000159968050",
+     "url": "https://jobs.smartrecruiters.com/Gameloft/744000162608573",
      "remote": false,
-     "posted": "2026-11-05T21:01:07.292Z",
+     "posted": "2026-11-19T21:43:30.145Z",
      "design": false,
      "local": true,
-     "firstSeen": "2026-11-05T22:40:37+00:00"
+     "firstSeen": "2026-11-20T00:37:26+00:00"
     },
     {
      "id": "744000162550779",
@@ -2179,7 +2168,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/ML-Engineer_R0023071",
      "remote": false,
-     "posted": "2026-11-12",
+     "posted": "2026-11-13",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-03T18:47:27+00:00"
@@ -2190,7 +2179,7 @@
      "location": "Spain (Barcelona)",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Spain-Barcelona/UI-Animator_R0019205-1",
      "remote": false,
-     "posted": "2026-11-10",
+     "posted": "2026-11-11",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -2201,7 +2190,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Art-Lead_R0023080-1",
      "remote": false,
-     "posted": "2026-11-05",
+     "posted": "2026-11-06",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-05T09:04:25+00:00"
@@ -2212,7 +2201,7 @@
      "location": "Spain (Barcelona)",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Spain-Barcelona/Associate-Product-Analyst_R0023038",
      "remote": false,
-     "posted": "2026-11-05",
+     "posted": "2026-11-06",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-05T15:55:11+00:00"
@@ -2223,7 +2212,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Data-Scientist_R0023128-1",
      "remote": false,
-     "posted": "2026-11-06",
+     "posted": "2026-11-07",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-06T12:55:34+00:00"
@@ -2234,7 +2223,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Growth-Data-Scientist_R0022972",
      "remote": false,
-     "posted": "2026-11-06",
+     "posted": "2026-11-07",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-06T12:55:34+00:00"
@@ -2267,7 +2256,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Principal-Tech-Artist_R0023079",
      "remote": false,
-     "posted": "2026-11-10",
+     "posted": "2026-11-11",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-10T22:22:18+00:00"
@@ -2278,7 +2267,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-ML-Engineer_R0023070",
      "remote": false,
-     "posted": "2026-11-19",
+     "posted": "2026-11-20",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-03T18:47:27+00:00"
@@ -2289,7 +2278,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Associate-Game-Ops-Manager_R0022377",
      "remote": false,
-     "posted": "2026-10-29",
+     "posted": "2026-10-30",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -2311,7 +2300,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Data-Scientist_R0023068",
      "remote": false,
-     "posted": "2026-11-06",
+     "posted": "2026-11-07",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-06T12:55:34+00:00"
@@ -2322,7 +2311,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Games-Producer_R0023047",
      "remote": false,
-     "posted": "2026-11-05",
+     "posted": "2026-11-06",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-05T15:55:11+00:00"
@@ -2344,7 +2333,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Stochastic-Modelling-Specialist_R0022927",
      "remote": false,
-     "posted": "2026-11-17",
+     "posted": "2026-11-18",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-17T18:46:29+00:00"
@@ -2779,8 +2768,19 @@
    ],
    "status": "ok",
    "since": "2026-10-28T20:11:37+00:00",
-   "total": 45,
+   "total": 48,
    "jobs": [
+    {
+     "id": "R028379",
+     "title": "Blizzard 2027 Summer Internships - Card Design",
+     "location": "Irvine, California, United States of America",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/Blizzard_External_Careers/job/Irvine---Blizzard---Blizzard-Way/Blizzard-2027-Summer-Internships---Card-Design_R028379",
+     "remote": false,
+     "posted": "2026-11-19T00:00:00.000+0000",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-11-20T00:37:26+00:00"
+    },
     {
      "id": "R027774",
      "title": "Design Director, Systems - Diablo",
@@ -2872,7 +2872,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 349,
+   "total": 347,
    "jobs": [
     {
      "id": "216318",
@@ -3351,7 +3351,7 @@
      "id": "216479",
      "title": "Sr Encounter Designer",
      "location": "Vancouver - Great Northern Way, Canada",
-     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Sr-Encounter-Designer/216479",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Sr-Encounter-Designer-Star-Wars-Jedi/216479",
      "remote": false,
      "posted": null,
      "design": true,
@@ -4903,7 +4903,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 221,
+   "total": 217,
    "jobs": [
     {
      "id": "6098184004",
@@ -5030,7 +5030,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 76,
+   "total": 75,
    "jobs": [
     {
      "id": "4426184009",
@@ -5113,7 +5113,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 6,
+   "total": 7,
    "jobs": []
   },
   {
@@ -5170,7 +5170,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 65,
+   "total": 66,
    "jobs": [
     {
      "id": "account-manager-chinese-speaking-remote-in-europe-europe-remote-49958-29475",
@@ -5412,7 +5412,7 @@
      "location": "Remote",
      "url": "https://ingamejob.com/en/job/game-designer-564",
      "remote": true,
-     "posted": "2026-11-12",
+     "posted": "2026-11-13",
      "employer": "Next Genium",
      "level": "Junior",
      "employment": "Full time",
@@ -5426,7 +5426,7 @@
      "location": "Remote",
      "url": "https://ingamejob.com/en/job/game-designer-537",
      "remote": true,
-     "posted": "2026-10-22",
+     "posted": "2026-10-23",
      "employer": "Hitapps",
      "level": "Senior",
      "employment": "Full time",
@@ -5440,7 +5440,7 @@
      "location": "Remote",
      "url": "https://ingamejob.com/en/job/game-designer-ai-native",
      "remote": true,
-     "posted": "2026-11-05",
+     "posted": "2026-11-06",
      "employer": "AB Games",
      "level": "Middle",
      "employment": "Full time",
@@ -5454,7 +5454,7 @@
      "location": "Remote, Ukraine",
      "url": "https://ingamejob.com/en/job/ai-prototype-game-designer",
      "remote": true,
-     "posted": "2026-11-13",
+     "posted": "2026-11-14",
      "employer": "Mind Studios Games",
      "level": "Middle",
      "employment": "Freelance",
@@ -5469,7 +5469,7 @@
      "location": "Relocate, Remote, Malta",
      "url": "https://ingamejob.com/en/job/senior-technical-designer-new-ip-1",
      "remote": true,
-     "posted": "2026-11-12",
+     "posted": "2026-11-13",
      "employer": "4A Games",
      "level": "Senior",
      "employment": "Full time",
