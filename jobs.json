@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T00:37:26+00:00",
+ "updated": "2026-11-20T06:47:42+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -14,7 +14,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 173,
+   "total": 175,
    "jobs": [
     {
      "id": "5442575008",
@@ -105,23 +105,23 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5448555008",
-     "title": "Lead UX Designer - Star Trek Fleet Command",
-     "location": "IE - Ireland",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5448555008?gh_jid=5448555008",
-     "remote": false,
-     "posted": "2026-10-12T04:46:49-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5449846008",
      "title": "Lead UX Designer - Star Trek Fleet Command",
      "location": "GB - London, United Kingdom",
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5449846008?gh_jid=5449846008",
      "remote": false,
      "posted": "2026-10-12T04:46:53-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5448555008",
+     "title": "Lead UX Designer - Star Trek Fleet Command",
+     "location": "IE - Ireland",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5448555008?gh_jid=5448555008",
+     "remote": false,
+     "posted": "2026-10-12T04:46:49-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -1680,7 +1680,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 103,
+   "total": 101,
    "jobs": [
     {
      "id": "d633533c-ac08-440e-a6b6-33351b3ad005",
@@ -1840,7 +1840,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 38,
+   "total": 39,
    "jobs": [
     {
      "id": "6252447004",
@@ -2642,7 +2642,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 51,
+   "total": 52,
    "jobs": [
     {
      "id": "R027887",
@@ -2872,7 +2872,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 347,
+   "total": 346,
    "jobs": [
     {
      "id": "216318",
@@ -3126,17 +3126,6 @@
      "design": true,
      "local": false,
      "firstSeen": "2026-11-11T12:42:11+00:00"
-    },
-    {
-     "id": "216076",
-     "title": "Game Designer",
-     "location": "Shanghai, China",
-     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Game-Designer-System/216076",
-     "remote": false,
-     "posted": null,
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
     },
     {
      "id": "216664",
