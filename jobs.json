@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T13:26:47+00:00",
+ "updated": "2026-11-21T18:46:09+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -1636,7 +1636,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 105,
+   "total": 104,
    "jobs": [
     {
      "id": "d633533c-ac08-440e-a6b6-33351b3ad005",
@@ -2839,7 +2839,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 338,
+   "total": 339,
    "jobs": [
     {
      "id": "216318",
@@ -3914,7 +3914,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T00:15:52+00:00",
-   "total": 9,
+   "total": 8,
    "jobs": [
     {
      "id": "4438743009",
@@ -3923,17 +3923,6 @@
      "url": "https://job-boards.greenhouse.io/escapevelocityentertainmentinc/jobs/4438743009",
      "remote": true,
      "posted": "2026-10-08T13:04:28-04:00",
-     "design": true,
-     "local": true,
-     "firstSeen": "2026-10-29T00:15:52+00:00"
-    },
-    {
-     "id": "4408001009",
-     "title": "Principal Combat Designer | Fully Remote",
-     "location": "United States, Canada, Spain, United Kingdom, Czech Republic",
-     "url": "https://job-boards.greenhouse.io/escapevelocityentertainmentinc/jobs/4408001009",
-     "remote": true,
-     "posted": "2026-10-07T05:39:29-04:00",
      "design": true,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -4848,7 +4837,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 217,
+   "total": 215,
    "jobs": [
     {
      "id": "6098184004",
