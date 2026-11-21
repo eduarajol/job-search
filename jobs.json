@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T18:46:22+00:00",
+ "updated": "2026-11-20T23:59:09+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -14,7 +14,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 171,
+   "total": 172,
    "jobs": [
     {
      "id": "5442575008",
@@ -653,6 +653,17 @@
      "design": false,
      "local": true,
      "firstSeen": "2026-11-03T11:24:28+00:00"
+    },
+    {
+     "id": "5474508008",
+     "title": "Senior Support Specialist",
+     "location": "ES - Barcelona, Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5474508008?gh_jid=5474508008",
+     "remote": false,
+     "posted": "2026-11-20T17:58:00-05:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-20T23:59:09+00:00"
     },
     {
      "id": "5477868008",
@@ -1312,7 +1323,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-28T17:49:21+00:00",
-   "total": 102,
+   "total": 97,
    "jobs": [
     {
      "id": "4965778101",
@@ -1524,23 +1535,23 @@
      "firstSeen": "2026-10-28T17:49:21+00:00"
     },
     {
-     "id": "4988610101",
-     "title": "Fraud Analyst",
-     "location": "Barcelona",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988610101",
-     "remote": false,
-     "posted": "2026-09-28T09:45:46-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
      "id": "4988636101",
      "title": "Fraud Analyst",
      "location": "Remote Europe",
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988636101",
      "remote": true,
      "posted": "2026-09-28T09:54:28-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4988610101",
+     "title": "Fraud Analyst",
+     "location": "Barcelona",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988610101",
+     "remote": false,
+     "posted": "2026-09-28T09:45:46-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -2576,7 +2587,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 53,
+   "total": 54,
    "jobs": [
     {
      "id": "R027887",
@@ -2713,7 +2724,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T20:11:37+00:00",
-   "total": 49,
+   "total": 48,
    "jobs": [
     {
      "id": "R028379",
@@ -2828,7 +2839,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 340,
+   "total": 339,
    "jobs": [
     {
      "id": "216318",
@@ -2851,6 +2862,17 @@
      "design": true,
      "local": false,
      "firstSeen": "2026-10-30T11:36:37+00:00"
+    },
+    {
+     "id": "216737",
+     "title": "Associate Quality Designer",
+     "location": "Orlando, United States of America",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Associate-Quality-Designer/216737",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-11-20T23:59:09+00:00"
     },
     {
      "id": "216741",
@@ -3018,17 +3040,6 @@
      "firstSeen": "2026-11-11T12:42:11+00:00"
     },
     {
-     "id": "216265",
-     "title": "Experience Designer - College Football",
-     "location": "Vancouver, Canada",
-     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Experience-Designer-II/216265",
-     "remote": false,
-     "posted": null,
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
      "id": "215802",
      "title": "Experience Designer - EA SPORTS™ NHL",
      "location": "Vancouver, Canada",
@@ -3152,7 +3163,7 @@
     {
      "id": "215422",
      "title": "Gameplay Designer - EA SPORTS™ FC",
-     "location": "Vancouver, Canada",
+     "location": "Sydney, Australia",
      "url": "https://jobs.ea.com/en_US/careers/JobDetail/Gameplay-Designer-EA-SPORTS-FC/215422",
      "remote": false,
      "posted": null,
@@ -3789,7 +3800,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 30,
+   "total": 32,
    "jobs": [
     {
      "id": "8226938",
@@ -5011,8 +5022,19 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 8,
+   "total": 10,
    "jobs": [
+    {
+     "id": "4757465005",
+     "title": "Cinematic Presentation Design Intern [Spring 2027]",
+     "location": "Remote/Flexible - United States",
+     "url": "https://job-boards.greenhouse.io/crystaldynamics/jobs/4757465005",
+     "remote": true,
+     "posted": "2026-11-20T16:44:16-05:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-11-20T23:59:09+00:00"
+    },
     {
      "id": "4747682005",
      "title": "Game Design Intern [Spring 2027]",
@@ -5368,7 +5390,7 @@
      "location": "Remote",
      "url": "https://ingamejob.com/en/job/game-designer-564",
      "remote": true,
-     "posted": "2026-11-13",
+     "posted": "2026-11-14",
      "employer": "Next Genium",
      "level": "Junior",
      "employment": "Full time",
@@ -5382,7 +5404,7 @@
      "location": "Remote",
      "url": "https://ingamejob.com/en/job/game-designer-537",
      "remote": true,
-     "posted": "2026-10-23",
+     "posted": "2026-10-24",
      "employer": "Hitapps",
      "level": "Senior",
      "employment": "Full time",
@@ -5396,7 +5418,7 @@
      "location": "Remote",
      "url": "https://ingamejob.com/en/job/game-designer-ai-native",
      "remote": true,
-     "posted": "2026-11-06",
+     "posted": "2026-11-07",
      "employer": "AB Games",
      "level": "Middle",
      "employment": "Full time",
@@ -5410,7 +5432,7 @@
      "location": "Remote, Ukraine",
      "url": "https://ingamejob.com/en/job/ai-prototype-game-designer",
      "remote": true,
-     "posted": "2026-11-13",
+     "posted": "2026-11-14",
      "employer": "Mind Studios Games",
      "level": "Middle",
      "employment": "Freelance",
@@ -5425,7 +5447,7 @@
      "location": "Relocate, Remote, Malta",
      "url": "https://ingamejob.com/en/job/senior-technical-designer-new-ip-1",
      "remote": true,
-     "posted": "2026-11-13",
+     "posted": "2026-11-14",
      "employer": "4A Games",
      "level": "Senior",
      "employment": "Full time",
