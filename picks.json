@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-22T18:49:26Z",
-  "basedOn": "2026-11-22T18:46:03+00:00",
+  "updated": "2026-11-23T06:56:28Z",
+  "basedOn": "2026-11-23T06:47:03+00:00",
   "picks": [
     {
       "key": "scopely:5449845008",
@@ -8,14 +8,19 @@
       "reason": "Lead UX en Star Trek Fleet Command, MMO de estrategia 4X live-service. Flujos, wireframes y prototipos. Pide liderazgo en UX de juegos."
     },
     {
-      "key": "userwise:0853FED995",
+      "key": "ubisoft-mobile:744000158059429",
       "fit": "Media",
-      "reason": "Lead UI/UX en remoto para un F2P móvil casual con IP conocida: flujos, wireframes y prototipos. Pide experiencia senior en juegos lanzados."
+      "reason": "Game Designer en un F2P móvil de Ubisoft en Barcelona: features, specs y balanceo live. Pide 3+ años y experiencia en RPG F2P."
     },
     {
       "key": "ubisoft:744000158795149",
       "fit": "Media",
       "reason": "Senior UX en Rainbow Six Siege: HUD, onboarding, tutoriales y design system. Pide 6+ años de UX en la industria del videojuego."
+    },
+    {
+      "key": "userwise:0853FED995",
+      "fit": "Media",
+      "reason": "Lead UI/UX en remoto para un F2P móvil casual con IP conocida: flujos, wireframes y prototipos. Pide experiencia senior en juegos lanzados."
     },
     {
       "key": "king:R027772",
@@ -36,11 +41,6 @@
       "key": "scopely:5423473008",
       "fit": "Baja",
       "reason": "Principal UX en Monopoly GO! (Barcelona): visión UX y mentoría en un F2P móvil masivo. Pide 8+ años de UX en juegos."
-    },
-    {
-      "key": "scopely:5442575008",
-      "fit": "Baja",
-      "reason": "Combat Designer para un MMO de estrategia sin anunciar en Barcelona. Pide 4+ años diseñando contenido y sistemas de juego."
     },
     {
       "key": "scopely:5388806008",
