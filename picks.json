@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-23T06:56:28Z",
-  "basedOn": "2026-11-23T06:47:03+00:00",
+  "updated": "2026-11-23T18:46:24Z",
+  "basedOn": "2026-11-23T15:56:05+00:00",
   "picks": [
     {
       "key": "scopely:5449845008",
@@ -11,11 +11,6 @@
       "key": "ubisoft-mobile:744000158059429",
       "fit": "Media",
       "reason": "Game Designer en un F2P móvil de Ubisoft en Barcelona: features, specs y balanceo live. Pide 3+ años y experiencia en RPG F2P."
-    },
-    {
-      "key": "ubisoft:744000158795149",
-      "fit": "Media",
-      "reason": "Senior UX en Rainbow Six Siege: HUD, onboarding, tutoriales y design system. Pide 6+ años de UX en la industria del videojuego."
     },
     {
       "key": "userwise:0853FED995",
@@ -51,6 +46,11 @@
       "key": "ubisoft-mobile:744000160135969",
       "fit": "Baja",
       "reason": "Lead Game Designer de un F2P móvil live en Barcelona: visión, economía y monetización. Pide liderar un equipo de diseño."
+    },
+    {
+      "key": "gameloft:744000163258832",
+      "fit": "Baja",
+      "reason": "Lead Gameplay Designer de un juego de acción AA en Barcelona: 3C, meta y progresión. Pide 6+ años, 2 títulos lanzados y Unity o Unreal."
     }
   ]
 }
