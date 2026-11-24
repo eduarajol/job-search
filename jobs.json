@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T15:51:12+00:00",
+ "updated": "2026-11-24T18:46:07+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -83,17 +83,6 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5379017008",
-     "title": "Lead Systems Designer - Star Trek Fleet Command",
-     "location": "GB - London, United Kingdom",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5379017008?gh_jid=5379017008",
-     "remote": false,
-     "posted": "2026-08-13T06:52:46-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5388807008",
      "title": "Lead Systems Designer - Star Trek Fleet Command",
      "location": "IE - Dublin, Ireland",
@@ -105,12 +94,12 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5448555008",
-     "title": "Lead UX Designer - Star Trek Fleet Command",
-     "location": "IE - Ireland",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5448555008?gh_jid=5448555008",
+     "id": "5379017008",
+     "title": "Lead Systems Designer - Star Trek Fleet Command",
+     "location": "GB - London, United Kingdom",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5379017008?gh_jid=5379017008",
      "remote": false,
-     "posted": "2026-10-12T04:46:49-04:00",
+     "posted": "2026-08-13T06:52:46-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -122,6 +111,17 @@
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5449846008?gh_jid=5449846008",
      "remote": false,
      "posted": "2026-10-12T04:46:53-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5448555008",
+     "title": "Lead UX Designer - Star Trek Fleet Command",
+     "location": "IE - Ireland",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5448555008?gh_jid=5448555008",
+     "remote": false,
+     "posted": "2026-10-12T04:46:49-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -160,15 +160,15 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5462613008",
-     "title": "Accounting Manager",
+     "id": "4626426008",
+     "title": "Analytics Engineer",
      "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5462613008?gh_jid=5462613008",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/4626426008?gh_jid=4626426008",
      "remote": false,
-     "posted": "2026-11-06T11:43:47-05:00",
+     "posted": "2025-04-10T11:59:49-04:00",
      "design": false,
      "local": true,
-     "firstSeen": "2026-11-06T18:46:06+00:00"
+     "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
      "id": "5222025008",
@@ -182,20 +182,9 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "4626426008",
-     "title": "Analytics Engineer",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/4626426008?gh_jid=4626426008",
-     "remote": false,
-     "posted": "2025-04-10T11:59:49-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5181280008",
      "title": "Analytics Engineer, Finance",
-     "location": "ES - Barcelona, Spain; ES - Spain",
+     "location": "ES - Barcelona, Spain",
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5181280008?gh_jid=5181280008",
      "remote": false,
      "posted": "2026-04-14T11:35:02-04:00",
@@ -210,6 +199,17 @@
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5397052008?gh_jid=5397052008",
      "remote": false,
      "posted": "2026-08-20T22:09:12-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5426001008",
+     "title": "Client Engineer (Unity, Real User Monitoring) - Unannounced Project",
+     "location": "ES - Barcelona, Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5426001008?gh_jid=5426001008",
+     "remote": false,
+     "posted": "2026-09-25T03:10:29-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -800,7 +800,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T20:11:37+00:00",
-   "total": 12,
+   "total": 13,
    "jobs": [
     {
      "id": "R028168",
@@ -856,6 +856,17 @@
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T20:11:37+00:00"
+    },
+    {
+     "id": "R028393",
+     "title": "Senior Director, People Consulting",
+     "location": "London, London, United Kingdom; Barcelona, Spain; Stockholm, Stockholm County, Sweden",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/King_External_Careers/job/London---King---Ampersand/Senior-Director--People-Consulting_R028393",
+     "remote": false,
+     "posted": "2026-11-24T00:00:00.000+0000",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-24T18:46:07+00:00"
     }
    ]
   },
@@ -873,8 +884,19 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 7,
+   "total": 8,
    "jobs": [
+    {
+     "id": "6270180004",
+     "title": "AI Artist Intern (UI)",
+     "location": "Barcelona, Spain",
+     "url": "https://job-boards.greenhouse.io/spcareers/jobs/6270180004",
+     "remote": false,
+     "posted": "2026-11-24T10:59:53-05:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-24T18:46:07+00:00"
+    },
     {
      "id": "6222941004",
      "title": "ASO Specialist",
@@ -1669,7 +1691,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 94,
+   "total": 95,
    "jobs": [
     {
      "id": "d633533c-ac08-440e-a6b6-33351b3ad005",
@@ -1796,7 +1818,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 40,
+   "total": 41,
    "jobs": [
     {
      "id": "6252447004",
@@ -1841,6 +1863,17 @@
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "6269988004",
+     "title": "AI Artist Intern (UI) - Socialpoint",
+     "location": "Barcelona, Spain",
+     "url": "https://job-boards.greenhouse.io/zyngacareers/jobs/6269988004",
+     "remote": false,
+     "posted": "2026-11-24T10:59:21-05:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-24T18:46:07+00:00"
     },
     {
      "id": "6133275004",
@@ -2554,7 +2587,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 55,
+   "total": 56,
    "jobs": [
     {
      "id": "R027887",
@@ -2676,6 +2709,17 @@
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "R028393",
+     "title": "Senior Director, People Consulting",
+     "location": "London, London, United Kingdom; Barcelona, Spain; Stockholm, Stockholm County, Sweden",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/External/job/London---King---Ampersand/Senior-Director--People-Consulting_R028393-1",
+     "remote": false,
+     "posted": "2026-11-24T00:00:00.000+0000",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-24T18:46:07+00:00"
     }
    ]
   },
@@ -2691,7 +2735,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T20:11:37+00:00",
-   "total": 44,
+   "total": 43,
    "jobs": [
     {
      "id": "R028379",
@@ -2795,7 +2839,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 331,
+   "total": 334,
    "jobs": [
     {
      "id": "216318",
@@ -3756,7 +3800,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 29,
+   "total": 31,
    "jobs": []
   },
   {
@@ -4792,7 +4836,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 209,
+   "total": 210,
    "jobs": [
     {
      "id": "6098184004",
