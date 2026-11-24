@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T21:28:20+00:00",
+ "updated": "2026-11-24T03:19:52+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -83,17 +83,6 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5388807008",
-     "title": "Lead Systems Designer - Star Trek Fleet Command",
-     "location": "IE - Dublin, Ireland",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5388807008?gh_jid=5388807008",
-     "remote": false,
-     "posted": "2026-08-13T06:54:47-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5379017008",
      "title": "Lead Systems Designer - Star Trek Fleet Command",
      "location": "GB - London, United Kingdom",
@@ -105,12 +94,12 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5449846008",
-     "title": "Lead UX Designer - Star Trek Fleet Command",
-     "location": "GB - London, United Kingdom",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5449846008?gh_jid=5449846008",
+     "id": "5388807008",
+     "title": "Lead Systems Designer - Star Trek Fleet Command",
+     "location": "IE - Dublin, Ireland",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5388807008?gh_jid=5388807008",
      "remote": false,
-     "posted": "2026-10-12T04:46:53-04:00",
+     "posted": "2026-08-13T06:54:47-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -122,6 +111,17 @@
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5448555008?gh_jid=5448555008",
      "remote": false,
      "posted": "2026-10-12T04:46:49-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5449846008",
+     "title": "Lead UX Designer - Star Trek Fleet Command",
+     "location": "GB - London, United Kingdom",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5449846008?gh_jid=5449846008",
+     "remote": false,
+     "posted": "2026-10-12T04:46:53-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -171,23 +171,23 @@
      "firstSeen": "2026-11-06T18:46:06+00:00"
     },
     {
-     "id": "4626426008",
-     "title": "Analytics Engineer",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/4626426008?gh_jid=4626426008",
-     "remote": false,
-     "posted": "2025-04-10T11:59:49-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5222025008",
      "title": "Analytics Engineer",
      "location": "ES - Barcelona, Spain",
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5222025008?gh_jid=5222025008",
      "remote": false,
      "posted": "2026-05-19T11:02:29-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "4626426008",
+     "title": "Analytics Engineer",
+     "location": "ES - Barcelona, Spain",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/4626426008?gh_jid=4626426008",
+     "remote": false,
+     "posted": "2025-04-10T11:59:49-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -1326,23 +1326,23 @@
      "firstSeen": "2026-11-23T21:28:20+00:00"
     },
     {
-     "id": "5041468101",
-     "title": "Lead Game Designer",
-     "location": "Canada",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5041468101",
-     "remote": false,
-     "posted": "2026-11-23T11:01:12-05:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-11-23T21:28:20+00:00"
-    },
-    {
      "id": "5041466101",
      "title": "Lead Game Designer",
      "location": "Toronto",
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5041466101",
      "remote": false,
      "posted": "2026-11-23T11:00:47-05:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-11-23T21:28:20+00:00"
+    },
+    {
+     "id": "5041468101",
+     "title": "Lead Game Designer",
+     "location": "Canada",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5041468101",
+     "remote": false,
+     "posted": "2026-11-23T11:01:12-05:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-11-23T21:28:20+00:00"
@@ -1370,17 +1370,6 @@
      "firstSeen": "2026-10-28T17:49:21+00:00"
     },
     {
-     "id": "5031331101",
-     "title": "Senior Game Content Designer (AI-Assisted)",
-     "location": "Minsk",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5031331101",
-     "remote": false,
-     "posted": "2026-11-11T11:22:00-05:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-11-11T23:27:57+00:00"
-    },
-    {
      "id": "5033993101",
      "title": "Senior Game Content Designer (AI-Assisted)",
      "location": "Tbilisi",
@@ -1392,15 +1381,15 @@
      "firstSeen": "2026-11-11T23:27:57+00:00"
     },
     {
-     "id": "5027846101",
-     "title": "Senior Game Designer - Wordscapes - Peoplefun",
-     "location": "Dallas",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5027846101",
+     "id": "5031331101",
+     "title": "Senior Game Content Designer (AI-Assisted)",
+     "location": "Minsk",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5031331101",
      "remote": false,
-     "posted": "2026-11-17T15:05:34-05:00",
+     "posted": "2026-11-11T11:22:00-05:00",
      "design": true,
      "local": false,
-     "firstSeen": "2026-11-18T00:57:58+00:00"
+     "firstSeen": "2026-11-11T23:27:57+00:00"
     },
     {
      "id": "5040702101",
@@ -1425,6 +1414,17 @@
      "firstSeen": "2026-11-18T00:57:58+00:00"
     },
     {
+     "id": "5027846101",
+     "title": "Senior Game Designer - Wordscapes - Peoplefun",
+     "location": "Dallas",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5027846101",
+     "remote": false,
+     "posted": "2026-11-17T15:05:34-05:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-11-18T00:57:58+00:00"
+    },
+    {
      "id": "5028838101",
      "title": "Senior Game Economy Designer",
      "location": "Tbilisi",
@@ -1436,23 +1436,23 @@
      "firstSeen": "2026-11-09T19:51:24+00:00"
     },
     {
-     "id": "5031308101",
-     "title": "Senior Game Economy Designer",
-     "location": "Minsk",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5031308101",
-     "remote": false,
-     "posted": "2026-11-09T12:49:14-05:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-11-09T19:51:24+00:00"
-    },
-    {
      "id": "5031309101",
      "title": "Senior Game Economy Designer",
      "location": "Warsaw",
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5031309101",
      "remote": false,
      "posted": "2026-11-09T12:50:56-05:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-11-09T19:51:24+00:00"
+    },
+    {
+     "id": "5031308101",
+     "title": "Senior Game Economy Designer",
+     "location": "Minsk",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5031308101",
+     "remote": false,
+     "posted": "2026-11-09T12:49:14-05:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-11-09T19:51:24+00:00"
@@ -1535,23 +1535,23 @@
      "firstSeen": "2026-10-28T17:49:21+00:00"
     },
     {
-     "id": "4988636101",
-     "title": "Fraud Analyst",
-     "location": "Remote Europe",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988636101",
-     "remote": true,
-     "posted": "2026-09-28T09:54:28-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
      "id": "4988610101",
      "title": "Fraud Analyst",
      "location": "Barcelona",
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988610101",
      "remote": false,
      "posted": "2026-09-28T09:45:46-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4988636101",
+     "title": "Fraud Analyst",
+     "location": "Remote Europe",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988636101",
+     "remote": true,
+     "posted": "2026-09-28T09:54:28-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -1590,17 +1590,6 @@
      "firstSeen": "2026-11-23T21:28:20+00:00"
     },
     {
-     "id": "5041082101",
-     "title": "Product Director (Midcore Direction)",
-     "location": "Barcelona",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5041082101",
-     "remote": false,
-     "posted": "2026-11-18T05:43:55-05:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-11-18T13:55:13+00:00"
-    },
-    {
      "id": "5045065101",
      "title": "Product Director (Midcore Direction)",
      "location": "Remote Europe",
@@ -1610,6 +1599,17 @@
      "design": false,
      "local": true,
      "firstSeen": "2026-11-23T21:28:20+00:00"
+    },
+    {
+     "id": "5041082101",
+     "title": "Product Director (Midcore Direction)",
+     "location": "Barcelona",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5041082101",
+     "remote": false,
+     "posted": "2026-11-18T05:43:55-05:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-18T13:55:13+00:00"
     },
     {
      "id": "4965757101",
@@ -1623,23 +1623,23 @@
      "firstSeen": "2026-10-28T17:49:21+00:00"
     },
     {
-     "id": "4962295101",
-     "title": "Senior Ad Monetisation Analyst",
-     "location": "Barcelona",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4962295101",
-     "remote": false,
-     "posted": "2026-08-27T10:44:54-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
      "id": "4960068101",
      "title": "Senior Ad Monetisation Analyst",
      "location": "Remote Europe",
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4960068101",
      "remote": true,
      "posted": "2026-08-25T06:37:03-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4962295101",
+     "title": "Senior Ad Monetisation Analyst",
+     "location": "Barcelona",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4962295101",
+     "remote": false,
+     "posted": "2026-08-27T10:44:54-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -2102,7 +2102,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/ML-Engineer_R0023071",
      "remote": false,
-     "posted": "2026-11-12",
+     "posted": "2026-11-13",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-03T18:47:27+00:00"
@@ -2113,7 +2113,7 @@
      "location": "Spain (Barcelona)",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Spain-Barcelona/UI-Animator_R0019205-1",
      "remote": false,
-     "posted": "2026-11-10",
+     "posted": "2026-11-11",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -2124,7 +2124,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Art-Lead_R0023080-1",
      "remote": false,
-     "posted": "2026-11-05",
+     "posted": "2026-11-06",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-05T09:04:25+00:00"
@@ -2135,7 +2135,7 @@
      "location": "Spain (Barcelona)",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Spain-Barcelona/Associate-Product-Analyst_R0023038",
      "remote": false,
-     "posted": "2026-11-05",
+     "posted": "2026-11-06",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-05T15:55:11+00:00"
@@ -2146,7 +2146,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Growth-Data-Scientist_R0022972",
      "remote": false,
-     "posted": "2026-11-06",
+     "posted": "2026-11-07",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-06T12:55:34+00:00"
@@ -2179,7 +2179,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Principal-Tech-Artist_R0023079",
      "remote": false,
-     "posted": "2026-11-10",
+     "posted": "2026-11-11",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-10T22:22:18+00:00"
@@ -2190,7 +2190,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-ML-Engineer_R0023070",
      "remote": false,
-     "posted": "2026-11-19",
+     "posted": "2026-11-20",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-03T18:47:27+00:00"
@@ -2201,7 +2201,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Associate-Game-Ops-Manager_R0022377",
      "remote": false,
-     "posted": "2026-10-29",
+     "posted": "2026-10-30",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -2223,7 +2223,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Data-Scientist_R0023068",
      "remote": false,
-     "posted": "2026-11-06",
+     "posted": "2026-11-07",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-06T12:55:34+00:00"
@@ -2234,7 +2234,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Games-Producer_R0023047",
      "remote": false,
-     "posted": "2026-11-05",
+     "posted": "2026-11-06",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-05T15:55:11+00:00"
@@ -2256,7 +2256,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Stochastic-Modelling-Specialist_R0022927",
      "remote": false,
-     "posted": "2026-11-17",
+     "posted": "2026-11-18",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-17T18:46:29+00:00"
@@ -2565,7 +2565,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 55,
+   "total": 54,
    "jobs": [
     {
      "id": "R027887",
@@ -2702,7 +2702,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T20:11:37+00:00",
-   "total": 45,
+   "total": 44,
    "jobs": [
     {
      "id": "R028379",
@@ -2725,17 +2725,6 @@
      "design": true,
      "local": false,
      "firstSeen": "2026-11-20T13:58:53+00:00"
-    },
-    {
-     "id": "R027774",
-     "title": "Design Director, Systems - Diablo",
-     "location": "Irvine, California, United States of America; Albany, New York, United States of America",
-     "url": "https://xboxgaming.wd1.myworkdayjobs.com/Blizzard_External_Careers/job/Irvine---Blizzard---Blizzard-Way/Design-Director--Systems---Diablo_R027774-1",
-     "remote": false,
-     "posted": "2026-08-24T00:00:00.000+0000",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T20:11:37+00:00"
     },
     {
      "id": "R028139",
@@ -2817,7 +2806,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 337,
+   "total": 335,
    "jobs": [
     {
      "id": "216318",
@@ -2987,7 +2976,7 @@
     {
      "id": "216049",
      "title": "Experience Design Director - EA Sports Network",
-     "location": "Orlando, United States of America",
+     "location": "Offsite - Southern California, United States of America",
      "url": "https://jobs.ea.com/en_US/careers/JobDetail/Senior-Experience-Designer-Sports-Network/216049",
      "remote": false,
      "posted": null,
@@ -3359,6 +3348,17 @@
      "firstSeen": "2026-10-28T22:59:48+00:00"
     },
     {
+     "id": "216747",
+     "title": "UI/UX Design Director - Unannounced 3A Project",
+     "location": "Seoul, Korea, Republic of",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/UI-UX-Design-Director-Unannounced-3A-Project/216747",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-11-24T03:19:52+00:00"
+    },
+    {
      "id": "216570",
      "title": "UX Lead (Apex Legends)",
      "location": "Los Angeles - Chatsworth, United States of America",
@@ -3471,7 +3471,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 204,
+   "total": 200,
    "jobs": [
     {
      "id": "7102266",
@@ -3778,7 +3778,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 30,
+   "total": 29,
    "jobs": []
   },
   {
@@ -4839,7 +4839,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 6,
+   "total": 5,
    "jobs": [
     {
      "id": "6230690004",
@@ -5279,7 +5279,7 @@
      "location": "Remote",
      "url": "https://ingamejob.com/en/job/game-designer-564",
      "remote": true,
-     "posted": "2026-11-16",
+     "posted": "2026-11-17",
      "employer": "Next Genium",
      "level": "Junior",
      "employment": "Full time",
@@ -5293,7 +5293,7 @@
      "location": "Remote",
      "url": "https://ingamejob.com/en/job/game-designer-ai-native",
      "remote": true,
-     "posted": "2026-11-09",
+     "posted": "2026-11-10",
      "employer": "AB Games",
      "level": "Middle",
      "employment": "Full time",
@@ -5307,7 +5307,7 @@
      "location": "Remote, Ukraine",
      "url": "https://ingamejob.com/en/job/ai-prototype-game-designer",
      "remote": true,
-     "posted": "2026-11-16",
+     "posted": "2026-11-17",
      "employer": "Mind Studios Games",
      "level": "Middle",
      "employment": "Freelance",
@@ -5322,7 +5322,7 @@
      "location": "Relocate, Remote, Malta",
      "url": "https://ingamejob.com/en/job/senior-technical-designer-new-ip-1",
      "remote": true,
-     "posted": "2026-11-16",
+     "posted": "2026-11-17",
      "employer": "4A Games",
      "level": "Senior",
      "employment": "Full time",
