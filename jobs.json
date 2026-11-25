@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T15:34:17+00:00",
+ "updated": "2026-11-25T18:47:04+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -14,7 +14,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 165,
+   "total": 166,
    "jobs": [
     {
      "id": "5442575008",
@@ -767,7 +767,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T20:11:37+00:00",
-   "total": 12,
+   "total": 13,
    "jobs": [
     {
      "id": "R028168",
@@ -834,6 +834,17 @@
      "design": false,
      "local": true,
      "firstSeen": "2026-11-24T18:46:07+00:00"
+    },
+    {
+     "id": "R028185",
+     "title": "Senior/Principal Unity Developer | New Games",
+     "location": "London, London, United Kingdom; Barcelona, Spain; Stockholm, Stockholm County, Sweden",
+     "url": "https://xboxgaming.wd1.myworkdayjobs.com/King_External_Careers/job/London---King---Ampersand/Senior-Software-Engineer---New-Games_R028185",
+     "remote": false,
+     "posted": "2026-11-25T00:00:00.000+0000",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-25T18:47:04+00:00"
     }
    ]
   },
@@ -1647,7 +1658,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 95,
+   "total": 96,
    "jobs": [
     {
      "id": "d633533c-ac08-440e-a6b6-33351b3ad005",
@@ -2817,7 +2828,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 322,
+   "total": 320,
    "jobs": [
     {
      "id": "216318",
@@ -3652,7 +3663,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 37,
+   "total": 42,
    "jobs": [
     {
      "id": "8288743",
@@ -3732,23 +3743,23 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "8159188",
-     "title": "UI Designer (World of Warships, PC)",
-     "location": "Nicosia",
-     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8159188",
-     "remote": false,
-     "posted": "2026-10-05T05:59:52-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "8159183",
      "title": "UI Designer (World of Warships, PC)",
      "location": "Belgrade",
      "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8159183",
      "remote": false,
      "posted": "2026-10-05T05:26:42-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "8159188",
+     "title": "UI Designer (World of Warships, PC)",
+     "location": "Nicosia",
+     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8159188",
+     "remote": false,
+     "posted": "2026-10-05T05:59:52-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -3778,7 +3789,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 32,
+   "total": 34,
    "jobs": []
   },
   {
@@ -4534,7 +4545,7 @@
    "logos": null,
    "status": "ok",
    "since": "2026-11-05T09:54:19+00:00",
-   "total": 11,
+   "total": 10,
    "jobs": [
     {
      "id": "805b5037-c1a4-4cd0-b231-736ed3144fc4",
@@ -4579,17 +4590,6 @@
      "design": false,
      "local": true,
      "firstSeen": "2026-11-25T15:34:17+00:00"
-    },
-    {
-     "id": "8da6879b-c218-4b59-81fc-8755b11f94a0",
-     "title": "Creative Producer",
-     "location": "Europe (Remote), Kyiv, Ukraine",
-     "url": "https://viragames.teamtailor.com/jobs/8667020-creative-producer",
-     "remote": true,
-     "posted": "2026-11-04T15:33:51+01:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-11-05T09:54:19+00:00"
     },
     {
      "id": "5a2a388e-b98b-4378-88ee-a018eb764cb7",
@@ -4793,7 +4793,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 56,
+   "total": 55,
    "jobs": [
     {
      "id": "744000163655760",
@@ -4851,17 +4851,6 @@
      "firstSeen": "2026-10-31T00:50:55+00:00"
     },
     {
-     "id": "744000157187514",
-     "title": "Senior Systems Designer",
-     "location": "Boston, MA, United States",
-     "url": "https://jobs.smartrecruiters.com/cdprojektred/744000157187514",
-     "remote": false,
-     "posted": "2026-10-22T16:42:03.507Z",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-29T14:16:28+00:00"
-    },
-    {
      "id": "744000146661129",
      "title": "UX Director",
      "location": "Warsaw, Masovian Voivodeship, Poland",
@@ -4884,7 +4873,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 209,
+   "total": 210,
    "jobs": [
     {
      "id": "6098184004",
@@ -4967,7 +4956,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 76,
+   "total": 75,
    "jobs": [
     {
      "id": "4426184009",
@@ -5118,7 +5107,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 67,
+   "total": 66,
    "jobs": [
     {
      "id": "account-manager-chinese-speaking-remote-in-europe-europe-remote-49958-29475",
@@ -5363,15 +5352,29 @@
    "logos": [],
    "status": "ok",
    "since": "2026-11-17T19:32:37+00:00",
-   "total": 4,
+   "total": 5,
    "jobs": [
+    {
+     "id": "game-designer-537",
+     "title": "Game Designer",
+     "location": "Remote",
+     "url": "https://ingamejob.com/en/job/game-designer-537",
+     "remote": true,
+     "posted": "2026-11-25",
+     "employer": "Hitapps",
+     "level": "Senior",
+     "employment": "Full time",
+     "design": true,
+     "local": true,
+     "firstSeen": "2026-11-17T19:32:37+00:00"
+    },
     {
      "id": "game-designer-564",
      "title": "Game Designer",
      "location": "Remote",
      "url": "https://ingamejob.com/en/job/game-designer-564",
      "remote": true,
-     "posted": "2026-11-18",
+     "posted": "2026-11-11",
      "employer": "Next Genium",
      "level": "Junior",
      "employment": "Full time",
@@ -5385,7 +5388,7 @@
      "location": "Remote",
      "url": "https://ingamejob.com/en/job/game-designer-ai-native",
      "remote": true,
-     "posted": "2026-11-11",
+     "posted": "2026-11-04",
      "employer": "AB Games",
      "level": "Middle",
      "employment": "Full time",
