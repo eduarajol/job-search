@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T01:25:25+00:00",
+ "updated": "2026-11-25T06:46:39+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -988,7 +988,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 49,
+   "total": 47,
    "jobs": [
     {
      "id": "744000163468009",
@@ -1044,17 +1044,6 @@
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "744000162608573",
-     "title": "Data Scientist",
-     "location": "Barcelona, CT, Spain",
-     "url": "https://jobs.smartrecruiters.com/Gameloft/744000162608573",
-     "remote": false,
-     "posted": "2026-11-19T21:43:30.145Z",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-11-20T00:37:26+00:00"
     },
     {
      "id": "744000163466139",
@@ -1337,12 +1326,12 @@
      "firstSeen": "2026-10-28T17:49:21+00:00"
     },
     {
-     "id": "5041467101",
+     "id": "5041468101",
      "title": "Lead Game Designer",
-     "location": "Montreal",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5041467101",
+     "location": "Canada",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5041468101",
      "remote": false,
-     "posted": "2026-11-23T11:01:00-05:00",
+     "posted": "2026-11-23T11:01:12-05:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-11-23T21:28:20+00:00"
@@ -1359,12 +1348,12 @@
      "firstSeen": "2026-11-23T21:28:20+00:00"
     },
     {
-     "id": "5041468101",
+     "id": "5041467101",
      "title": "Lead Game Designer",
-     "location": "Canada",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5041468101",
+     "location": "Montreal",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5041467101",
      "remote": false,
-     "posted": "2026-11-23T11:01:12-05:00",
+     "posted": "2026-11-23T11:01:00-05:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-11-23T21:28:20+00:00"
@@ -1392,23 +1381,23 @@
      "firstSeen": "2026-10-28T17:49:21+00:00"
     },
     {
-     "id": "5031331101",
-     "title": "Senior Game Content Designer (AI-Assisted)",
-     "location": "Minsk",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5031331101",
-     "remote": false,
-     "posted": "2026-11-11T11:22:00-05:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-11-11T23:27:57+00:00"
-    },
-    {
      "id": "5033993101",
      "title": "Senior Game Content Designer (AI-Assisted)",
      "location": "Tbilisi",
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5033993101",
      "remote": false,
      "posted": "2026-11-11T11:24:39-05:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-11-11T23:27:57+00:00"
+    },
+    {
+     "id": "5031331101",
+     "title": "Senior Game Content Designer (AI-Assisted)",
+     "location": "Minsk",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5031331101",
+     "remote": false,
+     "posted": "2026-11-11T11:22:00-05:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-11-11T23:27:57+00:00"
@@ -1458,17 +1447,6 @@
      "firstSeen": "2026-11-09T19:51:24+00:00"
     },
     {
-     "id": "5031308101",
-     "title": "Senior Game Economy Designer",
-     "location": "Minsk",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5031308101",
-     "remote": false,
-     "posted": "2026-11-09T12:49:14-05:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-11-09T19:51:24+00:00"
-    },
-    {
      "id": "5031309101",
      "title": "Senior Game Economy Designer",
      "location": "Warsaw",
@@ -1480,15 +1458,15 @@
      "firstSeen": "2026-11-09T19:51:24+00:00"
     },
     {
-     "id": "5041465101",
-     "title": "Sr. Game Economy Designer",
-     "location": "Canada",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5041465101",
+     "id": "5031308101",
+     "title": "Senior Game Economy Designer",
+     "location": "Minsk",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5031308101",
      "remote": false,
-     "posted": "2026-11-23T10:57:00-05:00",
+     "posted": "2026-11-09T12:49:14-05:00",
      "design": true,
      "local": false,
-     "firstSeen": "2026-11-23T21:28:20+00:00"
+     "firstSeen": "2026-11-09T19:51:24+00:00"
     },
     {
      "id": "5041464101",
@@ -1497,6 +1475,17 @@
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5041464101",
      "remote": false,
      "posted": "2026-11-23T10:56:59-05:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-11-23T21:28:20+00:00"
+    },
+    {
+     "id": "5041465101",
+     "title": "Sr. Game Economy Designer",
+     "location": "Canada",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/5041465101",
+     "remote": false,
+     "posted": "2026-11-23T10:57:00-05:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-11-23T21:28:20+00:00"
@@ -1557,23 +1546,23 @@
      "firstSeen": "2026-10-28T17:49:21+00:00"
     },
     {
-     "id": "4988636101",
-     "title": "Fraud Analyst",
-     "location": "Remote Europe",
-     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988636101",
-     "remote": true,
-     "posted": "2026-09-28T09:54:28-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:49:21+00:00"
-    },
-    {
      "id": "4988610101",
      "title": "Fraud Analyst",
      "location": "Barcelona",
      "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988610101",
      "remote": false,
      "posted": "2026-09-28T09:45:46-04:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-10-28T17:49:21+00:00"
+    },
+    {
+     "id": "4988636101",
+     "title": "Fraud Analyst",
+     "location": "Remote Europe",
+     "url": "https://job-boards.eu.greenhouse.io/tripledotstudios/jobs/4988636101",
+     "remote": true,
+     "posted": "2026-09-28T09:54:28-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:49:21+00:00"
@@ -2839,7 +2828,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 326,
+   "total": 325,
    "jobs": [
     {
      "id": "216318",
@@ -4825,7 +4814,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 212,
+   "total": 211,
    "jobs": [
     {
      "id": "6098184004",
