@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T06:46:39+00:00",
+ "updated": "2026-11-25T15:34:17+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -14,7 +14,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 169,
+   "total": 165,
    "jobs": [
     {
      "id": "5442575008",
@@ -83,17 +83,6 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5388807008",
-     "title": "Lead Systems Designer - Star Trek Fleet Command",
-     "location": "IE - Dublin, Ireland",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5388807008?gh_jid=5388807008",
-     "remote": false,
-     "posted": "2026-08-13T06:54:47-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5379017008",
      "title": "Lead Systems Designer - Star Trek Fleet Command",
      "location": "GB - London, United Kingdom",
@@ -105,12 +94,12 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "5449846008",
-     "title": "Lead UX Designer - Star Trek Fleet Command",
-     "location": "GB - London, United Kingdom",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5449846008?gh_jid=5449846008",
+     "id": "5388807008",
+     "title": "Lead Systems Designer - Star Trek Fleet Command",
+     "location": "IE - Dublin, Ireland",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5388807008?gh_jid=5388807008",
      "remote": false,
-     "posted": "2026-10-12T04:46:53-04:00",
+     "posted": "2026-08-13T06:54:47-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -122,6 +111,17 @@
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5448555008?gh_jid=5448555008",
      "remote": false,
      "posted": "2026-10-12T04:46:49-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "5449846008",
+     "title": "Lead UX Designer - Star Trek Fleet Command",
+     "location": "GB - London, United Kingdom",
+     "url": "https://job-boards.greenhouse.io/scopely/jobs/5449846008?gh_jid=5449846008",
+     "remote": false,
+     "posted": "2026-10-12T04:46:53-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -276,17 +276,6 @@
      "url": "https://job-boards.greenhouse.io/scopely/jobs/5390680008?gh_jid=5390680008",
      "remote": false,
      "posted": "2026-08-14T11:18:23-04:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
-     "id": "5456515008",
-     "title": "Director, Corporate Development",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5456515008?gh_jid=5456515008",
-     "remote": false,
-     "posted": "2026-10-19T15:30:14-04:00",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -523,17 +512,6 @@
      "firstSeen": "2026-11-12T13:44:56+00:00"
     },
     {
-     "id": "5479292008",
-     "title": "Senior Dev QA - Yahtzee with Buddies!",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/5479292008?gh_jid=5479292008",
-     "remote": false,
-     "posted": "2026-11-12T08:00:21-05:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-11-12T13:44:56+00:00"
-    },
-    {
      "id": "5368795008",
      "title": "Senior Engineer, Graphics - Unannounced Project",
      "location": "ES - Barcelona, Spain",
@@ -743,17 +721,6 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "4958835008",
-     "title": "Staff Engineer, Server",
-     "location": "ES - Barcelona, Spain",
-     "url": "https://job-boards.greenhouse.io/scopely/jobs/4958835008?gh_jid=4958835008",
-     "remote": false,
-     "posted": "2025-11-03T05:10:57-05:00",
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "5297910008",
      "title": "Talent Partner",
      "location": "ES - Barcelona, Spain",
@@ -800,7 +767,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T20:11:37+00:00",
-   "total": 13,
+   "total": 12,
    "jobs": [
     {
      "id": "R028168",
@@ -988,7 +955,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 47,
+   "total": 46,
    "jobs": [
     {
      "id": "744000163468009",
@@ -1685,13 +1652,24 @@
     {
      "id": "d633533c-ac08-440e-a6b6-33351b3ad005",
      "title": "Game Designer (Multiplayer Gameplay Modes) - Paper.io 2",
-     "location": "Paris; Madrid; Warsaw; Tallinn; Karkiv; Malta; Helsinki; Stockholm; Istanbul; Lisboa; Berlin; Tbilisi; Milan; Krakow; Bucharest; London; Barcelona; Remote",
+     "location": "Paris; Madrid; Warsaw; Prague; Tallinn; Karkiv; Malta; Budapest; Helsinki; Stockholm; Yerevan; Zagreb; Lisboa; Berlin; Chişinău; Skopje; Tbilisi; Vilnius; Milan; Krakow; Bucharest; London; Barcelona; Riga; Remote",
      "url": "https://jobs.ashbyhq.com/voodoo/d633533c-ac08-440e-a6b6-33351b3ad005",
      "remote": true,
      "posted": "2026-11-02T09:25:16.455+00:00",
      "design": true,
      "local": true,
      "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "0aaf28df-8ff3-484c-98cd-cd1fdf001ce6",
+     "title": "Game Designer (Multiplayer Gameplay Modes) - Paper.io 2",
+     "location": "Istanbul",
+     "url": "https://jobs.ashbyhq.com/voodoo/0aaf28df-8ff3-484c-98cd-cd1fdf001ce6",
+     "remote": false,
+     "posted": "2026-11-25T08:50:35.767+00:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-11-25T15:34:17+00:00"
     },
     {
      "id": "20056ea1-d6ab-4fb5-a9ef-2bc0edabd407",
@@ -1752,7 +1730,7 @@
     {
      "id": "8f86c74e-7d06-447d-bd1b-ad268e46bb3e",
      "title": "Senior Game Developer (Game Feel, UI, Animations, VFX) - Paper.io2",
-     "location": "Barcelona; Belgrade; Madrid; Warsaw; Prague; Tallinn; Karkiv; Malta; Budapest; Bratislava; Helsinki; Stockholm; Istanbul; Yerevan; Zagreb; Lisboa; Berlin; Chişinău; Skopje; Tbilisi; Amsterdam; Vilnius; Milan; Krakow; Bucharest; London; Riga; Remote",
+     "location": "Barcelona; Belgrade; Madrid; Warsaw; Prague; Tallinn; Karkiv; Malta; Budapest; Bratislava; Helsinki; Stockholm; Yerevan; Zagreb; Lisboa; Berlin; Chişinău; Skopje; Tbilisi; Amsterdam; Vilnius; Milan; Krakow; Bucharest; London; Riga; Remote",
      "url": "https://jobs.ashbyhq.com/voodoo/8f86c74e-7d06-447d-bd1b-ad268e46bb3e",
      "remote": true,
      "posted": "2026-11-24T07:43:02.265+00:00",
@@ -1763,7 +1741,7 @@
     {
      "id": "1c428341-5d1f-4903-aacd-1ce05b04dc17",
      "title": "Senior Game Developer - Paper.io2",
-     "location": "Barcelona; Belgrade; Madrid; Warsaw; Prague; Tallinn; Karkiv; Malta; Budapest; Bratislava; Helsinki; Stockholm; Istanbul; Yerevan; Zagreb; Lisboa; Berlin; Chişinău; Skopje; Tbilisi; Amsterdam; Vilnius; Milan; Izmir; Krakow; Bucharest; London; Riga; Remote",
+     "location": "Barcelona; Belgrade; Madrid; Warsaw; Prague; Tallinn; Karkiv; Malta; Budapest; Bratislava; Helsinki; Stockholm; Yerevan; Zagreb; Lisboa; Berlin; Chişinău; Skopje; Tbilisi; Amsterdam; Vilnius; Milan; Krakow; Bucharest; London; Riga; Remote",
      "url": "https://jobs.ashbyhq.com/voodoo/1c428341-5d1f-4903-aacd-1ce05b04dc17",
      "remote": true,
      "posted": "2026-11-24T07:38:43.475+00:00",
@@ -1774,7 +1752,7 @@
     {
      "id": "c0f28476-2ff1-4206-b344-530c9f36a73a",
      "title": "Senior Product Manager - Paper.io 2",
-     "location": "Paris; Belgrade; Madrid; Warsaw; Prague; Lviv; Tallinn; Karkiv; Malta; Bratislava; Helsinki; Stockholm; Istanbul; Yerevan; Zagreb; Lisboa; Berlin; Chişinău; Tbilisi; Amsterdam; Vilnius; Milan; Krakow; Bucharest; London; Kiev; Barcelona; Riga; Remote",
+     "location": "Paris; Belgrade; Madrid; Warsaw; Prague; Lviv; Tallinn; Karkiv; Malta; Bratislava; Helsinki; Stockholm; Yerevan; Zagreb; Lisboa; Berlin; Chişinău; Tbilisi; Amsterdam; Vilnius; Milan; Krakow; Bucharest; London; Kiev; Barcelona; Riga; Remote",
      "url": "https://jobs.ashbyhq.com/voodoo/c0f28476-2ff1-4206-b344-530c9f36a73a",
      "remote": true,
      "posted": "2026-11-19T15:34:25.660+00:00",
@@ -1807,8 +1785,19 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 41,
+   "total": 40,
    "jobs": [
+    {
+     "id": "6270839004",
+     "title": "Lead / Senior Level Designer",
+     "location": "Istanbul, Turkey",
+     "url": "https://job-boards.greenhouse.io/zyngacareers/jobs/6270839004",
+     "remote": false,
+     "posted": "2026-11-25T10:29:48-05:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-11-25T15:34:17+00:00"
+    },
     {
      "id": "6252447004",
      "title": "Lead / Senior Level Game Designer",
@@ -2102,7 +2091,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/ML-Engineer_R0023071",
      "remote": false,
-     "posted": "2026-11-13",
+     "posted": "2026-11-12",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-03T18:47:27+00:00"
@@ -2113,7 +2102,7 @@
      "location": "Spain (Barcelona)",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Spain-Barcelona/UI-Animator_R0019205-1",
      "remote": false,
-     "posted": "2026-11-11",
+     "posted": "2026-11-10",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -2124,7 +2113,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Art-Lead_R0023080-1",
      "remote": false,
-     "posted": "2026-11-06",
+     "posted": "2026-11-05",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-05T09:04:25+00:00"
@@ -2135,7 +2124,7 @@
      "location": "Spain (Barcelona)",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Spain-Barcelona/Associate-Product-Analyst_R0023038",
      "remote": false,
-     "posted": "2026-11-06",
+     "posted": "2026-11-05",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-05T15:55:11+00:00"
@@ -2146,7 +2135,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Growth-Data-Scientist_R0022972",
      "remote": false,
-     "posted": "2026-11-07",
+     "posted": "2026-11-06",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-06T12:55:34+00:00"
@@ -2157,7 +2146,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Junior-Game-Economy-Manager_R0023150-1",
      "remote": false,
-     "posted": "2026-11-25",
+     "posted": "2026-11-24",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-24T15:51:12+00:00"
@@ -2190,7 +2179,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Principal-Tech-Artist_R0023079",
      "remote": false,
-     "posted": "2026-11-11",
+     "posted": "2026-11-10",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-10T22:22:18+00:00"
@@ -2201,7 +2190,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-ML-Engineer_R0023070",
      "remote": false,
-     "posted": "2026-11-20",
+     "posted": "2026-11-19",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-03T18:47:27+00:00"
@@ -2212,7 +2201,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Associate-Game-Ops-Manager_R0022377",
      "remote": false,
-     "posted": "2026-10-30",
+     "posted": "2026-10-29",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -2234,7 +2223,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Data-Scientist_R0023068",
      "remote": false,
-     "posted": "2026-11-07",
+     "posted": "2026-11-06",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-06T12:55:34+00:00"
@@ -2245,7 +2234,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Games-Producer_R0023047",
      "remote": false,
-     "posted": "2026-11-06",
+     "posted": "2026-11-05",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-05T15:55:11+00:00"
@@ -2267,7 +2256,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Stochastic-Modelling-Specialist_R0022927",
      "remote": false,
-     "posted": "2026-11-18",
+     "posted": "2026-11-17",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-17T18:46:29+00:00"
@@ -2380,7 +2369,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 68,
+   "total": 69,
    "jobs": [
     {
      "id": "ace7bbeb-31ff-44ea-991d-223ef9685284",
@@ -2828,7 +2817,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 325,
+   "total": 322,
    "jobs": [
     {
      "id": "216318",
@@ -2840,6 +2829,17 @@
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "216607",
+     "title": "Associate Experience Designer",
+     "location": "Vancouver, Canada",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Associate-Experience-Designer-EA-Sports-FC/216607",
+     "remote": false,
+     "posted": null,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-11-25T15:34:17+00:00"
     },
     {
      "id": "216050",
@@ -2895,17 +2895,6 @@
      "design": true,
      "local": false,
      "firstSeen": "2026-11-02T23:53:02+00:00"
-    },
-    {
-     "id": "216711",
-     "title": "Associate Quality Designer (12-month contract)",
-     "location": "Stockholm, Sweden",
-     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Associate-Quality-Designer/216711",
-     "remote": false,
-     "posted": null,
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-11-18T13:55:13+00:00"
     },
     {
      "id": "216258",
@@ -3447,6 +3436,17 @@
      "firstSeen": "2026-11-19T14:24:17+00:00"
     },
     {
+     "id": "212024",
+     "title": "Videogame Tester - German",
+     "location": "Madrid, Spain",
+     "url": "https://jobs.ea.com/en_US/careers/JobDetail/Videogame-Tester-German/212024",
+     "remote": false,
+     "posted": "2025-12-12T00:00:00+00:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-25T15:34:17+00:00"
+    },
+    {
      "id": "213703",
      "title": "Videogame Tester - Hungarian",
      "location": "Madrid, Spain",
@@ -3482,7 +3482,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 200,
+   "total": 198,
    "jobs": [
     {
      "id": "7102266",
@@ -3652,7 +3652,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 36,
+   "total": 37,
    "jobs": [
     {
      "id": "8288743",
@@ -3732,23 +3732,23 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "8159183",
-     "title": "UI Designer (World of Warships, PC)",
-     "location": "Belgrade",
-     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8159183",
-     "remote": false,
-     "posted": "2026-10-05T05:26:42-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "8159188",
      "title": "UI Designer (World of Warships, PC)",
      "location": "Nicosia",
      "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8159188",
      "remote": false,
      "posted": "2026-10-05T05:59:52-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "8159183",
+     "title": "UI Designer (World of Warships, PC)",
+     "location": "Belgrade",
+     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8159183",
+     "remote": false,
+     "posted": "2026-10-05T05:26:42-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -3778,7 +3778,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 31,
+   "total": 32,
    "jobs": []
   },
   {
@@ -4032,7 +4032,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 346,
+   "total": 358,
    "jobs": [
     {
      "id": "36186",
@@ -4101,17 +4101,6 @@
      "firstSeen": "2026-10-28T22:59:48+00:00"
     },
     {
-     "id": "37694",
-     "title": "Level Designer",
-     "location": "Warsaw, Masovian Voivodeship, Poland",
-     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xmR-level-designer/",
-     "remote": false,
-     "posted": "2026-09-17T10:32:01+01:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
      "id": "37695",
      "title": "Level Designer",
      "location": "Yerevan, Yerevan, Armenia",
@@ -4156,6 +4145,17 @@
      "firstSeen": "2026-10-28T22:59:48+00:00"
     },
     {
+     "id": "37694",
+     "title": "Level Designer",
+     "location": "Warsaw, Masovian Voivodeship, Poland",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xmR-level-designer/",
+     "remote": false,
+     "posted": "2026-09-17T10:32:01+01:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
      "id": "35297",
      "title": "Product Designer (UI/UX)",
      "location": "Pune, Maharashtra, India",
@@ -4165,6 +4165,18 @@
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "38386",
+     "title": "Senior Boss Designer - Freelance Talent Pool (2027 Opportunities",
+     "location": "United Kingdom",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/x4A-senior-boss-designer-freelance-talent-pool-2027-opportunities/",
+     "remote": false,
+     "posted": "2026-11-25T10:32:26+00:00",
+     "freelance": true,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-11-25T15:34:17+00:00"
     },
     {
      "id": "38151",
@@ -4179,14 +4191,26 @@
     },
     {
      "id": "37715",
-     "title": "Senior Game Designer",
+     "title": "Senior Game Designer | Concepteur(-trice) de jeux senior",
      "location": "Vancouver, British Columbia, Canada",
-     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xoX-senior-game-designer/",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xoX-senior-game-designer-concepteur-trice-de-jeux-senior/",
      "remote": false,
      "posted": "2026-09-18T10:32:07+01:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "38384",
+     "title": "Senior Level Designer - Freelance Talent Pool (2027 Opportunities",
+     "location": "United Kingdom",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/x4W-senior-level-designer-freelance-talent-pool-2027-opportunities/",
+     "remote": false,
+     "posted": "2026-11-25T10:32:21+00:00",
+     "freelance": true,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-11-25T15:34:17+00:00"
     },
     {
      "id": "32487",
@@ -4198,6 +4222,30 @@
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "38387",
+     "title": "Senior Systems Designer - Freelance Talent Pool (2027 Opportunities",
+     "location": "United Kingdom",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/x4x-senior-systems-designer-freelance-talent-pool-2027-opportunities/",
+     "remote": false,
+     "posted": "2026-11-25T10:32:28+00:00",
+     "freelance": true,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-11-25T15:34:17+00:00"
+    },
+    {
+     "id": "38388",
+     "title": "Senior Technical Designer - Freelance Talent Pool (2027 Opportunities",
+     "location": "United Kingdom",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/x4j-senior-technical-designer-freelance-talent-pool-2027-opportunities/",
+     "remote": false,
+     "posted": "2026-11-25T10:32:30+00:00",
+     "freelance": true,
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-11-25T15:34:17+00:00"
     },
     {
      "id": "32488",
@@ -4290,9 +4338,9 @@
     },
     {
      "id": "37710",
-     "title": "UX Designer",
+     "title": "UX Designer | Concepteur(-trice) de l’expérience utilisateur",
      "location": "Vancouver, British Columbia, Canada",
-     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xoD-ux-designer/",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xoD-ux-designer-concepteur-trice-de-lexperience-utilisateur/",
      "remote": false,
      "posted": "2026-09-18T10:31:56+01:00",
      "design": true,
@@ -4486,7 +4534,7 @@
    "logos": null,
    "status": "ok",
    "since": "2026-11-05T09:54:19+00:00",
-   "total": 10,
+   "total": 11,
    "jobs": [
     {
      "id": "805b5037-c1a4-4cd0-b231-736ed3144fc4",
@@ -4520,6 +4568,17 @@
      "design": false,
      "local": true,
      "firstSeen": "2026-11-18T18:46:23+00:00"
+    },
+    {
+     "id": "5d126fe5-4704-4330-b399-f9335871097e",
+     "title": "AI Game Architect",
+     "location": "Europe (Remote), Kyiv, Ukraine",
+     "url": "https://viragames.teamtailor.com/jobs/8795035-ai-game-architect",
+     "remote": true,
+     "posted": "2026-11-25T14:10:37+01:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-25T15:34:17+00:00"
     },
     {
      "id": "8da6879b-c218-4b59-81fc-8755b11f94a0",
@@ -4734,8 +4793,19 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 55,
+   "total": 56,
    "jobs": [
+    {
+     "id": "744000163655760",
+     "title": "Cinematic Designer (contract)",
+     "location": "Warsaw, Masovian Voivodeship, Poland",
+     "url": "https://jobs.smartrecruiters.com/cdprojektred/744000163655760",
+     "remote": false,
+     "posted": "2026-11-25T11:00:09.719Z",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-11-25T15:34:17+00:00"
+    },
     {
      "id": "744000160969830",
      "title": "Senior Cinematic Designer",
@@ -4814,7 +4884,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 211,
+   "total": 209,
    "jobs": [
     {
      "id": "6098184004",
@@ -5176,17 +5246,6 @@
      "title": "Marketing Associate - Online Crypto Casino | iGaming - Remote | Worldwide",
      "location": "Remote, Remote",
      "url": "https://www.pentasia.com/careers/marketing-associate-online-crypto-casino-igaming-remote-worldwide-remote-47676-29445",
-     "remote": true,
-     "posted": null,
-     "design": false,
-     "local": true,
-     "firstSeen": "2026-10-29T14:16:28+00:00"
-    },
-    {
-     "id": "people-business-partner-europe-47437-29437",
-     "title": "People Business Partner",
-     "location": "Remote, Europe",
-     "url": "https://www.pentasia.com/careers/people-business-partner-europe-47437-29437",
      "remote": true,
      "posted": null,
      "design": false,
