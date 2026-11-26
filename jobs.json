@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T06:46:19+00:00",
+ "updated": "2026-11-26T15:09:40+00:00",
  "companies": [
   {
    "id": "scopely",
@@ -955,7 +955,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 46,
+   "total": 45,
    "jobs": [
     {
      "id": "744000163468009",
@@ -1047,15 +1047,15 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "744000162550119",
+     "id": "744000163831209",
      "title": "Lead VFX Artist",
      "location": "Barcelona, CT, Spain",
-     "url": "https://jobs.smartrecruiters.com/Gameloft/744000162550119",
+     "url": "https://jobs.smartrecruiters.com/Gameloft/744000163831209",
      "remote": false,
-     "posted": "2026-11-19T15:53:27.793Z",
+     "posted": "2026-11-26T09:09:46.802Z",
      "design": false,
      "local": true,
-     "firstSeen": "2026-11-19T18:46:38+00:00"
+     "firstSeen": "2026-11-26T15:09:40+00:00"
     }
    ]
   },
@@ -1100,7 +1100,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 10,
+   "total": 11,
    "jobs": [
     {
      "id": "744000158059429",
@@ -1167,6 +1167,17 @@
      "design": false,
      "local": true,
      "firstSeen": "2026-11-06T12:55:34+00:00"
+    },
+    {
+     "id": "744000163886979",
+     "title": "Data Scientist",
+     "location": "Barcelona, CT, Spain",
+     "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000163886979",
+     "remote": false,
+     "posted": "2026-11-26T14:47:57.950Z",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-26T15:09:40+00:00"
     },
     {
      "id": "744000162340980",
@@ -1647,7 +1658,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 96,
+   "total": 101,
    "jobs": [
     {
      "id": "d633533c-ac08-440e-a6b6-33351b3ad005",
@@ -1785,7 +1796,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 39,
+   "total": 38,
    "jobs": [
     {
      "id": "6270839004",
@@ -1944,7 +1955,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 19,
+   "total": 18,
    "jobs": [
     {
      "id": "39792f97-064a-4744-a812-da844620b80e",
@@ -1977,17 +1988,6 @@
      "posted": "2026-09-08T14:11:12.811+00:00",
      "design": true,
      "local": false,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
-     "id": "3f237e79-89dc-4e77-bebf-e4c3e58f341b",
-     "title": "Generative Motion Artist",
-     "location": "Barcelona; Remote",
-     "url": "https://jobs.ashbyhq.com/moonactive/3f237e79-89dc-4e77-bebf-e4c3e58f341b",
-     "remote": true,
-     "posted": "2026-10-22T12:24:21.864+00:00",
-     "design": false,
-     "local": true,
      "firstSeen": "2026-10-28T22:59:48+00:00"
     }
    ]
@@ -2091,7 +2091,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/ML-Engineer_R0023071",
      "remote": false,
-     "posted": "2026-11-13",
+     "posted": "2026-11-12",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-03T18:47:27+00:00"
@@ -2102,7 +2102,7 @@
      "location": "Spain (Barcelona)",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Spain-Barcelona/UI-Animator_R0019205-1",
      "remote": false,
-     "posted": "2026-11-11",
+     "posted": "2026-11-10",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -2113,7 +2113,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Art-Lead_R0023080-1",
      "remote": false,
-     "posted": "2026-11-06",
+     "posted": "2026-11-05",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-05T09:04:25+00:00"
@@ -2124,7 +2124,7 @@
      "location": "Spain (Barcelona)",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Spain-Barcelona/Associate-Product-Analyst_R0023038",
      "remote": false,
-     "posted": "2026-11-06",
+     "posted": "2026-11-05",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-05T15:55:11+00:00"
@@ -2135,7 +2135,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Growth-Data-Scientist_R0022972",
      "remote": false,
-     "posted": "2026-11-07",
+     "posted": "2026-11-06",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-06T12:55:34+00:00"
@@ -2146,7 +2146,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Junior-Game-Economy-Manager_R0023150-1",
      "remote": false,
-     "posted": "2026-11-25",
+     "posted": "2026-11-24",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-24T15:51:12+00:00"
@@ -2179,7 +2179,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Principal-Tech-Artist_R0023079",
      "remote": false,
-     "posted": "2026-11-11",
+     "posted": "2026-11-10",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-10T22:22:18+00:00"
@@ -2190,7 +2190,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-ML-Engineer_R0023070",
      "remote": false,
-     "posted": "2026-11-20",
+     "posted": "2026-11-19",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-03T18:47:27+00:00"
@@ -2201,7 +2201,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Associate-Game-Ops-Manager_R0022377",
      "remote": false,
-     "posted": "2026-10-30",
+     "posted": "2026-10-29",
      "design": false,
      "local": true,
      "firstSeen": "2026-10-29T00:15:52+00:00"
@@ -2223,7 +2223,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Data-Scientist_R0023068",
      "remote": false,
-     "posted": "2026-11-07",
+     "posted": "2026-11-06",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-06T12:55:34+00:00"
@@ -2234,7 +2234,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Senior-Games-Producer_R0023047",
      "remote": false,
-     "posted": "2026-11-06",
+     "posted": "2026-11-05",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-05T15:55:11+00:00"
@@ -2256,7 +2256,7 @@
      "location": "Barcelona, Spain",
      "url": "https://aristocrat.wd3.myworkdayjobs.com/en-US/AristocratExternalCareersSite/job/Barcelona-Spain/Stochastic-Modelling-Specialist_R0022927",
      "remote": false,
-     "posted": "2026-11-18",
+     "posted": "2026-11-17",
      "design": false,
      "local": true,
      "firstSeen": "2026-11-17T18:46:29+00:00"
@@ -2713,7 +2713,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T20:11:37+00:00",
-   "total": 45,
+   "total": 44,
    "jobs": [
     {
      "id": "R028379",
@@ -2817,7 +2817,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 317,
+   "total": 311,
    "jobs": [
     {
      "id": "216318",
@@ -3641,7 +3641,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T17:44:43+00:00",
-   "total": 42,
+   "total": 43,
    "jobs": [
     {
      "id": "8288743",
@@ -3721,23 +3721,23 @@
      "firstSeen": "2026-10-28T17:44:43+00:00"
     },
     {
-     "id": "8159188",
-     "title": "UI Designer (World of Warships, PC)",
-     "location": "Nicosia",
-     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8159188",
-     "remote": false,
-     "posted": "2026-10-05T05:59:52-04:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T17:44:43+00:00"
-    },
-    {
      "id": "8159183",
      "title": "UI Designer (World of Warships, PC)",
      "location": "Belgrade",
      "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8159183",
      "remote": false,
      "posted": "2026-10-05T05:26:42-04:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T17:44:43+00:00"
+    },
+    {
+     "id": "8159188",
+     "title": "UI Designer (World of Warships, PC)",
+     "location": "Nicosia",
+     "url": "https://job-boards.greenhouse.io/wargamingen/jobs/8159188",
+     "remote": false,
+     "posted": "2026-10-05T05:59:52-04:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T17:44:43+00:00"
@@ -4021,7 +4021,7 @@
    ],
    "status": "ok",
    "since": "2026-10-28T22:59:48+00:00",
-   "total": 357,
+   "total": 358,
    "jobs": [
     {
      "id": "36186",
@@ -4249,9 +4249,9 @@
     },
     {
      "id": "32354",
-     "title": "Senior/Principal UX Designer",
+     "title": "Senior/Principal UX Designer - Talent Pipeline",
      "location": "Vancouver, British Columbia, Canada",
-     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/Agw-seniorprincipal-ux-designer/",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/Agw-seniorprincipal-ux-designer-talent-pipeline/",
      "remote": false,
      "posted": "2025-11-26T10:31:27+00:00",
      "design": true,
@@ -4282,23 +4282,23 @@
      "firstSeen": "2026-11-19T14:24:17+00:00"
     },
     {
-     "id": "36188",
-     "title": "Technical Designer (Remote) - Talent Pipeline",
-     "location": "Greece",
-     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xgc-technical-designer-remote-talent-pipeline/",
-     "remote": true,
-     "posted": "2026-06-06T10:32:11+01:00",
-     "design": true,
-     "local": false,
-     "firstSeen": "2026-10-28T22:59:48+00:00"
-    },
-    {
      "id": "36187",
      "title": "Technical Designer (Remote) - Talent Pipeline",
      "location": "Netherlands",
      "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xgV-technical-designer-remote-talent-pipeline/",
      "remote": true,
      "posted": "2026-06-06T10:32:08+01:00",
+     "design": true,
+     "local": false,
+     "firstSeen": "2026-10-28T22:59:48+00:00"
+    },
+    {
+     "id": "36188",
+     "title": "Technical Designer (Remote) - Talent Pipeline",
+     "location": "Greece",
+     "url": "https://www.keywordsstudios.com/en/careers/browse-careers/xgc-technical-designer-remote-talent-pipeline/",
+     "remote": true,
+     "posted": "2026-06-06T10:32:11+01:00",
      "design": true,
      "local": false,
      "firstSeen": "2026-10-28T22:59:48+00:00"
@@ -4647,8 +4647,19 @@
    "logos": null,
    "status": "ok",
    "since": "2026-11-05T09:54:19+00:00",
-   "total": 10,
+   "total": 12,
    "jobs": [
+    {
+     "id": "9c7aa759-0be3-4944-83e9-5dcd1ddb98e2",
+     "title": "Art Manager (Creative Services)",
+     "location": "Remote",
+     "url": "https://careers.yodo1.com/jobs/8799614-art-manager-creative-services",
+     "remote": true,
+     "posted": "2026-11-26T11:06:40+00:00",
+     "design": false,
+     "local": true,
+     "firstSeen": "2026-11-26T15:09:40+00:00"
+    },
     {
      "id": "82ed9f71-1e9e-4b7a-a9cf-a2cd0d9e2fcf",
      "title": "Business Development & Sales Manager: IP Licensing, China Market",
@@ -4771,7 +4782,7 @@
    "logos": [],
    "status": "ok",
    "since": "2026-10-29T14:16:28+00:00",
-   "total": 55,
+   "total": 56,
    "jobs": [
     {
      "id": "744000163655760",
