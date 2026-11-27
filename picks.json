@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-27T06:48:29Z",
-  "basedOn": "2026-11-27T06:46:14+00:00",
+  "updated": "2026-11-27T18:49:28Z",
+  "basedOn": "2026-11-27T18:46:17+00:00",
   "picks": [
     {
       "key": "scopely:5449845008",
@@ -18,9 +18,9 @@
       "reason": "Lead UI/UX en remoto para un F2P móvil casual con IP conocida: flujos, wireframes y prototipos. Pide experiencia senior en juegos lanzados."
     },
     {
-      "key": "king:R027772",
+      "key": "voodoo:d633533c-ac08-440e-a6b6-33351b3ad005",
       "fit": "Baja",
-      "reason": "Senior Game Designer de metagame en Candy Crush Saga: progresión, social y recompensas. Pide perfil senior en juegos live de móvil."
+      "reason": "Game Designer de modos multijugador para Paper.io 2, remoto o Barcelona. Pide 5+ años en F2P móvil y ajustar modos en Unity."
     },
     {
       "key": "userwise:648F4A33B9",
@@ -28,9 +28,9 @@
       "reason": "Senior Game Designer y product builder en remoto para juegos móviles con IA: conceptos, KPIs y prototipos. Pide perfil senior de producto."
     },
     {
-      "key": "voodoo:d633533c-ac08-440e-a6b6-33351b3ad005",
+      "key": "outfit7:7823877003",
       "fit": "Baja",
-      "reason": "Game Designer de modos multijugador para Paper.io 2, remoto o Barcelona. Pide 5+ años en F2P móvil y ajustar modos en Unity."
+      "reason": "Senior Game Designer de juegos casual de Talking Tom, Barcelona o Ljubljana. Pide 5+ años, títulos móviles lanzados y Unity."
     },
     {
       "key": "scopely:5423473008",
